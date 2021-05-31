@@ -1,5 +1,7 @@
 # FreeAPS X
 
+[![Crowdin](https://badges.crowdin.net/freeaps-x/localized.svg)](https://crowdin.com/project/freeaps-x)
+
 FreeAPS X - an artificial pancreas system for iOS based on [OpenAPS Reference](https://github.com/openaps/oref0) algorithms
 
 FreeAPS X uses original JavaScript files of oref0 and provides a user interface (UI) to control and set up the system

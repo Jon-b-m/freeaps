@@ -24,19 +24,19 @@
 "Enact bolus" = "Enact bolus";
 
 /* Insulin recommended */
-"Insulin recommended" = "Insulin recommended";
+"Insulin recommended" = "Empfohlenes Insulin";
 
 /* Insulin required */
-"Insulin required" = "Insulin required";
+"Insulin required" = "Benötigtes Insulin";
 
 /* StringRecommendation */
-"Recommendation" = "Recommendation";
+"Recommendation" = "Empfehlung";
 
 /* Wait please */
-"Wait please" = "Wait please";
+"Wait please" = "Bitte warten";
 
 /* Agree and continue */
-"Agree and continue" = "Agree and Continue";
+"Agree and continue" = "Zustimmen und fortfahren";
 
 /* Disclaimer */
 "Disclaimer" = "Disclaimer";
@@ -103,7 +103,7 @@
 "Delete preset %@" = "Delete preset %@";
 
 /* Duration target temp */
-"Duration" = "Duration";
+"Duration" = "Dauer";
 
 /* Enact Temp Target */
 "Enact Temp Target" = "Enact Temp Target";
@@ -148,7 +148,7 @@
 "Use Autotune" = "use Autotune";
 
 /* Add profile basal */
-"Add" = "Add";
+"Add" = "Zufuegen";
 
 /* Basal Profile */
 "Basal Profile" = "Basal Profile";

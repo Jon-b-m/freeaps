@@ -1,0 +1,3 @@
+files:
+  - source: /FreeAPS/Sources/en.lproj/Localizable.strings
+    translation: /FreeAPS/Sources/%osx_locale%/Localizable.strings
