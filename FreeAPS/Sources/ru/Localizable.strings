@@ -3,365 +3,365 @@
   FreeAPS X
 */
 /* Add insulin without actually bolusing */
-"Add insulin without actually bolusing" = "Add insulin without actually bolusing";
+"Add insulin without actually bolusing" = "Добавить инсулин без болюса";
 
 /* Amount */
-"Amount Bolus" = "Amount Bolus";
+"Amount Bolus" = "Значение болюса";
 
 /* Bolus */
-"Bolus" = "Bolus";
+"Bolus" = "Болюс";
 
 /* Close */
-"Close" = "Close";
+"Close" = "Закрыть";
 
 /* Continue without bolus */
-"Continue without bolus" = "Continue without bolus";
+"Continue without bolus" = "Продолжить без болюса";
 
 /* Enact Bolus */
-"Enact Bolus" = "Enact Bolus";
+"Enact Bolus" = "Ввести болюс";
 
 /* Enact bolus */
-"Enact bolus" = "Enact bolus";
+"Enact bolus" = "Ввести болюс";
 
 /* Insulin recommended */
-"Insulin recommended" = "Insulin recommended";
+"Insulin recommended" = "Рекомендуется";
 
 /* Insulin required */
-"Insulin required" = "Insulin required";
+"Insulin required" = "Необходимо инсулина";
 
 /* StringRecommendation */
-"Recommendation" = "Recommendation";
+"Recommendation" = "Рекомендация";
 
 /* Wait please */
-"Wait please" = "Wait please";
+"Wait please" = "Подождите";
 
 /* Agree and continue */
-"Agree and continue" = "Agree and Continue";
+"Agree and continue" = "Согласен и продолжить";
 
 /* Disclaimer */
-"Disclaimer" = "Disclaimer";
+"Disclaimer" = "Отказ от ответственности";
 
 /* Disclaimer Description */
-"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions.";
+"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X находится в разработке. Мы не рекомендуем его для ежедневного контроля сахара в крови! Используйте только для тестирования на свой страх и риск. Мы не несём ответственности за ваши действия.";
 
 /* %d min ago
 %d min ago */
-"%d min ago" = "%d min ago";
+"%d min ago" = "%d мин. назад";
 
 /* Enacted at a date */
-"Enacted at %@" = "Enacted at %@";
+"Enacted at %@" = "Введено в %@";
 
 /* Home title */
-"Home" = "Home";
+"Home" = "Домой";
 
 /* Looping in progress */
-"looping" = "looping";
+"looping" = "В работе";
 
 /* Status Title : No Suggestion */
-"No suggestion" = "No suggestion";
+"No suggestion" = "Нет предложений";
 
 /* Replace pod */
-"Replace pod" = "Replace pod";
+"Replace pod" = "Замените под";
 
 /* Status Title : Suggest */
-"Suggested" = "Suggested";
+"Suggested" = "Рекомендуется";
 
 /* Suggested at a date */
-"Suggested at %@" = "Suggested at %@";
+"Suggested at %@" = "Предложено в %@";
 
 /* Add Carbs */
-"Add Carbs" = "Add Carbs";
+"Add Carbs" = "Ввод углеводов";
 
 /* Amount Carbs */
-"Amount Carbs" = "Amount Carbs";
+"Amount Carbs" = "Кол-во углеводов";
 
 /* Grams unit */
-"grams" = "grams";
+"grams" = "грамм";
 
 /* A you sure delete preset? */
-"A you sure?" = "A you sure?";
+"A you sure?" = "Вы уверены?";
 
 /* Bottom target temp */
-"Bottom target" = "Bottom target";
+"Bottom target" = "Нижняя граница";
 
 /* Cancel preset name */
-"Cancel" = "Cancel";
+"Cancel" = "Отмена";
 
 /* Cancel Temp Target */
-"Cancel Temp Target" = "Cancel Temp Target";
+"Cancel Temp Target" = "Отменить временную цель";
 
 /* Custom target temp */
-"Custom" = "Custom";
+"Custom" = "Пользовательская";
 
 /* Date */
-"Date" = "Date";
+"Date" = "Дата";
 
 /* Delete */
-"Delete" = "Delete";
+"Delete" = "Удалить";
 
 /* Delete preset %@ */
-"Delete preset %@" = "Delete preset %@";
+"Delete preset %@" = "Удалить цель %@";
 
 /* Duration target temp */
-"Duration" = "Duration";
+"Duration" = "Продолжительность";
 
 /* Enact Temp Target */
-"Enact Temp Target" = "Enact Temp Target";
+"Enact Temp Target" = "Временная цель";
 
 /* Enter preset name */
-"Enter preset name" = "Enter preset name";
+"Enter preset name" = "Название цели";
 
 /* minutes target temp */
-"minutes" = "minutes";
+"minutes" = "минут";
 
 /* Presets title */
-"Presets" = "Presets";
+"Presets" = "Предустановки";
 
 /* Save preset name */
-"Save" = "Save";
+"Save" = "Сохранить";
 
 /* Save as preset */
-"Save as preset" = "Save as preset";
+"Save as preset" = "Сохранить предустановку";
 
 /* Top target temp */
-"Top target" = "Top target";
+"Top target" = "Верхняя цель";
 
 /* Autotune Title */
-"Autotune" = "Autotune";
+"Autotune" = "Автотюн";
 
 /* Basal profile */
-"Basal profile" = "Basal profile";
+"Basal profile" = "Базальный профиль";
 
 /* Carb ratio */
-"Carb ratio" = "Carb ratio";
+"Carb ratio" = "Соотношения углеводов";
 
 /* Delete autotune data */
-"Delete autotune data" = "Delete autotune data";
+"Delete autotune data" = "Удалить данные автотюна";
 
 /* Run now */
-"Run now" = "Run now";
+"Run now" = "Выполнить";
 
 /* Sensitivity */
-"Sensitivity" = "Sensitivity";
+"Sensitivity" = "Чувствительность";
 
 /* Use Autotune */
-"Use Autotune" = "use Autotune";
+"Use Autotune" = "использовать Автотюн";
 
 /* Add profile basal */
-"Add" = "Add";
+"Add" = "Добавить";
 
 /* Basal Profile */
-"Basal Profile" = "Basal Profile";
+"Basal Profile" = "Базальный профиль";
 
 /* Rate basal profile */
 "Rate" = "Rate";
 
 /* Save on Pump */
-"Save on Pump" = "Save on Pump";
+"Save on Pump" = "Сохранить на помпу";
 
 /* Saving... */
-"Saving..." = "Saving...";
+"Saving..." = "Сохранение...";
 
 /* Schedule */
 "Schedule" = "Schedule";
 
 /* starts at */
-"starts at" = "starts at";
+"starts at" = "начинается в";
 
 /* Time basal profile */
-"Time" = "Time";
+"Time" = "Время";
 
 /* Calculated Ratio */
-"Calculated Ratio" = "Calculated Ratio";
+"Calculated Ratio" = "Рассчитанное соотношение";
 
 /* Carb Ratios Title */
-"Carb Ratios" = "Carb Ratios";
+"Carb Ratios" = "Соотношения углеводов";
 
 /* Ratio Carb */
-"Ratio" = "Ratio";
+"Ratio" = "Соотношение";
 
 /* Autosens */
-"Autosens" = "Autosens";
+"Autosens" = "Автосенс";
 
 /* Calculated Sensitivity */
-"Calculated Sensitivity" = "Calculated Sensitivity";
+"Calculated Sensitivity" = "Рассчитанная чувствительность";
 
 /* Insulin Sensitivities */
-"Insulin Sensitivities" = "Insulin Sensitivities";
+"Insulin Sensitivities" = "Факторы чувствительности инсулина";
 
 /* Sensitivity Ratio */
-"Sensitivity Ratio" = "Sensitivity Ratio";
+"Sensitivity Ratio" = "Коэффициент чувствительности";
 
 /* Dismiss */
-"Dismiss" = "Dismiss";
+"Dismiss" = "Отклонить";
 
 /* Important message */
-"Important message" = "Important message";
+"Important message" = "Важное сообщение";
 
 /* Amount */
-"Amount" = "Amount";
+"Amount" = "Значение";
 
 /* Cancel Temp Basal */
-"Cancel Temp Basal" = "Cancel Temp Basal";
+"Cancel Temp Basal" = "Отменить Вбс";
 
 /* Duration */
-"Duration" = "Duration";
+"Duration" = "Длительность";
 
 /* Enact temp Basal*/
-"Enact" = "Enact";
+"Enact" = "Выполнить";
 
 /* Manual Temp Basal */
-"Manual Temp Basal" = "Manual Temp Basal";
+"Manual Temp Basal" = "Ручная Вбс";
 
 /* Allow uploads */
-"Allow uploads" = "Allow uploads";
+"Allow uploads" = "Разрешить загрузку";
 
 /* API secret */
-"API secret" = "API secret";
+"API secret" = "API секрет";
 
 /* Connect */
-"Connect" = "Connect";
+"Connect" = "Подключить";
 
 /* Connected! */
-"Connected!" = "Connected!";
+"Connected!" = "Подключено!";
 
 /* Connecting... */
-"Connecting..." = "Connecting...";
+"Connecting..." = "Подключение...";
 
 /* Invalid URL */
-"Invalid URL" = "Invalid URL";
+"Invalid URL" = "Неверная ссылка";
 
 /* Local glucose source */
-"Local glucose source" = "Local glucose source";
+"Local glucose source" = "Локальный источник глюкозы";
 
 /* Nightscout Config */
-"Nightscout Config" = "Nightscout Config";
+"Nightscout Config" = "Настройка Nightscout";
 
 /* Port */
-"Port" = "Port";
+"Port" = "Порт";
 
 /* URL */
 "URL" = "URL";
 
 /* Use local glucose server */
-"Use local glucose server" = "Use local glucose server";
+"Use local glucose server" = "Использовать локальный сервер глюкозы";
 
 /* Edit settings json */
-"Edit settings json" = "Edit settings json";
+"Edit settings json" = "Редактировать json файл настроек";
 
 /* Glucose units */
-"Glucose units" = "Glucose units";
+"Glucose units" = "Единицы измерения глюкозы";
 
 /* Preferences */
-"Preferences" = "Preferences";
+"Preferences" = "Настройки";
 
 /* Recommended Insulin Fraction */
 "Recommended Insulin Fraction" = "Recommended Insulin Fraction";
 
 /* Remote control */
-"Remote control" = "Remote control";
+"Remote control" = "Удаленное управление";
 
 /* Add Medtronic */
-"Add Medtronic" = "Add Medtronic";
+"Add Medtronic" = "Добавить Medtronic";
 
 /* Add Omnipod */
-"Add Omnipod" = "Add Omnipod";
+"Add Omnipod" = "Добавить Omnipod";
 
 /* Add Simulator */
-"Add Simulator" = "Add Simulator";
+"Add Simulator" = "Добавить симулятор";
 
 /* Model */
-"Model" = "Model";
+"Model" = "Модель";
 
 /* Pump config */
-"Pump config" = "Pump config";
+"Pump config" = "Настройка помпы";
 
 /* Delivery limits */
-"Delivery limits" = "Delivery limits";
+"Delivery limits" = "Предел подачи";
 
 /* Duration of Insulin Action */
-"Duration of Insulin Action" = "Duration of Insulin Action";
+"Duration of Insulin Action" = "Продолжительность действия инсулина";
 
 /* hours */
-"hours" = "hours";
+"hours" = "часов";
 
 /* Max Basal */
-"Max Basal" = "Max Basal";
+"Max Basal" = "Максимальный базал";
 
 /* Max Bolus */
-"Max Bolus" = "Max Bolus";
+"Max Bolus" = "Максимальный болюс";
 
 /* Pump Settings */
-"Pump Settings" = "Pump Settings";
+"Pump Settings" = "Настройки помпы";
 
 /* Save on Pump */
-"Save on Pump" = "Save on Pump";
+"Save on Pump" = "Сохранить на помпу";
 
 /* U/hr */
-"U/hr" = "U/hr";
+"U/hr" = "Ед/ч";
 
 /* Autotune */
-"Autotune Conf" = "Autotune";
+"Autotune Conf" = "Автотюн";
 
 /* Basal Profile */
-"Basal Profile Conf" = "Basal Profile";
+"Basal Profile Conf" = "Базальный профиль";
 
 /* Carb Ratios */
-"Carb Ratios Conf" = "Carb Ratios";
+"Carb Ratios Conf" = "Соотношения углеводов";
 
 /* Closed loop */
-"Closed loop" = "Closed loop";
+"Closed loop" = "Закрытая петля";
 
 /* Configuration */
-"Configuration" = "Configuration";
+"Configuration" = "Настройка";
 
 /* Devices */
-"Devices" = "Devices";
+"Devices" = "Устройства";
 
 /* Insulin Sensitivities */
-"Insulin Sensitivities Conf" = "Insulin Sensitivities";
+"Insulin Sensitivities Conf" = "Факторы чувствительности инсулина";
 
 /* Preferences */
-"Preferences Conf" = "Preferences";
+"Preferences Conf" = "Настройки";
 
 /* Pump */
-"Pump" = "Pump";
+"Pump" = "Помпа";
 
 /* Pump Settings */
-"Pump Settings Conf" = "Pump Settings";
+"Pump Settings Conf" = "Настройки помпы";
 
 /* Services */
-"Services" = "Services";
+"Services" = "Службы";
 
 /* Settings */
-"Settings" = "Settings";
+"Settings" = "Настройки";
 
 /* Share logs */
-"Share logs" = "Share logs";
+"Share logs" = "Отправить журнал";
 
 /* Target Ranges */
-"Target Ranges Conf" = "Target Ranges";
+"Target Ranges Conf" = "Целевой диапазон";
 
 /* High target */
-"High target" = "High target";
+"High target" = "Верхняя цель";
 
 /* Low target */
-"Low target" = "Low target";
+"Low target" = "Нижняя цель";
 
 /* Target Ranges */
-"Target Ranges" = "Target Ranges";
+"Target Ranges" = "Целевой диапазон";
 
 /* Bolusing.. */
-"Bolusing" = "Bolusing";
+"Bolusing" = "Подается болюс";
 
 /* Pump suspended */
-"Pump suspended" = "Pump suspended";
+"Pump suspended" = "Помпа приостановлена";
 
 /* middleware */
 "Middleware" = "Middleware";
 
 /* Clear */
-"Clear" = "Clear";
+"Clear" = "Очистить";
 
 /* Done */
-"Done" = "Done";
+"Done" = "Готово";
