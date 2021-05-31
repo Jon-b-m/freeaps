@@ -1,154 +1,151 @@
 /* 
   Localizable.strings
   FreeAPS X
-
 */
 /* Add insulin without actually bolusing */
-"Add insulin without actually bolusing" = "Добавить инсулин без болюса";
+"Add insulin without actually bolusing" = "Add insulin without actually bolusing";
 
 /* Amount */
-"Amount Bolus" = "Значение болюса";
+"Amount Bolus" = "Amount Bolus";
 
 /* Bolus */
-"Bolus" = "Болюс";
+"Bolus" = "Bolus";
 
 /* Close */
-"Close" = "Закрыть";
+"Close" = "Close";
 
 /* Continue without bolus */
-"Continue without bolus" = "Продолжить без болюса";
+"Continue without bolus" = "Continue without bolus";
 
 /* Enact Bolus */
-"Enact bolus" = "Ввести болюс";
+"Enact Bolus" = "Enact Bolus";
 
-/* Enact Bolus */
-"Enact Bolus Title" = "Ввести болюс";
+/* Enact bolus */
+"Enact bolus" = "Enact bolus";
 
 /* Insulin recommended */
-"Insulin recommended" = "Рекомендуется";
+"Insulin recommended" = "Insulin recommended";
 
 /* Insulin required */
-"Insulin required" = "Необходимо инсулина";
+"Insulin required" = "Insulin required";
 
 /* StringRecommendation */
-"Recommendation" = "Рекомендация";
+"Recommendation" = "Recommendation";
 
 /* Wait please */
-"Wait please" = "Подождите";
+"Wait please" = "Wait please";
 
 /* Agree and continue */
-"Agree and Continue" = "Согласен и продолжить";
+"Agree and continue" = "Agree and Continue";
 
 /* Disclaimer */
-"Disclaimer" = "Отказ от ответственности";
+"Disclaimer" = "Disclaimer";
 
 /* Disclaimer Description */
-"Disclaimer Description" = "FreeAPS X находится в разработке. Мы не рекомендуем его для ежедневного контроля сахара в крови! Используйте только для тестирования на свой страх и риск. Мы не несём ответственности за ваши действия.";
+"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions.";
 
 /* %d min ago
 %d min ago */
-"%d min ago" = "%d мин. назад";
+"%d min ago" = "%d min ago";
 
 /* Enacted at a date */
-"Enacted at %@" = "Введено в %@";
+"Enacted at %@" = "Enacted at %@";
 
 /* Home title */
-"Home" = "Домой";
+"Home" = "Home";
 
 /* Looping in progress */
-"looping" = "работа";
+"looping" = "looping";
 
 /* Status Title : No Suggestion */
-"No suggestion" = "Нет предложений";
+"No suggestion" = "No suggestion";
 
 /* Replace pod */
-"Replace pod" = "Замените под";
+"Replace pod" = "Replace pod";
 
 /* Status Title : Suggest */
-"Suggested" = "Рекомендуется";
+"Suggested" = "Suggested";
 
 /* Suggested at a date */
-"Suggested at %@" = "Предложено в %@";
+"Suggested at %@" = "Suggested at %@";
 
 /* Add Carbs */
-"Add Carbs" = "Ввод углеводов";
+"Add Carbs" = "Add Carbs";
 
 /* Amount Carbs */
-"Amount Carbs" = "Кол-во углеводов";
+"Amount Carbs" = "Amount Carbs";
 
 /* Grams unit */
-"grams" = "грамм";
+"grams" = "grams";
 
 /* A you sure delete preset? */
-"A you sure?" = "Вы уверены?";
+"A you sure?" = "A you sure?";
 
 /* Bottom target temp */
-"Bottom target" = "Нижняя граница";
+"Bottom target" = "Bottom target";
 
 /* Cancel preset name */
-"Cancel" = "Отмена";
+"Cancel" = "Cancel";
 
-/* Cancel Temp Target
-Cancel Temp Target */
-"Cancel temp target" = "Отменить временную цель";
+/* Cancel Temp Target */
+"Cancel Temp Target" = "Cancel Temp Target";
 
 /* Custom target temp */
-"Custom" = "Пользовательская";
+"Custom" = "Custom";
 
 /* Date */
-"Date" = "Дата";
+"Date" = "Date";
 
 /* Delete */
-"Delete" = "Удалить";
+"Delete" = "Delete";
 
 /* Delete preset %@ */
-"Delete preset %@" = "Удалить цель %@";
+"Delete preset %@" = "Delete preset %@";
 
 /* Duration target temp */
-"Duration" = "Продолжительность";
+"Duration" = "Duration";
 
-/* Enact Temp Target
-Enact Temp Target */
-"Enact temp target" = "Временная цель";
+/* Enact Temp Target */
+"Enact Temp Target" = "Enact Temp Target";
 
 /* Enter preset name */
-"Enter preset name" = "Название цели";
+"Enter preset name" = "Enter preset name";
 
 /* minutes target temp */
-"minutes" = "минут";
+"minutes" = "minutes";
 
 /* Presets title */
-"Presets" = "Предустановки";
+"Presets" = "Presets";
 
 /* Save preset name */
-"Save" = "Сохранить";
+"Save" = "Save";
 
 /* Save as preset */
-"Save as preset" = "Сохранить предустановку";
+"Save as preset" = "Save as preset";
 
 /* Top target temp */
-"Top target" = "Верхняя цель";
+"Top target" = "Top target";
 
 /* Autotune Title */
-"Autotune" = "Автотюн";
+"Autotune" = "Autotune";
 
 /* Basal profile */
-"Basal profile" = "Базальный профиль";
+"Basal profile" = "Basal profile";
 
 /* Carb ratio */
-"Carb ratio" = "Соотношения углеводов";
+"Carb ratio" = "Carb ratio";
 
 /* Delete autotune data */
-"Delete autotune data" = "Удалить данные автотюна";
+"Delete autotune data" = "Delete autotune data";
 
 /* Run now */
-"Run now" = "Выполнить";
+"Run now" = "Run now";
 
 /* Sensitivity */
-"Sensitivity" = "Чувствительность";
+"Sensitivity" = "Sensitivity";
 
 /* Use Autotune */
-"Use Autotune" = "Использовать Автотюн";
+"Use Autotune" = "use Autotune";
 
 /* Add profile basal */
 "Add" = "Add";
