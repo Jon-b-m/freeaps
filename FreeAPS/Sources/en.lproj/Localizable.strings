@@ -1,4 +1,4 @@
-/*
+/* 
   Localizable.strings
   FreeAPS X
 
@@ -21,7 +21,8 @@
 /* Enact Bolus */
 "Enact bolus" = "Enact bolus";
 
-/* Enact Bolus title */
+/* Enact Bolus
+Enact Bolus */
 "Enact Bolus Title" = "Enact Bolus";
 
 /* Insulin recommended */
@@ -45,7 +46,8 @@
 /* Disclaimer Description */
 "Disclaimer Description" = "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions.";
 
-/* No comment provided by engineer. */
+/* %d min ago
+%d min ago */
 "%d min ago" = "%d min ago";
 
 /* Enacted at a date */
@@ -72,9 +74,6 @@
 /* Add Carbs */
 "Add Carbs" = "Add Carbs";
 
-/* Add Carbs Title */
-"Add Carbs Title" = "Add Carbs Title";
-
 /* Amount Carbs */
 "Amount Carbs" = "Amount Carbs";
 
@@ -90,8 +89,9 @@
 /* Cancel preset name */
 "Cancel" = "Cancel";
 
-/* Cancel temp target */
-"Cancel temp target" = "Cancel temp target";
+/* Cancel Temp Target
+Cancel Temp Target */
+"Cancel temp target" = "Cancel Temp Target";
 
 /* Custom target temp */
 "Custom" = "Custom";
@@ -108,8 +108,9 @@
 /* Duration target temp */
 "Duration" = "Duration";
 
-/* Enact temp target */
-"Enact Temp Target" = "Enact Temp Target";
+/* Enact Temp Target
+Enact Temp Target */
+"Enact temp target" = "Enact Temp Target";
 
 /* Enter preset name */
 "Enter preset name" = "Enter preset name";
@@ -303,12 +304,6 @@
 /* U/hr */
 "U/hr" = "U/hr";
 
-/* RequestPermissions */
-"RequestPermissions" = "RequestPermissions";
-
-/* RequestPermissions screen */
-"RequestPermissions screen" = "RequestPermissions screen";
-
 /* Autotune */
 "Autotune Conf" = "Autotune";
 
@@ -368,3 +363,9 @@
 
 /* middleware */
 "Middleware" = "Middleware";
+
+/* Clear */
+"Clear" = "Clear";
+
+/* Done */
+"Done" = "Done";
