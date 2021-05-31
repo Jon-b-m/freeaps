@@ -109,7 +109,7 @@ Cancel Temp Target */
 
 /* Enact Temp Target
 Enact Temp Target */
-"Enact temp target" = "Starta tillfälligt mål";
+"Enact Temp Target" = "Starta tillfälligt mål";
 
 /* Enter preset name */
 "Enter preset name" = "Ange namn för förval";
