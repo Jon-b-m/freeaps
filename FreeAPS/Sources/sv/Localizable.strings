@@ -18,7 +18,7 @@
 "Continue without bolus" = "Fortsätt utan bolus";
 
 /* Enact Bolus */
-"Enact Bolus" = "Enact Bolus";
+"Enact Bolus" = "Ge bolus";
 
 /* Enact bolus */
 "Enact bolus" = "Ge bolus";
@@ -36,13 +36,13 @@
 "Wait please" = "Vänta...";
 
 /* Agree and continue */
-"Agree and continue" = "Agree and Continue";
+"Agree and continue" = "Godkänn och fortsätt";
 
 /* Disclaimer */
 "Disclaimer" = "Varning";
 
 /* Disclaimer Description */
-"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions.";
+"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X är under utveckling. Vi rekommederar inte att använda denna app för behandling av ditt blodsocker i detta tidiga skede. Använd för test och på egen risk. Vi tar inget ansvar för dina beslut eller handlingar.";
 
 /* %d min ago
 %d min ago */
@@ -88,7 +88,7 @@
 "Cancel" = "Avbryt";
 
 /* Cancel Temp Target */
-"Cancel Temp Target" = "Cancel Temp Target";
+"Cancel Temp Target" = "Avbryt temporär basal";
 
 /* Custom target temp */
 "Custom" = "Anpassad";
@@ -106,7 +106,7 @@
 "Duration" = "Duration";
 
 /* Enact Temp Target */
-"Enact Temp Target" = "Enact Temp Target";
+"Enact Temp Target" = "Starta tillfälligt mål";
 
 /* Enter preset name */
 "Enter preset name" = "Ange namn för förval";
@@ -154,7 +154,7 @@
 "Basal Profile" = "Basalinställningar";
 
 /* Rate basal profile */
-"Rate" = "Rate";
+"Rate" = "Dos";
 
 /* Save on Pump */
 "Save on Pump" = "Spara på pump";
@@ -295,7 +295,7 @@
 "Pump Settings" = "Pumpinställningar";
 
 /* Save on Pump */
-"Save on Pump" = "Save on Pump";
+"Save on Pump" = "Spara på pump";
 
 /* U/hr */
 "U/hr" = "E/h";
@@ -310,7 +310,7 @@
 "Carb Ratios Conf" = "Insulinkvoter";
 
 /* Closed loop */
-"Closed loop" = "Closed loop";
+"Closed loop" = "Sluten loop";
 
 /* Configuration */
 "Configuration" = "Konfiguration";
@@ -361,7 +361,7 @@
 "Middleware" = "Middleware";
 
 /* Clear */
-"Clear" = "Clear";
+"Clear" = "Rensa";
 
 /* Done */
-"Done" = "Done";
+"Done" = "Klar";
