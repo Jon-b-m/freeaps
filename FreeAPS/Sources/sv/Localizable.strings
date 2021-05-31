@@ -1,7 +1,6 @@
 /* 
   Localizable.strings
   FreeAPS X
-
 */
 /* Add insulin without actually bolusing */
 "Add insulin without actually bolusing" = "Lägg till insulin utan att ge bolus";
@@ -19,11 +18,10 @@
 "Continue without bolus" = "Fortsätt utan bolus";
 
 /* Enact Bolus */
-"Enact bolus" = "Ge bolus";
+"Enact Bolus" = "Enact Bolus";
 
-/* Enact Bolus
-Enact Bolus */
-"Enact Bolus Title" = "Enact Bolus";
+/* Enact bolus */
+"Enact bolus" = "Ge bolus";
 
 /* Insulin recommended */
 "Insulin recommended" = "Rekommenderad insulindos";
@@ -38,13 +36,13 @@ Enact Bolus */
 "Wait please" = "Vänta...";
 
 /* Agree and continue */
-"Agree and Continue" = "Godkänn och fortsätt";
+"Agree and continue" = "Agree and Continue";
 
 /* Disclaimer */
 "Disclaimer" = "Varning";
 
 /* Disclaimer Description */
-"Disclaimer Description" = "FreeAPS X är under utveckling. Vi rekommederar inte att använda denna app för behandling av ditt blodsocker i detta tidiga skede. Använd för test och på egen risk. Vi tar inget ansvar för dina beslut eller handlingar.";
+"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions.";
 
 /* %d min ago
 %d min ago */
@@ -89,9 +87,8 @@ Enact Bolus */
 /* Cancel preset name */
 "Cancel" = "Avbryt";
 
-/* Cancel Temp Target
-Cancel Temp Target */
-"Cancel temp target" = "Avbryt temporär basal";
+/* Cancel Temp Target */
+"Cancel Temp Target" = "Cancel Temp Target";
 
 /* Custom target temp */
 "Custom" = "Anpassad";
@@ -108,9 +105,8 @@ Cancel Temp Target */
 /* Duration target temp */
 "Duration" = "Duration";
 
-/* Enact Temp Target
-Enact Temp Target */
-"Enact temp target" = "Starta tillfälligt mål";
+/* Enact Temp Target */
+"Enact Temp Target" = "Enact Temp Target";
 
 /* Enter preset name */
 "Enter preset name" = "Ange namn för förval";
