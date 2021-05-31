@@ -1,7 +1,6 @@
 /* 
   Localizable.strings
   FreeAPS X
-
 */
 /* Add insulin without actually bolusing */
 "Add insulin without actually bolusing" = "Add insulin without actually bolusing";
@@ -19,10 +18,10 @@
 "Continue without bolus" = "Continue without bolus";
 
 /* Enact Bolus */
-"Enact bolus" = "Enact bolus";
+"Enact Bolus" = "Enact Bolus";
 
-/* Enact Bolus */
-"Enact Bolus Title" = "Enact Bolus";
+/* Enact bolus */
+"Enact bolus" = "Enact bolus";
 
 /* Insulin recommended */
 "Insulin recommended" = "Insulin recommended";
@@ -37,13 +36,13 @@
 "Wait please" = "Wait please";
 
 /* Agree and continue */
-"Agree and Continue" = "Agree and Continue";
+"Agree and continue" = "Agree and Continue";
 
 /* Disclaimer */
 "Disclaimer" = "Disclaimer";
 
 /* Disclaimer Description */
-"Disclaimer Description" = "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions.";
+"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions.";
 
 /* %d min ago
 %d min ago */
@@ -88,9 +87,8 @@
 /* Cancel preset name */
 "Cancel" = "Cancel";
 
-/* Cancel Temp Target
-Cancel Temp Target */
-"Cancel temp target" = "Cancel Temp Target";
+/* Cancel Temp Target */
+"Cancel Temp Target" = "Cancel Temp Target";
 
 /* Custom target temp */
 "Custom" = "Custom";
@@ -107,9 +105,8 @@ Cancel Temp Target */
 /* Duration target temp */
 "Duration" = "Duration";
 
-/* Enact Temp Target
-Enact Temp Target */
-"Enact temp target" = "Enact Temp Target";
+/* Enact Temp Target */
+"Enact Temp Target" = "Enact Temp Target";
 
 /* Enter preset name */
 "Enter preset name" = "Enter preset name";
