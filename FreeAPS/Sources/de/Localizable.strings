@@ -26,19 +26,19 @@ Enact Bolus */
 "Enact Bolus Title" = "Enact Bolus";
 
 /* Insulin recommended */
-"Insulin recommended" = "Insulin recommended";
+"Insulin recommended" = "Empfohlenes Insulin";
 
 /* Insulin required */
-"Insulin required" = "Insulin required";
+"Insulin required" = "Benötigtes Insulin";
 
 /* StringRecommendation */
-"Recommendation" = "Recommendation";
+"Recommendation" = "Empfehlung";
 
 /* Wait please */
-"Wait please" = "Wait please";
+"Wait please" = "Bitte warten";
 
 /* Agree and continue */
-"Agree and Continue" = "Agree and Continue";
+"Agree and Continue" = "Zustimmen und fortfahren";
 
 /* Disclaimer */
 "Disclaimer" = "Disclaimer";
