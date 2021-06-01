@@ -76,76 +76,76 @@
 "Amount Carbs" = "Kohlenhydratmenge";
 
 /* Grams unit */
-"grams" = "grams";
+"grams" = "Gramm";
 
 /* A you sure delete preset? */
-"A you sure?" = "A you sure?";
+"A you sure?" = "Sind Sie sicher?";
 
 /* Bottom target temp */
-"Bottom target" = "Bottom target";
+"Bottom target" = "Untergrenze";
 
 /* Cancel preset name */
-"Cancel" = "Cancel";
+"Cancel" = "Abbrechen";
 
 /* Cancel Temp Target */
-"Cancel Temp Target" = "Cancel Temp Target";
+"Cancel Temp Target" = "Temporäre Basalrate abbrechen";
 
 /* Custom target temp */
-"Custom" = "Custom";
+"Custom" = "Benutzerdefiniert";
 
 /* Date */
-"Date" = "Date";
+"Date" = "Datum";
 
 /* Delete */
-"Delete" = "Delete";
+"Delete" = "Löschen";
 
 /* Delete preset %@ */
-"Delete preset %@" = "Delete preset %@";
+"Delete preset %@" = "Vorlage %@ löschen";
 
 /* Duration target temp */
 "Duration" = "Dauer";
 
 /* Enact Temp Target */
-"Enact Temp Target" = "Enact Temp Target";
+"Enact Temp Target" = "Temporäres Ziel (TT) starten";
 
 /* Enter preset name */
-"Enter preset name" = "Enter preset name";
+"Enter preset name" = "Geben Sie einen Namen für die Voreinstellung ein";
 
 /* minutes target temp */
-"minutes" = "minutes";
+"minutes" = "Minuten";
 
 /* Presets title */
-"Presets" = "Presets";
+"Presets" = "Voreinstellungen";
 
 /* Save preset name */
-"Save" = "Save";
+"Save" = "Speichern";
 
 /* Save as preset */
-"Save as preset" = "Save as preset";
+"Save as preset" = "Als Vorlage speichern";
 
 /* Top target temp */
-"Top target" = "Top target";
+"Top target" = "Obergrenze";
 
 /* Autotune Title */
-"Autotune" = "Autotune";
+"Autotune" = "Automatische Feinabstimmung";
 
 /* Basal profile */
-"Basal profile" = "Basal profile";
+"Basal profile" = "Basalraten-Profil";
 
 /* Carb ratio */
-"Carb ratio" = "Carb ratio";
+"Carb ratio" = "Kohlenhydratfaktor";
 
 /* Delete autotune data */
-"Delete autotune data" = "Delete autotune data";
+"Delete autotune data" = "Lösche Autotune Daten";
 
 /* Run now */
-"Run now" = "Run now";
+"Run now" = "Ausführen";
 
 /* Sensitivity */
-"Sensitivity" = "Sensitivity";
+"Sensitivity" = "Empfindlichkeit";
 
 /* Use Autotune */
-"Use Autotune" = "use Autotune";
+"Use Autotune" = "benutze Autotune";
 
 /* Add profile basal */
 "Add" = "Zufuegen";
@@ -154,49 +154,49 @@
 "Basal Profile" = "Basalraten-Profil";
 
 /* Rate basal profile */
-"Rate" = "Rate";
+"Rate" = "Bewerten";
 
 /* Save on Pump */
-"Save on Pump" = "Save on Pump";
+"Save on Pump" = "Auf Pumpe speichern";
 
 /* Saving... */
-"Saving..." = "Saving...";
+"Saving..." = "Speichern...";
 
 /* Schedule */
-"Schedule" = "Schedule";
+"Schedule" = "Zeitplan";
 
 /* starts at */
-"starts at" = "starts at";
+"starts at" = "Startet um";
 
 /* Time basal profile */
-"Time" = "Time";
+"Time" = "Uhrzeit";
 
 /* Calculated Ratio */
-"Calculated Ratio" = "Calculated Ratio";
+"Calculated Ratio" = "Berechnetes Verhältnis";
 
 /* Carb Ratios Title */
-"Carb Ratios" = "Carb Ratios";
+"Carb Ratios" = "Kohlenhydratfaktoren";
 
 /* Ratio Carb */
-"Ratio" = "Ratio";
+"Ratio" = "Verhältnis";
 
 /* Autosens */
 "Autosens" = "Autosens";
 
 /* Calculated Sensitivity */
-"Calculated Sensitivity" = "Calculated Sensitivity";
+"Calculated Sensitivity" = "Berechnete Empfindlichkeit";
 
 /* Insulin Sensitivities */
-"Insulin Sensitivities" = "Insulin Sensitivities";
+"Insulin Sensitivities" = "Insulinempfindlichkeit";
 
 /* Sensitivity Ratio */
-"Sensitivity Ratio" = "Sensitivity Ratio";
+"Sensitivity Ratio" = "Empfindlichkeitsverhältnis";
 
 /* Dismiss */
-"Dismiss" = "Dismiss";
+"Dismiss" = "Verwerfen";
 
 /* Important message */
-"Important message" = "Important message";
+"Important message" = "Wichtige Nachricht";
 
 /* Amount */
 "Amount" = "Amount";
@@ -328,40 +328,40 @@
 "Pump" = "Pump";
 
 /* Pump Settings */
-"Pump Settings Conf" = "Pump Settings";
+"Pump Settings Conf" = "Pumpeneinstellungen";
 
 /* Services */
-"Services" = "Services";
+"Services" = "Dienste";
 
 /* Settings */
-"Settings" = "Settings";
+"Settings" = "Einstellungen";
 
 /* Share logs */
-"Share logs" = "Share logs";
+"Share logs" = "Protokolle teilen";
 
 /* Target Ranges */
-"Target Ranges Conf" = "Target Ranges";
+"Target Ranges Conf" = "Zielbereich";
 
 /* High target */
-"High target" = "High target";
+"High target" = "Höchstgrenze";
 
 /* Low target */
-"Low target" = "Low target";
+"Low target" = "Untergrenze";
 
 /* Target Ranges */
-"Target Ranges" = "Target Ranges";
+"Target Ranges" = "Zielbereich";
 
 /* Bolusing.. */
-"Bolusing" = "Bolusing";
+"Bolusing" = "Bolusabgabe";
 
 /* Pump suspended */
-"Pump suspended" = "Pump suspended";
+"Pump suspended" = "Pumpe pausiert";
 
 /* middleware */
-"Middleware" = "Middleware";
+"Middleware" = "Software Zwischenschicht";
 
 /* Clear */
-"Clear" = "Clear";
+"Clear" = "Zurücksetzen";
 
 /* Done */
-"Done" = "Done";
+"Done" = "Abgeschlossen";
