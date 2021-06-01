@@ -3,43 +3,43 @@
   FreeAPS X
 */
 /* Add insulin without actually bolusing */
-"Add insulin without actually bolusing" = "Add insulin without actually bolusing";
+"Add insulin without actually bolusing" = "Ajouter de l'insuline sans bolus";
 
 /* Amount */
-"Amount Bolus" = "Amount Bolus";
+"Amount Bolus" = "Quantité de Bolus";
 
 /* Bolus */
 "Bolus" = "Bolus";
 
 /* Close */
-"Close" = "Close";
+"Close" = "Fermer";
 
 /* Continue without bolus */
-"Continue without bolus" = "Continue without bolus";
+"Continue without bolus" = "Continuer sans bonus";
 
 /* Enact Bolus */
-"Enact Bolus" = "Enact Bolus";
+"Enact Bolus" = "Injecter bolus";
 
 /* Enact bolus */
-"Enact bolus" = "Enact bolus";
+"Enact bolus" = "Injecter bolus";
 
 /* Insulin recommended */
-"Insulin recommended" = "Insulin recommended";
+"Insulin recommended" = "Insuline recommandée";
 
 /* Insulin required */
-"Insulin required" = "Insulin required";
+"Insulin required" = "Insuline nécessaire";
 
 /* StringRecommendation */
-"Recommendation" = "Recommendation";
+"Recommendation" = "Recommandations";
 
 /* Wait please */
-"Wait please" = "Wait please";
+"Wait please" = "Merci de patienter";
 
 /* Agree and continue */
-"Agree and continue" = "Agree and Continue";
+"Agree and continue" = "Accepter et continuer";
 
 /* Disclaimer */
-"Disclaimer" = "Disclaimer";
+"Disclaimer" = "Avertissement";
 
 /* Disclaimer Description */
 "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions.";
