@@ -1,7 +1,6 @@
-/*
+/* 
   Localizable.strings
   FreeAPS X
-
 */
 /* Add insulin without actually bolusing */
 "Add insulin without actually bolusing" = "Lägg till insulin utan att ge bolus";
@@ -21,7 +20,7 @@
 /* Enact Bolus */
 "Enact Bolus" = "Ge bolus";
 
-/* Enact Bolus */
+/* Enact bolus */
 "Enact bolus" = "Ge bolus";
 
 /* Insulin recommended */
@@ -88,8 +87,7 @@
 /* Cancel preset name */
 "Cancel" = "Avbryt";
 
-/* Cancel Temp Target
-Cancel Temp Target */
+/* Cancel Temp Target */
 "Cancel Temp Target" = "Avbryt temporär basal";
 
 /* Custom target temp */
@@ -107,8 +105,7 @@ Cancel Temp Target */
 /* Duration target temp */
 "Duration" = "Duration";
 
-/* Enact Temp Target
-Enact Temp Target */
+/* Enact Temp Target */
 "Enact Temp Target" = "Starta tillfälligt mål";
 
 /* Enter preset name */
@@ -157,7 +154,7 @@ Enact Temp Target */
 "Basal Profile" = "Basalinställningar";
 
 /* Rate basal profile */
-"Rate" = "Rate";
+"Rate" = "Dos";
 
 /* Save on Pump */
 "Save on Pump" = "Spara på pump";
@@ -298,7 +295,7 @@ Enact Temp Target */
 "Pump Settings" = "Pumpinställningar";
 
 /* Save on Pump */
-"Save on Pump" = "Save on Pump";
+"Save on Pump" = "Spara på pump";
 
 /* U/hr */
 "U/hr" = "E/h";
@@ -313,7 +310,7 @@ Enact Temp Target */
 "Carb Ratios Conf" = "Insulinkvoter";
 
 /* Closed loop */
-"Closed loop" = "Closed loop";
+"Closed loop" = "Sluten loop";
 
 /* Configuration */
 "Configuration" = "Konfiguration";
