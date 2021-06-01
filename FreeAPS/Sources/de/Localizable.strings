@@ -3,10 +3,10 @@
   FreeAPS X
 */
 /* Add insulin without actually bolusing */
-"Add insulin without actually bolusing" = "Add insulin without actually bolusing";
+"Add insulin without actually bolusing" = "Insulin hinzufügen ohne Insulin Abgabe";
 
 /* Amount */
-"Amount Bolus" = "Amount Bolus";
+"Amount Bolus" = "Bolus Menge";
 
 /* Bolus */
 "Bolus" = "Bolus";
