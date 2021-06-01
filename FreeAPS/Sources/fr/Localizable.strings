@@ -42,116 +42,116 @@
 "Disclaimer" = "Avertissement";
 
 /* Disclaimer Description */
-"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions.";
+"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X est une application en cours de développement. Nous ne recommandons pas son utilisation au quotidien pour gérer son diabète. A utiliser pour test seulement et à vos risques et périls. Nous ne sommes pas responsable de vos décisions et actions suite à l'utilisation/recommandations de l'application.";
 
 /* %d min ago
 %d min ago */
-"%d min ago" = "%d min ago";
+"%d min ago" = "il y a %d min";
 
 /* Enacted at a date */
-"Enacted at %@" = "Enacted at %@";
+"Enacted at %@" = "Injection à %@";
 
 /* Home title */
-"Home" = "Home";
+"Home" = "Page d'accueil";
 
 /* Looping in progress */
-"looping" = "looping";
+"looping" = "Boucle en cours";
 
 /* Status Title : No Suggestion */
-"No suggestion" = "No suggestion";
+"No suggestion" = "Aucune suggestion";
 
 /* Replace pod */
-"Replace pod" = "Replace pod";
+"Replace pod" = "Remplacer le pod";
 
 /* Status Title : Suggest */
-"Suggested" = "Suggested";
+"Suggested" = "Suggéré";
 
 /* Suggested at a date */
-"Suggested at %@" = "Suggested at %@";
+"Suggested at %@" = "Suggéré à %@";
 
 /* Add Carbs */
-"Add Carbs" = "Add Carbs";
+"Add Carbs" = "Ajouter des glucides";
 
 /* Amount Carbs */
-"Amount Carbs" = "Amount Carbs";
+"Amount Carbs" = "Quantité de Glucides";
 
 /* Grams unit */
-"grams" = "grams";
+"grams" = "grammes";
 
 /* A you sure delete preset? */
-"A you sure?" = "A you sure?";
+"A you sure?" = "Êtes-vous sûr ?";
 
 /* Bottom target temp */
-"Bottom target" = "Bottom target";
+"Bottom target" = "Cible inférieure";
 
 /* Cancel preset name */
-"Cancel" = "Cancel";
+"Cancel" = "Annuler";
 
 /* Cancel Temp Target */
-"Cancel Temp Target" = "Cancel Temp Target";
+"Cancel Temp Target" = "Annuler la cible temporaire";
 
 /* Custom target temp */
-"Custom" = "Custom";
+"Custom" = "Personnalisé";
 
 /* Date */
 "Date" = "Date";
 
 /* Delete */
-"Delete" = "Delete";
+"Delete" = "Supprimer";
 
 /* Delete preset %@ */
-"Delete preset %@" = "Delete preset %@";
+"Delete preset %@" = "Supprimer le préréglage %@";
 
 /* Duration target temp */
-"Duration" = "Duration";
+"Duration" = "Durée";
 
 /* Enact Temp Target */
-"Enact Temp Target" = "Enact Temp Target";
+"Enact Temp Target" = "Activer la cible temporaire";
 
 /* Enter preset name */
-"Enter preset name" = "Enter preset name";
+"Enter preset name" = "Entrez le nom de la présélection";
 
 /* minutes target temp */
 "minutes" = "minutes";
 
 /* Presets title */
-"Presets" = "Presets";
+"Presets" = "Présélections";
 
 /* Save preset name */
-"Save" = "Save";
+"Save" = "Sauvegarder";
 
 /* Save as preset */
-"Save as preset" = "Save as preset";
+"Save as preset" = "Sauvegarder comme pré-réglage";
 
 /* Top target temp */
-"Top target" = "Top target";
+"Top target" = "Cible haute";
 
 /* Autotune Title */
 "Autotune" = "Autotune";
 
 /* Basal profile */
-"Basal profile" = "Basal profile";
+"Basal profile" = "Profil Basal";
 
 /* Carb ratio */
-"Carb ratio" = "Carb ratio";
+"Carb ratio" = "Ratio de Glucides";
 
 /* Delete autotune data */
-"Delete autotune data" = "Delete autotune data";
+"Delete autotune data" = "Effacer les données de Autotune";
 
 /* Run now */
-"Run now" = "Run now";
+"Run now" = "Lancer maintenant";
 
 /* Sensitivity */
-"Sensitivity" = "Sensitivity";
+"Sensitivity" = "Sensibilité";
 
 /* Use Autotune */
-"Use Autotune" = "use Autotune";
+"Use Autotune" = "utiliser Autotune";
 
 /* Add profile basal */
-"Add" = "Add";
+"Add" = "Ajouter";
 
 /* Basal Profile */
-"Basal Profile" = "Basal Profile";
+"Basal Profile" = "Définir profil basal";
 
 /* Rate basal profile */
 "Rate" = "Rate";
@@ -304,64 +304,64 @@
 "Autotune Conf" = "Autotune";
 
 /* Basal Profile */
-"Basal Profile Conf" = "Basal Profile";
+"Basal Profile Conf" = "Profil Basal";
 
 /* Carb Ratios */
-"Carb Ratios Conf" = "Carb Ratios";
+"Carb Ratios Conf" = "Ratios Glucides";
 
 /* Closed loop */
-"Closed loop" = "Closed loop";
+"Closed loop" = "Boucle fermée";
 
 /* Configuration */
 "Configuration" = "Configuration";
 
 /* Devices */
-"Devices" = "Devices";
+"Devices" = "Appareils";
 
 /* Insulin Sensitivities */
-"Insulin Sensitivities Conf" = "Insulin Sensitivities";
+"Insulin Sensitivities Conf" = "Facteurs de sensibilité à l'insuline";
 
 /* Preferences */
-"Preferences Conf" = "Preferences";
+"Preferences Conf" = "Préférences";
 
 /* Pump */
-"Pump" = "Pump";
+"Pump" = "Pompe";
 
 /* Pump Settings */
-"Pump Settings Conf" = "Pump Settings";
+"Pump Settings Conf" = "Paramètres de la pompe";
 
 /* Services */
 "Services" = "Services";
 
 /* Settings */
-"Settings" = "Settings";
+"Settings" = "Paramètres";
 
 /* Share logs */
-"Share logs" = "Share logs";
+"Share logs" = "Partager les logs";
 
 /* Target Ranges */
-"Target Ranges Conf" = "Target Ranges";
+"Target Ranges Conf" = "Zone cible";
 
 /* High target */
-"High target" = "High target";
+"High target" = "Cible haute";
 
 /* Low target */
-"Low target" = "Low target";
+"Low target" = "Cible basse";
 
 /* Target Ranges */
-"Target Ranges" = "Target Ranges";
+"Target Ranges" = "Zone cible";
 
 /* Bolusing.. */
-"Bolusing" = "Bolusing";
+"Bolusing" = "Bolus en cours";
 
 /* Pump suspended */
-"Pump suspended" = "Pump suspended";
+"Pump suspended" = "Pompe suspendue";
 
 /* middleware */
 "Middleware" = "Middleware";
 
 /* Clear */
-"Clear" = "Clear";
+"Clear" = "Effacer";
 
 /* Done */
-"Done" = "Done";
+"Done" = "Terminé";
