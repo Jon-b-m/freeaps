@@ -154,28 +154,28 @@
 "Basal Profile" = "Définir profil basal";
 
 /* Rate basal profile */
-"Rate" = "Rate";
+"Rate" = "Taux";
 
 /* Save on Pump */
-"Save on Pump" = "Save on Pump";
+"Save on Pump" = "Enregistrer sur la pompe";
 
 /* Saving... */
-"Saving..." = "Saving...";
+"Saving..." = "Sauvegarde...";
 
 /* Schedule */
-"Schedule" = "Schedule";
+"Schedule" = "Horaires";
 
 /* starts at */
-"starts at" = "starts at";
+"starts at" = "commence à";
 
 /* Time basal profile */
-"Time" = "Time";
+"Time" = "Heure";
 
 /* Calculated Ratio */
-"Calculated Ratio" = "Calculated Ratio";
+"Calculated Ratio" = "Ratio calculé";
 
 /* Carb Ratios Title */
-"Carb Ratios" = "Carb Ratios";
+"Carb Ratios" = "Ratios Glucides";
 
 /* Ratio Carb */
 "Ratio" = "Ratio";
@@ -184,58 +184,58 @@
 "Autosens" = "Autosens";
 
 /* Calculated Sensitivity */
-"Calculated Sensitivity" = "Calculated Sensitivity";
+"Calculated Sensitivity" = "Sensibilité calculée";
 
 /* Insulin Sensitivities */
-"Insulin Sensitivities" = "Insulin Sensitivities";
+"Insulin Sensitivities" = "Facteurs de sensibilité à l'insuline";
 
 /* Sensitivity Ratio */
-"Sensitivity Ratio" = "Sensitivity Ratio";
+"Sensitivity Ratio" = "Ratio de sensibilité";
 
 /* Dismiss */
-"Dismiss" = "Dismiss";
+"Dismiss" = "Abandonner";
 
 /* Important message */
-"Important message" = "Important message";
+"Important message" = "Message important";
 
 /* Amount */
-"Amount" = "Amount";
+"Amount" = "Quantité";
 
 /* Cancel Temp Basal */
-"Cancel Temp Basal" = "Cancel Temp Basal";
+"Cancel Temp Basal" = "Annuler Basal Temp";
 
 /* Duration */
-"Duration" = "Duration";
+"Duration" = "Durée";
 
 /* Enact temp Basal*/
-"Enact" = "Enact";
+"Enact" = "Injecter";
 
 /* Manual Temp Basal */
-"Manual Temp Basal" = "Manual Temp Basal";
+"Manual Temp Basal" = "Basal temporaire manuel";
 
 /* Allow uploads */
-"Allow uploads" = "Allow uploads";
+"Allow uploads" = "Autoriser les téléchargements";
 
 /* API secret */
 "API secret" = "API secret";
 
 /* Connect */
-"Connect" = "Connect";
+"Connect" = "Se connecter";
 
 /* Connected! */
-"Connected!" = "Connected!";
+"Connected!" = "Connecté !";
 
 /* Connecting... */
-"Connecting..." = "Connecting...";
+"Connecting..." = "En cours de connexion ...";
 
 /* Invalid URL */
-"Invalid URL" = "Invalid URL";
+"Invalid URL" = "URL invalide";
 
 /* Local glucose source */
-"Local glucose source" = "Local glucose source";
+"Local glucose source" = "Source locale de glucose";
 
 /* Nightscout Config */
-"Nightscout Config" = "Nightscout Config";
+"Nightscout Config" = "Informations Nightscout";
 
 /* Port */
 "Port" = "Port";
@@ -244,61 +244,61 @@
 "URL" = "URL";
 
 /* Use local glucose server */
-"Use local glucose server" = "Use local glucose server";
+"Use local glucose server" = "Utiliser le serveur de glucose local";
 
 /* Edit settings json */
-"Edit settings json" = "Edit settings json";
+"Edit settings json" = "Modifier les paramètres json";
 
 /* Glucose units */
-"Glucose units" = "Glucose units";
+"Glucose units" = "Unités glycémie";
 
 /* Preferences */
-"Preferences" = "Preferences";
+"Preferences" = "Préférences";
 
 /* Recommended Insulin Fraction */
-"Recommended Insulin Fraction" = "Recommended Insulin Fraction";
+"Recommended Insulin Fraction" = "Fraction Insuline Recommandée";
 
 /* Remote control */
-"Remote control" = "Remote control";
+"Remote control" = "Contrôle à distance";
 
 /* Add Medtronic */
-"Add Medtronic" = "Add Medtronic";
+"Add Medtronic" = "Ajouter une pompe Medtronic";
 
 /* Add Omnipod */
-"Add Omnipod" = "Add Omnipod";
+"Add Omnipod" = "Ajouter une pompe Omnipod";
 
 /* Add Simulator */
-"Add Simulator" = "Add Simulator";
+"Add Simulator" = "Ajouter un simulateur";
 
 /* Model */
-"Model" = "Model";
+"Model" = "Modèle";
 
 /* Pump config */
-"Pump config" = "Pump config";
+"Pump config" = "Configuration de la pompe";
 
 /* Delivery limits */
-"Delivery limits" = "Delivery limits";
+"Delivery limits" = "Limites d’administration";
 
 /* Duration of Insulin Action */
-"Duration of Insulin Action" = "Duration of Insulin Action";
+"Duration of Insulin Action" = "Durée d'Action de l'Insuline";
 
 /* hours */
-"hours" = "hours";
+"hours" = "heures";
 
 /* Max Basal */
-"Max Basal" = "Max Basal";
+"Max Basal" = "Basal maximum";
 
 /* Max Bolus */
-"Max Bolus" = "Max Bolus";
+"Max Bolus" = "Bolus max";
 
 /* Pump Settings */
-"Pump Settings" = "Pump Settings";
+"Pump Settings" = "Paramètres de la pompe";
 
 /* Save on Pump */
-"Save on Pump" = "Save on Pump";
+"Save on Pump" = "Enregistrer sur la pompe";
 
 /* U/hr */
-"U/hr" = "U/hr";
+"U/hr" = "U/h";
 
 /* Autotune */
 "Autotune Conf" = "Autotune";
