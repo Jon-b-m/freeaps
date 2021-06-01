@@ -12,16 +12,16 @@
 "Bolus" = "Bolus";
 
 /* Close */
-"Close" = "Close";
+"Close" = "Schließen";
 
 /* Continue without bolus */
-"Continue without bolus" = "Continue without bolus";
+"Continue without bolus" = "Ohne Bolus Abgabe fortfahren";
 
 /* Enact Bolus */
-"Enact Bolus" = "Enact Bolus";
+"Enact Bolus" = "Bolus eingeben";
 
 /* Enact bolus */
-"Enact bolus" = "Enact bolus";
+"Enact bolus" = "Bolus eingeben";
 
 /* Insulin recommended */
 "Insulin recommended" = "Empfohlenes Insulin";
@@ -39,41 +39,41 @@
 "Agree and continue" = "Zustimmen und fortfahren";
 
 /* Disclaimer */
-"Disclaimer" = "Disclaimer";
+"Disclaimer" = "Haftungsausschluss";
 
 /* Disclaimer Description */
-"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions.";
+"FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X befindet sich noch in der Entwicklung. Wir empfehlen das System nicht zur alltäglichen Kontrolle Ihres Blutzuckers zu verwenden. Verwendung bitte nur zu Testzwecken und auf eigenes Risiko. Wir können keine Verantwortung für Ihre Entscheidungen und Aktionen übernehmen.";
 
 /* %d min ago
 %d min ago */
-"%d min ago" = "%d min ago";
+"%d min ago" = "vor %d Minute";
 
 /* Enacted at a date */
-"Enacted at %@" = "Enacted at %@";
+"Enacted at %@" = "Ausgelöst bei %@";
 
 /* Home title */
-"Home" = "Home";
+"Home" = "Startseite";
 
 /* Looping in progress */
 "looping" = "looping";
 
 /* Status Title : No Suggestion */
-"No suggestion" = "No suggestion";
+"No suggestion" = "Kein Vorschlag";
 
 /* Replace pod */
-"Replace pod" = "Replace pod";
+"Replace pod" = "Pod ersetzen";
 
 /* Status Title : Suggest */
-"Suggested" = "Suggested";
+"Suggested" = "Empfohlen";
 
 /* Suggested at a date */
-"Suggested at %@" = "Suggested at %@";
+"Suggested at %@" = "Empfohlen bei %@";
 
 /* Add Carbs */
-"Add Carbs" = "Add Carbs";
+"Add Carbs" = "Kohlenhydrate hinzufügen";
 
 /* Amount Carbs */
-"Amount Carbs" = "Amount Carbs";
+"Amount Carbs" = "Kohlenhydratmenge";
 
 /* Grams unit */
 "grams" = "grams";
