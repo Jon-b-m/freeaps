@@ -6,7 +6,7 @@
 
 "Add insulin without actually bolusing" = "Lägg till insulin utan att ge bolus";
 
-"Amount Bolus" = "Mängd insulin";
+// "Amount Bolus" = "Amount Bolus"; Not used?
 
 "Bolus" = "Bolus";
 
