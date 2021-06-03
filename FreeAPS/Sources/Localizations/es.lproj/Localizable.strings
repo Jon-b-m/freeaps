@@ -6,7 +6,7 @@
 
 "Add insulin without actually bolusing" = "Añadir insulinar sin administrar bolo";
 
-"Amount Bolus" = "Bolo (unidades)";
+// "Amount Bolus" = "Amount Bolus"; Not used?
 
 "Bolus" = "Bolo";
 

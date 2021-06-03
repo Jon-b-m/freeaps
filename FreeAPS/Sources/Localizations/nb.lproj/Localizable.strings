@@ -6,7 +6,7 @@
 
 "Add insulin without actually bolusing" = "Legg til insulin uten å gi bolus";
 
-"Amount Bolus" = "Bolusstørrelse";
+// "Amount Bolus" = "Amount Bolus"; Not used?
 
 "Bolus" = "Bolus";
 
@@ -55,61 +55,61 @@
 "Home" = "Hjem";
 
 /* Looping in progress */
-"looping" = "looping";
+"looping" = "looper";
 
 /* %d min ago, currently not being translated, I don't know why? */
-"%d min ago" = "%d min ago";
+"%d min ago" = "%d min siden";
 
 /* Status Title */
-"No suggestion" = "No suggestion";
+"No suggestion" = "Ingen forslag";
 
 /* Replace pod text in Header */
-"Replace pod" = "Replace pod";
+"Replace pod" = "Bytt pod";
 
 /* Suggested at a date */
-"Suggested at %@" = "Suggested at %@";
+"Suggested at %@" = "Foreslått kl. %@";
 
 /* Add carbs screen */
-"Add Carbs" = "Add Carbs";
+"Add Carbs" = "Legg til karbohydrater";
 
 /*  */
-"Amount Carbs" = "Amount Carbs";
+"Amount Carbs" = "Mengde karbo";
 
 /* Grams unit */
-"grams" = "grams";
+"grams" = "gram";
 
 /* A you sure? Typo in code */
-"A you sure?" = "A you sure?";
+"A you sure?" = "Er du sikker?";
 
 /* Are your sure? Typo in code*/
-"Are your sure?" = "Are you sure?";
+"Are your sure?" = "Er du sikker?";
 
 /* Bottom target temp */
-"Bottom target" = "Bottom target";
+"Bottom target" = "Nedre mål";
 
 /* Cancel preset name */
-"Cancel" = "Cancel";
+"Cancel" = "Avbryt";
 
 /*  */
-"Cancel Temp Target" = "Cancel Temp Target";
+"Cancel Temp Target" = "Avbryt midlertidig mål";
 
 /* Custom temp target */
-"Custom" = "Custom";
+"Custom" = "Egendefinert";
 
 /*  */
-"Date" = "Date";
+"Date" = "Dato";
 
 /*  */
-"Delete" = "Delete";
+"Delete" = "Slett";
 
 /* Delete preset temp target */
-"Delete preset \"%@\"" = "Delete preset \"%@\"";
+"Delete preset \"%@\"" = "Slett forhåndsinnstilling \"%@\"";
 
 /* Duration of target temp */
-"Duration" = "Duration";
+"Duration" = "Varighet";
 
 /*  */
-"Enact Temp Target" = "Enact Temp Target";
+"Enact Temp Target" = "Start midlertidig mål";
 
 /*  */
 "Enter preset name" = "Enter preset name";

@@ -6,7 +6,7 @@
 
 "Add insulin without actually bolusing" = "Insulin ohne tatsächliche Bolusabgabe erfassen";
 
-"Amount Bolus" = "Bolus IE";
+// "Amount Bolus" = "Amount Bolus"; Not used?
 
 "Bolus" = "Bolus";
 
