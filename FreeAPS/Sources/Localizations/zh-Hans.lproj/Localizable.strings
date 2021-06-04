@@ -4,20 +4,20 @@
 */
 /* Bolus screen when adding insulin */
 
-"Add insulin without actually bolusing" = "Add insulin without actually bolusing";
+"Add insulin without actually bolusing" = "在没有实际注射的情况下添加活性胰岛素";
 
-"Bolus" = "Bolus";
+"Bolus" = "大剂量";
 
-"Close" = "Close";
+"Close" = "关闭";
 
 /* Continue after added carbs without bolus */
 "Continue without bolus" = "Continue without bolus";
 
 /* Header */
-"Enact Bolus" = "Enact Bolus";
+"Enact Bolus" = "注射大剂量";
 
 /* Button */
-"Enact bolus" = "Enact bolus";
+"Enact bolus" = "注射大剂量";
 
 /*  */
 "Insulin recommended" = "Insulin recommended";
