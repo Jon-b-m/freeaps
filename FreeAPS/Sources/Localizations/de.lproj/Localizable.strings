@@ -101,7 +101,7 @@
 "Delete" = "Löschen";
 
 /* Delete preset temp target */
-"Delete preset \"%@\"" = "Voreinstellung \"%@\" löschen";
+"Delete preset \"%@\"" = "Preset \"%@\" löschen";
 
 /* Duration of target temp */
 "Duration" = "Dauer";
@@ -110,19 +110,19 @@
 "Enact Temp Target" = "Temporäres Ziel (TT) starten";
 
 /*  */
-"Enter preset name" = "Geben Sie einen Namen für die Voreinstellung ein";
+"Enter preset name" = "Geben Sie einen Namen für das Preset ein";
 
 /* minutes of target temp */
 "minutes" = "Minuten";
 
 /*  */
-"Presets" = "Voreinstellungen";
+"Presets" = "Presets";
 
 /* Save preset name */
 "Save" = "Speichern";
 
 /*  */
-"Save as preset" = "Als Voreinstellung speichern";
+"Save as preset" = "Als Preset speichern";
 
 /* Upper temp target limit */
 "Top target" = "Obergrenze";
@@ -236,7 +236,7 @@
 "Local glucose source" = "Lokale BZ-Quelle";
 
 /* Header */
-"Nightscout Config" = "Nightscout-Konfiguration";
+"Nightscout Config" = "Nightscout Konfiguration";
 
 /*  */
 "Port" = "Port";
