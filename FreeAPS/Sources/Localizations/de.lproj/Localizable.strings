@@ -47,7 +47,7 @@
 "FreeAPS X is in an active development state. We do not recommend to use the system for everyday control of blood glucose! Use it for testing purposes only at your own risk. We are not responsible for your decisions and actions." = "FreeAPS X befindet sich noch in der Entwicklung. Wir empfehlen das System nicht zur alltäglichen Kontrolle Ihres Blutzuckers zu verwenden. Verwendung bitte nur zu Testzwecken und auf eigenes Risiko. Wir können keine Verantwortung für Ihre Entscheidungen und Aktionen übernehmen.";
 
 /* Enacted at a date */
-"Enacted at %@" = "Ausgelöst bei %@";
+"Enacted at %@" = "Gestartet um %@";
 
 /* Home title */
 "Home" = "Startseite";
@@ -65,7 +65,7 @@
 "Replace pod" = "Pod ersetzen";
 
 /* Suggested at a date */
-"Suggested at %@" = "Empfohlen am %@";
+"Suggested at %@" = "Empfohlen um %@";
 
 /* Add carbs screen */
 "Add Carbs" = "Kohlenhydrate hinzufügen";
