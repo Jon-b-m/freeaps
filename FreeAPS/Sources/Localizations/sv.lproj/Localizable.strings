@@ -302,13 +302,13 @@
 "U/hr" = "IE/h";
 
 /* Unit in number of units delivered (keep the space character!) */
-" U" = " U";
+" U" = " IE";
 
 /* /Insulin unit */
-"/U" = "/U";
+"/U" = "/IE";
 
 /* Insulin unit */
-"U" = "U";
+"U" = "IE";
 
 /* */
 "Autotune Conf" = "Autotune";
