@@ -77,7 +77,7 @@
 "grams" = "gram";
 
 /*  */
-"Carbs required" = "Carbs required";
+"Carbs required" = "Kolhydrater som krävs";
 
 /* A you sure? Typo in code */
 "A you sure?" = "Är du säker?";
@@ -323,7 +323,7 @@
 "%@ U" = "%@ IE";
 
 /*Carb ratio unit */
-"g/U" = "g/U";
+"g/U" = "g/IE";
 
 /* */
 "Autotune Conf" = "Autotune";
