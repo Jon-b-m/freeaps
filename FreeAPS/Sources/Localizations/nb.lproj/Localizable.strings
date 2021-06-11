@@ -106,8 +106,8 @@
 /* Delete preset temp target */
 "Delete preset \"%@\"" = "Slett forhåndsinnstilling \"%@\"";
 
-/* Duration of target temp */
-"Duration" = "Duration";
+/* Duration of target temp or temp basal */
+"Duration" = "Varighet";
 
 /*  */
 "Enact Temp Target" = "Start midlertidig mål";
@@ -207,9 +207,6 @@
 
 /* */
 "Cancel Temp Basal" = "Cancel Temp Basal";
-
-/*  */
-"Duration" = "Varighet";
 
 /* Enact temp Basal*/
 "Enact" = "Enact";
