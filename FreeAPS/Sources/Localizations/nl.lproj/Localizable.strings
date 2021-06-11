@@ -106,7 +106,7 @@
 /* Delete preset temp target */
 "Delete preset \"%@\"" = "Voorinstelling \"%@\" verwijderen";
 
-/* Duration of target temp */
+/* Duration of target temp or temp basal */
 "Duration" = "Duur";
 
 /*  */
@@ -207,9 +207,6 @@
 
 /* */
 "Cancel Temp Basal" = "Annuleer tijdelijke basaal";
-
-/*  */
-"Duration" = "Duur";
 
 /* Enact temp Basal*/
 "Enact" = "Uitvoeren";
