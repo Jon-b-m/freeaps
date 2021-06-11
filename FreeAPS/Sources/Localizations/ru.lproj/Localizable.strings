@@ -106,7 +106,7 @@
 /* Delete preset temp target */
 "Delete preset \"%@\"" = "Удалить шаблон \"%@\"";
 
-/* Duration of target temp */
+/* Duration of target temp or temp basal */
 "Duration" = "Длительность";
 
 /*  */
@@ -207,9 +207,6 @@
 
 /* */
 "Cancel Temp Basal" = "Отменить ВБС";
-
-/*  */
-"Duration" = "Длительность";
 
 /* Enact temp Basal*/
 "Enact" = "Запустить";
