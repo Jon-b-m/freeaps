@@ -106,7 +106,7 @@
 /* Delete preset temp target */
 "Delete preset \"%@\"" = "Ta bort förval \"%@\"";
 
-/* Duration of target temp */
+/* Duration of target temp or temp basal */
 "Duration" = "Duration";
 
 /*  */
@@ -207,9 +207,6 @@
 
 /* */
 "Cancel Temp Basal" = "Avbryt temporär basal";
-
-/*  */
-"Duration" = "Duration";
 
 /* Enact temp Basal*/
 "Enact" = "Utför";
