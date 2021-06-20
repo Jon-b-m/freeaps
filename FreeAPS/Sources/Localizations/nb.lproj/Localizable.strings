@@ -6,6 +6,9 @@
 
 "Add insulin without actually bolusing" = "Legg til insulin uten å gi bolus";
 
+/* Add insulin from source outside of pump */
+"Add %@ without bolusing" = "Add %@ without bolusing";
+
 "Bolus" = "Bolus";
 
 "Close" = "Lukk";
