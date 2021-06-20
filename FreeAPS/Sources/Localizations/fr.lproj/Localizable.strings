@@ -6,6 +6,9 @@
 
 "Add insulin without actually bolusing" = "Ajouter de l'insuline sans bolus";
 
+/* Add insulin from source outside of pump */
+"Add %@ without bolusing" = "Add %@ without bolusing";
+
 "Bolus" = "Bolus";
 
 "Close" = "Fermer";
