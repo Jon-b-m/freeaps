@@ -60,7 +60,7 @@
 
 /* min ago
 min ago, Time since last loop */
-"%d min ago" = "%d хв тому";
+"%d min ago" = "хв тому";
 
 /* Status Title */
 "No suggestion" = "Нема рекомендацій";
