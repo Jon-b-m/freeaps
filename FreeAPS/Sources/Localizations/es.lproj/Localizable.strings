@@ -58,7 +58,8 @@
 /* Looping in progress */
 "looping" = "En bucle";
 
-/* %d min ago, Time since last loop */
+/* min ago
+min ago, Time since last loop */
 "%d min ago" = "Hace %d mins";
 
 /* Status Title */
