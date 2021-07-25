@@ -60,7 +60,7 @@
 
 /* min ago
 min ago, Time since last loop */
-"%d min ago" = "%d minuti fa";
+"%d min ago" = "minuti fa";
 
 /* Status Title */
 "No suggestion" = "Nessun suggerimento";
