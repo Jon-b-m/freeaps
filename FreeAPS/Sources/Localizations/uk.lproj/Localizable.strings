@@ -58,7 +58,8 @@
 /* Looping in progress */
 "looping" = "в процесі";
 
-/* %d min ago, Time since last loop */
+/* min ago
+min ago, Time since last loop */
 "%d min ago" = "%d хв тому";
 
 /* Status Title */
