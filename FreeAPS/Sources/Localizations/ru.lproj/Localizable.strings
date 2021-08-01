@@ -59,7 +59,7 @@
 "looping" = "выполняется";
 
 /* min ago since last loop */
-"min ago" = "min ago";
+"min ago" = "мин. назад";
 
 /* Status Title */
 "No suggestion" = "Нет предложений";
