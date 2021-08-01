@@ -58,9 +58,8 @@
 /* Looping in progress */
 "looping" = "looper";
 
-/* min ago
-min ago, Time since last loop */
-"%d min ago" = "min siden";
+/* min ago since last loop */
+"min ago" = "min ago";
 
 /* Status Title */
 "No suggestion" = "Ingen forslag";
