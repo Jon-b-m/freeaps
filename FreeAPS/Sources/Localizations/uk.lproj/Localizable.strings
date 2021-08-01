@@ -59,7 +59,7 @@
 "looping" = "в процесі";
 
 /* min ago since last loop */
-"min ago" = "min ago";
+"min ago" = "хв тому";
 
 /* Status Title */
 "No suggestion" = "Нема рекомендацій";
