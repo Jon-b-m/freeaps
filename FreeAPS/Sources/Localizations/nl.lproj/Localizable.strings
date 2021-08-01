@@ -59,7 +59,7 @@
 "looping" = "Loopen";
 
 /* min ago since last loop */
-"min ago" = "min ago";
+"min ago" = "minuten geleden";
 
 /* Status Title */
 "No suggestion" = "Geen suggestie";
