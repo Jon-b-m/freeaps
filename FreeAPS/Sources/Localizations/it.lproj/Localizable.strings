@@ -58,9 +58,8 @@
 /* Looping in progress */
 "looping" = "loop attivo";
 
-/* min ago
-min ago, Time since last loop */
-"%d min ago" = "minuti fa";
+/* min ago since last loop */
+"min ago" = "min ago";
 
 /* Status Title */
 "No suggestion" = "Nessun suggerimento";
