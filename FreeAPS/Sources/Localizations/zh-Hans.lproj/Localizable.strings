@@ -59,7 +59,7 @@
 "looping" = "闭环中";
 
 /* min ago since last loop */
-"min ago" = "min ago";
+"min ago" = "分钟前";
 
 /* Status Title */
 "No suggestion" = "暂无建议";
