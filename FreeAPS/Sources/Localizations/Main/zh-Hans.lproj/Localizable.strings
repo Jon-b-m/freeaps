@@ -131,7 +131,7 @@
 "Top target" = "血糖上限";
 
 /*  */
-"Autotune" = "Autotune";
+"Autotune" = "自动调谐";
 
 /*  */
 "Basal profile" = "基础率配置文件";
@@ -185,7 +185,7 @@
 "Ratio" = "比率";
 
 /*  */
-"Autosens" = "Autosens";
+"Autosens" = "自动传输";
 
 /*  */
 "Calculated Sensitivity" = "计算的敏感系数";
@@ -219,7 +219,7 @@ Enact a temp Basal or a temp target */
 "Allow uploads" = "允许上传";
 
 /* API secret in NS */
-"API secret" = "API secret";
+"API secret" = "API密钥";
 
 /* Connect to NS */
 "Connect" = "连接";
@@ -240,10 +240,10 @@ Enact a temp Basal or a temp target */
 "Nightscout Config" = "Nightscout配置";
 
 /*  */
-"Port" = "Port";
+"Port" = "端口";
 
 /*  */
-"URL" = "URL";
+"URL" = "网址：";
 
 /**/
 "Use local glucose server" = "使用本地端口获取血糖";
@@ -303,7 +303,7 @@ Enact a temp Basal or a temp target */
 "U/hr" = "U/小时";
 
 /* Unit in number of units delivered (keep the space character!) */
-" U" = " U";
+" U" = "U";
 
 /* /Insulin unit */
 "/U" = "/U";
