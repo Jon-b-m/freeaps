@@ -7,7 +7,7 @@
 "Add insulin without actually bolusing" = "Ajouter de l'insuline sans bolus";
 
 /* Add insulin from source outside of pump */
-"Add %@ without bolusing" = "Add %@ without bolusing";
+"Add %@ without bolusing" = "Ajouter %@ sans injection de bolus";
 
 "Bolus" = "Bolus";
 
@@ -80,7 +80,7 @@
 "grams" = "grammes";
 
 /*  */
-"Carbs required" = "Carbs required";
+"Carbs required" = "Glucides requis";
 
 /* */
 "Are you sure?" = "Êtes-vous sûr ?";
@@ -116,7 +116,7 @@
 "Enter preset name" = "Entrer le nom du préréglage";
 
 /* Preset name */
-"Name" = "Name";
+"Name" = "Nom";
 
 /* minutes of target temp */
 "minutes" = "minutes";
@@ -315,10 +315,10 @@ Enact a temp Basal or a temp target */
 "U" = "U";
 
 /* Unit per hour with space */
-" U/hr" = " U/hr";
+" U/hr" = " U/h";
 
 /* Number of units per hour*/
-"%@ U/hr" = "%@ U/hr";
+"%@ U/hr" = "%@ U/h";
 
 /* Number of units insulin delivered */
 "%@ U" = "%@ U";
@@ -330,10 +330,10 @@ Enact a temp Basal or a temp target */
 " g" = " g";
 
 /* when 0 U/hr */
-"0 U/hr" = "0 U/hr";
+"0 U/hr" = "0 U/h";
 
 /* abbreviation for days */
-"d" = "d";
+"d" = "j";
 
 /* abbreviation for hours */
 "h" = "h";
@@ -410,19 +410,19 @@ Enact a temp Basal or a temp target */
 */
 /* ”Rewind Resets Autosens” */
 
-"This feature, enabled by default, resets the autosens ratio to neutral when you rewind your pump, on the assumption that this corresponds to a probable site change. Autosens will begin learning sensitivity anew from the time of the rewind, which may take up to 6 hours. If you usually rewind your pump independently of site changes, you may want to consider disabling this feature." = "This feature, enabled by default, resets the autosens ratio to neutral when you rewind your pump, on the assumption that this corresponds to a probable site change. Autosens will begin learning sensitivity anew from the time of the rewind, which may take up to 6 hours. If you usually rewind your pump independently of site changes, you may want to consider disabling this feature.";
+"This feature, enabled by default, resets the autosens ratio to neutral when you rewind your pump, on the assumption that this corresponds to a probable site change. Autosens will begin learning sensitivity anew from the time of the rewind, which may take up to 6 hours. If you usually rewind your pump independently of site changes, you may want to consider disabling this feature." = "Cette fonctionnalité, activée par défaut, réinitialise le ratio autosens à neutre lorsque vous changez votre pompe/site en se basant sur l'hypothèse que cela correspond à un changement probable de site. L’Autosens reprendra l’apprentissage de la sensibilité à partir du changement de site, ce qui peut prendre jusqu’à 6 heures. Si vous ré-initialisez votre pompe indépendamment d'un changement de site, vous pouvez envisager de désactiver cette fonctionnalité.";
 
 /* ”High Temptarget Raises Sensitivity" */
-"Defaults to false. When set to true, raises sensitivity (lower sensitivity ratio) for temp targets set to >= 111. Synonym for exercise_mode. The higher your temp target above 110 will result in more sensitive (lower) ratios, e.g., temp target of 120 results in sensitivity ratio of 0.75, while 140 results in 0.6 (with default halfBasalTarget of 160)." = "Defaults to false. When set to true, raises sensitivity (lower sensitivity ratio) for temp targets set to >= 111. Synonym for exercise_mode. The higher your temp target above 110 will result in more sensitive (lower) ratios, e.g., temp target of 120 results in sensitivity ratio of 0.75, while 140 results in 0.6 (with default halfBasalTarget of 160).";
+"Defaults to false. When set to true, raises sensitivity (lower sensitivity ratio) for temp targets set to >= 111. Synonym for exercise_mode. The higher your temp target above 110 will result in more sensitive (lower) ratios, e.g., temp target of 120 results in sensitivity ratio of 0.75, while 140 results in 0.6 (with default halfBasalTarget of 160)." = "Valeur par défaut à faux. Lorsqu'elle est définie à vrai, augmente la sensibilité (ratio de sensibilité inférieure) pour les cibles temporaires à >= 111. Synonyme du mode exercice. Plus votre cible temporaire est élevée, plus les ratios (inférieurs) seront sensibles, par ex. la cible temp de 120 résulte en un ratio de sensibilité de 0,75 tandis que 140 donne 0,6 (avec halfBasalTarget par défaut de 160).";
 
 /* ”Low Temptarget Lowers Sensitivity" */
-"Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160)." = "Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160).";
+"Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160)." = "Valeur par défaut à faux. Lorsqu'elle est définie à vrai, augmente la sensibilité (ratio de sensibilité inférieur) pour les cibles temporaires à <= 99. Plus votre cible temporaire est élevée, plus les ratios (inférieurs) seront sensibles, par ex. la cible temp de 95 résulte en un ratio de sensibilité de 1,09 tandis que 85 donne 1,33 (avec halfBasalTarget par défaut de 160).";
 
 /* ”Sensitivity Raises Target" */
-"When true, raises BG target when autosens detects sensitivity" = "When true, raises BG target when autosens detects sensitivity";
+"When true, raises BG target when autosens detects sensitivity" = "Quand vrai, augmente la cible Glycémie lorsque l'autosens détecte une plus grande sensibilité";
 
 /* ”Resistance Lowers Target" */
-"Defaults to false. When true, will lower BG target when autosens detects resistance" = "Defaults to false. When true, will lower BG target when autosens detects resistance";
+"Defaults to false. When true, will lower BG target when autosens detects resistance" = "Faux par défaut. Quand vrai, réduira la cible de glycémie lorsque l'autosens détecte une résistance à l'insuline";
 
 /* ”Advanced Target Adjustments" */
 "This feature was previously enabled by default but will now default to false (will NOT be enabled automatically) in oref0 0.6.0 and beyond. (There is no need for this with 0.6.0). This feature lowers oref0’s target BG automatically when current BG and eventualBG are high. This helps prevent and mitigate high BG, but automatically switches to low-temping to ensure that BG comes down smoothly toward your actual target. If you find this behavior too aggressive, you can disable this feature. If you do so, please let us know so we can better understand what settings work best for everyone." = "This feature was previously enabled by default but will now default to false (will NOT be enabled automatically) in oref0 0.6.0 and beyond. (There is no need for this with 0.6.0). This feature lowers oref0’s target BG automatically when current BG and eventualBG are high. This helps prevent and mitigate high BG, but automatically switches to low-temping to ensure that BG comes down smoothly toward your actual target. If you find this behavior too aggressive, you can disable this feature. If you do so, please let us know so we can better understand what settings work best for everyone.";
