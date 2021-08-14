@@ -511,8 +511,7 @@ Enact a temp Basal or a temp target */
 /* "Bolus Increment" */
 "Smallest possible bolus amount" = "Kleinste mögliche Bolusmenge";
 
-/* Time of maximum blood glucose lowering effect of insulin, in minutes
-"Insulin Peak Time" */
+/* "Insulin Peak Time" */
 "Maximun blood glucose lowering effect of insulin, in minutes" = "Das Wirkungshoch des Insulins, in Minuten";
 
 /* "Carbs Req Threshold" */
