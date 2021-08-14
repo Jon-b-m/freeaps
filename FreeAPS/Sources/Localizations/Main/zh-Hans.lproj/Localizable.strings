@@ -513,8 +513,7 @@ Enact a temp Basal or a temp target */
 /* "Bolus Increment" */
 "Smallest possible bolus amount" = "可能的最小大剂量输注";
 
-/* Time of maximum blood glucose lowering effect of insulin, in minutes
-"Insulin Peak Time" */
+/* "Insulin Peak Time" */
 "Maximun blood glucose lowering effect of insulin, in minutes" = "胰岛素的最大降血糖作用，以分钟为单位";
 
 /* "Carbs Req Threshold" */
