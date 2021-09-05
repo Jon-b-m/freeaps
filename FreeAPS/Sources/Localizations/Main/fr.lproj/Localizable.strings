@@ -336,7 +336,7 @@ Enact a temp Basal or a temp target */
 "d" = "j";
 
 /* abbreviation for hours */
-"h" = "h";
+"h" = "m";
 
 /* abbreviation for minutes */
 "m" = "m";
