@@ -7,7 +7,7 @@
 "Add insulin without actually bolusing" = "Añadir insulinar sin administrar bolo";
 
 /* Add insulin from source outside of pump */
-"Add %@ without bolusing" = "Add %@ without bolusing";
+"Add %@ without bolusing" = "Añada %@ sin bolo";
 
 "Bolus" = "Bolo";
 
@@ -116,7 +116,7 @@
 "Enter preset name" = "Introduzca nombre del predef";
 
 /* Preset name */
-"Name" = "Name";
+"Name" = "Nombre";
 
 /* minutes of target temp */
 "minutes" = "minutos";
