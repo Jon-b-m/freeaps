@@ -405,10 +405,10 @@ Enact a temp Basal or a temp target */
 "History" = "历史";
 
 /* CGM option */
-/* Type of CGM or glucose source */
+"Upload glucose to Nightscout" = "Upload glucose to Nightscout";
 
-"Upload glucose to Nightscout
-Type" = "Type";
+/* Type of CGM or glucose source */
+"Type" = "Type";
 
 /* CGM */
 "CGM" = "CGM";
