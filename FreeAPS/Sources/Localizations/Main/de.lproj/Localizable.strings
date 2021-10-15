@@ -417,7 +417,7 @@ Enact a temp Basal or a temp target */
 "Transmitter ID" = "Transmitter ID";
 
 /* Other CGM setting */
-"Other" = "Other";
+"Other" = "Sonstiges";
 
 /*
   Infotexts from openaps.docs and androidaps.docs
