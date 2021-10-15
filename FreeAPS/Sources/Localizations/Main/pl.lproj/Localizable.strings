@@ -416,7 +416,7 @@ Połączono z Nightscout!";
 "CGM" = "CGM";
 
 /* CGM Transmitter ID */
-"TRANSMITTER ID" = "TRANSMITTER ID";
+"Transmitter ID" = "Transmitter ID";
 
 /* Other CGM setting */
 "OTHER" = "OTHER";
