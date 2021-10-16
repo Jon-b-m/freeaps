@@ -149,7 +149,7 @@
 "Run now" = "Ejecutar Ahora";
 
 /*  */
-"Last run" = "Last run";
+"Last run" = "Última ejecución";
 
 /*  */
 "Sensitivity" = "Sensibilidad";
@@ -408,19 +408,19 @@ Enact a temp Basal or a temp target */
 "History" = "Historial";
 
 /* CGM option */
-"Upload glucose to Nightscout" = "Upload glucose to Nightscout";
+"Upload glucose to Nightscout" = "Cargar glucosa a Nightscout";
 
 /* Type of CGM or glucose source */
-"Type" = "Type";
+"Type" = "Tipo";
 
 /* CGM */
-"CGM" = "CGM";
+"CGM" = "MCG";
 
 /* CGM Transmitter ID */
-"Transmitter ID" = "Transmitter ID";
+"Transmitter ID" = "ID del transmisor";
 
 /* Other CGM setting */
-"Other" = "Other";
+"Other" = "Otros";
 
 /*
   Infotexts from openaps.docs and androidaps.docs
@@ -452,10 +452,10 @@ Enact a temp Basal or a temp target */
 "Defaults to false, which means by default only the low end of the pump’s BG target range is used as OpenAPS target. This is a safety feature to prevent too-wide targets and less-optimal outcomes. Therefore the higher end of the target range is used only for avoiding bolus wizard overcorrections. Use wide_bg_target_range: true to force neutral temps over a wider range of eventualBGs." = "Por defecto es falso, lo que significa que por defecto sólo el extremo bajo del rango objetivo de glucosa en la bomba se utiliza como objetivo en OpenAPS. Esta es una característica de seguridad para prevenir objetivos demasiado amplios y resultados menos óptimos. Por lo tanto, el extremo más alto del rango objetivo sólo es usado para evitar sobre-correcciones del asistente de bolos. Use wide_bg_target_range: true para forzar temporizaciones neutrales sobre un rango más amplio de valores eventuales de glucosa.";
 
 /* "Skip Neutral Temps" */
-"Defaults to false, so that FreeAPS X will set temps whenever it can, so it will be easier to see if the system is working, even when you are offline. This means FreeAPS X will set a “neutral” temp (same as your default basal) if no adjustments are needed. This is an old setting for OpenAPS to have the options to minimise sounds and notifications from the 'rig', that may wake you up during the night." = "Defaults to false, so that FreeAPS X will set temps whenever it can, so it will be easier to see if the system is working, even when you are offline. This means OpenAPS will set a “neutral” temp (same as your default basal) if no adjustments are needed. This is an old setting for OpenAPS to have the options to minimise sounds and notifications form the 'rig', that may wake you up during the night. ";
+"Defaults to false, so that FreeAPS X will set temps whenever it can, so it will be easier to see if the system is working, even when you are offline. This means FreeAPS X will set a “neutral” temp (same as your default basal) if no adjustments are needed. This is an old setting for OpenAPS to have the options to minimise sounds and notifications from the 'rig', that may wake you up during the night." = "Por defecto es falso, por lo que FreeAPS X establecerá basales temporales siempre que pueda, por lo que será más fácil ver si el sistema está funcionando, incluso cuando esté fuera de línea. Esto significa que OpenAPS establecerá una basal temporal “neutral” (igual que su basal por defecto) si no se necesitan ajustes. Esta es una configuración antigua para que OpenAPS tenga las opciones para minimizar sonidos y notificaciones del 'rig', que puede despertarte durante la noche. ";
 
 /* "Unsuspend If No Temp” */
-"Many people occasionally forget to resume / unsuspend their pump after reconnecting it. If you’re one of them, and you are willing to reliably set a zero temp basal whenever suspending and disconnecting your pump, this feature has your back. If enabled, it will automatically resume / unsuspend the pump if you forget to do so before your zero temp expires. As long as the zero temp is still running, it will leave the pump suspended." = "Many people occasionally forget to resume / unsuspend their pump after reconnecting it. If you’re one of them, and you are willing to reliably set a zero temp basal whenever suspending and disconnecting your pump, this feature has your back. If enabled, it will automatically resume / unsuspend the pump if you forget to do so before your zero temp expires. As long as the zero temp is still running, it will leave the pump suspended.";
+"Many people occasionally forget to resume / unsuspend their pump after reconnecting it. If you’re one of them, and you are willing to reliably set a zero temp basal whenever suspending and disconnecting your pump, this feature has your back. If enabled, it will automatically resume / unsuspend the pump if you forget to do so before your zero temp expires. As long as the zero temp is still running, it will leave the pump suspended." = "Muchas personas de vez en cuando se olvidan de reanudar / dejar de suspender su bomba después de volver a conectarla. Si es uno de ellos, y está dispuesto a establecer de manera fiable una basal temporal cero unidades cada vez que suspenda y desconecte su bomba esta característica es para usted. Si está activado, se reanudará / des-suspenderá automáticamente la bomba si se olvida de hacerlo antes de que expire la basal temporal de cero unidades. Mientras la basal temporal de cero unidades siga funcionando, dejará la bomba suspendida.";
 
 /* "Enable UAM" */
 "With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful, if you forget to tell AndroidAPS about your carbs or estimate your carbs wrong and the amount of entered carbs is wrong or if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose increasments caused by carbs, adrenaline, etc, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose decreasement, it can stop SMBs earlier." = "With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful, if you forget to tell AndroidAPS about your carbs or estimate your carbs wrong and the amount of entered carbs is wrong or if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose increasments caused by carbs, adrenaline, etc, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose decreasement, it can stop SMBs earlier.";
