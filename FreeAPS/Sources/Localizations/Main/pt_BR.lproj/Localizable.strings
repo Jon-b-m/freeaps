@@ -209,41 +209,41 @@
 "Important message" = "Mensagem importante";
 
 /*  */
-"Amount" = "Amount";
+"Amount" = "Quantidade";
 
 /* */
-"Cancel Temp Basal" = "Cancel Temp Basal";
+"Cancel Temp Basal" = "Cancelar Basal Temporária";
 
 /* Enact
 Enact a temp Basal or a temp target */
-"Enact" = "Enact";
+"Enact" = "Executar";
 
 /* */
-"Manual Temp Basal" = "Manual Temp Basal";
+"Manual Temp Basal" = "Basal Temporária Manual";
 
 /* Allow uploads tp NS */
-"Allow uploads" = "Allow uploads";
+"Allow uploads" = "Permitir uploads";
 
 /* API secret in NS */
 "API secret" = "API secret";
 
 /* Connect to NS */
-"Connect" = "Connect";
+"Connect" = "Conectar";
 
 /* Connected to NS */
-"Connected!" = "Connected!";
+"Connected!" = "Conectado!";
 
 /* Connecting to NS */
-"Connecting..." = "Connecting...";
+"Connecting..." = "Conectando...";
 
 /*  */
-"Invalid URL" = "Invalid URL";
+"Invalid URL" = "URL inválida";
 
 /*  */
 "Local glucose source" = "Local glucose source";
 
 /* Header */
-"Nightscout Config" = "Nightscout Config";
+"Nightscout Config" = "Ajustes Nightscout";
 
 /*  */
 "Port" = "Port";
