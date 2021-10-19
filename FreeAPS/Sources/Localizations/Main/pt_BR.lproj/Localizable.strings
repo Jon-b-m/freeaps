@@ -291,10 +291,10 @@ Enact a temp Basal or a temp target */
 "Delivery limits" = "Delivery limits";
 
 /*  */
-"Duration of Insulin Action" = "Duration of Insulin Action";
+"Duration of Insulin Action" = "Duração da ação da Insulina";
 
 /* hours of duration of insulin activity */
-"hours" = "hours";
+"hours" = "horas";
 
 /* Max setting */
 "Max Basal" = "Max Basal";
