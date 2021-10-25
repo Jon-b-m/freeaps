@@ -146,10 +146,10 @@
 "Delete autotune data" = "Apagar dados autotune";
 
 /*  */
-"Run now" = "Run now";
+"Run now" = "Executar agora";
 
 /*  */
-"Last run" = "Last run";
+"Last run" = "Ultima execução";
 
 /*  */
 "Sensitivity" = "Fator de sensibilidade";
@@ -351,7 +351,7 @@ Enact a temp Basal or a temp target */
 "Configuration" = "Ajustes";
 
 /* */
-"Devices" = "Dispositivos";
+"Devices" = "Devices";
 
 /*  */
 "Pump" = "Bomba";
@@ -366,13 +366,13 @@ Enact a temp Basal or a temp target */
 "Share logs" = "Compartilhar logs";
 
 /* Upper target */
-"High target" = "Limite alto";
+"High target" = "High target";
 
 /* Lower target */
-"Low target" = "Limite baixo";
+"Low target" = "Low target";
 
 /*  */
-"Target Ranges" = "Limites da Meta";
+"Target Ranges" = "Target Ranges";
 
 /* When bolusing */
 "Bolusing" = "Aplicando bolus";
@@ -384,22 +384,22 @@ Enact a temp Basal or a temp target */
 "Middleware" = "Middleware";
 
 /* Header */
-"History" = "Histórico";
+"History" = "History";
 
 /* CGM option */
 "Upload glucose to Nightscout" = "Upload glicose para o Nightscout";
 
 /* Type of CGM or glucose source */
-"Type" = "Tipo";
+"Type" = "Type";
 
 /* CGM */
-"CGM" = "MCG";
+"CGM" = "CGM";
 
 /* CGM Transmitter ID */
-"Transmitter ID" = "ID do Transmissor";
+"Transmitter ID" = "Transmitter ID";
 
 /* Other CGM setting */
-"Other" = "Outros";
+"Other" = "Other";
 
 /*
   Infotexts from openaps.docs and androidaps.docs
