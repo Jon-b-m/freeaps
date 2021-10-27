@@ -98,7 +98,7 @@
 "On" = "På";
 
 /* Text indicating LED Mode is off */
-"Off" = "Off";
+"Off" = "Av";
 
 /* Text indicating LED Mode is auto */
 "Auto" = "Auto";
