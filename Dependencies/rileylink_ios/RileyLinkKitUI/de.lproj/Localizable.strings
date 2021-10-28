@@ -26,7 +26,7 @@
 "Firmware" = "Firmware";
 
 /* The title of the cell showing current rileylink frequency */
-"Frequency" = "Frequency";
+"Frequency" = "Frequenz";
 
 /* The title of the cell showing device name */
 "Name" = "Nombre";
@@ -38,28 +38,28 @@
 "Signal Strength" = "Signalstärke";
 
 /* The header of the cells showing connection monitoring */
-"Connection Monitoring" = "Connection Monitoring";
+"Connection Monitoring" = "Verbindungsüberwachung";
 
 /* The title of the cell showing uptime */
-"Uptime" = "Uptime";
+"Uptime" = "Laufzeit";
 
 /* The title of the cell showing battery level */
-"Battery level" = "Battery level";
+"Battery level" = "Ladezustand";
 
 /* The title of the cell showing Voltage */
-"Voltage" = "Voltage";
+"Voltage" = "Spannung";
 
 /* "The title of the section for alerts" */
-"Alert" = "Alert";
+"Alert" = "Alarmierung";
 
 /* The title of the cell showing Low Battery Alert */
-"Low Battery Alert" = "Low Battery Alert";
+"Low Battery Alert" = "Warnung bei schwacher Batterie";
 
 /* Header of list showing battery level alert options */
-"Battery level Alert" = "Battery level Alert";
+"Battery level Alert" = "Ladezustandswarnung";
 
 /* Battery level alert OFF in list of options */
-"OFF" = "OFF";
+"OFF" = "Aus";
 
 /* The title of the command to update diagnostic LEDs */
 "Diagnostic LEDs" = "Diagnostic LEDs";
