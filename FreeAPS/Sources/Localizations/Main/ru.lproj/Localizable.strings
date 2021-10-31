@@ -261,7 +261,7 @@ Enact a temp Basal or a temp target */
 "Glucose units" = "Единицы измерения глюкозы";
 
 /*  */
-"Preferences" = "Настройки";
+"Preferences" = "Предпочтения";
 
 /* Recommended Insulin Fraction in preferences */
 "Recommended Insulin Fraction" = "Рекомендуемая дробь инсулина";
@@ -348,7 +348,7 @@ Enact a temp Basal or a temp target */
 "Closed loop" = "Замкнутая петля";
 
 /* */
-"Configuration" = "Настройка";
+"Configuration" = "Конфигурация";
 
 /* */
 "Devices" = "Устройства";
