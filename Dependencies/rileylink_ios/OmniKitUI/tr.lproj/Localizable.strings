@@ -54,7 +54,7 @@
 "Basal Delivery" = "Bazal İletimi";
 
 /* The title text for the basal rate schedule */
-"Basal Rates" = "Basal Rates";
+"Basal Rates" = "Bazal Oranları";
 
 /* The title of the cell showing pod bolus status */
 "Bolus Delivery" = "Bolus İletimi";
@@ -66,7 +66,7 @@
 "Change Time Zone" = "Zaman dilimini Değiştir";
 
 /* Progress message for changing pod time. */
-"Changing time…" = "Changing time…";
+"Changing time…" = "Zaman değiştir…";
 
 /* The title of the configuration section in settings */
 "Configuration" = "Yapılandırma";
@@ -91,7 +91,7 @@
 "Delivery Limits" = "İletim Kısıtlamaları";
 
 /* The title of the device information section in settings */
-"Device Information" = "Device Information";
+"Device Information" = "Cihaz Bilgileri";
 
 /* Title text for button to disable bolus beeps */
 "Disable Bolus Beeps" = "Disable Bolus Beeps";
@@ -118,10 +118,10 @@
 "Disable Automatic Bolus Beeps" = "Disable Automatic Bolus Beeps";
 
 /* The alert title for a resume error */
-"Error Resuming" = "Error Resuming";
+"Error Resuming" = "Devam ederken hata oluştu";
 
 /* The alert title for a suspend error */
-"Error Suspending" = "Error Suspending";
+"Error Suspending" = "İptal Ederken Hata Oluştu";
 
 /* The title of the cell showing the pod expiration reminder date */
 "Expiration Reminder" = "Süre Sonu Hatırlatıcısı";
@@ -136,7 +136,7 @@
 "Fault" = "Hata";
 
 /* The title of the command to finish pod setup */
-"Finish pod setup" = "Finish pod setup";
+"Finish pod setup" = "Pod kurulumu bitir";
 
 /* Accessibility format string for (1: localized volume)(2: time) */
 "Greater than %1$@ units remaining at %2$@" = "Greater than %1$@ units remaining at %2$@";
@@ -252,10 +252,10 @@
 "Diagnostics" = "Teşhis";
 
 /* The diagnostic command Read Pod Status */
-"Read Pod Status" = "Read Pod Status";
+"Read Pod Status" = "Pod Durumunu Oku";
 
 /* The diagnostic command Read Pulse Log */
-"Read Pulse Log" = "Read Pulse Log";
+"Read Pulse Log" = "Nabız Kaydını Oku";
 
 /* The title of the pod details section in settings */
 "Pod Details" = "Pod Ayrıntıları";
