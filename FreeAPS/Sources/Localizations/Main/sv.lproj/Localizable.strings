@@ -399,32 +399,32 @@ Enact a temp Basal or a temp target */
 "Transmitter ID" = "Sändar-ID";
 
 /* Other CGM setting */
-"Other" = "Annan inställning";
+"Other" = "Annan";
 
 
 /* Calendar and Libre transmitter settings */
 
-"Configure Libre Transmitter" = "Configure Libre Transmitter";
+"Configure Libre Transmitter" = "Ställ in en Libre-sändare";
 
-"Calibrations" = "Calibrations";
+"Calibrations" = "Kalibreringar";
 
-"Create events in calendar" = "Create events in calendar";
+"Create events in calendar" = "Skapa kalenderhändelser";
 
-"Calendar" = "Calendar";
+"Calendar" = "Kalender";
 
 "Other" = "Other";
 
-"Libre Transmitter" = "Libre Transmitter";
+"Libre Transmitter" = "Libre-sändare";
 
-"Libre Transmitters" = "Libre Transmitters";
+"Libre Transmitters" = "Libre-sändare";
 
-"Bluetooth Transmitters" = "Bluetooth Transmitters";
+"Bluetooth Transmitters" = "Bluetooth-sändare";
 
-"Modes" = "Modes";
+"Modes" = "Lägen";
 
-"Libre 2 Direct" = "Libre 2 Direct";
+"Libre 2 Direct" = "Libre 2 Direkt";
 
-"Select the third party transmitter you want to conect to" = "Select the third party transmitter you want to conect to";
+"Select the third party transmitter you want to conect to" = "Välj vilken sändare du vill ansluta till";
 
 /* The short unit display string for millimoles of glucose per liter */
 "mmol/L" = "mmol/L";
@@ -432,62 +432,62 @@ Enact a temp Basal or a temp target */
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";
 
-"Add calibration" = "Add calibration";
+"Add calibration" = "Lägg till kalibrering";
 
-"Meter glucose" = "Meter glucose";
+"Meter glucose" = "Glukosmätarvärde";
 
 "Info" = "Info";
 
-"Slope" = "Slope";
+"Slope" = "Lutning";
 
 "Intercept" = "Intercept";
 
-"Remove" = "Remove";
+"Remove" = "Ta bort";
 
-"Remove Last" = "Remove Last";
+"Remove Last" = "Ta bort senaste";
 
-"Remove All" = "Remove All";
+"Remove All" = "Ta bort alla";
 
 "Calibrations" = "Calibrations";
 
-"About the Process" = "About the Process";
+"About the Process" = "Om processen";
 
-"Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working." = "Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working.";
+"Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working." = "Bla bla";
 
-"Pairinginfo" = "Pairinginfo";
+"Pairinginfo" = "Parkopplingsinfo";
 
 "PatchInfo" = "PatchInfo";
 
-"Calibrationinfo" = "Calibrationinfo";
+"Calibrationinfo" = "Kalibreringsinfo";
 
-"Unknown" = "Unknown";
+"Unknown" = "Okänd";
 
-"Not paired yet" = "Not paired yet";
+"Not paired yet" = "Inte parkopplad ännu";
 
-"Pair Sensor & connect" = "Pair Sensor & connect";
+"Pair Sensor & connect" = "Parkoppla sensor och anslut ";
 
-"Phone NFC required!" = "Phone NFC required!";
+"Phone NFC required!" = "Telefon med NFC krävs!";
 
-"Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors" = "Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors";
+"Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors" = "Din telefon eller app är inte aktiverad med NFC, vilket krävs för att parkoppla med Libre2-sensorer";
 
-"Bluetooth Power Off" = "Bluetooth Power Off";
+"Bluetooth Power Off" = "Bluetooth är av";
 
-"Please turn on Bluetooth" = "Please turn on Bluetooth";
+"Please turn on Bluetooth" = "Sätt på Bluetooth";
 
-"No Libre Transmitter Selected" = "No Libre Transmitter Selected";
+"No Libre Transmitter Selected" = "Ingen Libre-sändare vald";
 
-"Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "Delete CGMManager and start anew. Your libreoopweb credentials will be preserved";
+"Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "Ta bort CGMM och börja om. Dina libreoopweb-inställningar kommer att sparas";
 
 
 /* Headers for settings */
 
-"OpenAPS main settings" = "OpenAPS main settings";
+"OpenAPS main settings" = "OpenAPS huvudsakliga inställningar";
 
-"OpenAPS SMB settings" = "OpenAPS SMB settings";
+"OpenAPS SMB settings" = "OpenAPS SMB-inställningar";
 
-"OpenAPS targets settings" = "OpenAPS targets settings";
+"OpenAPS targets settings" = "OpenAPS målvärdesinställningar";
 
-"OpenAPS other settings" = "OpenAPS other settings";
+"OpenAPS other settings" = "OpenAPS andra inställningar";
 
 /*
   Infotexts from openaps.docs and androidaps.docs
