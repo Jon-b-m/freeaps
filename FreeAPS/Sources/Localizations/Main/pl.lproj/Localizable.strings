@@ -426,7 +426,7 @@ Połączono z Nightscout!";
 
 "Libre 2 Direct" = "Libre 2 Direct";
 
-"Select the third party transmitter you want to conect to" = "Select the third party transmitter you want to conect to";
+"Select the third party transmitter you want to connect to" = "Select the third party transmitter you want to connect to";
 
 /* The short unit display string for millimoles of glucose per liter */
 "mmol/L" = "mmol/L";
@@ -443,6 +443,8 @@ Połączono z Nightscout!";
 "Slope" = "Slope";
 
 "Intercept" = "Intercept";
+
+"Chart" = "Chart";
 
 "Remove" = "Remove";
 
