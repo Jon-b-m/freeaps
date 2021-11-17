@@ -412,7 +412,7 @@ Enact a temp Basal or a temp target */
 
 "Calendar" = "Kalender";
 
-"Other" = "Other";
+"Other" = "Annan";
 
 "Libre Transmitter" = "Libre-sändare";
 
@@ -424,13 +424,13 @@ Enact a temp Basal or a temp target */
 
 "Libre 2 Direct" = "Libre 2 Direkt";
 
-"Select the third party transmitter you want to conect to" = "Välj vilken sändare du vill ansluta till";
+"Select the third party transmitter you want to connect to" = "Välj vilken sändare du vill ansluta till";
 
 /* The short unit display string for millimoles of glucose per liter */
-"mmol/L" = "mmol/L";
+"mmol/L" = "mmol/l";
 
 /* The short unit display string for milligrams of glucose per decilter */
-"mg/dL" = "mg/dL";
+"mg/dL" = "mg/dl";
 
 "Add calibration" = "Lägg till kalibrering";
 
@@ -440,7 +440,9 @@ Enact a temp Basal or a temp target */
 
 "Slope" = "Lutning";
 
-"Intercept" = "Intercept";
+"Intercept" = "Skärningspunkt";
+
+"Chart" = "Chart";
 
 "Remove" = "Ta bort";
 
@@ -448,7 +450,7 @@ Enact a temp Basal or a temp target */
 
 "Remove All" = "Ta bort alla";
 
-"Calibrations" = "Calibrations";
+"Calibrations" = "Kalibreringar";
 
 "About the Process" = "Om processen";
 
@@ -476,7 +478,7 @@ Enact a temp Basal or a temp target */
 
 "No Libre Transmitter Selected" = "Ingen Libre-sändare vald";
 
-"Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "Ta bort CGMM och börja om. Dina libreoopweb-inställningar kommer att sparas";
+"Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "Ta bort CGM och börja om. Dina libreoopweb-inställningar kommer att sparas";
 
 
 /* Headers for settings */
