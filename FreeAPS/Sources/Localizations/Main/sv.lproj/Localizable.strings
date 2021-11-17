@@ -442,7 +442,7 @@ Enact a temp Basal or a temp target */
 
 "Intercept" = "Skärningspunkt";
 
-"Chart" = "Chart";
+"Chart" = "Diagram";
 
 "Remove" = "Ta bort";
 
@@ -458,7 +458,7 @@ Enact a temp Basal or a temp target */
 
 "Pairinginfo" = "Parkopplingsinfo";
 
-"PatchInfo" = "PatchInfo";
+"PatchInfo" = "Patchinformation";
 
 "Calibrationinfo" = "Kalibreringsinfo";
 
