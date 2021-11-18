@@ -560,7 +560,7 @@ Połączono z Nightscout!";
 "Invalid Glucose sample detected, try again later" = "Invalid Glucose sample detected, try again later";
 
 /* ensor might have temporarily stopped, fallen off or is too cold or too warm */
-"ensor might have temporarily stopped, fallen off or is too cold or too warm" = "ensor might have temporarily stopped, fallen off or is too cold or too warm";
+"Sensor might have temporarily stopped, fallen off or is too cold or too warm" = "Sensor might have temporarily stopped, fallen off or is too cold or too warm";
 
 /* Invalid Sensor Detected */
 "Invalid Sensor Detected" = "Invalid Sensor Detected";
