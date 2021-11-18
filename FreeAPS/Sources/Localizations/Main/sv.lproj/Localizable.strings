@@ -438,7 +438,7 @@ Enact a temp Basal or a temp target */
 "Select the third party transmitter you want to connect to" = "Välj vilken sändare du vill ansluta till";
 
 /* State was restored */
-"State was restored" = "State was restored";
+"State was restored" = "Återställd";
 
 /* The short unit display string for millimoles of glucose per liter */
 "mmol/L" = "mmol/l";
@@ -519,70 +519,70 @@ Enact a temp Basal or a temp target */
 "Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "Ta bort CGM och börja om. Dina libreoopweb-inställningar kommer att sparas";
 
 /* Invalid libre checksum */
-"Invalid libre checksum" = "Invalid libre checksum";
+"Invalid libre checksum" = "Ogiltig kontrollsumma för libre";
 
 /* Libre sensor was incorrectly read, CRCs were not valid */
-"Libre sensor was incorrectly read, CRCs were not valid" = "Libre sensor was incorrectly read, CRCs were not valid";
+"Libre sensor was incorrectly read, CRCs were not valid" = "Libre-sensor felaktigt läst, CRCs ogiltiga";
 
 /* Glucose */
-"Glucose" = "Glucose";
+"Glucose" = "Glukos";
 
 /* LOWALERT! */
-"LOWALERT!" = "LOWALERT!";
+"LOWALERT!" = "VARNING LÅGT!";
 
 /* HIGHALERT! */
-"HIGHALERT!" = "HIGHALERT!";
+"HIGHALERT!" = "VARNING HÖGT!";
 
 /* (Snoozed)*/
-"(Snoozed)" = "(Snoozed)";
+"(Snoozed)" = "(Snoozad)";
 
 /* Glucose: %@ */
-"Glucose: %@" = "Glucose: %@";
+"Glucose: %@" = "Glukos: %@";
 
 /* Transmitter: %@ */
-"Transmitter: %@" = "Transmitter: %@";
+"Transmitter: %@" = "Sändare: %@";
 
 /* No Sensor Detected */
-"No Sensor Detected" = "No Sensor Detected";
+"No Sensor Detected" = "Ingen Sensor upptäckt";
 
 /* This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor */
-"This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor" = "This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor";
+"This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor" = "Detta kan vara ett övergående problem, men kontrollera att din sändare sitter fast ordentligt på din sensor";
 
 /* New Sensor Detected */
-"New Sensor Detected" = "New Sensor Detected";
+"New Sensor Detected" = "Ingen sensor upptäckt";
 
 /* Please wait up to 30 minutes before glucose readings are available! */
-"Please wait up to 30 minutes before glucose readings are available!" = "Please wait up to 30 minutes before glucose readings are available!";
+"Please wait up to 30 minutes before glucose readings are available!" = "Vänta upp till 30 minuter innan glukosvärden finns tillgängliga!";
 
 /* Invalid Glucose sample detected, try again later */
-"Invalid Glucose sample detected, try again later" = "Invalid Glucose sample detected, try again later";
+"Invalid Glucose sample detected, try again later" = "Ogiltigt glukosvärde upptäckt, försök igen senare";
 
 /* ensor might have temporarily stopped, fallen off or is too cold or too warm */
-"ensor might have temporarily stopped, fallen off or is too cold or too warm" = "ensor might have temporarily stopped, fallen off or is too cold or too warm";
+"Sensor might have temporarily stopped, fallen off or is too cold or too warm" = "Sensor might have temporarily stopped, fallen off or is too cold or too warm";
 
 /* Invalid Sensor Detected */
-"Invalid Sensor Detected" = "Invalid Sensor Detected";
+"Invalid Sensor Detected" = "Ogiltig sensor upptäckt";
 
 /* Detected sensor seems not to be a libre 1 sensor! */
-"Detected sensor seems not to be a libre 1 sensor!" = "Detected sensor seems not to be a libre 1 sensor!";
+"Detected sensor seems not to be a libre 1 sensor!" = "Upptäckt sensor verkar inte vara en libre 1-sensor!";
 
 /* Detected sensor is invalid: %@ */
-"Detected sensor is invalid: %@" = "Detected sensor is invalid: %@";
+"Detected sensor is invalid: %@" = "Upptäckt sensor är ogiltig: %@";
 
 /* Low Battery */
-"Low Battery" = "Low Battery";
+"Low Battery" = "Låg batterinivå";
 
 /* Battery is running low %@, consider charging your %@ device as soon as possible */
-"Battery is running low %@, consider charging your %@ device as soon as possible" = "Battery is running low %@, consider charging your %@ device as soon as possible";
+"Battery is running low %@, consider charging your %@ device as soon as possible" = "Batterinivå är låg %@, överväg att ladda din %@ enhet så snart som möjligt";
 
 /* Extracting calibrationdata from sensor */
-"Extracting calibrationdata from sensor" = "Extracting calibrationdata from sensor";
+"Extracting calibrationdata from sensor" = "Extraherar kalibreringsdata från sensorn";
 
 /* Sensor Ending Soon */
-"Sensor Ending Soon" = "Sensor Ending Soon";
+"Sensor Ending Soon" = "Sensor behöver snart bytas";
 
 /* Current Sensor is Ending soon! Sensor Life left in %@ */
-"Current Sensor is Ending soon! Sensor Life left in %@" = "Current Sensor is Ending soon! Sensor Life left in %@";
+"Current Sensor is Ending soon! Sensor Life left in %@" = "Nuvarande sensor behöver snart bytas! Sensortid kvar i %@";
 
 
 /* Headers for settings ------------------- */
