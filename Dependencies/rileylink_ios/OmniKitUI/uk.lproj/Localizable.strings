@@ -97,165 +97,165 @@
 "Disable Bolus Beeps" = "Вимкнути звук болюс";
 
 /* Title text for button to enable bolus beeps */
-"Enable Bolus Beeps" = "Enable Bolus Beeps";
+"Enable Bolus Beeps" = "Увімкнути звук болюс";
 
 /* The alert title for disable bolus beeps error */
-"Error disabling bolus beeps" = "Error disabling bolus beeps";
+"Error disabling bolus beeps" = "Помилка вимкнення болюс біп";
 
 /* The alert title for enable bolus beeps error */
-"Error enabling bolus beeps" = "Error enabling bolus beeps";
+"Error enabling bolus beeps" = "Помилка увімкнення bolus beeps";
 
 /* The alert title for enable Confirmation Beeps */
-"Enable Confirmation Beeps" = "Enable Confirmation Beeps";
+"Enable Confirmation Beeps" = "Увімкнути Beeps підтвердження";
 
 /* The alert title for Disable Confirmation Beep */
-"Disable Confirmation Beeps" = "Disable Confirmation Beeps";
+"Disable Confirmation Beeps" = "Вимкнути Beeps підтвердження";
 
 /* The alert title for enable Automatic Bolus Beeps */
-"Enable Automatic Bolus Beeps" = "Enable Automatic Bolus Beeps";
+"Enable Automatic Bolus Beeps" = "Увімкнути автоматичні звуки для болюсу";
 
 /* The alert title for Disable Automatic Bolus Beeps */
-"Disable Automatic Bolus Beeps" = "Disable Automatic Bolus Beeps";
+"Disable Automatic Bolus Beeps" = "Вимкнути авт звуки для болюсу";
 
 /* The alert title for a resume error */
-"Error Resuming" = "Error Resuming";
+"Error Resuming" = "Помилка при відновленні";
 
 /* The alert title for a suspend error */
-"Error Suspending" = "Error Suspending";
+"Error Suspending" = "Помилка призупинення";
 
 /* The title of the cell showing the pod expiration reminder date */
-"Expiration Reminder" = "Expiration Reminder";
+"Expiration Reminder" = "Нагадування про термін дії";
 
 /* The title of the cell showing the pod expiration after expiry */
-"Expired" = "Expired";
+"Expired" = "Минув термін дії";
 
 /* The title of the cell showing the pod expiration */
-"Expires" = "Expires";
+"Expires" = "Термін закінчується";
 
 /* Pod life HUD view label */
-"Fault" = "Fault";
+"Fault" = "Збій";
 
 /* The title of the command to finish pod setup */
-"Finish pod setup" = "Finish pod setup";
+"Finish pod setup" = "Завершити налаштування pod";
 
 /* Accessibility format string for (1: localized volume)(2: time) */
-"Greater than %1$@ units remaining at %2$@" = "Greater than %1$@ units remaining at %2$@";
+"Greater than %1$@ units remaining at %2$@" = "Залишилось більше %1$@ одиниць на %2$@";
 
 /* Instructions when deactivating pod that has been paired, but not attached. */
-"Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod.";
+"Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Старий pod має бути деактивований, для створення пари з новим. Будь ласка, деактивуйте та зніміть старий pod.";
 
 /* Instructions when deactivating pod that has been paired and possibly attached. */
-"Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and remove pod." = "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and remove pod.";
+"Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and remove pod." = "Старий pod має бути деактивований, для створення пари з новим. Будь ласка, деактивуйте та зніміть старий pod.";
 
 /* Button title to insert cannula during setup */
-"Insert Cannula" = "Insert Cannula";
+"Insert Cannula" = "Вставте канюлю";
 
 /* The title of the cell showing delivered insulin */
-"Insulin Delivered" = "Insulin Delivered";
+"Insulin Delivered" = "Доставлено інсуліну";
 
 /* The error message shown when Loop's basal schedule has an unsupported rate */
-"Invalid entry" = "Invalid entry";
+"Invalid entry" = "Невірний запис";
 
 /* The title of the cell showing the pod lot id */
 "Lot" = "Lot";
 
 /* The detail text for bolus delivery when no bolus is being delivered */
-"None" = "None";
+"None" = "Жоден";
 
 /* Button title to pair with pod during setup */
-"Pair" = "Pair";
+"Pair" = "Пов'язати";
 
 /* The title of the command to pair new pod */
-"Pair New Pod" = "Pair New Pod";
+"Pair New Pod" = "Підключити новий под";
 
 /* The text of the loading label when pairing */
-"Pairing…" = "Pairing…";
+"Pairing…" = "Підключення…";
 
 /* The title of the cell showing the pod pi version */
-"PI Version" = "PI Version";
+"PI Version" = "PI версія";
 
 /* The title of the command to play test beeps */
-"Play Test Beeps" = "Play Test Beeps";
+"Play Test Beeps" = "Програти тестовий звук";
 
 /* Progress message for play test beeps. */
-"Play Test Beeps…" = "Play Test Beeps…";
+"Play Test Beeps…" = "Тестовий звук програється…";
 
 /* The title of the cell showing the pod pm version */
-"PM Version" = "PM Version";
+"PM Version" = "PM версія";
 
 /* Label describing pod age view */
-"Pod Age" = "Pod Age";
+"Pod Age" = "Вік поду";
 
 /* Title of the pod settings view controller */
-"Pod Settings" = "Pod Settings";
+"Pod Settings" = "Налаштування поду";
 
 /* The text of the loading label when pod is primed */
-"Primed" = "Primed";
+"Primed" = "Активовано";
 
 /* The text of the loading label when priming */
-"Priming…" = "Priming…";
+"Priming…" = "Активація...";
 
 /* Label describing time remaining view */
-"Remaining" = "Remaining";
+"Remaining" = "Залишок";
 
 /* Label indicating pod replacement necessary
    The title of the command to replace pod */
-"Replace Pod" = "Replace Pod";
+"Replace Pod" = "Замініть под";
 
 /* The title of the command to replace pod when there is a pod fault */
-"Replace Pod Now" = "Replace Pod Now";
+"Replace Pod Now" = "Замініть под на новий";
 
 /* The title of the cell showing reservoir status */
-"Reservoir" = "Reservoir";
+"Reservoir" = "Резервуар";
 
 /* Button title for retrying pod deactivation */
-"Retry Pod Deactivation" = "Retry Pod Deactivation";
+"Retry Pod Deactivation" = "Повторити деактивацію поду";
 
 /* Title of button to save delivery limit settings
    Title of button to sync basal profile when no pod paired */
-"Save" = "Save";
+"Save" = "Зберегти";
 
 /* The detail text of the basal row when pod is running scheduled basal */
-"Schedule" = "Schedule";
+"Schedule" = "Розклад";
 
 /* The title of the status section in settings */
-"Status" = "Status";
+"Status" = "Статус";
 
 /* A message indicating a command succeeded */
-"Succeeded" = "Succeeded";
+"Succeeded" = "Успішно";
 
 /* The detail text of the basal row when pod is suspended */
-"Suspended" = "Suspended";
+"Suspended" = "Призупинено";
 
 /* Title text for the button to delete Omnipod PumpManager */
 "Switch from Omnipod Pumps" = "Switch from Omnipod Pumps";
 
 /* Title of button to sync basal profile from pod */
-"Sync With Pod" = "Sync With Pod";
+"Sync With Pod" = "Синхронізація з Pod";
 
 /* The title of the command to run the test command */
-"Test Command" = "Test Command";
+"Test Command" = "Тестова команда";
 
 /* Progress message for testing commands. */
-"Testing Commands…" = "Testing Commands…";
+"Testing Commands…" = "Тестування команд…";
 
 /* The error message shown when Loop's basal schedule has more entries than the pod can support */
-"Too many entries" = "Too many entries";
+"Too many entries" = "Забагато записів";
 
 /* Instructions when pod cannot be deactivated */
-"Unable to deactivate pod. Please continue and pair a new one." = "Unable to deactivate pod. Please continue and pair a new one.";
+"Unable to deactivate pod. Please continue and pair a new one." = "Не вдалося деактивувати pod. Будь ласка, продовжуйте і спробуйте ще раз.";
 
 /* The detail text for delivered insulin when no measurement is available */
-"Unknown" = "Unknown";
+"Unknown" = "Невідомий";
 
 /* The title of the diagnostics section in settings */
-"Diagnostics" = "Diagnostics";
+"Diagnostics" = "Діагностика";
 
 /* The diagnostic command Read Pod Status */
-"Read Pod Status" = "Read Pod Status";
+"Read Pod Status" = "Читати статус Pod";
 
 /* The diagnostic command Read Pulse Log */
-"Read Pulse Log" = "Read Pulse Log";
+"Read Pulse Log" = "Читати журнал подій";
 
 /* The title of the pod details section in settings */
-"Pod Details" = "Pod Details";
+"Pod Details" = "Деталі Pod";
