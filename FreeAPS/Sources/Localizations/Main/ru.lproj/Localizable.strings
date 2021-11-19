@@ -588,156 +588,156 @@ Enact a temp Basal or a temp target */
 "Libre Bluetooth" = "Libre Bluetooth";
 
 /* */
-"Snooze Alerts" = "Snooze Alerts";
+"Snooze Alerts" = "Отложить оповещения";
 
 /* */
-"Last measurement" = "Last measurement";
+"Last measurement" = "Последнее измерение";
 
 /* */
-"Sensor Footer checksum" = "Sensor Footer checksum";
+"Sensor Footer checksum" = "Контрольная сумма сенсора";
 
 /* */
-"Last Blood Sugar prediction" = "Last Blood Sugar prediction";
+"Last Blood Sugar prediction" = "Последнее предсказание глюкозы";
 
 /* */
-"CurrentBG" = "CurrentBG";
+"CurrentBG" = "Текущая ГК";
 
 /* */
-"Sensor Info" = "Sensor Info";
+"Sensor Info" = "Информация о сенсоре";
 
 /* */
-"Sensor Age" = "Sensor Age";
+"Sensor Age" = "Возраст сенсора";
 
 /* */
-"Sensor Age Left" = "Sensor Age Left";
+"Sensor Age Left" = "Осталось";
 
 /* */
-"Sensor Endtime" = "Sensor Endtime";
+"Sensor Endtime" = "Время окончания сенсора";
 
 /* */
-"Sensor State" = "Sensor State";
+"Sensor State" = "Состояние сенсора";
 
 /* */
-"Sensor Serial" = "Sensor Serial";
+"Sensor Serial" = "Серийный номер сенсора";
 
 /* */
-"Transmitter Info" = "Transmitter Info";
+"Transmitter Info" = "Информация о передатчике";
 
 /* */
-"Hardware" = "Hardware";
+"Hardware" = "Оборудование";
 
 /* */
-"Firmware" = "Firmware";
+"Firmware" = "Версия прошивки";
 
 /* */
-"Connection State" = "Connection State";
+"Connection State" = "Состояние соединения";
 
 /* */
-"Transmitter Type" = "Transmitter Type";
+"Transmitter Type" = "Тип передатчика";
 
 /* */
-"Sensor Type" = "Sensor Type";
+"Sensor Type" = "Тип сенсора";
 
 /* */
-"Factory Calibration Parameters" = "Factory Calibration Parameters";
+"Factory Calibration Parameters" = "Параметры заводской калибровки";
 
 /* */
-"Valid for footer" = "Valid for footer";
+"Valid for footer" = "Действителен для футера";
 
 /* */
-"Edit calibrations" = "Edit calibrations";
+"Edit calibrations" = "Редактировать калибровки";
 
 /* */
-"edit calibration clicked" = "edit calibration clicked";
+"edit calibration clicked" = "изменить калибровку нажато";
 
 /* */
-"Delete CGM" = "Delete CGM";
+"Delete CGM" = "Удалить CGM";
 /* */
-"Are you sure you want to remove this cgm from loop?" = "Are you sure you want to remove this cgm from loop?";
+"Are you sure you want to remove this cgm from loop?" = "Вы уверены, что хотите удалить этот CGM?";
 
 /* */
-"There is no undo" = "There is no undo";
+"There is no undo" = "Это нельзя отменить!";
 
 /* */
-"Advanced" = "Advanced";
+"Advanced" = "Расширенные";
 
 /* */
-"Alarms" = "Alarms";
+"Alarms" = "Тревоги";
 
 /* */
-"Glucose Settings" = "Glucose Settings";
+"Glucose Settings" = "Настройки глюкозы";
 
 /* */
-"Notifications" = "Notifications";
+"Notifications" = "Уведомления";
 
 /* */
-"Export logs" = "Export logs";
+"Export logs" = "Экспорт журналов";
 
 /* */
-"Export not available" = "Export not available";
+"Export not available" = "Экспорт недоступен";
 
 /* */
-"Log export requires ios 15" = "Log export requires ios 15";
+"Log export requires ios 15" = "Для экспорта журнала требуется ios 15";
 
 /* */
-"Got it!" = "Got it!";
+"Got it!" = "Понятно!";
 
 /* */
-"Saved to %@" = "Saved to %@";
+"Saved to %@" = "Сохранено в %@";
 
 /* */
-"No logs available" = "No logs available";
+"No logs available" = "Нет доступных журналов";
 
 /* */
-"Glucose Notification visibility" = "Glucose Notification visibility";
+"Glucose Notification visibility" = "Видимость уведомлений глюкозы";
 
 /* */
-"Always Notify Glucose" = "Always Notify Glucose";
+"Always Notify Glucose" = "Всегда уведомлять о глюкозе";
 
 /* */
-"Notify per reading" = "Notify per reading";
+"Notify per reading" = "Уведомлять за чтение";
 
 /* */
-"Value" = "Value";
+"Value" = "Значение";
 
 /* */
-"Adds Phone Battery" = "Adds Phone Battery";
+"Adds Phone Battery" = "Показывать заряд батареи телефона";
 
 /* */
 /* */
 
 "Adds Transmitter Battery
-Also vibrate" = "Also vibrate";
+Also vibrate" = "Вибрировать";
 
 /* */
-"Additional notification types" = "Additional notification types";
+"Additional notification types" = "Дополнительные уведомления";
 
 /* */
 /* */
 
 "Low battery
-Misc" = "Misc";
+Misc" = "Разное";
 
 /* */
-"Unit override" = "Unit override";
+"Unit override" = "Переопределение единицы";
 
 /* */
-"Low" = "Low";
+"Low" = "Низкий";
 
 /* */
-"glucose" = "glucose";
+"glucose" = "глюкоза";
 
 /* */
-"Schedule %d" = "Schedule %d";
+"Schedule %d" = "Расписание %d";
 
 /* */
-"tapped save schedules" = "tapped save schedules";
+"tapped save schedules" = "выбрано сохранение расписаний";
 
 /* */
-"Error" = "Error";
+"Error" = "Ошибка";
 
 /* */
-"Some ui element was incorrectly specified" = "Some ui element was incorrectly specified";
+"Some ui element was incorrectly specified" = "Некорректно указан элемент ui";
 
 /* */
 "Success" = "Success";
@@ -770,7 +770,7 @@ Misc" = "Misc";
 "will snooze for %@ until %@" = "will snooze for %@ until %@";
 
 /* */
-"Click to Snooze Alerts" = "Click to Snooze Alerts";
+"Click to Snooze Alerts" = "Нажмите, чтобы отложить тревоги";
 
 /* */
 "Strength" = "Strength";
