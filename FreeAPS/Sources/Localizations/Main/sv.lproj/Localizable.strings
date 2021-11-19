@@ -692,58 +692,58 @@ Enact a temp Basal or a temp target */
 "Glucose Notification visibility" = "Glucose Notification visibility";
 
 /* */
-"Always Notify Glucose" = "Always Notify Glucose";
+"Always Notify Glucose" = "Meddela alltid glukos";
 
 /* */
-"Notify per reading" = "Notify per reading";
+"Notify per reading" = "Meddela per avläsning";
 
 /* */
-"Value" = "Value";
+"Value" = "Värde";
 
 /* */
-"Adds Phone Battery" = "Adds Phone Battery";
+"Adds Phone Battery" = "Visa telefonens batterinivå";
 
 /* */
 /* */
 
 "Adds Transmitter Battery
-Also vibrate" = "Also vibrate";
+Also vibrate" = "Vibrera också";
 
 /* */
-"Additional notification types" = "Additional notification types";
+"Additional notification types" = "Ytterligare notistyper";
 
 /* */
 /* */
 
 "Low battery
-Misc" = "Misc";
+Misc" = "Övrigt";
 
 /* */
-"Unit override" = "Unit override";
+"Unit override" = "Åsidosätt enhet";
 
 /* */
-"Low" = "Low";
+"Low" = "Lågt";
 
 /* */
-"glucose" = "glucose";
+"glucose" = "glukos";
 
 /* */
-"Schedule %d" = "Schedule %d";
+"Schedule %d" = "Schema %d";
 
 /* */
 "tapped save schedules" = "tapped save schedules";
 
 /* */
-"Error" = "Error";
+"Error" = "Fel";
 
 /* */
 "Some ui element was incorrectly specified" = "Some ui element was incorrectly specified";
 
 /* */
-"Success" = "Success";
+"Success" = "Lyckades";
 
 /* */
-"Schedules were saved successfully!" = "Schedules were saved successfully!";
+"Schedules were saved successfully!" = "Scheman har sparats!";
 
 /* */
 "High Glucose Alarm active" = "High Glucose Alarm active";
@@ -770,22 +770,22 @@ Misc" = "Misc";
 "will snooze for %@ until %@" = "will snooze for %@ until %@";
 
 /* */
-"Click to Snooze Alerts" = "Click to Snooze Alerts";
+"Click to Snooze Alerts" = "Klicka för att snooza varningar";
 
 /* */
-"Strength" = "Strength";
+"Strength" = "Styrka";
 
 /* */
-"Hold the top of your iPhone near the sensor to pair" = "Hold the top of your iPhone near the sensor to pair";
+"Hold the top of your iPhone near the sensor to pair" = "Håll toppen av din iPhone nära sensorn för att parkoppla";
 
 /* */
-"Sensor not found" = "Sensor not found";
+"Sensor not found" = "Sensorn hittades inte";
 
 /* */
-"Also play alert sound" = "Also play alert sound";
+"Also play alert sound" = "Spela också upp varningsljud";
 
 /* */
-"Notification Settings" = "Notification Settings";
+"Notification Settings" = "Notisinställningar";
 
 
 /* Headers for settings ------------------- */
