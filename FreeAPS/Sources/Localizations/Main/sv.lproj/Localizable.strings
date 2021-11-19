@@ -585,108 +585,108 @@ Enact a temp Basal or a temp target */
 "Current Sensor is Ending soon! Sensor Life left in %@" = "Nuvarande sensor behöver snart bytas! Sensortid kvar i %@";
 
 /* */
-"Libre Bluetooth" = "Libre Bluetooth";
+"Libre Bluetooth" = "Libre bluetooth";
 
 /* */
-"Snooze Alerts" = "Snooze Alerts";
+"Snooze Alerts" = "Snooza larm";
 
 /* */
-"Last measurement" = "Last measurement";
+"Last measurement" = "Senaste mätning";
 
 /* */
 "Sensor Footer checksum" = "Sensor Footer checksum";
 
 /* */
-"Last Blood Sugar prediction" = "Last Blood Sugar prediction";
+"Last Blood Sugar prediction" = "Senaste blodsockerförutsägelse";
 
 /* */
-"CurrentBG" = "CurrentBG";
+"CurrentBG" = "NuvarandeBG";
 
 /* */
-"Sensor Info" = "Sensor Info";
+"Sensor Info" = "SensorInfo";
 
 /* */
-"Sensor Age" = "Sensor Age";
+"Sensor Age" = "Sensorålder";
 
 /* */
-"Sensor Age Left" = "Sensor Age Left";
+"Sensor Age Left" = "Sensortid kvar";
 
 /* */
-"Sensor Endtime" = "Sensor Endtime";
+"Sensor Endtime" = "Sensor slutdatum";
 
 /* */
-"Sensor State" = "Sensor State";
+"Sensor State" = "Sensorläge";
 
 /* */
-"Sensor Serial" = "Sensor Serial";
+"Sensor Serial" = "Sensorns serienummer";
 
 /* */
-"Transmitter Info" = "Transmitter Info";
+"Transmitter Info" = "Sändarinfo";
 
 /* */
-"Hardware" = "Hardware";
+"Hardware" = "Hårdvara";
 
 /* */
 "Firmware" = "Firmware";
 
 /* */
-"Connection State" = "Connection State";
+"Connection State" = "Anslutningsstatus";
 
 /* */
-"Transmitter Type" = "Transmitter Type";
+"Transmitter Type" = "Sändartyp";
 
 /* */
-"Sensor Type" = "Sensor Type";
+"Sensor Type" = "Sensortyp";
 
 /* */
-"Factory Calibration Parameters" = "Factory Calibration Parameters";
+"Factory Calibration Parameters" = "Parametrar för fabrikskalibrering";
 
 /* */
 "Valid for footer" = "Valid for footer";
 
 /* */
-"Edit calibrations" = "Edit calibrations";
+"Edit calibrations" = "Ändra kalibreringar";
 
 /* */
-"edit calibration clicked" = "edit calibration clicked";
+"edit calibration clicked" = "ändrad kalibrering vald";
 
 /* */
-"Delete CGM" = "Delete CGM";
+"Delete CGM" = "Radera CGM";
 /* */
-"Are you sure you want to remove this cgm from loop?" = "Are you sure you want to remove this cgm from loop?";
+"Are you sure you want to remove this cgm from loop?" = "Är du säker på att du vill ta bort denna CGM från FreeAPS X?";
 
 /* */
-"There is no undo" = "There is no undo";
+"There is no undo" = "Det går inte att ångra!";
 
 /* */
-"Advanced" = "Advanced";
+"Advanced" = "Avancerat";
 
 /* */
-"Alarms" = "Alarms";
+"Alarms" = "Larm";
 
 /* */
-"Glucose Settings" = "Glucose Settings";
+"Glucose Settings" = "Glukosinställningar";
 
 /* */
-"Notifications" = "Notifications";
+"Notifications" = "Notiser";
 
 /* */
-"Export logs" = "Export logs";
+"Export logs" = "Exportera loggar";
 
 /* */
-"Export not available" = "Export not available";
+"Export not available" = "Export inte tillgänglig";
 
 /* */
-"Log export requires ios 15" = "Log export requires ios 15";
+"Log export requires ios 15" = "Loggexport kräver ios 15";
 
 /* */
-"Got it!" = "Got it!";
+"Got it!" = "Uppfattat!";
 
 /* */
-"Saved to %@" = "Saved to %@";
+"Saved to %@" = "Sparad till %@";
 
 /* */
-"No logs available" = "No logs available";
+"No logs available" = "Inga loggar tillgängliga";
 
 
 
