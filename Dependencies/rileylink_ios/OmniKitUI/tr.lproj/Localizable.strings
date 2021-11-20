@@ -94,28 +94,28 @@
 "Device Information" = "Cihaz Bilgileri";
 
 /* Title text for button to disable bolus beeps */
-"Disable Bolus Beeps" = "Disable Bolus Beeps";
+"Disable Bolus Beeps" = "Bolus Uyarılarını Devre Dışı Bırak";
 
 /* Title text for button to enable bolus beeps */
-"Enable Bolus Beeps" = "Enable Bolus Beeps";
+"Enable Bolus Beeps" = "Bolus Uyarılarını Etkinleştir";
 
 /* The alert title for disable bolus beeps error */
-"Error disabling bolus beeps" = "Error disabling bolus beeps";
+"Error disabling bolus beeps" = "Bolus uyarılarını devre dışı bırakılırken hata oluştu";
 
 /* The alert title for enable bolus beeps error */
-"Error enabling bolus beeps" = "Error enabling bolus beeps";
+"Error enabling bolus beeps" = "Bolus uyarılarını etkinleştirirken hata oluştu";
 
 /* The alert title for enable Confirmation Beeps */
-"Enable Confirmation Beeps" = "Enable Confirmation Beeps";
+"Enable Confirmation Beeps" = "Onay Uyarılarını Etkinleştir";
 
 /* The alert title for Disable Confirmation Beep */
-"Disable Confirmation Beeps" = "Disable Confirmation Beeps";
+"Disable Confirmation Beeps" = "Onay Uyarılarını Devre Dışı Bırak";
 
 /* The alert title for enable Automatic Bolus Beeps */
-"Enable Automatic Bolus Beeps" = "Enable Automatic Bolus Beeps";
+"Enable Automatic Bolus Beeps" = "Otomatik Bolus Uyarılarını Etkinleştir";
 
 /* The alert title for Disable Automatic Bolus Beeps */
-"Disable Automatic Bolus Beeps" = "Disable Automatic Bolus Beeps";
+"Disable Automatic Bolus Beeps" = "Otomatik Bolus Uyarılarını Devre Dışı Bırak";
 
 /* The alert title for a resume error */
 "Error Resuming" = "Devam ederken hata oluştu";
@@ -139,13 +139,13 @@
 "Finish pod setup" = "Pod kurulumu bitir";
 
 /* Accessibility format string for (1: localized volume)(2: time) */
-"Greater than %1$@ units remaining at %2$@" = "Greater than %1$@ units remaining at %2$@";
+"Greater than %1$@ units remaining at %2$@" = "%2$@ 'te %1$@ üniteden fazla kaldı";
 
 /* Instructions when deactivating pod that has been paired, but not attached. */
-"Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod.";
+"Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Eksik ayarlanmış pod, yenisiyle eşleştirmeden önce devre dışı bırakılmalıdır. Lütfen pod'u devre dışı bırakın ve atın.";
 
 /* Instructions when deactivating pod that has been paired and possibly attached. */
-"Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and remove pod." = "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and remove pod.";
+"Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and remove pod." = "Eksik ayarlanmış pod, yenisiyle eşleştirmeden önce devre dışı bırakılmalıdır. Lütfen pod'u devre dışı bırakın ve çıkartın.";
 
 /* Button title to insert cannula during setup */
 "Insert Cannula" = "Kanül Yerleştir";
