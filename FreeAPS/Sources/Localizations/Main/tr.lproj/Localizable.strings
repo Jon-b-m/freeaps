@@ -68,7 +68,7 @@
 "Replace pod" = "Pod'u değiştir";
 
 /* Suggested at a date */
-"Suggested at %@" = "Suggested at %@";
+"Suggested at %@" = "%@'de önerilen";
 
 /* Add carbs screen */
 "Add Carbs" = "Karbonhidrat Ekle";
@@ -110,10 +110,10 @@
 "Duration" = "Süre";
 
 /*  */
-"Enact Temp Target" = "Enact Temp Target";
+"Enact Temp Target" = "Geçici Hedefe Başla";
 
 /*  */
-"Enter preset name" = "Enter preset name";
+"Enter preset name" = "Ön ayar adını girin";
 
 /* Preset name */
 "Name" = "İsim";
@@ -146,10 +146,10 @@
 "Delete autotune data" = "Autotune verilerini sil";
 
 /*  */
-"Run now" = "Run now";
+"Run now" = "Şimdi çalıştır";
 
 /*  */
-"Last run" = "Last run";
+"Last run" = "Son Çalıştırma";
 
 /*  */
 "Sensitivity" = "Duyarlılık";
@@ -176,16 +176,16 @@
 "Schedule" = "Planlama";
 
 /*  */
-"starts at" = "starts at";
+"starts at" = "de başlar";
 
 /* Time basal profile */
 "Time" = "Saat";
 
 /* */
-"Calculated Ratio" = "Calculated Ratio";
+"Calculated Ratio" = "Hesaplanan Oran";
 
 /* Carb Ratios header */
-"Carb Ratios" = "Carb Ratios";
+"Carb Ratios" = "Karbonhidrat Oranları";
 
 /*  */
 "Ratio" = "Oran";
@@ -194,7 +194,7 @@
 "Autosens" = "Otoduyarlılık";
 
 /*  */
-"Calculated Sensitivity" = "Calculated Sensitivity";
+"Calculated Sensitivity" = "Hesaplanan Duyarlılık";
 
 /*  */
 "Insulin Sensitivities" = "İnsülin Duyarlılık Faktörü";
@@ -216,10 +216,10 @@
 
 /* Enact
 Enact a temp Basal or a temp target */
-"Enact" = "Enact";
+"Enact" = "Enjekte et";
 
 /* */
-"Manual Temp Basal" = "Manual Temp Basal";
+"Manual Temp Basal" = "Manuel Geçici Bazal";
 
 /* Allow uploads tp NS */
 "Allow uploads" = "Veri yüklemeye izin ver";
@@ -252,10 +252,10 @@ Enact a temp Basal or a temp target */
 "URL" = "URL";
 
 /**/
-"Use local glucose server" = "Use local glucose server";
+"Use local glucose server" = "Yerel glikoz sunucusu kullan";
 
 /*  */
-"Edit settings json" = "Edit settings json";
+"Edit settings json" = "Json ayarlarını düzenle";
 
 /* */
 "Glucose units" = "Glikoz birimi";
