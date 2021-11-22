@@ -438,7 +438,7 @@ Enact a temp Basal or a temp target */
 "Select the third party transmitter you want to connect to" = "Wählen Sie den externen Sender, den Sie verbinden möchten";
 
 /* State was restored */
-"State was restored" = "State was restored";
+"State was restored" = "Status wurde wieder hergestellt";
 
 /* The short unit display string for millimoles of glucose per liter */
 "mmol/L" = "mmol/L";
