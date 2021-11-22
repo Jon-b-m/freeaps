@@ -791,28 +791,28 @@ Also vibrate" = "Вибрировать";
 "Found devices: %d" = "Найдено устройств: %d";
 
 /* */
-"Backfill options" = "Backfill options";
+"Backfill options" = "Опции заполнения";
 
 /* */
-"Backfilling from trend is currently not well supported by Loop" = "Backfilling from trend is currently not well supported by Loop";
+"Backfilling from trend is currently not well supported by Loop" = "Заполнение из тренда в настоящее время не поддерживается в Loop";
 
 /* */
-"Backfill from history" = "Backfill from history";
+"Backfill from history" = "Заполнять из истории";
 
 /* */
-"Backfill from trend" = "Backfill from trend";
+"Backfill from trend" = "Заполнять из тренда";
 
 /* */
-"Debug options" = "Debug options";
+"Debug options" = "Опции отладки";
 
 /* */
-"Adds a lot of data to the Issue Report " = "Adds a lot of data to the Issue Report ";
+"Adds a lot of data to the Issue Report " = "Добавляет много данных в отчет об ошибках ";
 
 /* */
-"Persist sensordata" = "Persist sensordata";
+"Persist sensordata" = "Хранить данные сенсора";
 
 /* */
-"Battery" = "Battery";
+"Battery" = "Батарея";
 
 
 
