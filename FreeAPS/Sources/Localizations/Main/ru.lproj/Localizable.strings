@@ -336,10 +336,10 @@ Enact a temp Basal or a temp target */
 "0 U/hr" = "0 Ед/час";
 
 /* abbreviation for days */
-"d" = "дн";
+"d" = "д";
 
 /* abbreviation for hours */
-"h" = "час";
+"h" = "ч";
 
 /* abbreviation for minutes */
 "m" = "мин";
@@ -804,7 +804,7 @@ Also vibrate" = "Вибрировать";
 
 
 /* Glucose Simulator CGM */
-"Glucose Simulator" = "Glucose Simulator";
+"Glucose Simulator" = "Симулятор глюкозы";
 
 
 /*
