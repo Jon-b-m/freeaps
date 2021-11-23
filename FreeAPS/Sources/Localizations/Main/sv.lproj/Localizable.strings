@@ -570,7 +570,7 @@ Enact a temp Basal or a temp target */
 "Detected sensor is invalid: %@" = "Upptäckt sensor är ogiltig: %@";
 
 /* Low Battery */
-"Low battery" = "Low battery";
+"Low battery" = "Låg batterinivå";
 
 /* */
 "Invalid sensor" = "Ogiltig sensor";
