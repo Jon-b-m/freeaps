@@ -219,7 +219,7 @@ Enact a temp Basal or a temp target */
 "Enact" = "Запустить";
 
 /* */
-"Manual Temp Basal" = "Ручная Вбс";
+"Manual Temp Basal" = "Ручная ВБС";
 
 /* Allow uploads tp NS */
 "Allow uploads" = "Разрешить выгрузку";
