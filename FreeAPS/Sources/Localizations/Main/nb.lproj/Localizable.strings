@@ -564,16 +564,16 @@ Enact a temp Basal or a temp target */
 "Detected sensor is invalid: %@" = "Oppdaget sensor er ugyldig: %@";
 
 /* Low Battery */
-"Low battery" = "Low battery";
+"Low battery" = "Lavt batterinivå";
 
 /* */
-"Invalid sensor" = "Invalid sensor";
+"Invalid sensor" = "Ugyldig sensor";
 
 /* */
-"Sensor change" = "Sensor change";
+"Sensor change" = "Endring av sensor";
 
 /* */
-"Sensor expires soon" = "Sensor expires soon";
+"Sensor expires soon" = "Sensor utløper snart";
 
 /* Battery is running low %@, consider charging your %@ device as soon as possible */
 "Battery is running low %@, consider charging your %@ device as soon as possible" = "Batterinivået er lavt %@, vurder å lade %@ enheten din så snart som mulig";
@@ -651,7 +651,7 @@ Enact a temp Basal or a temp target */
 "Edit calibrations" = "Rediger kalibreringer";
 
 /* */
-"edit calibration clicked" = "edit calibration clicked";
+"edit calibration clicked" = "rediger valgt kalibrering";
 
 /* */
 "Delete CGM" = "Slett CGM";
@@ -671,25 +671,25 @@ Enact a temp Basal or a temp target */
 "Glucose Settings" = "Blodsukker-innstillinger";
 
 /* */
-"Notifications" = "Notifications";
+"Notifications" = "Varsler";
 
 /* */
-"Export logs" = "Export logs";
+"Export logs" = "Eksporter logger";
 
 /* */
-"Export not available" = "Export not available";
+"Export not available" = "Eksport ikke tilgjengelig";
 
 /* */
-"Log export requires ios 15" = "Log export requires ios 15";
+"Log export requires ios 15" = "Loggeksportering krever ios 15";
 
 /* */
-"Got it!" = "Got it!";
+"Got it!" = "Skjønner!";
 
 /* */
-"Saved to %@" = "Saved to %@";
+"Saved to %@" = "Lagret til %@";
 
 /* */
-"No logs available" = "No logs available";
+"No logs available" = "Ingen logger tilgjengelig";
 
 /* */
 "Glucose Notification visibility" = "Glucose Notification visibility";
@@ -701,10 +701,10 @@ Enact a temp Basal or a temp target */
 "Notify per reading" = "Notify per reading";
 
 /* */
-"Value" = "Value";
+"Value" = "Verdi";
 
 /* */
-"Adds Phone Battery" = "Adds Phone Battery";
+"Adds Phone Battery" = "Legger til telefonbatteri";
 
 /* */
 "Adds Transmitter Battery" = "Adds Transmitter Battery";
@@ -719,31 +719,31 @@ Enact a temp Basal or a temp target */
 "Misc" = "Misc";
 
 /* */
-"Unit override" = "Unit override";
+"Unit override" = "Overstyr enhet";
 
 /* */
-"Low" = "Low";
+"Low" = "Lav";
 
 /* */
-"High" = "High";
+"High" = "Høy";
 
 /* */
-"glucose" = "glucose";
+"glucose" = "blodsukker";
 
 /* */
-"Schedule " = "Schedule ";
+"Schedule " = "Tidsplan ";
 
 /* */
 "tapped save schedules" = "tapped save schedules";
 
 /* */
-"Error" = "Error";
+"Error" = "Feil";
 
 /* */
 "Some ui element was incorrectly specified" = "Some ui element was incorrectly specified";
 
 /* */
-"Success" = "Success";
+"Success" = "Vellykket";
 
 /* */
 "Schedules were saved successfully!" = "Schedules were saved successfully!";
