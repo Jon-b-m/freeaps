@@ -695,10 +695,10 @@ Enact a temp Basal or a temp target */
 "Glucose Notification visibility" = "Glucose Notification visibility";
 
 /* */
-"Always Notify Glucose" = "Always Notify Glucose";
+"Always Notify Glucose" = "Alltid varsle om blodsukker";
 
 /* */
-"Notify per reading" = "Notify per reading";
+"Notify per reading" = "Varsle per lesing";
 
 /* */
 "Value" = "Verdi";
@@ -707,10 +707,10 @@ Enact a temp Basal or a temp target */
 "Adds Phone Battery" = "Legger til telefonbatteri";
 
 /* */
-"Adds Transmitter Battery" = "Adds Transmitter Battery";
+"Adds Transmitter Battery" = "Legger til senderbatteri";
 
 /* */
-"Also vibrate" = "Also vibrate";
+"Also vibrate" = "Også vibrasjon";
 
 /* */
 "Additional notification types" = "Additional notification types";
@@ -734,7 +734,7 @@ Enact a temp Basal or a temp target */
 "Schedule " = "Tidsplan ";
 
 /* */
-"tapped save schedules" = "tapped save schedules";
+"tapped save schedules" = "valgt lagre tidsplaner";
 
 /* */
 "Error" = "Feil";
@@ -749,22 +749,22 @@ Enact a temp Basal or a temp target */
 "Schedules were saved successfully!" = "Schedules were saved successfully!";
 
 /* */
-"High Glucose Alarm active" = "High Glucose Alarm active";
+"High Glucose Alarm active" = "Høy glukosealarm aktiv";
 
 /* */
-"Low Glucose Alarm active" = "Low Glucose Alarm active";
+"Low Glucose Alarm active" = "Lav glukosealarm aktiv";
 
 /* */
-"No Glucose Alarm active" = "No Glucose Alarm active";
+"No Glucose Alarm active" = "Ingen glukosealarm aktiv";
 
 /* */
-"snoozing until %@" = "snoozing until %@";
+"snoozing until %@" = "slumrer til %@";
 
 /* */
-"not snoozing" = "not snoozing";
+"not snoozing" = "slumrer ikke";
 
 /* */
-"nothing to see here" = "nothing to see here";
+"nothing to see here" = "ingenting å se her";
 
 /* */
 "snooze from testview clicked" = "snooze from testview clicked";
@@ -782,7 +782,7 @@ Enact a temp Basal or a temp target */
 "Hold the top of your iPhone near the sensor to pair" = "Hold the top of your iPhone near the sensor to pair";
 
 /* */
-"Sensor not found" = "Sensor not found";
+"Sensor not found" = "Sensor ikke funnet";
 
 /* */
 "Also play alert sound" = "Also play alert sound";
@@ -791,7 +791,7 @@ Enact a temp Basal or a temp target */
 "Notification Settings" = "Notification Settings";
 
 /* */
-"Found devices: %d" = "Found devices: %d";
+"Found devices: %d" = "Fant enheter: %d";
 
 /* */
 "Backfill options" = "Backfill options";
