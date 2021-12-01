@@ -708,34 +708,34 @@ Einheitenzeichen g, für Gramm";
 "Value" = "Value";
 
 /* */
-"Adds Phone Battery" = "Adds Phone Battery";
+"Adds Phone Battery" = "Telefon-Akkustand anzeigen";
 
 /* */
-"Adds Transmitter Battery" = "Adds Transmitter Battery";
+"Adds Transmitter Battery" = "Transmitter-Batteriestand anzeigen";
 
 /* */
-"Also vibrate" = "Also vibrate";
+"Also vibrate" = "Auch vibrieren";
 
 /* */
-"Additional notification types" = "Additional notification types";
+"Additional notification types" = "Weitere Benachrichtigungs Einstellungen";
 
 /* */
-"Misc" = "Misc";
+"Misc" = "Sonstiges";
 
 /* */
-"Unit override" = "Unit override";
+"Unit override" = "BZ Einheit";
 
 /* */
-"Low" = "Low";
+"Low" = "Tief";
 
 /* */
-"High" = "High";
+"High" = "Hoch";
 
 /* */
-"glucose" = "glucose";
+"glucose" = "Blutzucker";
 
 /* */
-"Schedule " = "Schedule ";
+"Schedule " = "Zeitplan ";
 
 /* */
 "tapped save schedules" = "tapped save schedules";
@@ -744,22 +744,22 @@ Einheitenzeichen g, für Gramm";
 "Error" = "Error";
 
 /* */
-"Some ui element was incorrectly specified" = "Some ui element was incorrectly specified";
+"Some ui element was incorrectly specified" = "UI Element(s) wurde(n) falsch eingegeben.";
 
 /* */
 "Success" = "Success";
 
 /* */
-"Schedules were saved successfully!" = "Schedules were saved successfully!";
+"Schedules were saved successfully!" = "Zeitplan wurde erfolgreich gespeichert!";
 
 /* */
-"High Glucose Alarm active" = "High Glucose Alarm active";
+"High Glucose Alarm active" = "Alarm für \"Hoher Blutzucker\" aktiv";
 
 /* */
-"Low Glucose Alarm active" = "Low Glucose Alarm active";
+"Low Glucose Alarm active" = "Alarm für \"Niedriger Blutzucker\" aktiv";
 
 /* */
-"No Glucose Alarm active" = "No Glucose Alarm active";
+"No Glucose Alarm active" = "Alle Blutzucker Alarme sind deaktiviert";
 
 /* */
 "snoozing until %@" = "snoozing until %@";
