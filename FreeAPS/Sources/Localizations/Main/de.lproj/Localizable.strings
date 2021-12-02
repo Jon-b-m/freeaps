@@ -68,7 +68,7 @@
 "Add Carbs" = "Kohlenhydrate hinzufügen";
 
 /* Add carbs header and button in Watch app. You can skip the last " " space. It's just for differentiation */
-"Add Carbs " = "Add Carbs ";
+"Add Carbs " = "Carbs zufuegen ";
 
 /*  */
 "Amount Carbs" = "Kohlenhydratmenge";
@@ -330,7 +330,8 @@ Enact a temp Basal or a temp target */
 " g" = " g";
 
 /* The short unit display string for grams */
-"g" = "g";
+"g" = "g
+Einheitenzeichen g, für Gramm";
 
 /* when 0 U/hr */
 "0 U/hr" = "0 IE/h";
@@ -402,7 +403,7 @@ Enact a temp Basal or a temp target */
 "Other" = "Sonstiges";
 
 /* Whatch app alert */
-"Set temp targets presets on iPhone first" = "Set temp targets presets on iPhone first";
+"Set temp targets presets on iPhone first" = "Temp Zielvorgaben auf iPhone zuerst setzen";
 
 /* Updating Watch app */
 "Updating..." = "Updating...";
