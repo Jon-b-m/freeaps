@@ -854,7 +854,7 @@ Enact a temp Basal or a temp target */
 "Show glucose on the app badge" = "Показывать глюкозу на значке приложения";
 
 /* */
-"Backfill glucose" = "Скачать глюкозу";
+"Backfill glucose" = "Backfill glucose";
 
 
 /* Headers for settings ------------------- */
