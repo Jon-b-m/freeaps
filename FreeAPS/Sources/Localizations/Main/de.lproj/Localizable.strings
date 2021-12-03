@@ -405,7 +405,7 @@ Enact a temp Basal or a temp target */
 "Set temp targets presets on iPhone first" = "Temp Zielvorgaben auf iPhone zuerst setzen";
 
 /* Updating Watch app */
-"Updating..." = "Updating...";
+"Updating..." = "Wird aktualisiert...";
 
 /* Header for Temp targets in Watch app */
 "Temp Targets" = "Temp Targets";
