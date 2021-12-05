@@ -877,13 +877,13 @@ Enact a temp Basal or a temp target */
 
 /* HealthKit intergration ------------------*/
 /* */
-"Apple Health" = "Apple Health";
+"Apple Health" = "Apple Hälsa";
 
 /* */
-"Connect to Apple Health" = "Connect to Apple Health";
+"Connect to Apple Health" = "Anslut till Apple Hälsa";
 
 /* Show when have not permissions for writing to Health */
-"For write data to Apple Health you must give permissions in Settings > Health > Data Access" = "For write data to Apple Health you must give permissions in Settings > Health > Data Access";
+"For write data to Apple Health you must give permissions in Settings > Health > Data Access" = "För att kunna skriva data till Apple Health måste du ge din tillåtelse i Inställningar > Hälsa > Datatillgång och enheter";
 /* -------------------------------------------*/
 /*
   Infotexts from openaps.docs and androidaps.docs
