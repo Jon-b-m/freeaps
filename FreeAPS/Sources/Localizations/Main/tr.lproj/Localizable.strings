@@ -880,7 +880,7 @@ Enact a temp Basal or a temp target */
 "Native G5 app" = "Yerel G5 uygulaması";
 
 /* Minilink transmitter */
-"Minilink transmitter" = "Minilink transmitter";
+"Minilink transmitter" = "Minilink Sensörü";
 
 /* Simple simulator */
 "Simple simulator" = "Basit simülatör";
