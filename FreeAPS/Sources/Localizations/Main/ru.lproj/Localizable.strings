@@ -831,7 +831,7 @@ Enact a temp Basal or a temp target */
 "Battery" = "Батарея";
 
 /* */
-"Also add source info" = "Дополнительная информация об истонике";
+"Also add source info" = "Дополнительная информация об источнике";
 
 /* */
 "Carbs Required Threshold" = "Порог необходимых углеводов";
