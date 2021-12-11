@@ -831,7 +831,7 @@ Enact a temp Basal or a temp target */
 "Battery" = "Batteri";
 
 /* */
-"Also add source info" = "Lägg till info om glukoskälla";
+"Also add source info" = "Lägg till info om CGM";
 
 /* */
 "Carbs Required Threshold" = "Tröskelvärde för kolhydrater som krävs";
@@ -855,7 +855,7 @@ Enact a temp Basal or a temp target */
 "Backfill glucose" = "Återfyll glukosvärden";
 
 /* About this source */
-"About this source" = "About this source";
+"About this source" = "Om denna CGM";
 
 
 /* Headers for settings ----------------------- */
