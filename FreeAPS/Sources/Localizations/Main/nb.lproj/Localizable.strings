@@ -855,7 +855,7 @@ Enact a temp Basal or a temp target */
 "Backfill glucose" = "Tilbakefyll blodsukker";
 
 /* About this source */
-"About this source" = "About this source";
+"About this source" = "Om denne kilden";
 
 
 /* Headers for settings ----------------------- */
@@ -871,7 +871,7 @@ Enact a temp Basal or a temp target */
 "Glucose Simulator" = "Blodsukker-simulator";
 
 /* Restored state message */
-"Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@";
+"Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Bluetooth-status gjenopprettet (APS restartet?). Funnet %d ennheter, og koblet til %@ med identifikator %@";
 
 /* Shared app group */
 "Shared app group" = "Shared app group";
