@@ -855,7 +855,7 @@ Enact a temp Basal or a temp target */
 "Backfill glucose" = "Glucose Werte auffüllen";
 
 /* About this source */
-"About this source" = "About this source";
+"About this source" = "Über diesen Quellcode";
 
 
 /* Headers for settings ----------------------- */
@@ -874,7 +874,7 @@ Enact a temp Basal or a temp target */
 "Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Bluetooth-Status wiederhergestellt (APS neu gestartet?). %d Peripheriegeräte gefunden und mit %@ mit der Kennung %@ verbunden";
 
 /* Shared app group */
-"Shared app group" = "Shared app group";
+"Shared app group" = "Gemeinsame App-Gruppe";
 
 /* Native G6 app */
 "Native G6 app" = "Native G6 app";
@@ -883,16 +883,16 @@ Enact a temp Basal or a temp target */
 "Native G5 app" = "Native G5 app";
 
 /* Minilink transmitter */
-"Minilink transmitter" = "Minilink transmitter";
+"Minilink transmitter" = "Minilink Transmitter";
 
 /* Simple simulator */
-"Simple simulator" = "Simple simulator";
+"Simple simulator" = "Einfacher Simulator";
 
 /* Direct connection with Libre 1 transmitters or Libre 2 */
-"Direct connection with Libre 1 transmitters or Libre 2" = "Direct connection with Libre 1 transmitters or Libre 2";
+"Direct connection with Libre 1 transmitters or Libre 2" = "Direkte Verbindung mit Libre 1 Transmittern oder Libre 2";
 
 /* Online or internal server */
-"Online or internal server" = "Online or internal server";
+"Online or internal server" = "Online oder interner Server";
 
 /* HealthKit intergration --------------------*/
 /* */
