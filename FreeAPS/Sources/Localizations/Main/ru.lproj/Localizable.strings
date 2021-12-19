@@ -414,10 +414,13 @@ Enact a temp Basal or a temp target */
 "Temp Targets" = "Временные цели";
 
 /* Delete carbs from Treatments list*/
-"Delete carbs?" = "Delete carbs?";
+"Delete carbs?" = "Удалить углероды?";
 
 /* Treatments list */
 "Treatments" = "Treatments";
+
+/* " min" in Treatments list */
+" min" = " мин";
 
 
 /* Calendar and Libre transmitter settings ---------------
