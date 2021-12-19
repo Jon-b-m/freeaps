@@ -421,6 +421,9 @@ Połączono z Nightscout!";
 /* Treatments list */
 "Treatments" = "Treatments";
 
+/* " min" in Treatments list */
+" min" = " min";
+
 
 /* Calendar and Libre transmitter settings ---------------
  */
