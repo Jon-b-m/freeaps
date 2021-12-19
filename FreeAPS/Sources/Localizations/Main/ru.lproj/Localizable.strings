@@ -417,7 +417,7 @@ Enact a temp Basal or a temp target */
 "Delete carbs?" = "Удалить углероды?";
 
 /* Treatments list */
-"Treatments" = "Treatments";
+"Treatments" = "События";
 
 /* " min" in Treatments list */
 " min" = " мин";
