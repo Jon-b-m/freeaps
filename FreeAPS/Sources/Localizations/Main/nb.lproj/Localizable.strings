@@ -415,11 +415,11 @@ Enact a temp Basal or a temp target */
 
 /* Delete carbs?
 Delete carbs from Treatments data table */
-"Delete carbs?" = "Delete carbs?";
+"Delete carbs?" = "Slette karbohydrater?";
 
 /* Treatments
 Treatments data table */
-"Treatments" = "Treatments";
+"Treatments" = "Behandlinger";
 
 /*  min
 " min" in Treatments data table */
