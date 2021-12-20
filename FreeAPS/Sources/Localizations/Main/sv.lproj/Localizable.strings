@@ -131,7 +131,7 @@
 "Top target" = "Övre målvärde";
 
 /*  Temp target set for ... minutes */
-"for" = "for";
+"for" = "i";
 
 /*  Temp target set for ... minutes */
 "min" = "min";
