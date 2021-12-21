@@ -873,10 +873,10 @@ Enact a temp Basal or a temp target */
 "About this source" = "Om denna CGM";
 
 /* */
-"Bolus failed" = "Bolus failed";
+"Bolus failed" = "Bolus misslyckades";
 
 /* */
-"Bolus failed or inaccurate. Check pump history before repeating." = "Bolus failed or inaccurate. Check pump history before repeating.";
+"Bolus failed or inaccurate. Check pump history before repeating." = "Misslyckad eller felaktig bolus. Kontrollera pumpens historik innan du försöker igen.";
 
 
 /* Headers for settings ----------------------- */
