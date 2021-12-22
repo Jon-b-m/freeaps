@@ -15,7 +15,7 @@
 "%@ U (Finished)" = "%@ U (已输注)";
 
 /* Format string for bolus progress. (1: The delivered amount) (2: The programmed amount) (3: the percent progress) */
-"%@ U of %@ U (%@)" = "%1$@ U of %2$@ U (%3$@)";
+"%@ U of %@ U (%@)" = "%1$@ U%2$@ U (%3$@)";
 
 /* Format string for temp basal rate. (1: The localized amount) */
 "%@ U/hour" = "%@ U/小时";
@@ -36,7 +36,7 @@
 "Active Time" = "Pod启动时间";
 
 /* The title of the cell showing the Pod Active Clock */
-"Pod Active Clock" = "Pod Active Clock";
+"Pod Active Clock" = "Pod已启用时间";
 
 /* The title of the cell showing alarm status */
 "Alarms" = "提醒";
@@ -112,10 +112,10 @@
 "Disable Confirmation Beeps" = "禁用命令成功提醒";
 
 /* The alert title for enable Automatic Bolus Beeps */
-"Enable Automatic Bolus Beeps" = "启动自动大剂量成功提醒";
+"Enable Automatic Bolus Beeps" = "启用自动大剂量成功提醒";
 
 /* The alert title for Disable Automatic Bolus Beeps */
-"Disable Automatic Bolus Beeps" = "Disable Automatic Bolus Beeps";
+"Disable Automatic Bolus Beeps" = "禁用自动大剂量成功提醒";
 
 /* The alert title for a resume error */
 "Error Resuming" = "恢复输注错误";
@@ -136,10 +136,10 @@
 "Fault" = "错误";
 
 /* The title of the command to finish pod setup */
-"Finish pod setup" = "完成设置";
+"Finish pod setup" = "完成Pod设置";
 
 /* Accessibility format string for (1: localized volume)(2: time) */
-"Greater than %1$@ units remaining at %2$@" = "Greater than %1$@ units remaining at %2$@";
+"Greater than %1$@ units remaining at %2$@" = "在%2$@ 还有%1$@ 单位剩余";
 
 /* Instructions when deactivating pod that has been paired, but not attached. */
 "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Pod设置失败，请解除该从身体移除Pod,然后配对新Pod";
@@ -249,13 +249,13 @@
 "Unknown" = "未知";
 
 /* The title of the diagnostics section in settings */
-"Diagnostics" = "Diagnostics";
+"Diagnostics" = "诊断";
 
 /* The diagnostic command Read Pod Status */
-"Read Pod Status" = "Read Pod Status";
+"Read Pod Status" = "读取Pod状态";
 
 /* The diagnostic command Read Pulse Log */
-"Read Pulse Log" = "Read Pulse Log";
+"Read Pulse Log" = "读取Pulse日志";
 
 /* The title of the pod details section in settings */
-"Pod Details" = "Pod Details";
+"Pod Details" = "Pod详情";
