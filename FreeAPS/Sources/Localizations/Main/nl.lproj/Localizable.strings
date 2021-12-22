@@ -483,7 +483,7 @@ Enact a temp Basal or a temp target */
 "Slope" = "Toename";
 
 /* */
-"Intercept" = "Intercept";
+"Intercept" = "Onderschep";
 
 /* */
 "Chart" = "Grafiek";
@@ -660,7 +660,7 @@ Enact a temp Basal or a temp target */
 "Firmware" = "Firmware";
 
 /* */
-"Connection State" = "Connection State";
+"Connection State" = "Verbindingsstatus";
 
 /* */
 "Transmitter Type" = "Type zender";
@@ -672,193 +672,193 @@ Enact a temp Basal or a temp target */
 "Factory Calibration Parameters" = "Fabriekskalibratie voor Parameters";
 
 /* */
-"Valid for footer" = "Valid for footer";
+"Valid for footer" = "Geldig voor voettekst";
 
 /* */
-"Edit calibrations" = "Edit calibrations";
+"Edit calibrations" = "Kalibraties bewerken";
 
 /* */
-"edit calibration clicked" = "edit calibration clicked";
+"edit calibration clicked" = "bewerken geselecteerde kalibratie";
 
 /* */
-"Delete CGM" = "Delete CGM";
+"Delete CGM" = "Verwijder CGM";
 
 /* */
-"Are you sure you want to remove this cgm from loop?" = "Are you sure you want to remove this cgm from loop?";
+"Are you sure you want to remove this cgm from loop?" = "Weet je zeker dat je deze CGM uit de lijst wilt verwijderen?";
 
 /* */
-"There is no undo" = "There is no undo";
+"There is no undo" = "Ongedaan maken is niet mogelijk";
 
 /* */
-"Advanced" = "Advanced";
+"Advanced" = "Geavanceerd";
 
 /* */
-"Alarms" = "Alarms";
+"Alarms" = "Alarmen";
 
 /* */
-"Glucose Settings" = "Glucose Settings";
+"Glucose Settings" = "Glucose instellingen";
 
 /* */
-"Notifications" = "Notifications";
+"Notifications" = "Meldingen";
 
 /* */
-"Export logs" = "Export logs";
+"Export logs" = "Logboek exporteren";
 
 /* */
-"Export not available" = "Export not available";
+"Export not available" = "Exporteren niet beschikbaar";
 
 /* */
-"Log export requires ios 15" = "Log export requires ios 15";
+"Log export requires ios 15" = "Log export vereist ios 15";
 
 /* */
-"Got it!" = "Got it!";
+"Got it!" = "Begrepen!";
 
 /* */
-"Saved to %@" = "Saved to %@";
+"Saved to %@" = "Opgeslagen in %@";
 
 /* */
-"No logs available" = "No logs available";
+"No logs available" = "Geen logboeken beschikbaar";
 
 /* */
-"Glucose Notification visibility" = "Glucose Notification visibility";
+"Glucose Notification visibility" = "Zichtbaarheid Glucose melding";
 
 /* */
-"Always Notify Glucose" = "Always Notify Glucose";
+"Always Notify Glucose" = "Altijd Glucose Melden";
 
 /* */
-"Notify per reading" = "Notify per reading";
+"Notify per reading" = "Melding bij elke meting";
 
 /* */
-"Value" = "Value";
+"Value" = "Waarde";
 
 /* */
-"Adds Phone Battery" = "Adds Phone Battery";
+"Adds Phone Battery" = "Telefoonbatterij Toevoegen";
 
 /* */
-"Adds Transmitter Battery" = "Adds Transmitter Battery";
+"Adds Transmitter Battery" = "Zender Batterij Toevoegen";
 
 /* */
-"Also vibrate" = "Also vibrate";
+"Also vibrate" = "Ook trillen";
 
 /* */
-"Additional notification types" = "Additional notification types";
+"Additional notification types" = "Andere meldingsinstellingen";
 
 /* */
-"Misc" = "Misc";
+"Misc" = "Overige";
 
 /* */
-"Unit override" = "Unit override";
+"Unit override" = "Eenheid aanpassen";
 
 /* */
-"Low" = "Low";
+"Low" = "Laag";
 
 /* */
-"High" = "High";
+"High" = "Hoog";
 
 /* */
 "glucose" = "glucose";
 
 /* */
-"Schedule " = "Schedule ";
+"Schedule " = "Schema ";
 
 /* */
-"tapped save schedules" = "tapped save schedules";
+"tapped save schedules" = "geselecteerde schema's opslaan";
 
 /* */
-"Error" = "Error";
+"Error" = "Fout";
 
 /* */
-"Some ui element was incorrectly specified" = "Some ui element was incorrectly specified";
+"Some ui element was incorrectly specified" = "Sommige ui-elementen zijn onjuist opgegeven";
 
 /* */
-"Success" = "Success";
+"Success" = "Geslaagd";
 
 /* */
-"Schedules were saved successfully!" = "Schedules were saved successfully!";
+"Schedules were saved successfully!" = "Schema's zijn succesvol opgeslagen!";
 
 /* */
-"High Glucose Alarm active" = "High Glucose Alarm active";
+"High Glucose Alarm active" = "Hoge Glucose Alarm actief";
 
 /* */
-"Low Glucose Alarm active" = "Low Glucose Alarm active";
+"Low Glucose Alarm active" = "Laag Glucose Alarm actief";
 
 /* */
-"No Glucose Alarm active" = "No Glucose Alarm active";
+"No Glucose Alarm active" = "Geen Glucose Alarm actief";
 
 /* */
-"snoozing until %@" = "snoozing until %@";
+"snoozing until %@" = "sluimeren tot %@";
 
 /* */
-"not snoozing" = "not snoozing";
+"not snoozing" = "niet gesluimerd";
 
 /* */
-"nothing to see here" = "nothing to see here";
+"nothing to see here" = "er is hier niets te zien";
 
 /* */
-"snooze from testview clicked" = "snooze from testview clicked";
+"snooze from testview clicked" = "sluimeren geklikt in de testweergave";
 
 /* */
-"will snooze for %@ until %@" = "will snooze for %@ until %@";
+"will snooze for %@ until %@" = "zal sluimeren voor %@ tot %@";
 
 /* */
-"Click to Snooze Alerts" = "Click to Snooze Alerts";
+"Click to Snooze Alerts" = "Klik om waarschuwingen tijdelijk uit te schakelen";
 
 /* */
-"Strength" = "Strength";
+"Strength" = "Intensiteit";
 
 /* */
-"Hold the top of your iPhone near the sensor to pair" = "Hold the top of your iPhone near the sensor to pair";
+"Hold the top of your iPhone near the sensor to pair" = "Houd de bovenkant van je iPhone dicht bij de sensor om te koppelen";
 
 /* */
-"Sensor not found" = "Sensor not found";
+"Sensor not found" = "Sensor niet gevonden";
 
 /* */
-"Also play alert sound" = "Also play alert sound";
+"Also play alert sound" = "Ook alarmgeluid afspelen";
 
 /* */
-"Notification Settings" = "Notification Settings";
+"Notification Settings" = "Instellingen voor meldingen";
 
 /* */
-"Found devices: %d" = "Found devices: %d";
+"Found devices: %d" = "Gevonden apparaten: %d";
 
 /* */
-"Backfill options" = "Backfill options";
+"Backfill options" = "Terugzet opties";
 
 /* */
-"Backfilling from trend is currently not well supported by Loop" = "Backfilling from trend is currently not well supported by Loop";
+"Backfilling from trend is currently not well supported by Loop" = "Terugzetten van trend wordt momenteel niet goed ondersteund door Loop";
 
 /* */
-"Backfill from history" = "Backfill from history";
+"Backfill from history" = "Terugzetten van geschiedenis";
 
 /* */
-"Backfill from trend" = "Backfill from trend";
+"Backfill from trend" = "Terugzetten van trend";
 
 /* */
-"Debug options" = "Debug options";
+"Debug options" = "Foutopsporing opties";
 
 /* */
-"Adds a lot of data to the Issue Report " = "Adds a lot of data to the Issue Report ";
+"Adds a lot of data to the Issue Report " = "Voegt veel data toe aan het probleemrapport ";
 
 /* */
-"Persist sensordata" = "Persist sensordata";
+"Persist sensordata" = "Sensorgegevens bewaren";
 
 /* */
-"Battery" = "Battery";
+"Battery" = "Batterij";
 
 /* */
-"Also add source info" = "Also add source info";
+"Also add source info" = "Voeg ook bron info toe";
 
 /* */
-"Carbs Required Threshold" = "Carbs Required Threshold";
+"Carbs Required Threshold" = "Koolhydraten vereist drempelwaarde";
 
 /* */
-"Carbs required: %d g" = "Carbs required: %d g";
+"Carbs required: %d g" = "Koolhydraten vereist: %d g";
 
 /* */
-"To prevent LOW required %d g of carbs" = "To prevent LOW required %d g of carbs";
+"To prevent LOW required %d g of carbs" = "Om LAAG te voorkomen zijn %d g koolhydraten nodig";
 
 /* */
-"FreeAPS X not active" = "FreeAPS X not active";
+"FreeAPS X not active" = "FreeAPS X niet actief";
 
 /* */
 "Last loop was more then %d min ago" = "Last loop was more then %d min ago";
