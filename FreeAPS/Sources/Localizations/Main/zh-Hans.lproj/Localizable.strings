@@ -519,151 +519,151 @@ Enact a temp Basal or a temp target */
 "Not paired yet" = "未配对";
 
 /* */
-"Pair Sensor & connect" = "Pair Sensor & connect";
+"Pair Sensor & connect" = "配对传感器并连接";
 
 /* */
-"Phone NFC required!" = "Phone NFC required!";
+"Phone NFC required!" = "需要手机支持NFC";
 
 /* */
-"Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors" = "Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors";
+"Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors" = "您的手机或应用程序尚未启用 NFC，需要启用NFC配对 libre2 传感器";
 
 /* Bluetooth Power Off */
-"Bluetooth Power Off" = "Bluetooth Power Off";
+"Bluetooth Power Off" = "蓝牙已关闭";
 
 /* Please turn on Bluetooth */
-"Please turn on Bluetooth" = "Please turn on Bluetooth";
+"Please turn on Bluetooth" = "请打开蓝牙";
 
 /* No Libre Transmitter Selected */
-"No Libre Transmitter Selected" = "No Libre Transmitter Selected";
+"No Libre Transmitter Selected" = "未选择瞬感发射器";
 
 /* Delete Transmitter and start anew. */
-"Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "Delete CGMManager and start anew. Your libreoopweb credentials will be preserved";
+"Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "删除动态血糖数据源再次添加时会重置血糖算法配置";
 
 /* Invalid libre checksum */
-"Invalid libre checksum" = "Invalid libre checksum";
+"Invalid libre checksum" = "瞬感传感器数据校验错误";
 
 /* Libre sensor was incorrectly read, CRCs were not valid */
-"Libre sensor was incorrectly read, CRCs were not valid" = "Libre sensor was incorrectly read, CRCs were not valid";
+"Libre sensor was incorrectly read, CRCs were not valid" = "Libre 传感器数据不正确，CRC无效";
 
 /* Glucose */
-"Glucose" = "Glucose";
+"Glucose" = "葡萄糖";
 
 /* LOWALERT! */
-"LOWALERT!" = "LOWALERT!";
+"LOWALERT!" = "低血糖！";
 
 /* HIGHALERT! */
-"HIGHALERT!" = "HIGHALERT!";
+"HIGHALERT!" = "高血糖！";
 
 /* (Snoozed)*/
-"(Snoozed)" = "(Snoozed)";
+"(Snoozed)" = "延后";
 
 /* Glucose: %@ */
-"Glucose: %@" = "Glucose: %@";
+"Glucose: %@" = "血糖:%@";
 
 /* Transmitter: %@%% */
-"Transmitter: %@%%" = "Transmitter: %@%%";
+"Transmitter: %@%%" = "发射器:%@%%";
 
 /* No Sensor Detected */
-"No Sensor Detected" = "No Sensor Detected";
+"No Sensor Detected" = "未检测到传感器！";
 
 /* This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor */
-"This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor" = "This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor";
+"This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor" = "这可能是一个间歇性问题，但请检查您的发射器是否对贴紧传感器";
 
 /* New Sensor Detected */
-"New Sensor Detected" = "New Sensor Detected";
+"New Sensor Detected" = "检测到新的传感器";
 
 /* Please wait up to 30 minutes before glucose readings are available! */
-"Please wait up to 30 minutes before glucose readings are available!" = "Please wait up to 30 minutes before glucose readings are available!";
+"Please wait up to 30 minutes before glucose readings are available!" = "请等待30分钟后获取葡萄糖读数！";
 
 /* Invalid Glucose sample detected, try again later */
-"Invalid Glucose sample detected, try again later" = "Invalid Glucose sample detected, try again later";
+"Invalid Glucose sample detected, try again later" = "检测到无效的血糖值，请稍后再试";
 
 /* ensor might have temporarily stopped, fallen off or is too cold or too warm */
-"Sensor might have temporarily stopped, fallen off or is too cold or too warm" = "Sensor might have temporarily stopped, fallen off or is too cold or too warm";
+"Sensor might have temporarily stopped, fallen off or is too cold or too warm" = "传感器可能已经暂时停止, 温度过高或过低, 也可能传感器脱落";
 
 /* Invalid Sensor Detected */
-"Invalid Sensor Detected" = "Invalid Sensor Detected";
+"Invalid Sensor Detected" = "检测到无效传感器";
 
 /* Detected sensor seems not to be a libre 1 sensor! */
-"Detected sensor seems not to be a libre 1 sensor!" = "Detected sensor seems not to be a libre 1 sensor!";
+"Detected sensor seems not to be a libre 1 sensor!" = "检测到的传感器似乎不是一个瞬感1代！";
 
 /* Detected sensor is invalid: %@ */
-"Detected sensor is invalid: %@" = "Detected sensor is invalid: %@";
+"Detected sensor is invalid: %@" = "检测到的传感器无效： %@";
 
 /* Low Battery */
-"Low battery" = "Low battery";
+"Low battery" = "电量不足";
 
 /* */
-"Invalid sensor" = "Invalid sensor";
+"Invalid sensor" = "无效传感器";
 
 /* */
-"Sensor change" = "Sensor change";
+"Sensor change" = "更换传感器";
 
 /* */
-"Sensor expires soon" = "Sensor expires soon";
+"Sensor expires soon" = "传感器即将过期";
 
 /* Battery is running low %@, consider charging your %@ device as soon as possible */
-"Battery is running low %@, consider charging your %@ device as soon as possible" = "Battery is running low %@, consider charging your %@ device as soon as possible";
+"Battery is running low %@, consider charging your %@ device as soon as possible" = "电池运行低 %@，考虑尽快充电您的 %@ 设备";
 
 /* Extracting calibrationdata from sensor */
-"Extracting calibrationdata from sensor" = "Extracting calibrationdata from sensor";
+"Extracting calibrationdata from sensor" = "从传感器提取校准数据";
 
 /* Sensor Ending Soon */
-"Sensor Ending Soon" = "Sensor Ending Soon";
+"Sensor Ending Soon" = "传感器即将结束";
 
 /* Current Sensor is Ending soon! Sensor Life left in %@ */
-"Current Sensor is Ending soon! Sensor Life left in %@" = "Current Sensor is Ending soon! Sensor Life left in %@";
+"Current Sensor is Ending soon! Sensor Life left in %@" = "当前传感器即将结束！传感器剩余 %@";
 
 /* */
-"Libre Bluetooth" = "Libre Bluetooth";
+"Libre Bluetooth" = "瞬感发射器";
 
 /* */
-"Snooze Alerts" = "Snooze Alerts";
+"Snooze Alerts" = "延后警报";
 
 /* */
-"Last measurement" = "Last measurement";
+"Last measurement" = "上次测量";
 
 /* */
-"Sensor Footer checksum" = "Sensor Footer checksum";
+"Sensor Footer checksum" = "传感器Footer校验";
 
 /* */
-"Last Blood Sugar prediction" = "Last Blood Sugar prediction";
+"Last Blood Sugar prediction" = "最后一次血糖预测";
 
 /* */
-"CurrentBG" = "CurrentBG";
+"CurrentBG" = "当前血糖";
 
 /* */
-"Sensor Info" = "Sensor Info";
+"Sensor Info" = "传感器信息";
 
 /* */
-"Sensor Age" = "Sensor Age";
+"Sensor Age" = "传感器使用时间";
 
 /* */
-"Sensor Age Left" = "Sensor Age Left";
+"Sensor Age Left" = "传感器剩余时间";
 
 /* */
-"Sensor Endtime" = "Sensor Endtime";
+"Sensor Endtime" = "传感器到期时间";
 
 /* */
-"Sensor State" = "Sensor State";
+"Sensor State" = "传感器状态";
 
 /* */
-"Sensor Serial" = "Sensor Serial";
+"Sensor Serial" = "传感器编号";
 
 /* */
-"Transmitter Info" = "Transmitter Info";
+"Transmitter Info" = "发射器信息";
 
 /* */
-"Hardware" = "Hardware";
+"Hardware" = "硬件";
 
 /* */
-"Firmware" = "Firmware";
+"Firmware" = "固件";
 
 /* */
-"Connection State" = "Connection State";
+"Connection State" = "连接状态";
 
 /* */
-"Transmitter Type" = "Transmitter Type";
+"Transmitter Type" = "发射器类型";
 
 /* */
 "Sensor Type" = "传感器类型";
@@ -714,7 +714,7 @@ Enact a temp Basal or a temp target */
 "Got it!" = "知道了";
 
 /* */
-"Saved to %@" = "Saved to %@";
+"Saved to %@" = "保存到 %@";
 
 /* */
 "No logs available" = "没有可用的日志";
@@ -1046,4 +1046,4 @@ Enact a temp Basal or a temp target */
 "Grams of carbsReq to trigger a pushover. Defaults to 1 (for 1 gram of carbohydrate). Can be increased if you only want to get Pushover for carbsReq at X threshold." = "触发Pushover的碳水化合物的克数。默认为1（对于1克碳水化合物）。如果你只想在X阈值时得到碳水化合物需求的Pushover通知，可以增加。";
 
 /* "Noisy CGM Target Multiplier" */
-"Defaults to 1.3. Increase target by this amount when looping off raw/noisy CGM data" = "Defaults to 1.3. Increase target by this amount when looping off raw/noisy CGM data";
+"Defaults to 1.3. Increase target by this amount when looping off raw/noisy CGM data" = "默认值为 1.3. 当闭环与原始/躁点血糖数据偏离时调高目标";
