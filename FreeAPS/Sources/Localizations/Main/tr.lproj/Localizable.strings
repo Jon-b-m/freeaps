@@ -642,7 +642,7 @@ Enact a temp Basal or a temp target */
 "Sensor Age Left" = "Kalan Sensör Yaşı";
 
 /* */
-"Sensor Endtime" = "Sensör Bitim zamanı";
+"Sensor Endtime" = "Sensör Bitiş zamanı";
 
 /* */
 "Sensor State" = "Sensör Durumu";
@@ -780,10 +780,10 @@ Enact a temp Basal or a temp target */
 "High Glucose Alarm active" = "Yüksek Glikoz Uyarılarımı aktif";
 
 /* */
-"Low Glucose Alarm active" = "Düşük Glikoz Uyarılarımı aktif";
+"Low Glucose Alarm active" = "Düşük Glikoz Alarmı aktif";
 
 /* */
-"No Glucose Alarm active" = "Glikoz Uyarılarımı aktif değil";
+"No Glucose Alarm active" = "Glikoz Alarmı aktif değil";
 
 /* */
 "snoozing until %@" = "%@'e kadar erteleniyor";
