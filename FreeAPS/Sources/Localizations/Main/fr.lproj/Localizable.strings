@@ -483,154 +483,154 @@ Enact a temp Basal or a temp target */
 "Slope" = "Pente";
 
 /* */
-"Intercept" = "Intercept";
+"Intercept" = "Intercepter";
 
 /* */
-"Chart" = "Chart";
+"Chart" = "Graphique";
 
 /* */
-"Remove" = "Remove";
+"Remove" = "Retirer";
 
 /* */
-"Remove Last" = "Remove Last";
+"Remove Last" = "Supprimer la dernière";
 
 /* */
-"Remove All" = "Remove All";
+"Remove All" = "Tout supprimer";
 
 /* */
-"About the Process" = "About the Process";
+"About the Process" = "À propos du processus";
 
 /* */
-"Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working." = "Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working.";
+"Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working." = "Veuillez vous assurer que votre capteur Libre 2 est déjà activé et initialisé. Si vous avez d'autres applications qui se connectent au capteur via Bluetooth, celles-ci doivent être arrêtées ou désinstallées. \n\n Vous ne pouvez avoir qu'une seule application qui communique avec le capteur via Bluetooth. Appuyez ensuite sur le bouton \"Appareiller\" ci-dessous pour démarrer le processus. Veuillez noter que la connexion Bluetooth peut prendre jusqu'à quelques minutes avant de commencer à fonctionner.";
 
 /* */
-"Pairinginfo" = "Pairinginfo";
+"Pairinginfo" = "Infos appareillage";
 
 /* */
-"PatchInfo" = "PatchInfo";
+"PatchInfo" = "Infos sur le patch";
 
 /* */
-"Calibrationinfo" = "Calibrationinfo";
+"Calibrationinfo" = "Infos de calibrage";
 
 /* */
-"Unknown" = "Unknown";
+"Unknown" = "Inconnu";
 
 /* */
-"Not paired yet" = "Not paired yet";
+"Not paired yet" = "Pas encore appairé";
 
 /* */
-"Pair Sensor & connect" = "Pair Sensor & connect";
+"Pair Sensor & connect" = "Appareiller";
 
 /* */
-"Phone NFC required!" = "Phone NFC required!";
+"Phone NFC required!" = "Téléphone NFC requis !";
 
 /* */
-"Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors" = "Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors";
+"Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors" = "Votre téléphone ou application n'est pas activé pour les communications NFC, ce qui est nécessaire pour appairer avec les capteurs libre2";
 
 /* Bluetooth Power Off */
-"Bluetooth Power Off" = "Bluetooth Power Off";
+"Bluetooth Power Off" = "Bluetooth non actif";
 
 /* Please turn on Bluetooth */
-"Please turn on Bluetooth" = "Please turn on Bluetooth";
+"Please turn on Bluetooth" = "Veuillez activer le Bluetooth";
 
 /* No Libre Transmitter Selected */
-"No Libre Transmitter Selected" = "No Libre Transmitter Selected";
+"No Libre Transmitter Selected" = "Aucun Transmetteur Libre sélectionné";
 
 /* Delete Transmitter and start anew. */
-"Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "Delete CGMManager and start anew. Your libreoopweb credentials will be preserved";
+"Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "Supprimez CGMManager et recommencez à nouveau. Vos identifiants pour libreoopweb seront conservés";
 
 /* Invalid libre checksum */
-"Invalid libre checksum" = "Invalid libre checksum";
+"Invalid libre checksum" = "Somme de contrôle invalide";
 
 /* Libre sensor was incorrectly read, CRCs were not valid */
-"Libre sensor was incorrectly read, CRCs were not valid" = "Libre sensor was incorrectly read, CRCs were not valid";
+"Libre sensor was incorrectly read, CRCs were not valid" = "Le capteur de libre a été mal lu, les CRC n'étaient pas valides";
 
 /* Glucose */
-"Glucose" = "Glucose";
+"Glucose" = "Glycémie";
 
 /* LOWALERT! */
-"LOWALERT!" = "LOWALERT!";
+"LOWALERT!" = "FAIBLE!";
 
 /* HIGHALERT! */
-"HIGHALERT!" = "HIGHALERT!";
+"HIGHALERT!" = "HAUT !";
 
 /* (Snoozed)*/
-"(Snoozed)" = "(Snoozed)";
+"(Snoozed)" = "(Reporté)";
 
 /* Glucose: %@ */
-"Glucose: %@" = "Glucose: %@";
+"Glucose: %@" = "Glycémie: %@";
 
 /* Transmitter: %@%% */
-"Transmitter: %@%%" = "Transmitter: %@%%";
+"Transmitter: %@%%" = "Transmetteur: %@%%";
 
 /* No Sensor Detected */
-"No Sensor Detected" = "No Sensor Detected";
+"No Sensor Detected" = "Aucun capteur détecté";
 
 /* This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor */
-"This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor" = "This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor";
+"This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor" = "Ceci peut être un problème intermittent, mais veuillez vérifier que votre transmetteur est bien positionné sur votre capteur";
 
 /* New Sensor Detected */
-"New Sensor Detected" = "New Sensor Detected";
+"New Sensor Detected" = "Nouveau capteur détecté";
 
 /* Please wait up to 30 minutes before glucose readings are available! */
-"Please wait up to 30 minutes before glucose readings are available!" = "Please wait up to 30 minutes before glucose readings are available!";
+"Please wait up to 30 minutes before glucose readings are available!" = "Veuillez attendre jusqu'à 30 minutes avant que les lectures de glycémie soient disponibles!";
 
 /* Invalid Glucose sample detected, try again later */
-"Invalid Glucose sample detected, try again later" = "Invalid Glucose sample detected, try again later";
+"Invalid Glucose sample detected, try again later" = "Échantillon de glycémie non valide détecté, réessayez plus tard";
 
 /* ensor might have temporarily stopped, fallen off or is too cold or too warm */
-"Sensor might have temporarily stopped, fallen off or is too cold or too warm" = "Sensor might have temporarily stopped, fallen off or is too cold or too warm";
+"Sensor might have temporarily stopped, fallen off or is too cold or too warm" = "Le capteur peut avoir été temporairement arrêté, tombé ou trop froid ou trop chaud";
 
 /* Invalid Sensor Detected */
-"Invalid Sensor Detected" = "Invalid Sensor Detected";
+"Invalid Sensor Detected" = "Capteur non valide détecté";
 
 /* Detected sensor seems not to be a libre 1 sensor! */
-"Detected sensor seems not to be a libre 1 sensor!" = "Detected sensor seems not to be a libre 1 sensor!";
+"Detected sensor seems not to be a libre 1 sensor!" = "Le capteur détecté ne semble pas être un capteur libre 1 !";
 
 /* Detected sensor is invalid: %@ */
-"Detected sensor is invalid: %@" = "Detected sensor is invalid: %@";
+"Detected sensor is invalid: %@" = "Le capteur détecté est invalide : %@";
 
 /* Low Battery */
-"Low battery" = "Low battery";
+"Low battery" = "Batterie faible";
 
 /* */
-"Invalid sensor" = "Invalid sensor";
+"Invalid sensor" = "Capteur invalide";
 
 /* */
-"Sensor change" = "Sensor change";
+"Sensor change" = "Changement de capteur";
 
 /* */
-"Sensor expires soon" = "Sensor expires soon";
+"Sensor expires soon" = "Le capteur expire bientôt";
 
 /* Battery is running low %@, consider charging your %@ device as soon as possible */
-"Battery is running low %@, consider charging your %@ device as soon as possible" = "Battery is running low %@, consider charging your %@ device as soon as possible";
+"Battery is running low %@, consider charging your %@ device as soon as possible" = "La batterie est faible %@, pensez à charger votre appareil %@ dès que possible";
 
 /* Extracting calibrationdata from sensor */
-"Extracting calibrationdata from sensor" = "Extracting calibrationdata from sensor";
+"Extracting calibrationdata from sensor" = "Extraction des données de calibration depuis le capteur";
 
 /* Sensor Ending Soon */
-"Sensor Ending Soon" = "Sensor Ending Soon";
+"Sensor Ending Soon" = "Capteur se terminant bientôt";
 
 /* Current Sensor is Ending soon! Sensor Life left in %@ */
-"Current Sensor is Ending soon! Sensor Life left in %@" = "Current Sensor is Ending soon! Sensor Life left in %@";
+"Current Sensor is Ending soon! Sensor Life left in %@" = "Capteur actuel se termine bientôt ! Fin de vie dans %@";
 
 /* */
-"Libre Bluetooth" = "Libre Bluetooth";
+"Libre Bluetooth" = "Bluetooth libre";
 
 /* */
-"Snooze Alerts" = "Snooze Alerts";
+"Snooze Alerts" = "Mise en veille Alertes";
 
 /* */
-"Last measurement" = "Last measurement";
+"Last measurement" = "Dernière mesure";
 
 /* */
-"Sensor Footer checksum" = "Sensor Footer checksum";
+"Sensor Footer checksum" = "Somme de contrôle du capteur de pied de page";
 
 /* */
-"Last Blood Sugar prediction" = "Last Blood Sugar prediction";
+"Last Blood Sugar prediction" = "Dernière prédiction de glycémie";
 
 /* */
-"CurrentBG" = "CurrentBG";
+"CurrentBG" = "Glycémie actuelle";
 
 /* */
 "Sensor Info" = "Infos capteur";
@@ -762,73 +762,73 @@ Enact a temp Basal or a temp target */
 "Schedule " = "Horaires ";
 
 /* */
-"tapped save schedules" = "tapped save schedules";
+"tapped save schedules" = "horaires de sauvegarde cliqués";
 
 /* */
-"Error" = "Error";
+"Error" = "Erreur";
 
 /* */
-"Some ui element was incorrectly specified" = "Some ui element was incorrectly specified";
+"Some ui element was incorrectly specified" = "Certains éléments ui ont été mal spécifiés";
 
 /* */
-"Success" = "Success";
+"Success" = "Succès";
 
 /* */
-"Schedules were saved successfully!" = "Schedules were saved successfully!";
+"Schedules were saved successfully!" = "Calendrier enregistré avec succès!";
 
 /* */
-"High Glucose Alarm active" = "High Glucose Alarm active";
+"High Glucose Alarm active" = "Alarme Glycémie haute active";
 
 /* */
-"Low Glucose Alarm active" = "Low Glucose Alarm active";
+"Low Glucose Alarm active" = "Alarme Glycémie Faible activée";
 
 /* */
-"No Glucose Alarm active" = "No Glucose Alarm active";
+"No Glucose Alarm active" = "Aucune alarme de glucose active";
 
 /* */
-"snoozing until %@" = "snoozing until %@";
+"snoozing until %@" = "reporter jusqu'à %@";
 
 /* */
-"not snoozing" = "not snoozing";
+"not snoozing" = "ne pas mettre en veille";
 
 /* */
-"nothing to see here" = "nothing to see here";
+"nothing to see here" = "rien à voir ici";
 
 /* */
-"snooze from testview clicked" = "snooze from testview clicked";
+"snooze from testview clicked" = "mise en veille depuis la vue de test cliqué";
 
 /* */
-"will snooze for %@ until %@" = "will snooze for %@ until %@";
+"will snooze for %@ until %@" = "mettra en veille pendant %@ jusqu'à %@";
 
 /* */
-"Click to Snooze Alerts" = "Click to Snooze Alerts";
+"Click to Snooze Alerts" = "Cliquez pour mettre en veille les alertes";
 
 /* */
-"Strength" = "Strength";
+"Strength" = "Intensité";
 
 /* */
-"Hold the top of your iPhone near the sensor to pair" = "Hold the top of your iPhone near the sensor to pair";
+"Hold the top of your iPhone near the sensor to pair" = "Positionner le haut de votre iPhone près du capteur à scanner";
 
 /* */
-"Sensor not found" = "Sensor not found";
+"Sensor not found" = "Capteur non trouvé ";
 
 /* */
-"Also play alert sound" = "Also play alert sound";
+"Also play alert sound" = "Jouer également un son d'alerte";
 
 /* */
-"Notification Settings" = "Notification Settings";
+"Notification Settings" = "Paramètres des notifications";
 
 /* */
-"Found devices: %d" = "Found devices: %d";
+"Found devices: %d" = "Dispositifs détectés: %d";
 
 /* */
-"Backfill options" = "Backfill options";
+"Backfill options" = "Options rétroactif";
 
 /* */
-"Backfilling from trend is currently not well supported by Loop" = "Backfilling from trend is currently not well supported by Loop";
+"Backfilling from trend is currently not well supported by Loop" = "La gestion des tendances rétroactives n'est actuellement pas bien pris en charge";
 
 /* */
-"Backfill from history" = "Backfill from history";
+"Backfill from history" = "Rétroactif de l'historique";
 
 /* */
 "Backfill from trend" = "Backfill from trend";
@@ -931,20 +931,20 @@ Enact a temp Basal or a temp target */
 "Direct connection with Libre 1 transmitters or Libre 2" = "Direct connection with Libre 1 transmitters or Libre 2";
 
 /* Online or internal server */
-"Online or internal server" = "Online or internal server";
+"Online or internal server" = "Serveur en ligne ou interne";
 
 /* HealthKit intergration --------------------*/
 /* */
-"Apple Health" = "Apple Health";
+"Apple Health" = "Apple Santé";
 
 /* */
-"Connect to Apple Health" = "Connect to Apple Health";
+"Connect to Apple Health" = "Connectez Apple Santé";
 
 /* Show when have not permissions for writing to Health */
-"For write data to Apple Health you must give permissions in Settings > Health > Data Access" = "For write data to Apple Health you must give permissions in Settings > Health > Data Access";
+"For write data to Apple Health you must give permissions in Settings > Health > Data Access" = "Pour écrire des données sur Apple Santé, vous devez donner les autorisations dans Paramètres > Santé > Accès aux données";
 
 /* */
-"After you create glucose records in the Health app, please open FreeAPS X to help us guaranteed transfer changed data" = "After you create glucose records in the Health app, please open FreeAPS X to help us guaranteed transfer changed data";
+"After you create glucose records in the Health app, please open FreeAPS X to help us guaranteed transfer changed data" = "Une fois que vous avez créé des enregistrements de glucose dans l'application Santé, veuillez ouvrir FreeAPS X pour nous aider à garantir le transfert des données";
 /* --------------------------------------------
 
 
