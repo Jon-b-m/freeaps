@@ -696,7 +696,7 @@ Enact a temp Basal or a temp target */
 "Alarms" = "Alarmes";
 
 /* */
-"Glucose Settings" = "Paramètre Glycémiques";
+"Glucose Settings" = "Paramètres Glycémiques";
 
 /* */
 "Notifications" = "Notifications";
@@ -831,104 +831,104 @@ Enact a temp Basal or a temp target */
 "Backfill from history" = "Rétroactif de l'historique";
 
 /* */
-"Backfill from trend" = "Backfill from trend";
+"Backfill from trend" = "Remplissage depuis la tendance";
 
 /* */
-"Debug options" = "Debug options";
+"Debug options" = "Options de débogage";
 
 /* */
-"Adds a lot of data to the Issue Report " = "Adds a lot of data to the Issue Report ";
+"Adds a lot of data to the Issue Report " = "Ajoute beaucoup de données au rapport d'anomalie ";
 
 /* */
-"Persist sensordata" = "Persist sensordata";
+"Persist sensordata" = "Conserver les données de capteur";
 
 /* */
-"Battery" = "Battery";
+"Battery" = "Batterie";
 
 /* */
-"Also add source info" = "Also add source info";
+"Also add source info" = "Ajouter l'info de la source";
 
 /* */
-"Carbs Required Threshold" = "Carbs Required Threshold";
+"Carbs Required Threshold" = "Seuil de glucides requis";
 
 /* */
-"Carbs required: %d g" = "Carbs required: %d g";
+"Carbs required: %d g" = "Glucides requis :%d g";
 
 /* */
-"To prevent LOW required %d g of carbs" = "To prevent LOW required %d g of carbs";
+"To prevent LOW required %d g of carbs" = "Pour éviter BAS %d g de glucides requis";
 
 /* */
-"FreeAPS X not active" = "FreeAPS X not active";
+"FreeAPS X not active" = "FreeAPS X pas actif";
 
 /* */
-"Last loop was more then %d min ago" = "Last loop was more then %d min ago";
+"Last loop was more then %d min ago" = "Dernier bouclage depuis plus de %d min";
 
 /* Glucose badge */
-"Show glucose on the app badge" = "Show glucose on the app badge";
+"Show glucose on the app badge" = "Afficher glycémie en tant que badge";
 
 /* */
 "Backfill glucose" = "Backfill glucose";
 
 /* About this source */
-"About this source" = "About this source";
+"About this source" = "A propos de ce module";
 
 /* */
-"Bolus failed" = "Bolus failed";
+"Bolus failed" = "Échec du Bolus";
 
 /* */
-"Bolus failed or inaccurate. Check pump history before repeating." = "Bolus failed or inaccurate. Check pump history before repeating.";
+"Bolus failed or inaccurate. Check pump history before repeating." = "Bolus échoué ou imprécis. Vérifier l’historique de la pompe avant recommencer.";
 
 /* */
-"Carbs" = "Carbs";
+"Carbs" = "Glucides";
 
 /* */
-"Temp Basal" = "Temp Basal";
+"Temp Basal" = "Basal Temp.";
 
 /* */
-"Temp Target" = "Temp Target";
+"Temp Target" = "Cibles temporaires";
 
 /* */
-"Resume" = "Resume";
+"Resume" = "Reprendre";
 
 /* */
-"Suspend" = "Suspend";
+"Suspend" = "Suspendre";
 
 /* */
-"Animated Background" = "Animated Background";
+"Animated Background" = "Arrière-plan dynamique";
 
 
 /* Headers for settings ----------------------- */
-"OpenAPS main settings" = "OpenAPS main settings";
+"OpenAPS main settings" = "Paramètres OpenAPS";
 
-"OpenAPS SMB settings" = "OpenAPS SMB settings";
+"OpenAPS SMB settings" = "Paramètres OpenAPS SMB";
 
-"OpenAPS targets settings" = "OpenAPS targets settings";
+"OpenAPS targets settings" = "Paramètres OpenAPS Cibles";
 
-"OpenAPS other settings" = "OpenAPS other settings";
+"OpenAPS other settings" = "Paramètres OpenAPS Autres";
 
 /* Glucose Simulator CGM */
-"Glucose Simulator" = "Glucose Simulator";
+"Glucose Simulator" = "Simulateur de glycémie";
 
 /* Restored state message */
-"Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@";
+"Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Etat Bluetooth restoré (APS relancé ?). Trouvé %d périphériques, et connectés à %@ avec ID %@";
 
 /* Shared app group */
-"Shared app group" = "Shared app group";
+"Shared app group" = "Groupe partagé";
 
 /* Native G6 app */
-"Native G6 app" = "Native G6 app";
+"Native G6 app" = "App G6 native";
 
 /* Native G5 app */
-"Native G5 app" = "Native G5 app";
+"Native G5 app" = "App G5 native";
 
 /* Minilink transmitter */
-"Minilink transmitter" = "Minilink transmitter";
+"Minilink transmitter" = "Minilink transmetteur";
 
 /* Simple simulator */
-"Simple simulator" = "Simple simulator";
+"Simple simulator" = "Simple simulateur";
 
 /* Direct connection with Libre 1 transmitters or Libre 2 */
-"Direct connection with Libre 1 transmitters or Libre 2" = "Direct connection with Libre 1 transmitters or Libre 2";
+"Direct connection with Libre 1 transmitters or Libre 2" = "Directe connexion avec Libre 1 transmetteur ou Libre 2";
 
 /* Online or internal server */
 "Online or internal server" = "Serveur en ligne ou interne";
