@@ -913,7 +913,7 @@ Enact a temp Basal or a temp target */
 "Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Herstelde Bluetooth-status (APS opnieuw opgestart?). %d randapparatuur gevonden en verbonden met %@ met de identificatie %@";
 
 /* Shared app group */
-"Shared app group" = "Gedeelde app groep";
+"Shared app group for direct connection with Libre 1 transmitters or European Libre 2 sensors" = "Shared app group for direct connection with Libre 1 transmitters or European Libre 2 sensors";
 
 /* Native G6 app */
 "Native G6 app" = "Oorspronkelijke G6 app";
@@ -928,7 +928,7 @@ Enact a temp Basal or a temp target */
 "Simple simulator" = "Eenvoudige simulator";
 
 /* Direct connection with Libre 1 transmitters or Libre 2 */
-"Direct connection with Libre 1 transmitters or Libre 2" = "Directe verbinding met Libre 1 of Libre 2 zender";
+"Direct connection with Libre 1 transmitters or European Libre 2 sensors" = "Direct connection with Libre 1 transmitters or European Libre 2 sensors";
 
 /* Online or internal server */
 "Online or internal server" = "Online of interne server";
