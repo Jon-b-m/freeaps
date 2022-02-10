@@ -501,52 +501,52 @@ Enact a temp Basal or a temp target */
 "About the Process" = "Sobre o Processo";
 
 /* */
-"Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working." = "Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working.";
+"Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working." = "Por favor, certifique-se que o seu sensor Libre 2 já está ativado e que o aquecimento acabou. Se você tem outros apps se conectando ao sensor via bluetooth, eles precisam ser desligados. Ou desinstalados. \n\n Você só pode ter um app se comunicando com o sensor via bluetooth. Em seguida, pressione o botão \"pareamento e conexão\" abaixo para iniciar o processo. Por favor, note que a conexão bluetooth pode levar alguns minutos antes de começar a funcionar.";
 
 /* */
-"Pairinginfo" = "Pairinginfo";
+"Pairinginfo" = "Informação de Pareamento";
 
 /* */
-"PatchInfo" = "PatchInfo";
+"PatchInfo" = "Informação do patch";
 
 /* */
-"Calibrationinfo" = "Calibrationinfo";
+"Calibrationinfo" = "Informação de Calibração";
 
 /* */
-"Unknown" = "Unknown";
+"Unknown" = "Desconhecido";
 
 /* */
-"Not paired yet" = "Not paired yet";
+"Not paired yet" = "Ainda não pareado";
 
 /* */
-"Pair Sensor & connect" = "Pair Sensor & connect";
+"Pair Sensor & connect" = "Emparelhar e conectar sensor";
 
 /* */
-"Phone NFC required!" = "Phone NFC required!";
+"Phone NFC required!" = "É preciso um telefone com NFC!";
 
 /* */
-"Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors" = "Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors";
+"Your phone or app is not enabled for NFC communications, which is needed to pair to libre2 sensors" = "Seu telefone ou aplicativo não está habilitado para conexões NFC, que é necessário para emparelhar sensores Libre 2";
 
 /* Bluetooth Power Off */
-"Bluetooth Power Off" = "Bluetooth Power Off";
+"Bluetooth Power Off" = "Desligar Bluetooth";
 
 /* Please turn on Bluetooth */
-"Please turn on Bluetooth" = "Please turn on Bluetooth";
+"Please turn on Bluetooth" = "Por favor, ligue o Bluetooth";
 
 /* No Libre Transmitter Selected */
-"No Libre Transmitter Selected" = "No Libre Transmitter Selected";
+"No Libre Transmitter Selected" = "Nenhum transmissor Libre selecionado";
 
 /* Delete Transmitter and start anew. */
-"Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "Delete CGMManager and start anew. Your libreoopweb credentials will be preserved";
+"Delete CGMManager and start anew. Your libreoopweb credentials will be preserved" = "Delete o CGMManager e comece de novo. Suas credenciais libreoopweb serão mantidas";
 
 /* Invalid libre checksum */
-"Invalid libre checksum" = "Invalid libre checksum";
+"Invalid libre checksum" = "Checksum do libre inválido";
 
 /* Libre sensor was incorrectly read, CRCs were not valid */
-"Libre sensor was incorrectly read, CRCs were not valid" = "Libre sensor was incorrectly read, CRCs were not valid";
+"Libre sensor was incorrectly read, CRCs were not valid" = "Sensor Libre foi lido incorretamente, CRCs não eram válidos";
 
 /* Glucose */
-"Glucose" = "Glucose";
+"Glucose" = "Glicose";
 
 /* LOWALERT! */
 "LOWALERT!" = "LOWALERT!";
@@ -702,19 +702,19 @@ Enact a temp Basal or a temp target */
 "Notifications" = "Notifications";
 
 /* */
-"Export logs" = "Export logs";
+"Export logs" = "Exportar logs";
 
 /* */
-"Export not available" = "Export not available";
+"Export not available" = "Exportação não disponível";
 
 /* */
-"Log export requires ios 15" = "Log export requires ios 15";
+"Log export requires ios 15" = "Exportar os logs requer o iOS 15";
 
 /* */
-"Got it!" = "Got it!";
+"Got it!" = "Consegui!";
 
 /* */
-"Saved to %@" = "Saved to %@";
+"Saved to %@" = "Salvo em %@";
 
 /* */
 "No logs available" = "No logs available";
