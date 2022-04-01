@@ -471,7 +471,7 @@ Enact a temp Basal or a temp target */
 "mg/dL" = "mg/dL";
 
 /* */
-"Add calibration" = "Add calibration";
+"Add calibration" = "Añadir calibración";
 
 /* When adding capillary glucose meater reading */
 "Meter glucose" = "Meter glucose";
@@ -486,16 +486,16 @@ Enact a temp Basal or a temp target */
 "Intercept" = "Intercept";
 
 /* */
-"Chart" = "Chart";
+"Chart" = "Gráfica";
 
 /* */
-"Remove" = "Remove";
+"Remove" = "Eliminar";
 
 /* */
-"Remove Last" = "Remove Last";
+"Remove Last" = "Eliminar último";
 
 /* */
-"Remove All" = "Remove All";
+"Remove All" = "Eliminar todos";
 
 /* */
 "About the Process" = "About the Process";
@@ -513,10 +513,10 @@ Enact a temp Basal or a temp target */
 "Calibrationinfo" = "Calibrationinfo";
 
 /* */
-"Unknown" = "Unknown";
+"Unknown" = "Desconocido";
 
 /* */
-"Not paired yet" = "Not paired yet";
+"Not paired yet" = "No emparejado aún";
 
 /* */
 "Pair Sensor & connect" = "Pair Sensor & connect";
@@ -615,13 +615,13 @@ Enact a temp Basal or a temp target */
 "Current Sensor is Ending soon! Sensor Life left in %@" = "Current Sensor is Ending soon! Sensor Life left in %@";
 
 /* */
-"Libre Bluetooth" = "Libre Bluetooth";
+"Libre Bluetooth" = "Bluetooth Libre";
 
 /* */
 "Snooze Alerts" = "Snooze Alerts";
 
 /* */
-"Last measurement" = "Last measurement";
+"Last measurement" = "Última medición";
 
 /* */
 "Sensor Footer checksum" = "Sensor Footer checksum";
