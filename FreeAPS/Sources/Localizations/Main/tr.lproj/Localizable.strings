@@ -990,7 +990,7 @@ Enact a temp Basal or a temp target */
 
 /* Enable SMB With COB" */
 
-"This enables supermicrobolus (SMB) while carbs on board (COB) are positive." = "Bu aktif karbonhidrat (COB) pozitifken, süpermikrobolusu (SMB) sağlar.";
+"This enables supermicrobolus (SMB) while carbs on board (COB) are positive." = "Bu aktif karbonhidrat (AKRB) pozitifken, süpermikrobolusu (SMB) sağlar.";
 
 /* "Enable SMB With Temptarget” */
 "This enables supermicrobolus (SMB) with eating soon / low temp targets. With this feature enabled, any temporary target below 100mg/dL, such as a temp target of 99 (or 80, the typical eating soon target) will enable SMB." = "Bu yakında yemek / düşük geçici hedefler ile süpermikrobolus (SMB) sağlar. Bu özellik etkinleştirildiğinde geçici hedef 99 (veya 80, tipik yakında yeme hedefi) gibi herhangi bir geçici hedef 100mg/dL'nin altında SMB'yi etkinleştirecektir.";
@@ -999,7 +999,7 @@ Enact a temp Basal or a temp target */
 "Defaults to false. When true, always enable supermicrobolus (unless disabled by high temptarget)." = "Varsayılan olarak geçersizdir. Geçerli olduğunda, her zaman supermicrobolus'u etkinleştirir (yüksek geçicihedef tarafından devre dışı bırakılmadığı sürece).";
 
 /* "Enable SMB After Carbs" */
-"Defaults to false. When true, enables supermicrobolus (SMB) for 6h after carbs, even with 0 carbs on board (COB)." = "Varsayılan olarak geçersizdir. Geçerli olduğunda aktif karbonhidrat (COB) 0 olsa bile karbonhidratlardan sonra 6 saat boyunca süpermikrobolosu (SMB) etkinleştirir.";
+"Defaults to false. When true, enables supermicrobolus (SMB) for 6h after carbs, even with 0 carbs on board (COB)." = "Varsayılan olarak geçersizdir. Geçerli olduğunda aktif karbonhidrat (AKRB) 0 olsa bile karbonhidratlardan sonra 6 saat boyunca süpermikrobolosu (SMB) etkinleştirir.";
 
 /* "Allow SMB With High Temptarget" */
 "Defaults to false. When true, allows supermicrobolus (if otherwise enabled) even with high temp targets." = "Varsayılan olarak geçersizdir. Geçerli olduğunda, yüksek geçici hedeflerinde bile süpermikrobolusa (aksi takdirde etkinleştirildiyse) izin verir.";
@@ -1029,7 +1029,7 @@ Enact a temp Basal or a temp target */
 "Set to a number, e.g. 160, which means when temp target is 160 mg/dL and exercise_mode=true, run 50% basal at this level (120 = 75%; 140 = 60%). This can be adjusted, to give you more control over your exercise modes." = "Bir sayıya ayarlayın, örn. 160, yani geçici hedef 160 mg/dL ve egzersiz_modu=açık olduğunda, bu seviyede %50 bazal çalıştırın (120 = %75; 140 = %60). Bu egzersiz modlarınız üzerinde daha fazla kontrol sahibi olmanız için ayarlanabilir.";
 
 /* "Max COB" */
-"This defaults maxCOB to 120 because that’s the most a typical body can absorb over 4 hours. (If someone enters more carbs or stacks more; OpenAPS will just truncate dosing based on 120. Essentially, this just limits AMA as a safety cap against weird COB calculations due to fluky data.)" = "Bu varsayılan olarak maxCOB'u 120'ye ayarlar çünkü bu, tipik bir vücudun 4 saatten fazla emebileceği en fazla değerdir. (Birisi daha fazla karbonhidrat yerse; OpenAPS, 120'ye dayalı dozlamayı keser. Esasen, bu, AMA'yı (Gelişmiş Yemek Asistanı), rastgele verilerden kaynaklanan tuhaf COB hesaplamalarına karşı bir güvenlik sınırı olarak sınırlar.)";
+"This defaults maxCOB to 120 because that’s the most a typical body can absorb over 4 hours. (If someone enters more carbs or stacks more; OpenAPS will just truncate dosing based on 120. Essentially, this just limits AMA as a safety cap against weird COB calculations due to fluky data.)" = "Bu varsayılan olarak maxAKRB'u 120'ye ayarlar çünkü bu, tipik bir vücudun 4 saatten fazla emebileceği en fazla değerdir. (Birisi daha fazla karbonhidrat yerse; OpenAPS, 120'ye dayalı dozlamayı keser. Esasen, bu, AMA'yı (Gelişmiş Yemek Asistanı), rastgele verilerden kaynaklanan tuhaf AKRB hesaplamalarına karşı bir güvenlik sınırı olarak sınırlar.)";
 
 /* "Bolus Snooze DIA Divisor" */
 "Bolus snooze is enacted after you do a meal bolus, so the loop won’t counteract with low temps when you’ve just eaten. The example here and default is 2; so a 3 hour DIA means that bolus snooze will be gradually phased out over 1.5 hours (3DIA/2)." = "Bolus erteleme, bir yemek bolusu yaptıktan sonra yürürlüğe girer, bu nedenle döngü, az önce yemek yediğinizde geçici düşük bazala etki etmez. Burada varsayılan örnek 2'dir; Dolayısıyla 3 saatlik bir DIA, bolus ertelemenin kademeli olarak 1,5 saat (3DIA / 2) üzerinden aşamalı olarak sonlandırılacağı anlamına gelir.";
