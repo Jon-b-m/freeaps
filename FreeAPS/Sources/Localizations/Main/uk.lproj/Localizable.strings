@@ -636,25 +636,25 @@ Enact a temp Basal or a temp target */
 "Sensor Info" = "Інформація про Сенсор";
 
 /* */
-"Sensor Age" = "Термін сенсора";
+"Sensor Age" = "Вік Сенсору";
 
 /* */
-"Sensor Age Left" = "Sensor Age Left";
+"Sensor Age Left" = "Залишилось";
 
 /* */
-"Sensor Endtime" = "Sensor Endtime";
+"Sensor Endtime" = "Час закінчення Сенсору";
 
 /* */
-"Sensor State" = "Sensor State";
+"Sensor State" = "Стан Сенсору";
 
 /* */
-"Sensor Serial" = "Sensor Serial";
+"Sensor Serial" = "Серійний номер Сенсору";
 
 /* */
-"Transmitter Info" = "Transmitter Info";
+"Transmitter Info" = "Інформація про передавач";
 
 /* */
-"Hardware" = "Hardware";
+"Hardware" = "Обладнання";
 
 /* */
 "Firmware" = "Прошивка";
@@ -663,76 +663,76 @@ Enact a temp Basal or a temp target */
 "Connection State" = "Стан з'єднання";
 
 /* */
-"Transmitter Type" = "Transmitter Type";
+"Transmitter Type" = "Тип передавача";
 
 /* */
-"Sensor Type" = "Sensor Type";
+"Sensor Type" = "Тип Сенсору";
 
 /* */
-"Factory Calibration Parameters" = "Factory Calibration Parameters";
+"Factory Calibration Parameters" = "Параметри заводського калібрування";
 
 /* */
-"Valid for footer" = "Valid for footer";
+"Valid for footer" = "Дійсний для футера";
 
 /* */
-"Edit calibrations" = "Edit calibrations";
+"Edit calibrations" = "Редагувати калібрування";
 
 /* */
-"edit calibration clicked" = "edit calibration clicked";
+"edit calibration clicked" = "редагувати калібрування натиснуто";
 
 /* */
-"Delete CGM" = "Delete CGM";
+"Delete CGM" = "Видалити CGM";
 
 /* */
-"Are you sure you want to remove this cgm from loop?" = "Are you sure you want to remove this cgm from loop?";
+"Are you sure you want to remove this cgm from loop?" = "Ви дійсно бажаєте видалити цей CGM з циклу?";
 
 /* */
-"There is no undo" = "There is no undo";
+"There is no undo" = "Цю дію неможливо відмінити!";
 
 /* */
-"Advanced" = "Advanced";
+"Advanced" = "Додаткові налаштування";
 
 /* */
 "Alarms" = "Тривога";
 
 /* */
-"Glucose Settings" = "Glucose Settings";
+"Glucose Settings" = "Налаштування Глюкози";
 
 /* */
-"Notifications" = "Notifications";
+"Notifications" = "Сповіщення";
 
 /* */
-"Export logs" = "Export logs";
+"Export logs" = "Експорт журналів";
 
 /* */
-"Export not available" = "Export not available";
+"Export not available" = "Експорт відсутній";
 
 /* */
-"Log export requires ios 15" = "Log export requires ios 15";
+"Log export requires ios 15" = "Експорт журналу потребує iOS 15";
 
 /* */
-"Got it!" = "Got it!";
+"Got it!" = "Зрозуміло!";
 
 /* */
-"Saved to %@" = "Saved to %@";
+"Saved to %@" = "Збережено в %@";
 
 /* */
-"No logs available" = "No logs available";
+"No logs available" = "Немає доступних журналів";
 
 /* */
-"Glucose Notification visibility" = "Glucose Notification visibility";
+"Glucose Notification visibility" = "Видимість сповіщення Глюкози";
 
 /* */
-"Always Notify Glucose" = "Always Notify Glucose";
+"Always Notify Glucose" = "Завжди сповіщати про Глюкозу";
 
 /* */
-"Notify per reading" = "Notify per reading";
+"Notify per reading" = "Сповіщати про читання";
 
 /* */
-"Value" = "Value";
+"Value" = "Значення";
 
 /* */
-"Adds Phone Battery" = "Adds Phone Battery";
+"Adds Phone Battery" = "Показувати заряд батареї телефону";
 
 /* */
 "Adds Transmitter Battery" = "Adds Transmitter Battery";
@@ -879,75 +879,75 @@ Enact a temp Basal or a temp target */
 "Bolus failed or inaccurate. Check pump history before repeating." = "Bolus failed or inaccurate. Check pump history before repeating.";
 
 /* */
-"Carbs" = "Carbs";
+"Carbs" = "Вуглеводи";
 
 /* */
-"Temp Basal" = "Temp Basal";
+"Temp Basal" = "Темп Базал";
 
 /* */
-"Temp Target" = "Temp Target";
+"Temp Target" = "Тимчасові цілі";
 
 /* */
-"Resume" = "Resume";
+"Resume" = "Відновити";
 
 /* */
-"Suspend" = "Suspend";
+"Suspend" = "Призупинити";
 
 /* */
-"Animated Background" = "Animated Background";
+"Animated Background" = "Анімоване тло";
 
 /* Sensor day(s) */
-" day(s)" = " day(s)";
+" day(s)" = "день(днів)";
 
 
 /* Headers for settings ----------------------- */
-"OpenAPS main settings" = "OpenAPS main settings";
+"OpenAPS main settings" = "Головні налаштування OpenAPS";
 
-"OpenAPS SMB settings" = "OpenAPS SMB settings";
+"OpenAPS SMB settings" = "Налаштування SMB OpenAPS";
 
-"OpenAPS targets settings" = "OpenAPS targets settings";
+"OpenAPS targets settings" = "Налаштування цілей OpenAPS";
 
-"OpenAPS other settings" = "OpenAPS other settings";
+"OpenAPS other settings" = "Інші налаштування OpenAPS";
 
 /* Glucose Simulator CGM */
-"Glucose Simulator" = "Glucose Simulator";
+"Glucose Simulator" = "Симулятор Глюкози";
 
 /* Restored state message */
-"Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@";
+"Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Стан Bluetooth відновлений (APS перезапущено?). Виявили %d периферійних пристроїв та  під'єднано до %@ з ідентифікатором %@";
 
 /* Shared app group */
-"Shared app group for direct connection with Libre 1 transmitters or European Libre 2 sensors" = "Shared app group for direct connection with Libre 1 transmitters or European Libre 2 sensors";
+"Shared app group for direct connection with Libre 1 transmitters or European Libre 2 sensors" = "Спільна група програм для прямого з'єднання з трансмітерами Libre 1  або Європейськими сенсорами Libre 2";
 
 /* Native G6 app */
-"Native G6 app" = "Native G6 app";
+"Native G6 app" = "Вбудований додаток G6";
 
 /* Native G5 app */
-"Native G5 app" = "Native G5 app";
+"Native G5 app" = "Вбудований додаток G5";
 
 /* Minilink transmitter */
-"Minilink transmitter" = "Minilink transmitter";
+"Minilink transmitter" = "трансмітер Minilink";
 
 /* Simple simulator */
-"Simple simulator" = "Simple simulator";
+"Simple simulator" = "Звичайний симулятор";
 
 /* Direct connection with Libre 1 transmitters or Libre 2 */
-"Direct connection with Libre 1 transmitters or European Libre 2 sensors" = "Direct connection with Libre 1 transmitters or European Libre 2 sensors";
+"Direct connection with Libre 1 transmitters or European Libre 2 sensors" = "Прямий зв'язок з трансмітером  Libre 1  або Європейськими сенсором Libre 2";
 
 /* Online or internal server */
-"Online or internal server" = "Online or internal server";
+"Online or internal server" = "Онлайн або внутрішній сервер";
 
 /* HealthKit intergration --------------------*/
 /* */
 "Apple Health" = "Apple Health";
 
 /* */
-"Connect to Apple Health" = "Connect to Apple Health";
+"Connect to Apple Health" = "З'єднатися з Apple Health";
 
 /* Show when have not permissions for writing to Health */
-"For write data to Apple Health you must give permissions in Settings > Health > Data Access" = "For write data to Apple Health you must give permissions in Settings > Health > Data Access";
+"For write data to Apple Health you must give permissions in Settings > Health > Data Access" = "Для запису даних в Apple Health ви повинні надати дозволи в Налаштування > Здоров’я > Доступ до даних";
 
 /* */
-"After you create glucose records in the Health app, please open FreeAPS X to help us guaranteed transfer changed data" = "After you create glucose records in the Health app, please open FreeAPS X to help us guaranteed transfer changed data";
+"After you create glucose records in the Health app, please open FreeAPS X to help us guaranteed transfer changed data" = "Після створення записів глюкози в програмі Охорони здоров'я, будь ласка, відкрийте FreeAPS X, щоб допомогти нам гарантувати передачу змінених даних";
 /* --------------------------------------------
 
 
@@ -956,19 +956,19 @@ Enact a temp Basal or a temp target */
 */
 /* ”Rewind Resets Autosens” */
 
-"This feature, enabled by default, resets the autosens ratio to neutral when you rewind your pump, on the assumption that this corresponds to a probable site change. Autosens will begin learning sensitivity anew from the time of the rewind, which may take up to 6 hours. If you usually rewind your pump independently of site changes, you may want to consider disabling this feature." = "This feature, enabled by default, resets the autosens ratio to neutral when you rewind your pump, on the assumption that this corresponds to a probable site change. Autosens will begin learning sensitivity anew from the time of the rewind, which may take up to 6 hours. If you usually rewind your pump independently of site changes, you may want to consider disabling this feature.";
+"This feature, enabled by default, resets the autosens ratio to neutral when you rewind your pump, on the assumption that this corresponds to a probable site change. Autosens will begin learning sensitivity anew from the time of the rewind, which may take up to 6 hours. If you usually rewind your pump independently of site changes, you may want to consider disabling this feature." = "Ця функція увімкнена за замовчуванням, скидає співвідношення авто до нейтрального, коли ви скидаєте помпу, за припущенням, що це відповідає за заміну конюлі. Авторани почнуть вивчати чутливість до навчання, з часу вітру, що може зайняти до 6 годин. Якщо ви зазвичай скидаєте помпу незалежно від заміни конюлі, можете подумати про вимкнення цієї функції.";
 
 /* ”High Temptarget Raises Sensitivity" */
-"Defaults to false. When set to true, raises sensitivity (lower sensitivity ratio) for temp targets set to >= 111. Synonym for exercise_mode. The higher your temp target above 110 will result in more sensitive (lower) ratios, e.g., temp target of 120 results in sensitivity ratio of 0.75, while 140 results in 0.6 (with default halfBasalTarget of 160)." = "Defaults to false. When set to true, raises sensitivity (lower sensitivity ratio) for temp targets set to >= 111. Synonym for exercise_mode. The higher your temp target above 110 will result in more sensitive (lower) ratios, e.g., temp target of 120 results in sensitivity ratio of 0.75, while 140 results in 0.6 (with default halfBasalTarget of 160).";
+"Defaults to false. When set to true, raises sensitivity (lower sensitivity ratio) for temp targets set to >= 111. Synonym for exercise_mode. The higher your temp target above 110 will result in more sensitive (lower) ratios, e.g., temp target of 120 results in sensitivity ratio of 0.75, while 140 results in 0.6 (with default halfBasalTarget of 160)." = "За замовчуванням встановлено значення false. Якщо встановлено значення true, підвищує чутливість (зниження коефіцієнта чутливості) для встановлених цілей  >= 111. Синонім для вправ. Чим вище встановленою ціллю вашого шаблону вище 110, тим більш чутливими будуть (нижчі) співвідношення, наприклад  120 результатів у співвідношенні чутливості 0.75, тоді як 140 результатів в 0.6 (з стандартною половинною основною ціллю 160).";
 
 /* ”Low Temptarget Lowers Sensitivity" */
-"Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160)." = "Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160).";
+"Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160)." = "За замовчуванням встановлено значення false. Якщо встановлено значення true, підвищує чутливість (зниження коефіцієнта чутливості) для встановлених цілей  >= 99. Синонім для вправ. Чим вище встановленою ціллю вашого шаблону вище 100, тим більш чутливими будуть (нижчі) співвідношення, наприклад  95 результатів у співвідношенні чутливості 1.09, тоді як 85 результатів в 1.33 (з стандартною половинною основною ціллю 160).";
 
 /* ”Sensitivity Raises Target" */
-"When true, raises BG target when autosens detects sensitivity" = "When true, raises BG target when autosens detects sensitivity";
+"When true, raises BG target when autosens detects sensitivity" = "Коли TRUE, підвищує BG (цільовий діапазон) при підвищеній чутливості";
 
 /* ”Resistance Lowers Target" */
-"Defaults to false. When true, will lower BG target when autosens detects resistance" = "Defaults to false. When true, will lower BG target when autosens detects resistance";
+"Defaults to false. When true, will lower BG target when autosens detects resistance" = "За замовчуванням значення false. Коли значення true, знизить BG (цильовий діапазон) при обладнанні зниженої чутливості";
 
 /* ”Advanced Target Adjustments" */
 "This feature was previously enabled by default but will now default to false (will NOT be enabled automatically) in oref0 0.6.0 and beyond. (There is no need for this with 0.6.0). This feature lowers oref0’s target BG automatically when current BG and eventualBG are high. This helps prevent and mitigate high BG, but automatically switches to low-temping to ensure that BG comes down smoothly toward your actual target. If you find this behavior too aggressive, you can disable this feature. If you do so, please let us know so we can better understand what settings work best for everyone." = "This feature was previously enabled by default but will now default to false (will NOT be enabled automatically) in oref0 0.6.0 and beyond. (There is no need for this with 0.6.0). This feature lowers oref0’s target BG automatically when current BG and eventualBG are high. This helps prevent and mitigate high BG, but automatically switches to low-temping to ensure that BG comes down smoothly toward your actual target. If you find this behavior too aggressive, you can disable this feature. If you do so, please let us know so we can better understand what settings work best for everyone.";
