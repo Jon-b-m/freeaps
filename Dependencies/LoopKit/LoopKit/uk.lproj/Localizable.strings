@@ -53,31 +53,31 @@
 "mg/dL/U" = "mg/dL/U";
 
 /* The short unit display string for millimoles per liter */
-"mmol/L" = "ммол/л";
+"mmol/L" = "ммол/Л";
 
 /* The short unit display string for millimoles per liter per U */
 "mmol/L/U" = "mmol/L/U";
 
 /* Sensor state description for the non-valid state */
-"Needs Attention" = "Needs Attention";
+"Needs Attention" = "Потребує уваги";
 
 /* Describes an error for no data found in a CarbStore request */
-"No values found" = "No values found";
+"No values found" = "Не знайдено значень";
 
 /* Sensor state description for the valid state */
 "OK" = "OK";
 
 /* The error recovery suggestion when Health sharing was denied */
-"Please re-enable sharing in Health" = "Please re-enable sharing in Health";
+"Please re-enable sharing in Health" = "Будь ласка, повторно увімкніть спільний доступ до історії Heaith";
 
 /* Glucose trend up */
-"Rising" = "Rising";
+"Rising" = "Зростаючий";
 
 /* Glucose trend up-up */
-"Rising fast" = "Rising fast";
+"Rising fast" = "Швидко зростає";
 
 /* Glucose trend up-up-up */
-"Rising very fast" = "Rising very fast";
+"Rising very fast" = "Дуже швидко зростає";
 
 /* The short unit display string for international units of insulin */
 "U" = "U";
@@ -92,7 +92,7 @@
 "Unit/hour" = "Unit/hour";
 
 /* The long unit display string for international units of insulin */
-"Units" = "Units";
+"Units" = "Одиниці";
 
 /* The long unit display string for international units of insulin per hour */
 "Units/hour" = "Units/hour";
