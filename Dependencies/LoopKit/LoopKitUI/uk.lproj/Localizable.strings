@@ -209,31 +209,31 @@
 "Suspending" = "Виконується зупинка";
 
 /* The text for the override preset symbol setting */
-"Symbol" = "Symbol";
+"Symbol" = "Значок";
 
 /* The empty-state text for a configuration value */
-"Tap to set" = "Tap to set";
+"Tap to set" = "Натисніть, щоб налаштувати";
 
 /* The text for the override target range setting */
-"Target Range" = "Target Range";
+"Target Range" = "Цільові Діапазони";
 
 /* The title for the override selection screen */
-"Temporary Override" = "Temporary Override";
+"Temporary Override" = "Тимчасовий";
 
 /* The default placeholder string for a credential */
-"Required" = "Required";
+"Required" = "Обов’язково";
 
 /* Alert body displayed absorption time greater than max (1: maximum absorption time) */
-"The maximum absorption time is %@" = "The maximum absorption time is %@";
+"The maximum absorption time is %@" = "Максимальний час поглинання — %@";
 
 /* Alert body displayed for quantity greater than max (1: maximum quantity in grams) */
-"The maximum allowed amount is %@ grams" = "The maximum allowed amount is %@ grams";
+"The maximum allowed amount is %@ grams" = "Максимально допустима кількість становить %@ грам";
 
 /* The schedule table view header describing the configured time zone difference from the default time zone. The substitution parameters are: (1: time zone name)(2: +/-)(3: time interval) */
-"Times in %1$@%2$@%3$@" = "Times in %1$@%2$@%3$@";
+"Times in %1$@%2$@%3$@" = "Разів за %1$@%2$@%3$@";
 
 /* The unit string for units per hour */
-"U/hour" = "U/hour";
+"U/hour" = "Од/год";
 
 /* The unit string for units */
 "Units" = "Units";
@@ -243,10 +243,10 @@
 "Unknown" = "Невідомий";
 
 /* Label indicating validation is occurring */
-"Verifying" = "Verifying";
+"Verifying" = "Верифікація";
 
 /* Title of an alert containing a validation warning */
-"Warning" = "Warning";
+"Warning" = "Попередження";
 
 /* Title for the workout override range */
-"Workout" = "Workout";
+"Workout" = "Тренування";
