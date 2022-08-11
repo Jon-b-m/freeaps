@@ -7,7 +7,7 @@
 "Add insulin without actually bolusing" = "Додати інсулін без подачі болюсу";
 
 /* Add insulin from source outside of pump */
-"Add %@ without bolusing" = "Подати %@ болюсу";
+"Add %@ without bolusing" = "Добавити %@ без болюсу";
 
 "Bolus" = "Болюс";
 
@@ -158,7 +158,7 @@
 "Sensitivity" = "Чутливість";
 
 /*  */
-"Use Autotune" = "використовувати Автотюн";
+"Use Autotune" = "Використовувати Autotune";
 
 /* Add profile basal */
 "Add" = "Додати";
@@ -167,7 +167,7 @@
 "Basal Profile" = "Базальний Профіль";
 
 /* Rate basal profile */
-"Rate" = "Коеф.";
+"Rate" = "Швидкість";
 
 /*  */
 "Save on Pump" = "Зберегти на Помпі";
@@ -179,7 +179,7 @@
 "Schedule" = "Розклад";
 
 /*  */
-"starts at" = "починається об";
+"starts at" = "Починається з";
 
 /* Time basal profile */
 "Time" = "Час";
@@ -194,7 +194,7 @@
 "Ratio" = "Коефіцієнт";
 
 /*  */
-"Autosens" = "Автосенс";
+"Autosens" = "Autosens";
 
 /*  */
 "Calculated Sensitivity" = "Розрахована Чутливість";
@@ -215,20 +215,20 @@
 "Amount" = "Об'єм";
 
 /* */
-"Cancel Temp Basal" = "Відмінити ТБШ";
+"Cancel Temp Basal" = "Відмінити тимчасову базальну швидкість (ТБШ)";
 
 /* Enact
 Enact a temp Basal or a temp target */
 "Enact" = "Запустити";
 
 /* */
-"Manual Temp Basal" = "Ручний ТБШ";
+"Manual Temp Basal" = "Ручна тимчасова базальна швидкість (ТБШ)";
 
 /* Allow uploads tp NS */
 "Allow uploads" = "Дозволити вивантаження";
 
 /* API secret in NS */
-"API secret" = "API секрет";
+"API secret" = "API Secret";
 
 /* Connect to NS */
 "Connect" = "Підключити";
@@ -264,7 +264,7 @@ Enact a temp Basal or a temp target */
 "Glucose units" = "Одиниці виміру глюкози";
 
 /*  */
-"Preferences" = "Параметри";
+"Preferences" = "Налаштування";
 
 /* Recommended Insulin Fraction in preferences */
 "Recommended Insulin Fraction" = "Рекомендований коефіцієнт інсуліну";
@@ -300,10 +300,10 @@ Enact a temp Basal or a temp target */
 "hours" = "годин";
 
 /* Max setting */
-"Max Basal" = "Макс Базал";
+"Max Basal" = "Максимальний Базал";
 
 /* Max setting */
-"Max Bolus" = "Макс Болюс";
+"Max Bolus" = "Максимальний Болюс";
 
 /* */
 "Pump Settings" = "Налаштування Помпи";
@@ -342,7 +342,7 @@ Enact a temp Basal or a temp target */
 "0 U/hr" = "0 Од/Год";
 
 /* abbreviation for days */
-"d" = "d";
+"d" = "дн.";
 
 /* abbreviation for hours */
 "h" = "г";
@@ -408,7 +408,7 @@ Enact a temp Basal or a temp target */
 "Other" = "Інше";
 
 /* Whatch app alert */
-"Set temp targets presets on iPhone first" = "Встановити та пресети на iPhone перш за все тимчасові цілі";
+"Set temp targets presets on iPhone first" = "Спочатку встановіть тимчасові цілі в додатку на iPhone";
 
 /* Updating Watch app */
 "Updating..." = "Оновлення...";
@@ -417,7 +417,7 @@ Enact a temp Basal or a temp target */
 "Temp Targets" = "Тимчасові цілі";
 
 /* Delete carbs from Treatments list*/
-"Delete carbs?" = "Видалити вуглеці?";
+"Delete carbs?" = "Видалити вуглеводи?";
 
 /* Treatments list */
 "Treatments" = "Терапія";
@@ -444,7 +444,7 @@ Enact a temp Basal or a temp target */
 "Other" = "Інше";
 
 /* */
-"Libre Transmitter" = "Libre трансміттер";
+"Libre Transmitter" = "Libre Transmitter";
 
 /* */
 "Libre Transmitters" = "Libre трансміттери";
@@ -456,7 +456,7 @@ Enact a temp Basal or a temp target */
 "Modes" = "Режими";
 
 /* Libre 2 Direct */
-"Libre 2 Direct" = "Libre 2 Direct";
+"Libre 2 Direct" = "Libre 2 пряме підключення";
 
 /* */
 "Select the third party transmitter you want to connect to" = "Виберіть сторонній передавач для підключення";
@@ -465,7 +465,7 @@ Enact a temp Basal or a temp target */
 "State was restored" = "Стан було відновлено";
 
 /* The short unit display string for millimoles of glucose per liter */
-"mmol/L" = "ммол/л";
+"mmol/L" = "ммол/Л";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "мг/дл";
@@ -501,7 +501,7 @@ Enact a temp Basal or a temp target */
 "About the Process" = "Про процес";
 
 /* */
-"Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working." = "Будь ласка, переконайтеся, що ваш датчик Libre 2 вже активований і закінчився розігрів. Якщо у вас є інші програми, які підключаються до датчика через bluetooth, їх потрібно вимкнути або видалити. \n\n Ви можете мати лише один додаток, який зв’язується з датчиком через Bluetooth. Потім натисніть кнопку «сполучення та підключення» нижче, щоб почати процес. Зверніть увагу, що з’єднання Bluetooth може зайняти до кількох хвилин, перш ніж воно почне працювати.";
+"Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working." = "Будь ласка, переконайтеся, що ваш датчик Libre 2 вже активований і закінчився розігрів. Якщо у вас є інші програми, які підключаються до датчика через Bluetooth, їх потрібно вимкнути або видалити. \n\n Ви можете мати лише один додаток, який зв’язується з датчиком через Bluetooth. Потім натисніть кнопку «сполучення та підключення» нижче, щоб почати процес. Зверніть увагу, що з’єднання Bluetooth може зайняти до кількох хвилин, перш ніж воно почне працювати.";
 
 /* */
 "Pairinginfo" = "Інформація про створення пари";
@@ -555,7 +555,7 @@ Enact a temp Basal or a temp target */
 "HIGHALERT!" = "УВАГА ВИСОКИЙ!";
 
 /* (Snoozed)*/
-"(Snoozed)" = "Відкладено";
+"(Snoozed)" = "(Відкладено)";
 
 /* Glucose: %@ */
 "Glucose: %@" = "Глюкоза: %@";
@@ -564,13 +564,13 @@ Enact a temp Basal or a temp target */
 "Transmitter: %@%%" = "Передавач: %@";
 
 /* No Sensor Detected */
-"No Sensor Detected" = "Не виявлено датчиків";
+"No Sensor Detected" = "Не виявлено сенсори";
 
 /* This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor */
-"This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor" = "Це може бути періодична проблема, але, будь ласка, перевірте, чи ваш трансмітер міцно закріплений над вашим датчиком";
+"This might be an intermittent problem, but please check that your transmitter is tightly secured over your sensor" = "Це може бути періодична проблема, але, будь ласка, перевірте, чи ваш трансмітер міцно закріплений над вашим сенсором";
 
 /* New Sensor Detected */
-"New Sensor Detected" = "Виявлено новий датчик";
+"New Sensor Detected" = "Виявлено новий Сенсор";
 
 /* Please wait up to 30 minutes before glucose readings are available! */
 "Please wait up to 30 minutes before glucose readings are available!" = "Будь ласка, зачекайте до 30 хвилин, перш ніж буде доступно читання з глюкозою!";
@@ -579,22 +579,22 @@ Enact a temp Basal or a temp target */
 "Invalid Glucose sample detected, try again later" = "Виявлено невірний показник рівня глюкози, повторіть спробу пізніше";
 
 /* ensor might have temporarily stopped, fallen off or is too cold or too warm */
-"Sensor might have temporarily stopped, fallen off or is too cold or too warm" = "Датчики можуть бути тимчасово зупинені, падіння або занадто холодно або тепло.";
+"Sensor might have temporarily stopped, fallen off or is too cold or too warm" = "Сенсор може бути тимчасово зупинений, падіння або занадто холодно або тепло.";
 
 /* Invalid Sensor Detected */
 "Invalid Sensor Detected" = "Помилка визначення сенсора";
 
 /* Detected sensor seems not to be a libre 1 sensor! */
-"Detected sensor seems not to be a libre 1 sensor!" = "Виявлений датчик не є датчиком Libre1!";
+"Detected sensor seems not to be a libre 1 sensor!" = "Виявлений сенсор не є датчиком Libre1!";
 
 /* Detected sensor is invalid: %@ */
-"Detected sensor is invalid: %@" = "Виявлений датчик недійсний: %@";
+"Detected sensor is invalid: %@" = "Виявлений сенсор недійсний: %@";
 
 /* Low Battery */
 "Low battery" = "Низький заряд батареї";
 
 /* */
-"Invalid sensor" = "Невірний запис";
+"Invalid sensor" = "Сенсор несправний";
 
 /* */
 "Sensor change" = "Зміна сенсору";
@@ -606,7 +606,7 @@ Enact a temp Basal or a temp target */
 "Battery is running low %@, consider charging your %@ device as soon as possible" = "Рівень заряду батареї низький %@, зарядіть ваш %@ пристрій найшвидше";
 
 /* Extracting calibrationdata from sensor */
-"Extracting calibrationdata from sensor" = "Вилучення калібрування даних від датчика";
+"Extracting calibrationdata from sensor" = "Вилучення калібрування даних від сенсора";
 
 /* Sensor Ending Soon */
 "Sensor Ending Soon" = "Термін закінчення сенсору";
@@ -630,7 +630,7 @@ Enact a temp Basal or a temp target */
 "Last Blood Sugar prediction" = "Останнє передбачення цукру крові";
 
 /* */
-"CurrentBG" = "Поточний BG";
+"CurrentBG" = "Поточна глюкоза крові ( BG)";
 
 /* */
 "Sensor Info" = "Інформація про Сенсор";
@@ -684,7 +684,7 @@ Enact a temp Basal or a temp target */
 "Delete CGM" = "Видалити CGM";
 
 /* */
-"Are you sure you want to remove this cgm from loop?" = "Ви дійсно бажаєте видалити цей CGM з циклу?";
+"Are you sure you want to remove this cgm from loop?" = "Ви дійсно бажаєте видалити цей CGM?";
 
 /* */
 "There is no undo" = "Цю дію неможливо відмінити!";
@@ -882,7 +882,7 @@ Enact a temp Basal or a temp target */
 "Carbs" = "Вуглеводи";
 
 /* */
-"Temp Basal" = "Темп Базал";
+"Temp Basal" = "Тимчасовий  Базал";
 
 /* */
 "Temp Target" = "Тимчасові цілі";
@@ -971,7 +971,7 @@ Enact a temp Basal or a temp target */
 "Defaults to false. When true, will lower BG target when autosens detects resistance" = "За замовчуванням значення false. Коли значення true, знизить BG (цильовий діапазон) при обладнанні зниженої чутливості";
 
 /* ”Advanced Target Adjustments" */
-"This feature was previously enabled by default but will now default to false (will NOT be enabled automatically) in oref0 0.6.0 and beyond. (There is no need for this with 0.6.0). This feature lowers oref0’s target BG automatically when current BG and eventualBG are high. This helps prevent and mitigate high BG, but automatically switches to low-temping to ensure that BG comes down smoothly toward your actual target. If you find this behavior too aggressive, you can disable this feature. If you do so, please let us know so we can better understand what settings work best for everyone." = "Эта функция ранее была включена по умолчанию, но теперь по умолчанию она не будет включена (НЕ будет включена автоматически) в oref0 0.6.0 и выше. (Это не нужно начиная с 0.6.0), эта функция автоматически уменьшает целевой BG oref0, когда текущий BG и можливий BG высока. Это помогает предотвратить и смягчить высокие значения BG, но автоматически переключается на режим пониженной цели, чтобы убедиться, что BG плавно спускается к вашей реальной цели. Если это поведение слишком агрессивно, вы можете отключить эту функцию. Если вы это сделаете, пожалуйста, дайте нам знать, чтобы мы могли лучше понять, какие настройки работают лучше всех.";
+"This feature was previously enabled by default but will now default to false (will NOT be enabled automatically) in oref0 0.6.0 and beyond. (There is no need for this with 0.6.0). This feature lowers oref0’s target BG automatically when current BG and eventualBG are high. This helps prevent and mitigate high BG, but automatically switches to low-temping to ensure that BG comes down smoothly toward your actual target. If you find this behavior too aggressive, you can disable this feature. If you do so, please let us know so we can better understand what settings work best for everyone." = "Ця функція раніше булу увімкнена за умовченням, але зараз за умовченням вона не буде включена (НЕ буде включена автоматично) в oref0 0.6.0 и выше. (Це не потрібно починає з 0.6.0), ця функція автоматично зменьшує цільовий діапазон (BG) oref0, коли поточний BG та можливий BG зависокі. Це допомогає запровадити  та полехшити зависокі значення BG, але  автоматично переключається на режим пониження цілі, щоб впевнитися, що  BG повільно спускается до вашої реальної цілі. Якщо ця поведінка доволі агрессивна, ви можете відключити цю функцію. Якщо ви це зробите, Будь Ласка, дайте нам знати, щоб ми могли кращє зрозуміти, які налоштування працюють кращє інших.";
 
 /* "Exercise Mode" */
 "Defaults to false. When true, > 105 mg/dL high temp target adjusts sensitivityRatio for exercise_mode. Synonym for high_temptarget_raises_sensitivity" = "За замовчуванням значення false. Коли true, > 105 mg/dL high temp target регулювання чутливості щодо exercise_mode. Синонім для high_temptarget_raises_sensities_sensitivity";
@@ -1008,7 +1008,7 @@ Enact a temp Basal or a temp target */
 "Defaults to false. Setting to true allows changing insulinPeakTime" = "За замовченням значення вимкнено. Включення параметра дозволяє змінювати піковий час інсуліна (insulinPeakTime)";
 
 /* "Suspend Zeros IOB” */
-"Default is false. Any existing temp basals during times the pump was suspended will be deleted and 0 temp basals to negate the profile basal rates during times pump is suspended will be added." = "За замовченням false. Любі існуючі ВБС за час зупинки помпи будуть видалені та замінені на нульову BБС шоб прибрати профільні базальні швидкості.";
+"Default is false. Any existing temp basals during times the pump was suspended will be deleted and 0 temp basals to negate the profile basal rates during times pump is suspended will be added." = "За замовченням false. Любі існуючі ПБШ за час зупинки помпи будуть видалені та замінені на нульову ПБШ шоб прибрати профільні базальні швидкості.";
 
 /* "Max IOB" */
 "Max IOB is the maximum amount of insulin on board from all sources – both basal (or SMB correction) and bolus insulin – that your loop is allowed to accumulate to treat higher-than-target BG. Unlike the other two OpenAPS safety settings (max_daily_safety_multiplier and current_basal_safety_multiplier), max_iob is set as a fixed number of units of insulin. As of now manual boluses are NOT limited by this setting. \n\n To test your basal rates during nighttime, you can modify the Max IOB setting to zero while in Closed Loop. This will enable low glucose suspend mode while testing your basal rates settings\n\n(Tip from https://www.loopandlearn.org/freeaps-x/#open-loop)." = "Макс IOB - це максимальна кількість інсуліна на борту з усіх джерел – як базального (або болюсів коррекції), так і болюсного інсуліна – котрий ваш цикл може накопичувати для компенсації високого СК. На відмінність від двух іншіх параметрів безпеки (max_daily_safety_multiplier и current_basal_safety_multiplier), max_iob встановлюється, як фіксована кількість одиниць інсуліна. На цей час ручні болюсы НЕ обмежені цим налаштуванням. Для тестування базальних швидкостей в нічний час, ви можете змінювати значення цього параметра на нуль находячись у замкнутому циклі. Це вмикне режим призупенення на низькому цукрі, при тестуванні налаштуваннь базальних швидкостей. (https://www.loopandlearn.org/freeaps-x/#open-loop).";
