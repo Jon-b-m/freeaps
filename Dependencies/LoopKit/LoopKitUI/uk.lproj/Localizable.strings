@@ -166,47 +166,47 @@
 "Override presets can be set up under the 'Configuration' section of the settings screen." = "Override presets can be set up under the 'Configuration' section of the settings screen.";
 
 /* The section title of glucose overrides */
-"Overrides" = "Overrides";
+"Overrides" = "Зміни";
 
 /* Title for the pre-meal override range */
-"Pre-Meal" = "Pre-Meal";
+"Pre-Meal" = "Перед їжою";
 
 /* The section header text override presets */
-"PRESETS" = "PRESETS";
+"PRESETS" = "НАЛОШТУВАННЯ";
 
 /* The title of the screen displaying a pump event */
-"Pump Event" = "Pump Event";
+"Pump Event" = "Подія Помпи";
 
 /* Title text for button to resume insulin delivery */
-"Resume Delivery" = "Resume Delivery";
+"Resume Delivery" = "Відновити доставку";
 
 /* Title text for button when insulin delivery is in the process of being resumed */
-"Resuming" = "Resuming";
+"Resuming" = "Відновлюється";
 
 /* The text for the override preset name field placeholder */
-"Running" = "Running";
+"Running" = "Запущено";
 
 /* Button text for saving glucose correction range schedule
    Button text for saving insulin sensitivity schedule */
 "Save" = "Зберегти";
 
 /* The section header text for a scheduled override */
-"SCHEDULED OVERRIDE" = "SCHEDULED OVERRIDE";
+"SCHEDULED OVERRIDE" = "ЗАПЛАНОВАНЕ ВИКОНАННЯ ЗМІН";
 
 /* Section title for slow absorbing food */
-"Slow" = "Slow";
+"Slow" = "Повільна";
 
 /* The text for the override start time */
-"Start Time" = "Start Time";
+"Start Time" = "Час початку";
 
 /* Title text for suspend resume button when temp basal starting */
-"Starting Temp Basal" = "Starting Temp Basal";
+"Starting Temp Basal" = "Час початку тимчасового базала";
 
 /* Title text for button to suspend insulin delivery */
-"Suspend Delivery" = "Suspend Delivery";
+"Suspend Delivery" = "Призупинити доставку";
 
 /* Title text for button when insulin delivery is in the process of being stopped */
-"Suspending" = "Suspending";
+"Suspending" = "Виконується зупинка";
 
 /* The text for the override preset symbol setting */
 "Symbol" = "Symbol";
