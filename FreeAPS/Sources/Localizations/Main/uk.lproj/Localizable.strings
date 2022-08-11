@@ -131,10 +131,10 @@
 "Top target" = "Верхня ціль";
 
 /*  Temp target set for ... minutes */
-"for" = "for";
+"for" = "на";
 
 /*  Temp target set for ... minutes */
-"min" = "min";
+"min" = "хв";
 
 /*  */
 "Autotune" = "Автотюн";
@@ -336,7 +336,7 @@ Enact a temp Basal or a temp target */
 " g" = "гр";
 
 /* The short unit display string for grams */
-"g" = "g";
+"g" = "г";
 
 /* when 0 U/hr */
 "0 U/hr" = "0 Од/Год";
@@ -735,73 +735,73 @@ Enact a temp Basal or a temp target */
 "Adds Phone Battery" = "Показувати заряд батареї телефону";
 
 /* */
-"Adds Transmitter Battery" = "Adds Transmitter Battery";
+"Adds Transmitter Battery" = "Додає акумулятор Transmitter";
 
 /* */
-"Also vibrate" = "Also vibrate";
+"Also vibrate" = "Вібрація";
 
 /* */
-"Additional notification types" = "Additional notification types";
+"Additional notification types" = "Додаткове сповіщення";
 
 /* */
-"Misc" = "Misc";
+"Misc" = "Різне";
 
 /* */
-"Unit override" = "Unit override";
+"Unit override" = "Задати величину";
 
 /* */
-"Low" = "Low";
+"Low" = "Низький";
 
 /* */
-"High" = "High";
+"High" = "Високий";
 
 /* */
-"glucose" = "glucose";
+"glucose" = "глюкоза";
 
 /* */
-"Schedule " = "Schedule ";
+"Schedule " = "Розклад ";
 
 /* */
-"tapped save schedules" = "tapped save schedules";
+"tapped save schedules" = "вибрано збереження роскладу";
 
 /* */
-"Error" = "Error";
+"Error" = "Помилка";
 
 /* */
-"Some ui element was incorrectly specified" = "Some ui element was incorrectly specified";
+"Some ui element was incorrectly specified" = "Деякі елементи ui були неправильно вказані";
 
 /* */
-"Success" = "Success";
+"Success" = "Успішно";
 
 /* */
-"Schedules were saved successfully!" = "Schedules were saved successfully!";
+"Schedules were saved successfully!" = "Розклад збережено успішно!";
 
 /* */
-"High Glucose Alarm active" = "High Glucose Alarm active";
+"High Glucose Alarm active" = "Будильник високої Глюкози увівкнено";
 
 /* */
-"Low Glucose Alarm active" = "Low Glucose Alarm active";
+"Low Glucose Alarm active" = "Будильник низької Глюкози увімкнено";
 
 /* */
-"No Glucose Alarm active" = "No Glucose Alarm active";
+"No Glucose Alarm active" = "Немає активних сигналів Глюкози";
 
 /* */
-"snoozing until %@" = "snoozing until %@";
+"snoozing until %@" = "відкладено до %@";
 
 /* */
-"not snoozing" = "not snoozing";
+"not snoozing" = "не відкладено";
 
 /* */
-"nothing to see here" = "nothing to see here";
+"nothing to see here" = "Тут нічого немає";
 
 /* */
-"snooze from testview clicked" = "snooze from testview clicked";
+"snooze from testview clicked" = "відкладення після натиснутого тесту";
 
 /* */
-"will snooze for %@ until %@" = "will snooze for %@ until %@";
+"will snooze for %@ until %@" = "буде відкладно для %@ до %@";
 
 /* */
-"Click to Snooze Alerts" = "Click to Snooze Alerts";
+"Click to Snooze Alerts" = "Натисніть, щоб відкласти оповіщення";
 
 /* */
 "Strength" = "Strength";
