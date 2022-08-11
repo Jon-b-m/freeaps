@@ -5,7 +5,7 @@
 "%1$@%2$@%3$@" = "%1$@%2$@%3$@";
 
 /* Format string providing instructions for replacing pod due to a fault. (1: The fault description) */
-"%1$@. Insulin delivery has stopped. Please deactivate and remove pod." = "%1$@. Подача інсуліну спинилася. Будь ласка, вимкніть і видаліть pod.";
+"%1$@. Insulin delivery has stopped. Please deactivate and remove pod." = "%1$@. Подача інсуліну спинилася. Будь ласка, вимкніть і видаліть POD.";
 
 /* Format string for delivered insulin. (1: The localized amount)
    Format string for insulin remaining in reservoir. (1: The localized amount) */
@@ -36,13 +36,13 @@
 "Active Time" = "Активний час";
 
 /* The title of the cell showing the Pod Active Clock */
-"Pod Active Clock" = "Активний Pod годин";
+"Pod Active Clock" = "Активний POD годин";
 
 /* The title of the cell showing alarm status */
 "Alarms" = "Тривога";
 
 /* Confirmation message for shutting down a pod */
-"Are you sure you want to shutdown this pod?" = "Ви впевнені, що хочете завершити цей pod?";
+"Are you sure you want to shutdown this pod?" = "Ви впевнені, що хочете завершити цей POD?";
 
 /* Confirmation message for removing Omnipod PumpManager */
 "Are you sure you want to stop using Omnipod?" = "Ви впевнені, що хочете зупинити Omnipod?";
@@ -82,7 +82,7 @@
 
 /* Button title for pod deactivation
    Button title to deactivate pod */
-"Deactivate Pod" = "Деактивувати Pod";
+"Deactivate Pod" = "Деактивувати POD";
 
 /* Button title to delete Omnipod PumpManager */
 "Delete Omnipod" = "Вилучити Omnipod";
@@ -103,13 +103,13 @@
 "Error disabling bolus beeps" = "Помилка вимкнення болюс біп";
 
 /* The alert title for enable bolus beeps error */
-"Error enabling bolus beeps" = "Помилка увімкнення bolus beeps";
+"Error enabling bolus beeps" = "Помилка увімкнення bolus біп";
 
 /* The alert title for enable Confirmation Beeps */
-"Enable Confirmation Beeps" = "Увімкнути Beeps підтвердження";
+"Enable Confirmation Beeps" = "Увімкнути Біп підтвердження";
 
 /* The alert title for Disable Confirmation Beep */
-"Disable Confirmation Beeps" = "Вимкнути Beeps підтвердження";
+"Disable Confirmation Beeps" = "Вимкнути Біп підтвердження";
 
 /* The alert title for enable Automatic Bolus Beeps */
 "Enable Automatic Bolus Beeps" = "Увімкнути автоматичні звуки для болюсу";
@@ -136,7 +136,7 @@
 "Fault" = "Збій";
 
 /* The title of the command to finish pod setup */
-"Finish pod setup" = "Завершити налаштування pod";
+"Finish pod setup" = "Завершити налаштування POD";
 
 /* Accessibility format string for (1: localized volume)(2: time) */
 "Greater than %1$@ units remaining at %2$@" = "Залишилось більше %1$@ одиниць на %2$@";
