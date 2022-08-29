@@ -4,8 +4,8 @@
   Created by Jon Mårtensson on 2022-08-28.
   Copyright © 2022 Randall Knutson. All rights reserved.
 */
-
 /* Alert content title for multiCommand pod alert */
+
 "Multiple Command Alert" = "Multiple Command Alert";
 
 /* Alert content title for userPodExpiration pod alert */
@@ -364,10 +364,8 @@
 
 /* Button text for 1 hour suspend duration" */
 "1 hour" = "1 hour";
-    
- /* Button text for 1 hour 30 minute suspend duration */
+/* Button text for 1 hour 30 minute suspend duration */
 "1 hour 30 minutes" = "1 hour 30 minutes";
-    
 /* Button text for 2 hour suspend duration */
 "2 hours" = "2 hours";
 
