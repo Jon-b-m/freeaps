@@ -102,31 +102,31 @@
 "Replace Pod" = "Bytt pod";
 
 /* Unit for singular day in pod life remaining */
-"day" = "day";
+"day" = "dag";
 
 /* Unit for plural days in pod life remaining */
-"days" = "days";
+"days" = "dager";
 
 /* Unit for singular hour in pod life remaining */
-"hour" = "hour";
+"hour" = "time";
 
 /* Unit for plural hours in pod life remaining */
 "hours" = "timer";
 
 /* Unit for singular minute in pod life remaining */
-"minute" = "minute";
+"minute" = "minutt";
 
 /* Unit for plural minutes in pod life remaining */
 "minutes" = "minutter";
 
 /* Title of insulin delivery section */
-"Insulin Delivery" = "Insulin Delivery";
+"Insulin Delivery" = "Insulintilførsel";
 
 /* */
-"Scheduled Basal" = "Scheduled Basal";
+"Scheduled Basal" = "Planlagt basal";
 
 /* Header for insulin remaining on pod settings screen */
-"Insulin Remaining" = "Insulin Remaining";
+"Insulin Remaining" = "Insulin som gjenstår";
 
 /* Section header for activity section */
 "Activity" = "Aktivitet";
@@ -177,40 +177,40 @@
 "Replace Pod" = "Bytt pod";
 
 /* Error message shown when no pod is paired */
-"No pod paired" = "No pod paired";
+"No pod paired" = "Ingen sammenkoblet pod";
 
 /* Error message shown when user cannot pair because pod is already paired */
-"Pod already paired" = "Pod already paired";
+"Pod already paired" = "Pod er allerede sammenkoblet";
 
 /* Error description for OmniBLEPumpManagerError.insulinTypeNotConfigured */
-"Insulin type not configured" = "Insulin type not configured";
+"Insulin type not configured" = "Insulintype ikke konfigurert";
 
 /* Error message when cannula insertion fails because the pod is in an unexpected state */
-"Pod is not in a state ready for cannula insertion." = "Pod is not in a state ready for cannula insertion.";
+"Pod is not in a state ready for cannula insertion." = "Pod er ikke klar for å sette inn kanyle.";
 
 /* Error description for OmniBLEPumpManagerError.invalidSetting */
-"Invalid Setting" = "Invalid Setting";
+"Invalid Setting" = "Ugyldig innstilling";
 
 /* Recovery suggestion shown when no pod is paired */
-"Please pair a new pod" = "Please pair a new pod";
+"Please pair a new pod" = "Vennligst koble til ny pod";
 
 /* Generic title of the OmniBLE pump manager */
 "Omnipod DASH" = "Omnipod DASH";
 
 /* Status highlight that delivery is uncertain. */
-"Comms Issue" = "Comms Issue";
+"Comms Issue" = "Kommunikasjons-problem";
 
 /* */
-"Finish Pairing" = "Finish Pairing";
+"Finish Pairing" = "Fullfør sammenkobling";
 
 /* Status highlight that when pod is deactivating */
-"Finish Deactivation" = "Finish Deactivation";
+"Finish Deactivation" = "Fullfør deaktiveringen";
 
 /* Status highlight that when no pod is paired. */
 "No Pod" = "Ingen pod";
 
 /* Status highlight message for emptyReservoir alarm. */
-"No Insulin" = "No Insulin";
+"No Insulin" = "Tom for insulin";
 
 /* Status highlight message for podExpired alarm. */
 "Pod Expired" = "Pod utløpt";
@@ -222,7 +222,7 @@
 "Pod Error" = "Pod Error";
 
 /* Status highlight that a pump is out of insulin. */
-"No Insulin" = "No Insulin";
+"No Insulin" = "Tom for insulin";
 
 /* Status highlight that insulin delivery was suspended. */
 "Insulin Suspended" = "Insulin Suspended";
@@ -303,7 +303,7 @@
 "U/hr" = "E/t";
 
 /* Header for insulin remaining on pod settings screen */
-"Insulin Remaining" = "Insulin Remaining";
+"Insulin Remaining" = "Insulin som gjenstår";
 
 /* Button title to set temporary basal rate */
 "Set Temporary Basal Rate" = "Set Temporary Basal Rate";
