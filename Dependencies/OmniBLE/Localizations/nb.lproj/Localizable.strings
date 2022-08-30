@@ -9,10 +9,10 @@
 "Multiple Command Alert" = "Multiple Command Alert";
 
 /* Alert content title for userPodExpiration pod alert */
-"Pod Expiration Reminder" = "Pod Expiration Reminder";
+"Pod Expiration Reminder" = "Utløpspåminnelse";
 
 /* Alert content title for podExpiring pod alert */
-"Pod Expired" = "Pod Expired";
+"Pod Expired" = "Pod utløpt";
 
 /* Alert content title for lowReservoir pod alert */
 "Low Reservoir" = "Low Reservoir";
@@ -33,7 +33,7 @@
 "Multiple Command Alert" = "Multiple Command Alert";
 
 /* Format string for alert content body for userPodExpiration pod alert. (1: time until expiration) */
-"Pod expires in %1$@." = "Pod expires in %1$@.";
+"Pod expires in %1$@." = "Pod utløper om %1$@.";
 
 /* Alert content body for podExpiring pod alert */
 "Change Pod now. Pod has been active for 72 hours." = "Change Pod now. Pod has been active for 72 hours.";
@@ -51,7 +51,7 @@
 "The insulin suspension period has ended.\n\nYou can resume delivery from the banner on the home screen or from your pump settings screen. You will be reminded again in 15 minutes." = "The insulin suspension period has ended.\n\nYou can resume delivery from the banner on the home screen or from your pump settings screen. You will be reminded again in 15 minutes.";
 
 /* Alert content body for finishSetupReminder pod alert */
-"Please finish pairing your pod." = "Please finish pairing your pod.";
+"Please finish pairing your pod." = "Vennligst fullfør sammenkoblingen av poden.";
 
 /* Alert content body for timeOffsetChangeDetected pod alert */
 "The time on your pump is different from the current time. You can review the pump time and and sync to current time in settings." = "The time on your pump is different from the current time. You can review the pump time and and sync to current time in settings.";
@@ -63,16 +63,16 @@
 "Ok" = "Ok";
 
 /* Label for pod life state when pod not fully activated */
-"Unfinished Activation" = "Unfinished Activation";
+"Unfinished Activation" = "Ufullstendig aktivering";
 
 /* Label for pod life state when time remaining */
-"Pod expires in" = "Pod expires in";
+"Pod expires in" = "Pod utløper om";
 
 /* */
-"Pod Expires" = "Pod Expires";
+"Pod Expires" = "Pod utløper";
 
 /* */
-"Pod Activated" = "Pod Activated";
+"Pod Activated" = "Pod aktivert";
 
 /* */
 "Notification Settings" = "Varslingsinnstillinger";
@@ -81,22 +81,22 @@
 "Confidence Reminders" = "Confidence Reminders";
 
 /* Text for suspend resume button when insulin delivery active */
-"Suspend Insulin Delivery" = "Suspend Insulin Delivery";
+"Suspend Insulin Delivery" = "Stopp insulintilførsel";
 
 /* Label for pod life state when within pod expiration window */
-"Pod expired" = "Pod expired";
+"Pod expired" = "Utløpt pod";
 
 /* Label for pod life state when pod not fully deactivated */
-"Unfinished deactivation" = "Unfinished deactivation";
+"Unfinished deactivation" = "Ufullstendig deaktivering";
 
 /* Label for pod life state when no pod paired */
-"No Pod" = "No Pod";
+"No Pod" = "Ingen pod";
 
 /* Settings page link description when next lifecycle action is to pair new pod */
 "Pair Pod" = "Pair Pod";
 
 /* Settings page link description when next lifecycle action is to finish deactivation */
-"Finish deactivation" = "Finish deactivation";
+"Finish deactivation" = "Fullfør deaktiveringen";
 
 /* Settings page link description when next lifecycle action is to replace pod */
 "Replace Pod" = "Bytt pod";
@@ -141,7 +141,7 @@
 "Pair Pod" = "Pair Pod";
 
 /* Settings page link description when next lifecycle action is to finish deactivation */
-"Finish deactivation" = "Finish deactivation";
+"Finish deactivation" = "Fullfør deaktiveringen";
 
 /* Settings page link description when next lifecycle action is to replace pod */
 "Replace Pod" = "Bytt pod";
@@ -150,19 +150,19 @@
 "Replace Pod" = "Bytt pod";
 
 /* Label for pod life state when pod not fully activated */
-"Unfinished Activation" = "Unfinished Activation";
+"Unfinished Activation" = "Ufullstendig aktivering";
 
 /* Label for pod life state when time remaining */
-"Pod expires in" = "Pod expires in";
+"Pod expires in" = "Pod utløper om";
 
 /* Label for pod life state when within pod expiration window */
-"Pod expired" = "Pod expired";
+"Pod expired" = "Utløpt pod";
 
 /* Label for pod life state when pod not fully deactivated */
-"Unfinished deactivation" = "Unfinished deactivation";
+"Unfinished deactivation" = "Ufullstendig deaktivering";
 
 /* Label for pod life state when no pod paired */
-"No Pod" = "No Pod";
+"No Pod" = "Ingen pod";
 
 /* Pod life HUD view label */
 "Fault" = "Feil";
@@ -207,13 +207,13 @@
 "Finish Deactivation" = "Finish Deactivation";
 
 /* Status highlight that when no pod is paired. */
-"No Pod" = "No Pod";
+"No Pod" = "Ingen pod";
 
 /* Status highlight message for emptyReservoir alarm. */
 "No Insulin" = "No Insulin";
 
 /* Status highlight message for podExpired alarm. */
-"Pod Expired" = "Pod Expired";
+"Pod Expired" = "Pod utløpt";
 
 /* Status highlight message for occlusion alarm. */
 "Pod Occlusion" = "Pod Occlusion";
