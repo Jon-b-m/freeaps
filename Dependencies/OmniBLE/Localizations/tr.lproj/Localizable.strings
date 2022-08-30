@@ -12,10 +12,10 @@
 "Pod Expiration Reminder" = "Pod Expiration Reminder";
 
 /* Alert content title for podExpiring pod alert */
-"Pod Expired" = "Pod Expired";
+"Pod Expired" = "Pod Süreci Doldu";
 
 /* Alert content title for lowReservoir pod alert */
-"Low Reservoir" = "Low Reservoir";
+"Low Reservoir" = "Düşük Rezervuar";
 
 /* Alert content title for suspendInProgress pod alert */
 "Suspend In Progress Reminder" = "Suspend In Progress Reminder";
@@ -60,7 +60,7 @@
 "Suspension time is up. Open the app and resume." = "Suspension time is up. Open the app and resume.";
 
 /* Action button default text for PodAlerts */
-"Ok" = "Ok";
+"Ok" = "Tamam";
 
 /* Label for pod life state when pod not fully activated */
 "Unfinished Activation" = "Unfinished Activation";
@@ -198,10 +198,10 @@
 "Omnipod DASH" = "Omnipod DASH";
 
 /* Status highlight that delivery is uncertain. */
-"Comms Issue" = "Comms Issue";
+"Comms Issue" = "İletişim Sorunu";
 
 /* */
-"Finish Pairing" = "Finish Pairing";
+"Finish Pairing" = "Eşleştirmeyi Bitir";
 
 /* Status highlight that when pod is deactivating */
 "Finish Deactivation" = "Finish Deactivation";
@@ -213,7 +213,7 @@
 "No Insulin" = "İnsülin Bulunmuyor";
 
 /* Status highlight message for podExpired alarm. */
-"Pod Expired" = "Pod Expired";
+"Pod Expired" = "Pod Süreci Doldu";
 
 /* Status highlight message for occlusion alarm. */
 "Pod Occlusion" = "Pod Tıkanıklığı";
@@ -243,7 +243,7 @@
 "Get pod status" = "Get pod status";
 
 /* */
-"Save Basal Profile" = "Save Basal Profile";
+"Save Basal Profile" = "Bazal Profili Kaydet";
 
 /* */
 "Save basal profile failed: %{public}@" = "Save basal profile failed: %{public}@";
@@ -336,16 +336,16 @@
 "Yes, Sync to Current Time" = "Yes, Sync to Current Time";
 
 /* Button text to cancel pump time sync */
-"No, Keep Pump As Is" = "No, Keep Pump As Is";
+"No, Keep Pump As Is" = "Hayır, Pompayı Olduğu Gibi Tutun";
 
 /* Title for Omnipod DASH PumpManager deletion action sheet. */
-"Remove Pump" = "Remove Pump";
+"Remove Pump" = "Pompayı Çıkart";
 
 /* Message for Omnipod DASH PumpManager deletion action sheet */
-"Are you sure you want to stop using Omnipod DASH?" = "Are you sure you want to stop using Omnipod DASH?";
+"Are you sure you want to stop using Omnipod DASH?" = "Omnipod DASH'ı kullanmayı bırakmak istediğinizden emin misiniz?";
 
 /* Button text to confirm Omnipod DASH PumpManager deletion */
-"Delete Omnipod DASH" = "Delete Omnipod DASH";
+"Delete Omnipod DASH" = "Omnipod DASH'ı Sil";
 
 /* Text for confidence reminders navigation link" */
 "Insulin Type" = "İnsülin Tipi";
@@ -357,7 +357,7 @@
 "Suspend Delivery" = "İletimi Askıya Al";
 
 /* Message for suspend duration selection action sheet */
-"Insulin delivery will be stopped until you resume manually. When would you like Loop to remind you to resume delivery?" = "Insulin delivery will be stopped until you resume manually. When would you like Loop to remind you to resume delivery?";
+"Insulin delivery will be stopped until you resume manually. When would you like Loop to remind you to resume delivery?" = "Siz manuel olarak devam edene kadar insülin iletimi durdurulacaktır. Loop'un teslimata devam etmenizi ne zaman hatırlatmasını istersiniz?";
 
 /* Button text for 30 minute suspend duration */
 "30 minutes" = "30 dakika";
@@ -370,13 +370,13 @@
 "2 hours" = "2 saat";
 
 /* Alert title for suspend error */
-"Failed to Suspend Insulin Delivery" = "Failed to Suspend Insulin Delivery";
+"Failed to Suspend Insulin Delivery" = "İnsülin Teslimatı Askıya Alınamadı";
 
 /* Alert title for resume error */
-"Failed to Resume Insulin Delivery" = "Failed to Resume Insulin Delivery";
+"Failed to Resume Insulin Delivery" = "İnsülin İletimi Tekrar Başlatılamadı";
 
 /* Alert title for time sync error */
-"Failed to Set Pump Time" = "Failed to Set Pump Time";
+"Failed to Set Pump Time" = "Pompa Zamanı Ayarlanamadı";
 
 /* Alert title for failing to cancel manual basal error */
 "Failed to Cancel Manual Basal" = "Failed to Cancel Manual Basal";
@@ -406,10 +406,10 @@
 "There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod." = "There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod.";
 
 /* Text for discard pod button */
-"Discard Pod" = "Discard Pod";
+"Discard Pod" = "Pod'u Çıkart";
 
 /* Title for remove pod modal */
-"Remove Pod from Body" = "Remove Pod from Body";
+"Remove Pod from Body" = "Pod'u Vücudunuzdan Çıkarın";
 
 /* Alert message body for confirm pod attachment */
 "Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“" = "Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“";
