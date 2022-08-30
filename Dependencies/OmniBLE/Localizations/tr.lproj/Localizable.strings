@@ -132,7 +132,7 @@
 "Activity" = "Aktivite";
 
 /* title for device details page */
-"Device Details" = "Device Details";
+"Device Details" = "Cihaz Detayları";
 
 /* Section header for configuration section */
 "Configuration" = "Yapılandırma";
@@ -177,22 +177,22 @@
 "Replace Pod" = "Pod'u değiştir";
 
 /* Error message shown when no pod is paired */
-"No pod paired" = "No pod paired";
+"No pod paired" = "Eşleşmiş pod bulunmuyor";
 
 /* Error message shown when user cannot pair because pod is already paired */
-"Pod already paired" = "Pod already paired";
+"Pod already paired" = "Pod zaten eşleştirilmiş";
 
 /* Error description for OmniBLEPumpManagerError.insulinTypeNotConfigured */
-"Insulin type not configured" = "Insulin type not configured";
+"Insulin type not configured" = "İnsülin türü yapılandırılmadı";
 
 /* Error message when cannula insertion fails because the pod is in an unexpected state */
-"Pod is not in a state ready for cannula insertion." = "Pod is not in a state ready for cannula insertion.";
+"Pod is not in a state ready for cannula insertion." = "Pod kanül yerleştirmeye hazır durumda değil.";
 
 /* Error description for OmniBLEPumpManagerError.invalidSetting */
-"Invalid Setting" = "Invalid Setting";
+"Invalid Setting" = "Geçersiz Ayar";
 
 /* Recovery suggestion shown when no pod is paired */
-"Please pair a new pod" = "Please pair a new pod";
+"Please pair a new pod" = "Lütfen yeni bir pod eşleştirin";
 
 /* Generic title of the OmniBLE pump manager */
 "Omnipod DASH" = "Omnipod DASH";
@@ -210,28 +210,28 @@
 "No Pod" = "No Pod";
 
 /* Status highlight message for emptyReservoir alarm. */
-"No Insulin" = "No Insulin";
+"No Insulin" = "İnsülin Bulunmuyor";
 
 /* Status highlight message for podExpired alarm. */
 "Pod Expired" = "Pod Expired";
 
 /* Status highlight message for occlusion alarm. */
-"Pod Occlusion" = "Pod Occlusion";
+"Pod Occlusion" = "Pod Tıkanıklığı";
 
 /* Status highlight message for other alarm. */
-"Pod Error" = "Pod Error";
+"Pod Error" = "Pod hatası";
 
 /* Status highlight that a pump is out of insulin. */
-"No Insulin" = "No Insulin";
+"No Insulin" = "İnsülin Bulunmuyor";
 
 /* Status highlight that insulin delivery was suspended. */
-"Insulin Suspended" = "Insulin Suspended";
+"Insulin Suspended" = "İnsülin Durduldu";
 
 /* Status highlight when communications with the pod haven't happened recently. */
-"Signal Loss" = "Signal Loss";
+"Signal Loss" = "Sinyal Kaybı";
 
 /* Status highlight when manual temp basal is running. */
-"Manual Basal" = "Manual Basal";
+"Manual Basal" = "Manuel Bazal";
 
 /* */
 "Insert cannula" = "Insert cannula";
@@ -249,7 +249,7 @@
 "Save basal profile failed: %{public}@" = "Save basal profile failed: %{public}@";
 
 /* */
-"Deactivate pod" = "Deactivate pod";
+"Deactivate pod" = "Pod'u devredışı bırak";
 
 /* */
 "Skipping Play Test Beeps due to bolus still in progress." = "Skipping Play Test Beeps due to bolus still in progress.";
@@ -282,22 +282,22 @@
 "Bolus" = "Bolus";
 
 /* */
-"Cancel Bolus" = "Cancel Bolus";
+"Cancel Bolus" = "Bolusu İptal Et";
 
 /* Alert acknowledgment OK button */
 "OK" = "Tamam";
 
 /* The title for Empty Reservoir alarm notification */
-"Empty Reservoir" = "Empty Reservoir";
+"Empty Reservoir" = "Rezervuar Boş";
 
 /* The title for Occlusion alarm notification */
-"Occlusion Detected" = "Occlusion Detected";
+"Occlusion Detected" = "Tıkanma Tespit Edildi";
 
 /* The title for AlarmCode.other notification */
-"Critical Pod Error" = "Critical Pod Error";
+"Critical Pod Error" = "Önemli Pod Hatası";
 
 /* The default notification body for AlarmCodes */
-"Insulin delivery stopped. Change Pod now." = "Insulin delivery stopped. Change Pod now.";
+"Insulin delivery stopped. Change Pod now." = "İnsülin iletimi durduruldu. Pod'u şimdi değiştirin.";
 
 /* Units for showing temp basal rate */
 "U/hr" = "Ü/Sa";
@@ -306,7 +306,7 @@
 "Insulin Remaining" = "Insulin Remaining";
 
 /* Button title to set temporary basal rate */
-"Set Temporary Basal Rate" = "Set Temporary Basal Rate";
+"Set Temporary Basal Rate" = "Geçici Bazal Oranı Ayarla";
 
 /* Section header for activity section */
 "Activity" = "Aktivite";
@@ -315,10 +315,10 @@
 "Configuration" = "Yapılandırma";
 
 /* Title for previous pod page */
-"Previous Pod" = "Previous Pod";
+"Previous Pod" = "Önceki Pod";
 
 /* The title of the command to change pump time zone */
-"Pump Time" = "Pump Time";
+"Pump Time" = "Pompa Zamanı";
 
 /* Text indicating ongoing pump time synchronization */
 "Adjusting Pump Time..." = "Adjusting Pump Time...";
@@ -360,14 +360,14 @@
 "Insulin delivery will be stopped until you resume manually. When would you like Loop to remind you to resume delivery?" = "Insulin delivery will be stopped until you resume manually. When would you like Loop to remind you to resume delivery?";
 
 /* Button text for 30 minute suspend duration */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 dakika";
 
 /* Button text for 1 hour suspend duration" */
-"1 hour" = "1 hour";
+"1 hour" = "1 saat";
 /* Button text for 1 hour 30 minute suspend duration */
-"1 hour 30 minutes" = "1 hour 30 minutes";
+"1 hour 30 minutes" = "1 saat 30 dakika";
 /* Button text for 2 hour suspend duration */
-"2 hours" = "2 hours";
+"2 hours" = "2 saat";
 
 /* Alert title for suspend error */
 "Failed to Suspend Insulin Delivery" = "Failed to Suspend Insulin Delivery";
@@ -391,13 +391,13 @@
 "Deactivate Pod" = "Pod'u devredışı bırak";
 
 /* Deactivate pod action button accessibility label while deactivating */
-"Deactivating." = "Deactivating.";
+"Deactivating." = "Devre dışı bırakılıyor.";
 
 /* Deactivate pod action button accessibility label when deactivation complete */
 "Pod deactivated successfully. Continue." = "Pod deactivated successfully. Continue.";
 
 /* Action button description for deactivate after failed attempt */
-"Retry" = "Retry";
+"Retry" = "Tekrar Dene";
 
 /* Action button description when deactivated */
 "Continue" = "Devam et";
