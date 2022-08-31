@@ -418,4 +418,4 @@
 "U" = "Ü";
 
 /* The action string on pod status page when pod expired */
-"Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains.";
+"Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Pod'u şimdi değiştirin. İnsülin iletimi, Pod'un süresi dolduktan 8 saat sonra veya daha fazla insülin kalmadığında duracaktır.";
