@@ -63,7 +63,7 @@
 "Ok" = "Tamam";
 
 /* Label for pod life state when pod not fully activated */
-"Unfinished Activation" = "Unfinished Activation";
+"Unfinished Activation" = "Bitmemiş Etkinleştirme";
 
 /* Label for pod life state when time remaining */
 "Pod expires in" = "Pod expires in";
@@ -90,43 +90,43 @@
 "Unfinished deactivation" = "Unfinished deactivation";
 
 /* Label for pod life state when no pod paired */
-"No Pod" = "No Pod";
+"No Pod" = "Pod Yok";
 
 /* Settings page link description when next lifecycle action is to pair new pod */
 "Pair Pod" = "Pair Pod";
 
 /* Settings page link description when next lifecycle action is to finish deactivation */
-"Finish deactivation" = "Finish deactivation";
+"Finish deactivation" = "Devre dışı bırakma işlemini tamamla";
 
 /* Settings page link description when next lifecycle action is to replace pod */
 "Replace Pod" = "Pod'u değiştir";
 
 /* Unit for singular day in pod life remaining */
-"day" = "day";
+"day" = "gün";
 
 /* Unit for plural days in pod life remaining */
-"days" = "days";
+"days" = "gün";
 
 /* Unit for singular hour in pod life remaining */
-"hour" = "hour";
+"hour" = "saat";
 
 /* Unit for plural hours in pod life remaining */
 "hours" = "saat";
 
 /* Unit for singular minute in pod life remaining */
-"minute" = "minute";
+"minute" = "dakika";
 
 /* Unit for plural minutes in pod life remaining */
 "minutes" = "dakika";
 
 /* Title of insulin delivery section */
-"Insulin Delivery" = "Insulin Delivery";
+"Insulin Delivery" = "İnsülin İletimi";
 
 /* */
 "Scheduled Basal" = "Scheduled Basal";
 
 /* Header for insulin remaining on pod settings screen */
-"Insulin Remaining" = "Insulin Remaining";
+"Insulin Remaining" = "Kalan İnsülin";
 
 /* Section header for activity section */
 "Activity" = "Aktivite";
@@ -141,7 +141,7 @@
 "Pair Pod" = "Pair Pod";
 
 /* Settings page link description when next lifecycle action is to finish deactivation */
-"Finish deactivation" = "Finish deactivation";
+"Finish deactivation" = "Devre dışı bırakma işlemini tamamla";
 
 /* Settings page link description when next lifecycle action is to replace pod */
 "Replace Pod" = "Pod'u değiştir";
@@ -150,7 +150,7 @@
 "Replace Pod" = "Pod'u değiştir";
 
 /* Label for pod life state when pod not fully activated */
-"Unfinished Activation" = "Unfinished Activation";
+"Unfinished Activation" = "Bitmemiş Etkinleştirme";
 
 /* Label for pod life state when time remaining */
 "Pod expires in" = "Pod expires in";
@@ -162,7 +162,7 @@
 "Unfinished deactivation" = "Unfinished deactivation";
 
 /* Label for pod life state when no pod paired */
-"No Pod" = "No Pod";
+"No Pod" = "Pod Yok";
 
 /* Pod life HUD view label */
 "Fault" = "Hata";
@@ -207,7 +207,7 @@
 "Finish Deactivation" = "Finish Deactivation";
 
 /* Status highlight that when no pod is paired. */
-"No Pod" = "No Pod";
+"No Pod" = "Pod Yok";
 
 /* Status highlight message for emptyReservoir alarm. */
 "No Insulin" = "İnsülin Bulunmuyor";
@@ -234,13 +234,13 @@
 "Manual Basal" = "Manuel Bazal";
 
 /* */
-"Insert cannula" = "Insert cannula";
+"Insert cannula" = "Kanül yerleştir";
 
 /* */
 "Check cannula insertion finished" = "Check cannula insertion finished";
 
 /* */
-"Get pod status" = "Get pod status";
+"Get pod status" = "Pod durumu al";
 
 /* */
 "Save Basal Profile" = "Bazal Profili Kaydet";
@@ -303,7 +303,7 @@
 "U/hr" = "Ü/Sa";
 
 /* Header for insulin remaining on pod settings screen */
-"Insulin Remaining" = "Insulin Remaining";
+"Insulin Remaining" = "Kalan İnsülin";
 
 /* Button title to set temporary basal rate */
 "Set Temporary Basal Rate" = "Geçici Bazal Oranı Ayarla";
@@ -394,7 +394,7 @@
 "Deactivating." = "Devre dışı bırakılıyor.";
 
 /* Deactivate pod action button accessibility label when deactivation complete */
-"Pod deactivated successfully. Continue." = "Pod deactivated successfully. Continue.";
+"Pod deactivated successfully. Continue." = "Pod başarıyla devre dışı bırakıldı. Devam edin.";
 
 /* Action button description for deactivate after failed attempt */
 "Retry" = "Tekrar Dene";
@@ -403,7 +403,7 @@
 "Continue" = "Devam et";
 
 /* Format string for recovery suggestion during deactivate pod. */
-"There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod." = "There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod.";
+"There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod." = "Pod ile iletişimde bir sorun oluştu. Bu sorun devam ederse, Pod'u At'a tıklayın. Ardından yeni bir Pod etkinleştirebilirsiniz.";
 
 /* Text for discard pod button */
 "Discard Pod" = "Pod'u Çıkart";
@@ -412,7 +412,7 @@
 "Remove Pod from Body" = "Pod'u Vücudunuzdan Çıkarın";
 
 /* Alert message body for confirm pod attachment */
-"Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“" = "Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“";
+"Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“" = "Pod'unuz hâlâ İnsülin veriyor olabilir.\nVücudunuzdan çıkarın ve ardından “Devam Et.”e tıklayın";
 
 /* Insulin Unit */
 "U" = "Ü";
