@@ -6,10 +6,10 @@
 */
 /* Alert content title for multiCommand pod alert */
 
-"Multiple Command Alert" = "Multiple Command Alert";
+"Multiple Command Alert" = "Çoklu Komut Uyarısı";
 
 /* Alert content title for userPodExpiration pod alert */
-"Pod Expiration Reminder" = "Pod Expiration Reminder";
+"Pod Expiration Reminder" = "Pod Süre Sonu Hatırlatıcısı";
 
 /* Alert content title for podExpiring pod alert */
 "Pod Expired" = "Pod Süreci Doldu";
@@ -21,19 +21,19 @@
 "Suspend In Progress Reminder" = "Suspend In Progress Reminder";
 
 /* Alert content title for suspendEnded pod alert */
-"Resume Insulin" = "Resume Insulin";
+"Resume Insulin" = "İnsülin Vermeye Yeniden Başlat";
 
 /* Alert content title for finishSetupReminder pod alert */
-"Pod Pairing Incomplete" = "Pod Pairing Incomplete";
+"Pod Pairing Incomplete" = "Pod Eşleştirme Tamamlanmadı";
 
 /* Alert content title for timeOffsetChangeDetected pod alert */
-"Time Change Detected" = "Time Change Detected";
+"Time Change Detected" = "Zaman Değişikliği Tespit Edildi";
 
 /* Alert content body for multiCommand pod alert */
-"Multiple Command Alert" = "Multiple Command Alert";
+"Multiple Command Alert" = "Çoklu Komut Uyarısı";
 
 /* Format string for alert content body for userPodExpiration pod alert. (1: time until expiration) */
-"Pod expires in %1$@." = "Pod expires in %1$@.";
+"Pod expires in %1$@." = "Pod %1$@ içinde sona eriyor.";
 
 /* Alert content body for podExpiring pod alert */
 "Change Pod now. Pod has been active for 72 hours." = "Change Pod now. Pod has been active for 72 hours.";
@@ -324,7 +324,7 @@
 "Adjusting Pump Time..." = "Adjusting Pump Time...";
 
 /* The title of the command to change pump time zone */
-"Sync to Current Time" = "Sync to Current Time";
+"Sync to Current Time" = "Geçerli Saate Eşitle";
 
 /* Label for PumpManager deletion button */
 "Switch to other insulin delivery device" = "Switch to other insulin delivery device";
@@ -351,7 +351,7 @@
 "Insulin Type" = "İnsülin Tipi";
 
 /* The title of the command to change pump time zone */
-"Sync to Current Time" = "Sync to Current Time";
+"Sync to Current Time" = "Geçerli Saate Eşitle";
 
 /* Title for suspend duration selection action sheet */
 "Suspend Delivery" = "İletimi Askıya Al";
