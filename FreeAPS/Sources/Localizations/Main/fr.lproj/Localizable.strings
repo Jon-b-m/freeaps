@@ -660,7 +660,7 @@ Enact a temp Basal or a temp target */
 "Firmware" = "Microprogramme";
 
 /* */
-"Connection State" = "État de la connexion";
+"Connection State" = "Etat de connexion";
 
 /* */
 "Transmitter Type" = "Type de Transmetteur";
