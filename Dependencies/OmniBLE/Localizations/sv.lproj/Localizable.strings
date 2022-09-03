@@ -415,25 +415,25 @@
 "Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Byt podd nu. Insulintillförsel kommer att upphöra 8 timmar efter att podd går ut eller tills att inget insulin återstår.";
 
 /* Label text for step 1 of pair pod instructions */
-"Fill a new pod with U-100 Insulin (leave blue Pod needle cap on)." = "Fill a new pod with U-100 Insulin (leave blue Pod needle cap on).";
+"Fill a new pod with U-100 Insulin (leave blue Pod needle cap on)." = "Fyll en ny podd med insulin (låt det blå kanlyskyddet sitta kvar).";
 
 /* Label text for step 2 of pair pod instructions */
-"Listen for 2 beeps." = "Listen for 2 beeps.";
+"Listen for 2 beeps." = "Det ska höras 2 pip.";
 
 /* Label text indicating pairing finished.*/
-"Paired" = "Paired";
+"Paired" = "Parkopplad";
 
 /* Cancel button text in navigation bar on pair pod UI */
 "Cancel" = "Avbryt";
 
 /* Alert title for cancel pairing modal */
-"Are you sure you want to cancel Pod setup?" = "Are you sure you want to cancel Pod setup?";
+"Are you sure you want to cancel Pod setup?" = "Är du säker på att du vill avsluta din poddinställning?";
 
 /* Alert message body for confirm pod attachment */
-"If you cancel Pod setup, the current Pod will be deactivated and will be unusable." = "If you cancel Pod setup, the current Pod will be deactivated and will be unusable.";
+"If you cancel Pod setup, the current Pod will be deactivated and will be unusable." = "Om du avbryter din podinställning, kommer din podd att avaktiveras och sluta fungera.";
 
 /* Button title for confirm deactivation option */
-"Yes, Deactivate Pod" = "Yes, Deactivate Pod";
+"Yes, Deactivate Pod" = "Ja, inaktivera podden";
 
 /* Continue pairing button title of in pairing cancel modal */
-"No, Continue With Pod" = "No, Continue With Pod";
+"No, Continue With Pod" = "Nej, fortsätt med denna podd";
