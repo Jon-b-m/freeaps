@@ -134,7 +134,7 @@
 "for" = "için";
 
 /*  Temp target set for ... minutes */
-"min" = "dk";
+"min" = "min";
 
 /*  */
 "Autotune" = "Otoayar";
