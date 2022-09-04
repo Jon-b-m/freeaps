@@ -657,7 +657,7 @@ Enact a temp Basal or a temp target */
 "Hardware" = "Оборудование";
 
 /* */
-"Firmware" = "Версия прошивки";
+"Firmware" = "Прошивка";
 
 /* */
 "Connection State" = "Состояние соединения";
@@ -693,7 +693,7 @@ Enact a temp Basal or a temp target */
 "Advanced" = "Расширенные";
 
 /* */
-"Alarms" = "Тревоги";
+"Alarms" = "Оповещения";
 
 /* */
 "Glucose Settings" = "Настройки глюкозы";
