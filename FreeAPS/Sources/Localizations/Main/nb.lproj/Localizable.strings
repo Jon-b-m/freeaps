@@ -962,7 +962,7 @@ Enact a temp Basal or a temp target */
 /* ---------------------------------------
   DASH strings
 */
-"Attach Pod" = "Attach Pod";
+"Attach Pod" = "Fest pod";
 
 "Deactivate Pod" = "Deaktiver Pod";
 
