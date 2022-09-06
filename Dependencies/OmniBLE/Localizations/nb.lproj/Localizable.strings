@@ -473,25 +473,25 @@
 "Please confirm that the Pod is securely attached to your body.\n\nThe cannula can be inserted only once with each Pod. Tap “Confirm” when Pod is attached." = "Please confirm that the Pod is securely attached to your body.\n\nThe cannula can be inserted only once with each Pod. Tap “Confirm” when Pod is attached.";
 
 /* Button title for confirm attachment option */
-"Confirm" = "Confirm";
+"Confirm" = "Bekreft";
 
 /* Label text for step one of insert cannula instructions */
-"Tap below to start cannula insertion." = "Tap below to start cannula insertion.";
+"Tap below to start cannula insertion." = "Trykk under for å begynne innsetting av kanylen.";
 
 /* Label text for step two of insert cannula instructions */
-"Wait until insertion is completed." = "Wait until insertion is completed.";
+"Wait until insertion is completed." = "Vent til innsettingen er fullført.";
 
 /* Label text indicating insertion finished. */
-"Inserted" = "Inserted";
+"Inserted" = "Kanyle er satt inn";
 
 /* Check Cannula */
-"Check Cannula" = "Check Cannula";
+"Check Cannula" = "Kontroller kanyle";
 
 /* */
-"Is the cannula inserted properly?" = "Is the cannula inserted properly?";
+"Is the cannula inserted properly?" = "Er kanylen satt inn riktig?";
 
 /* Description of proper cannula insertion */
-"The window on the top of the Pod should be colored pink when the cannula is properly inserted into the skin." = "The window on the top of the Pod should be colored pink when the cannula is properly inserted into the skin.";
+"The window on the top of the Pod should be colored pink when the cannula is properly inserted into the skin." = "Vinduet på oversiden av pod skal farges rosa når kanylen har blitt satt inn riktig.";
 
 /* Button label for user to answer cannula was properly inserted  */
 "Yes" = "Ja";
