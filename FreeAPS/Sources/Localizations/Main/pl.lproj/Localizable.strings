@@ -959,7 +959,7 @@ Połączono z Nightscout!";
 "Warning" = "Varning";
 
 /* Error title */
-"Error" = "Fel";
+"Error" = "Error";
 
 /* ---------------------------------------
   DASH strings
