@@ -425,6 +425,9 @@ Enact a temp Basal or a temp target */
 /* " min" in Treatments list */
 " min" = " min";
 
+/* */
+"Unable to change anything" = "Unable to change anything";
+
 
 /* Calendar and Libre transmitter settings ---------------
  */
@@ -1065,7 +1068,29 @@ Enact a temp Basal or a temp target */
 "Total Delivery" = "Total leveranse";
 
 /* */
-"Add Omnipod Dash" = "Add Omnipod Dash";
+"Add Omnipod Dash" = "Legg til Omnipod Dash";
+
+/* */
+"Insert Cannula" = "Sett inn kanyle";
+
+/* */
+"Check Cannula" = "Kontroller kanyle";
+
+/* */
+"Setup Complete" = "Oppsett ferdig";
+
+/* */
+"Insulin Suspended" = "Insulinleveranse pauset";
+
+/* Text for suspend resume button when insulin delivery is suspending */
+"Suspending insulin delivery..." = "Suspending insulin delivery...";
+
+/* Text for suspend resume button when insulin delivery is suspended */
+"Resume Insulin Delivery" = "Resume Insulin Delivery";
+
+/* Text for suspend resume button when insulin delivery is resuming */
+"Resuming insulin delivery..." = "Resuming insulin delivery...";
+
 /* --------------------------------------
 
   Infotexts from openaps.docs and androidaps.docs
