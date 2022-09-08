@@ -426,7 +426,7 @@ Enact a temp Basal or a temp target */
 " min" = " min";
 
 /* */
-"Unable to change anything" = "Unable to change anything";
+"Unable to change anything" = "Det går inte att ändra något";
 
 
 /* Calendar and Libre transmitter settings ---------------
