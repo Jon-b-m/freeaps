@@ -6,7 +6,7 @@
 */
 /* Alert content title for multiCommand pod alert */
 
-"Multiple Command Alert" = "Multiple Command Alert";
+"Multiple Command Alert" = "Varsel om samtidige kommandoer";
 
 /* Alert content title for userPodExpiration pod alert */
 "Pod Expiration Reminder" = "Utløpspåminnelse";
@@ -15,49 +15,49 @@
 "Pod Expired" = "Pod utløpt";
 
 /* Alert content title for lowReservoir pod alert */
-"Low Reservoir" = "Low Reservoir";
+"Low Reservoir" = "Lite insulin i pod";
 
 /* Alert content title for suspendInProgress pod alert */
-"Suspend In Progress Reminder" = "Suspend In Progress Reminder";
+"Suspend In Progress Reminder" = "Påminnelse om pauset insulinleveranse";
 
 /* Alert content title for suspendEnded pod alert */
-"Resume Insulin" = "Resume Insulin";
+"Resume Insulin" = "Gjenoppta insulinleveranse";
 
 /* Alert content title for finishSetupReminder pod alert */
-"Pod Pairing Incomplete" = "Pod Pairing Incomplete";
+"Pod Pairing Incomplete" = "Parkobling av pod var ufullstendig";
 
 /* Alert content title for timeOffsetChangeDetected pod alert */
-"Time Change Detected" = "Time Change Detected";
+"Time Change Detected" = "Tidsendring oppdaget";
 
 /* Alert content body for multiCommand pod alert */
-"Multiple Command Alert" = "Multiple Command Alert";
+"Multiple Command Alert" = "Varsel om samtidige kommandoer";
 
 /* Format string for alert content body for userPodExpiration pod alert. (1: time until expiration) */
 "Pod expires in %1$@." = "Pod utløper om %1$@.";
 
 /* Alert content body for podExpiring pod alert */
-"Change Pod now. Pod has been active for 72 hours." = "Change Pod now. Pod has been active for 72 hours.";
+"Change Pod now. Pod has been active for 72 hours." = "Bytt pod nå. Pod har vært aktiv i 72 timer.";
 
 /* Alert content body for podExpireImminent pod alert */
-"Change Pod now. Insulin delivery will stop in 1 hour." = "Change Pod now. Insulin delivery will stop in 1 hour.";
+"Change Pod now. Insulin delivery will stop in 1 hour." = "Bytt Pod nå. Insulintilførselen stopper om 1 time.";
 
 /* Format string for alert content body for lowReservoir pod alert. (1: reminder value) */
-"%1$@ insulin or less remaining in Pod. Change Pod soon." = "%1$@ insulin or less remaining in Pod. Change Pod soon.";
+"%1$@ insulin or less remaining in Pod. Change Pod soon." = "%1$@ insulin eller mindre igjen i pod. Bytt pod snart.";
 
 /* Alert content body for suspendInProgress pod alert */
-"Suspend In Progress Reminder" = "Suspend In Progress Reminder";
+"Suspend In Progress Reminder" = "Påminnelse om pauset insulinleveranse";
 
 /* Alert content body for suspendEnded pod alert */
-"The insulin suspension period has ended.\n\nYou can resume delivery from the banner on the home screen or from your pump settings screen. You will be reminded again in 15 minutes." = "The insulin suspension period has ended.\n\nYou can resume delivery from the banner on the home screen or from your pump settings screen. You will be reminded again in 15 minutes.";
+"The insulin suspension period has ended.\n\nYou can resume delivery from the banner on the home screen or from your pump settings screen. You will be reminded again in 15 minutes." = "Angitt tid for pause av insulintilførsel er utløpt.\n\nDu kan gjenoppta leveransen fra banneret på Hjem-skjermen, eller fra panelet på pumpen (gjelder kun Medtronic). Du vil bli påminnet igjen om 15 minutter.";
 
 /* Alert content body for finishSetupReminder pod alert */
-"Please finish pairing your pod." = "Vennligst fullfør sammenkoblingen av poden.";
+"Please finish pairing your pod." = "Vennligst fullfør parkobling av pod.";
 
 /* Alert content body for timeOffsetChangeDetected pod alert */
-"The time on your pump is different from the current time. You can review the pump time and and sync to current time in settings." = "The time on your pump is different from the current time. You can review the pump time and and sync to current time in settings.";
+"The time on your pump is different from the current time. You can review the pump time and and sync to current time in settings." = "Tiden på pumpen er forskjellig fra gjeldende tidspunkt. Du kan kontrollere pumpens tid og synkronisere til gjeldende tidspunkt i innstillinger.";
 
 /* Alert notification body for suspendEnded pod alert user notification */
-"Suspension time is up. Open the app and resume." = "Suspension time is up. Open the app and resume.";
+"Suspension time is up. Open the app and resume." = "Angitt tid for pause av insulintilførsel er utløpt. Åpne appen for å gjenoppta leveransen.";
 
 /* Action button default text for PodAlerts */
 "Ok" = "Ok";
@@ -96,7 +96,7 @@
 "Pair Pod" = "Parkoble pod";
 
 /* Pairing action button accessibility label while ready to pair */
-"Pair pod." = "Tilkoble pod.";
+"Pair pod." = "Parkoble pod.";
 
 /* Pairing action button accessibility label while pairing */
 "Pairing." = "Kobler sammen.";
@@ -210,7 +210,7 @@
 "Comms Issue" = "Kommunikasjons-problem";
 
 /* */
-"Finish Pairing" = "Fullfør sammenkobling";
+"Finish Pairing" = "Fullfør parkobling";
 
 /* Status highlight that when pod is deactivating */
 "Finish Deactivation" = "Fullfør deaktiveringen";
@@ -400,7 +400,7 @@
 "Please deactivate the pod. When deactivation is complete, you may remove it and pair a new pod." = "Vennligst deaktiver pod. Når den er deaktivert kan du fjerne den fra kroppen og parkoble en ny pod.";
 
 /* Instructions for deactivate pod when pod not on body */
-"Please deactivate the pod. When deactivation is complete, you may pair a new pod." = "Vennligst deaktiver pod. Når den er deaktivert kan du sammenkoble en ny pod.";
+"Please deactivate the pod. When deactivation is complete, you may pair a new pod." = "Vennligst deaktiver pod. Når den er deaktivert kan du parkoble en ny pod.";
 
 /* Deactivate pod action button */
 "Deactivate Pod" = "Deaktiver Pod";
@@ -448,7 +448,7 @@
 "Cancel" = "Avbryt";
 
 /* Alert title for cancel pairing modal */
-"Are you sure you want to cancel Pod setup?" = "Er du sikker på at du vil avbryte oppsett av pod?";
+"Are you sure you want to cancel Pod setup?" = "Er du sikker på at du vil avbryte parkobling av pod?";
 
 /* Alert message body for confirm pod attachment */
 "If you cancel Pod setup, the current Pod will be deactivated and will be unusable." = "Hvis du avbryter oppsett av pod, vil poden bli deaktivert og kan ikke lenger brukes.";
@@ -559,7 +559,7 @@
 "Omnipod Reminders" = "Omnipod-påminnelser";
 
 /* Footer text for omnipod reminders section */
-"The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod." = "Appen stiller inn en påminnelse i poden for å varsle deg i forkant av at pod utløper. Angi hvor mange timer i forveien du ønsker varselet når du kobler til en ny pod.";
+"The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod." = "Appen stiller inn en påminnelse i poden for å varsle deg i forkant av at pod utløper. Angi hvor mange timer i forveien du ønsker varselet når du parkobler en ny pod.";
 
 /* Footer text for scheduled reminder area */
 "This is a reminder that you scheduled when you paired your current Pod." = "Dette er en påminnelse om at du planla da du parkoblet din nåværende pod.";
@@ -585,7 +585,7 @@
 "No Reminder" = "Ingen påminnelse";
 
 /* Label for low reservoir reminder row */
-"Low Reservoir Reminder" = "Påminnelse om lavt nivå av insulin";
+"Low Reservoir Reminder" = "Påminnelse om lite insulin i pod";
 
 /* The action string on pod status page when pod data is stale */
 "Make sure your phone and pod are close to each other. If communication issues persist, move to a new area." = "Sørg for at telefonen og poden er nær hverandre. Gå til et nytt område hvis kommunikasjonsproblemene vedvarer.";
