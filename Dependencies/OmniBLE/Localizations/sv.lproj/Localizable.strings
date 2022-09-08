@@ -4,8 +4,8 @@
   Created by Jon Mårtensson on 2022-08-28.
   Copyright © 2022 Randall Knutson. All rights reserved.
 */
-/* Alert content title for multiCommand pod alert */
 
+/* Alert content title for multiCommand pod alert */
 "Multiple Command Alert" = "Multipla kommandoaviseringar";
 
 /* Alert content title for userPodExpiration pod alert */
@@ -72,7 +72,7 @@
 "Pod Expires" = "Podd går ut";
 
 /* */
-"Pod Activated" = "Podd aktiverades";
+"Pod Activated" = "Podd startades";
 
 /* */
 "Notification Settings" = "Notisinställningar";
@@ -611,13 +611,14 @@
 "Confidence reminders will sound when Loop automatically adjusts delivery as well as for commands you initiate." = "Bekräftelsepip kommer att ljuda även vid automatiska pumpkommandon såväl som vid manuella.";
 
 /* Label text for temporary basal rate summary */
-"Rate" = "Värde";
+"Rate" = "Basaldos";
 
 /* Summary string for temporary basal rate configuration page */
 "%1$@ for %2$@" = "%1$@ i %2$@";
 
 /* Description text on manual temp basal action sheet */
 "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "FreeAPS X kommer inte automatiskt att justera dina insulindoser förrän den temporära basalen är färdig eller har avbrytits.";
+
 /* Button text for setting manual temporary basal rate*/
 "Set Temporary Basal" = "Ställ in temporaär basal";
 
@@ -643,7 +644,7 @@
 "Expiration Reminder Default" = "Standard påminnelsetid";
 
 /* Text for previous pod information row */
-"Previous Pod Information" = "Information om tidigare podd";
+"Previous Pod Information" = "Info om tidigare podd";
 
 /* Text shown in insulin remaining space when no pod is paired (Please keep the '\n' while translating!) */
 "No\nDelivery" = "Inget\ninsulin";
