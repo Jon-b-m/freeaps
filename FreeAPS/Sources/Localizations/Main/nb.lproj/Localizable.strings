@@ -504,7 +504,7 @@ Enact a temp Basal or a temp target */
 "Please make sure that your Libre 2 sensor is already activated and finished warming up. If you have other apps connecting to the sensor via bluetooth, these need to be shut down or uninstalled. \n\n You can only have one app communicating with the sensor via bluetooth. Then press the \"pariring and connection\" button below to start the process. Please note that the bluetooth connection might take up to a couple of minutes before it starts working." = "Sørg for at Libre 2-sensoren allerede er aktivert og ferdig med oppvarmingen. Hvis du har andre apper som kobler til sensoren via bluetooth, må disse stoppes eller avinstalleres. \n\n Kun én app kan kommunisere med sensoren om gangen. Trykk på \\«Parkobling»\\ knappen nedenfor for å starte prosessen. Vær oppmerksom på at blåtannforbindelsen kan ta opp til et par minutter før den begynner å virke.";
 
 /* */
-"Pairinginfo" = "Parings-info";
+"Pairinginfo" = "Info om parkobling";
 
 /* */
 "PatchInfo" = "Patch-info";
@@ -516,7 +516,7 @@ Enact a temp Basal or a temp target */
 "Unknown" = "Ukjent";
 
 /* */
-"Not paired yet" = "Ikke paret ennå";
+"Not paired yet" = "Ikke parkoblet ennå";
 
 /* */
 "Pair Sensor & connect" = "Parkoble sensor";
@@ -1022,7 +1022,7 @@ Enact a temp Basal or a temp target */
 "Scheduled Reminder" = "Planlagt påminnelse";
 
 /* */
-"Low Reservoir Reminder" = "Påminnelse om lavt nivå av insulin";
+"Low Reservoir Reminder" = "Påminnelse om lite insulin i pod";
 
 /* The action string on pod status page when pod data is stale */
 "Make sure your phone and pod are close to each other. If communication issues persist, move to a new area." = "Sørg for at telefonen og poden er nær hverandre. Gå til et nytt område hvis kommunikasjonsproblemene vedvarer.";
