@@ -655,10 +655,10 @@
 "Total Delivery" = "Total mängd insulin given";
 
 /* Title for PodSetupView */
-"Pod Setup" = "Pod Setup";
+"Pod Setup" = "Pumpinställning";
 
 /* bodyText for PodSetupView */
-"You will now begin the process of configuring your reminders, filling your Pod with insulin, pairing to your device and placing it on your body." = "You will now begin the process of configuring your reminders, filling your Pod with insulin, pairing to your device and placing it on your body.";
+"You will now begin the process of configuring your reminders, filling your Pod with insulin, pairing to your device and placing it on your body." = "Du kommer nu att börja att konfigurera dina påminnelser, fylla din podd med insulin, parkoppla podden och fästa den på kroppen.";
 
 /* Cancel button title */
 "Cancel" = "Avbryt";
@@ -670,15 +670,16 @@
 "Skip Omnipod Onboarding?" = "Skip Omnipod Onboarding?";
 
 /* Description text on ExpirationReminderSetupView */
-"The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have." = "The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have.";
+"The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have." = "Appen meddelar dig i förväg om när din podd går ut.\n\nSkrolla för att ställa in hur många timmar i förväg du vill bli påmind.";
 
 /* Text of continue button on ExpirationReminderSetupView" */
-"Next" = "Next";
+"Next" = "Nästa";
 
 /* */
 "Expiration Reminder" = "Påminnelse om utgångsdatum";
 
 /* Description text on LowReservoirReminderSetupView */
-"The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded." = "The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded.";
+"The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded." = "Appen meddelar dig när mängden insulin i podden når denna nivå (50-10 U).\n\nSkrolla för att ange vid vilket antal enheter som du vill bli påmind.";
 
 /* Label text for low reservoir value row */
+"Low Reservoir" = "Låg reservoarvolym";
