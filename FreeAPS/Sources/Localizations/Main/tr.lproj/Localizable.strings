@@ -1018,6 +1018,12 @@ Enact a temp Basal or a temp target */
 /* Label text for expiration reminder default row */
 "Expiration Reminder Default" = "Süre Sonu Hatırlatıcı Varsayılan";
 
+/* */
+"Expiration Reminder" = "Süre Sonu Hatırlatıcısı";
+
+/* */
+"Low Reservoir" = "Düşük Rezervuar";
+
 /* Value text for no expiration reminder */
 "No Reminder" = "Hatırlatıcı Yok";
 
