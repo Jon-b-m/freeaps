@@ -314,9 +314,6 @@
 /* The default notification body for AlarmCodes */
 "Insulin delivery stopped. Change Pod now." = "İnsülin iletimi durduruldu. Pod'u şimdi değiştirin.";
 
-/* Units for showing temp basal rate */
-"U/hr" = "Ü/Sa";
-
 /* Header for insulin remaining on pod settings screen */
 "Insulin Remaining" = "Kalan İnsülin";
 
@@ -613,6 +610,9 @@
 /* Label text for temporary basal rate summary */
 "Rate" = "Oran";
 
+/* Insulin unit per hour */
+"U/hr" = "Ü/Sa";
+
 /* Summary string for temporary basal rate configuration page */
 "%1$@ for %2$@" = "%2$@ için %1$@";
 
@@ -655,19 +655,19 @@
 "Total Delivery" = "Toplam İletim";
 
 /* description label for device name pod details row */
-"Device Name" = "Device Name";
+"Device Name" = "Cihaz adı";
 
 /* description label for lot number pod details row */
-"Lot Number" = "Lot Number";
+"Lot Number" = "Parti Numarası";
 
 /* description label for sequence number pod details row */
-"Sequence Number" = "Sequence Number";
+"Sequence Number" = "Sıra Numarası";
 
 /* description label for firmware version pod details row */
-"Firmware Version" = "Firmware Version";
+"Firmware Version" = "Aygıt Yazılımı Sürümü";
 
 /* description label for ble firmware version pod details row */
-"BLE Firmware Version" = "BLE Firmware Version";
+"BLE Firmware Version" = "BLE Donanım Yazılımı Sürümü";
 
 /* description label for activated at timne pod details row */
 "Pod Activated" = "Pod Etkinleştirildi";
@@ -676,10 +676,10 @@
 "Active Time" = "Aktif Süre";
 
 /* description label for last status date pod details row */
-"Last Status" = "Last Status";
+"Last Status" = "Son Durum";
 
 /* description label for pod fault details */
-"Pod Fault Details" = "Pod Fault Details";
+"Pod Fault Details" = "Pod Arıza Ayrıntıları";
 
 /* Title for PodSetupView */
 "Pod Setup" = "Pod Kurulumu";
@@ -710,3 +710,9 @@
 
 /* Label text for low reservoir value row */
 "Low Reservoir" = "Düşük Rezervuar";
+
+/* */
+"Save" = "Kaydet";
+
+/* hr (short for hour) */
+"hr" = "hr";
