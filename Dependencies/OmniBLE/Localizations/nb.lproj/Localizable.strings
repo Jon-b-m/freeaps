@@ -314,9 +314,6 @@
 /* The default notification body for AlarmCodes */
 "Insulin delivery stopped. Change Pod now." = "Insulintilførselen har stanset. Bytt pod nå.";
 
-/* Units for showing temp basal rate */
-"U/hr" = "E/t";
-
 /* Header for insulin remaining on pod settings screen */
 "Insulin Remaining" = "Insulin som gjenstår";
 
@@ -613,6 +610,9 @@
 /* Label text for temporary basal rate summary */
 "Rate" = "Rate";
 
+/* Insulin unit per hour */
+"U/hr" = "E/t";
+
 /* Summary string for temporary basal rate configuration page */
 "%1$@ for %2$@" = "%1$@ i %2$@";
 
@@ -710,3 +710,9 @@
 
 /* Label text for low reservoir value row */
 "Low Reservoir" = "Lite insulin i pod";
+
+/* */
+"Save" = "Lagre";
+
+/* hr (short for hour) */
+"hr" = "hr";
