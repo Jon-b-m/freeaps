@@ -1018,6 +1018,12 @@ Enact a temp Basal or a temp target */
 /* Label text for expiration reminder default row */
 "Expiration Reminder Default" = "Standard påminnelsetid";
 
+/* */
+"Expiration Reminder" = "Påminnelse om utgångsdatum";
+
+/* */
+"Low Reservoir" = "Låg reservoarvolym";
+
 /* Value text for no expiration reminder */
 "No Reminder" = "Ingen påminnelse";
 
