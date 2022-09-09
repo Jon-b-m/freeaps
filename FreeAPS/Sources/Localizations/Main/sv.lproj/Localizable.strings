@@ -1074,13 +1074,13 @@ Enact a temp Basal or a temp target */
 "Insert Cannula" = "För in kanyl";
 
 /* */
-"Check Cannula" = "Kontrollera kanylen";
+"Check Cannula" = "Kontrollera kanyl";
 
 /* */
 "Setup Complete" = "Inställning färdig";
 
 /* */
-"Insulin Suspended" = "Insulintillförsel pausad";
+"Insulin Suspended" = "Pump pausad";
 
 /* Text for suspend resume button when insulin delivery is suspending */
 "Suspending insulin delivery..." = "Pausar pump...";
