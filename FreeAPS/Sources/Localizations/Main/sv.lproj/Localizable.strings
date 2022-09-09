@@ -1080,7 +1080,7 @@ Enact a temp Basal or a temp target */
 "Setup Complete" = "Inställning färdig";
 
 /* */
-"Insulin Suspended" = "Pump pausad";
+"Insulin Suspended" = "Insulintillförsel pausad";
 
 /* Text for suspend resume button when insulin delivery is suspending */
 "Suspending insulin delivery..." = "Pausar pump...";
