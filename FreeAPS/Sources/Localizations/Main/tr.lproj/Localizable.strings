@@ -426,7 +426,7 @@ Enact a temp Basal or a temp target */
 " min" = " dk";
 
 /* */
-"Unable to change anything" = "Unable to change anything";
+"Unable to change anything" = "Hiçbir şey değiştirilemiyor";
 
 
 /* Calendar and Libre transmitter settings ---------------
@@ -1065,10 +1065,10 @@ Enact a temp Basal or a temp target */
 "Active Time" = "Aktif Süre";
 
 /* description label for total delivery pod details row */
-"Total Delivery" = "Toplam Teslimat";
+"Total Delivery" = "Toplam İletim";
 
 /* */
-"Add Omnipod Dash" = "Add Omnipod Dash";
+"Add Omnipod Dash" = "Omnipod Dash'ı ekle";
 
 /* */
 "Insert Cannula" = "Kanül Yerleştir";
@@ -1083,13 +1083,13 @@ Enact a temp Basal or a temp target */
 "Insulin Suspended" = "İnsülin Durduldu";
 
 /* Text for suspend resume button when insulin delivery is suspending */
-"Suspending insulin delivery..." = "Suspending insulin delivery...";
+"Suspending insulin delivery..." = "İnsülin iletimi askıya alınıyor...";
 
 /* Text for suspend resume button when insulin delivery is suspended */
 "Resume Insulin Delivery" = "Resume Insulin Delivery";
 
 /* Text for suspend resume button when insulin delivery is resuming */
-"Resuming insulin delivery..." = "Resuming insulin delivery...";
+"Resuming insulin delivery..." = "İnsülin iletimini sürdür...";
 
 /* --------------------------------------
 
