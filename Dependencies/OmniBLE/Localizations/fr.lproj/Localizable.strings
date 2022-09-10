@@ -734,3 +734,9 @@
 
 /* Label for suspended at time */
 "Suspended At" = "Suspended At";
+
+/* Text for suspend resume button when insulin delivery is resuming */
+"Resuming insulin delivery..." = "Reprendre l'injection d'insuline...";
+
+/* Text for suspend resume button when insulin delivery is suspending */
+"Suspending insulin delivery..." = "Suspension de la distribution d'insuline...";
