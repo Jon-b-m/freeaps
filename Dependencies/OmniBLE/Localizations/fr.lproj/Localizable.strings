@@ -655,19 +655,19 @@
 "Total Delivery" = "Total Delivery";
 
 /* description label for device name pod details row */
-"Device Name" = "Device Name";
+"Device Name" = "Nom du dispositif";
 
 /* description label for lot number pod details row */
-"Lot Number" = "Lot Number";
+"Lot Number" = "Numéro de lot";
 
 /* description label for sequence number pod details row */
-"Sequence Number" = "Sequence Number";
+"Sequence Number" = "Numéro de séquence";
 
 /* description label for firmware version pod details row */
-"Firmware Version" = "Firmware Version";
+"Firmware Version" = "Version du firmware";
 
 /* description label for ble firmware version pod details row */
-"BLE Firmware Version" = "BLE Firmware Version";
+"BLE Firmware Version" = "Version Firmware BLE";
 
 /* description label for activated at timne pod details row */
 "Pod Activated" = "Pod Activated";
@@ -676,16 +676,16 @@
 "Active Time" = "Heure d’activation";
 
 /* description label for last status date pod details row */
-"Last Status" = "Last Status";
+"Last Status" = "Dernier état";
 
 /* description label for pod fault details */
-"Pod Fault Details" = "Pod Fault Details";
+"Pod Fault Details" = "Détail du défaut  Pod";
 
 /* Title for PodSetupView */
-"Pod Setup" = "Pod Setup";
+"Pod Setup" = "Mise en place de la pompe";
 
 /* bodyText for PodSetupView */
-"You will now begin the process of configuring your reminders, filling your Pod with insulin, pairing to your device and placing it on your body." = "You will now begin the process of configuring your reminders, filling your Pod with insulin, pairing to your device and placing it on your body.";
+"You will now begin the process of configuring your reminders, filling your Pod with insulin, pairing to your device and placing it on your body." = "Vous allez maintenant commencer le processus de configuration de votre pod avec les rappels,  en remplissant votre Pod d'insuline, en l'associant à votre appareil et en le plaçant sur votre corps.";
 
 /* Cancel button title */
 "Cancel" = "Annuler";
@@ -694,19 +694,19 @@
 "Continue" = "Continuer";
 
 /* Are you sure you want to skip Omnipod Onboarding? */
-"Skip Omnipod Onboarding?" = "Skip Omnipod Onboarding?";
+"Skip Omnipod Onboarding?" = "Ignorer l'intégration d'Omnipod ?";
 
 /* Description text on ExpirationReminderSetupView */
-"The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have." = "The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have.";
+"The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have." = "L'application vous avertit avant l'expiration du Pod.\n\nFaites défiler pour définir le nombre d'heures d'avance que vous souhaitez avoir.";
 
 /* Text of continue button on ExpirationReminderSetupView" */
-"Next" = "Next";
+"Next" = "Continuer";
 
 /* */
 "Expiration Reminder" = "Rappel d’expiration";
 
 /* Description text on LowReservoirReminderSetupView */
-"The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded." = "The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded.";
+"The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded." = "L'application vous avertit lorsque la quantité d'insuline dans le Pod atteint ce niveau (50-10 U).\n\nFaites défiler pour définir le nombre d'unités a partir duquel  vous souhaitez être rappelé.";
 
 /* Label text for low reservoir value row */
 "Low Reservoir" = "Réservoir bas";
@@ -718,4 +718,4 @@
 "hr" = "hr";
 
 /* Button title to cancel manual basal */
-"Cancel Manual Basal" = "Cancel Manual Basal";
+"Cancel Manual Basal" = "Annuler le basal manuel";
