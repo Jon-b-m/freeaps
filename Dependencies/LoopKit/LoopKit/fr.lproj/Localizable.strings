@@ -98,7 +98,7 @@
 "Units/hour" = "unités / heure";
 
 /* The long unit display string for a singular hour */
-"Hour" = "Hour";
+"Hour" = "Heure";
 
 /* The long unit display string for hours */
-"Hours" = "Hours";
+"Hours" = "Heures";
