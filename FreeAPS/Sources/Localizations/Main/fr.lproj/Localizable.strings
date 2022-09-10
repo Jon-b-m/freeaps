@@ -426,7 +426,7 @@ Enact a temp Basal or a temp target */
 " min" = " min";
 
 /* */
-"Unable to change anything" = "Unable to change anything";
+"Unable to change anything" = "Impossible de modifier quoi que ce soit";
 
 
 /* Calendar and Libre transmitter settings ---------------
@@ -1074,7 +1074,7 @@ Enact a temp Basal or a temp target */
 "Total Delivery" = "Total Delivery";
 
 /* */
-"Add Omnipod Dash" = "Add Omnipod Dash";
+"Add Omnipod Dash" = "Ajouter pompe Dash";
 
 /* */
 "Insert Cannula" = "Insérer la canule";
@@ -1089,13 +1089,13 @@ Enact a temp Basal or a temp target */
 "Insulin Suspended" = "Insulin Suspended";
 
 /* Text for suspend resume button when insulin delivery is suspending */
-"Suspending insulin delivery..." = "Suspending insulin delivery...";
+"Suspending insulin delivery..." = "Suspension de la distribution d'insuline...";
 
 /* Text for suspend resume button when insulin delivery is suspended */
-"Resume Insulin Delivery" = "Resume Insulin Delivery";
+"Resume Insulin Delivery" = "Reprendre l'injection d'insuline";
 
 /* Text for suspend resume button when insulin delivery is resuming */
-"Resuming insulin delivery..." = "Resuming insulin delivery...";
+"Resuming insulin delivery..." = "Reprendre l'injection d'insuline...";
 
 /* --------------------------------------
 
