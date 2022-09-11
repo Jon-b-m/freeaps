@@ -655,7 +655,7 @@
 "Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Bytt pod nå. Insulintilførsel stopper 8 timer etter at den er utgått eller når det ikke er mer insulin igjen.";
 
 /* Label text for step 2 of pair pod instructions */
-"Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing.";
+"Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Fyll en ny pod med U-100 insulin (la det blanke beskyttelsesdekselet være på). Hold RileyLink ca 15 cm fra pod under sammenkobling.";
 
 /* Label text for step 2 of pair pod instructions */
 "Listen for 2 beeps." = "Lytt etter 2 pip.";
@@ -682,7 +682,7 @@
 "Prepare site." = "Gjør klart stedet hvor pod skal festes.";
 
 /* Label text for step two of attach pod instructions */
-"Remove the pod's needle cap and check cannula. Then remove paper backing." = "Remove the pod's needle cap and check cannula. Then remove paper backing.";
+"Remove the pod's needle cap and check cannula. Then remove paper backing." = "Fjern det blanke beskyttelsesdekselet og kontroller kanylen. Fjern deretter papiret fra plasteret.";
 
 /* Label text for step three of attach pod instructions */
 "Check Pod, apply to site, then confirm pod attachment." = "Kontroller pod, fest på kroppen, og bekreft at den sitter korrekt.";
