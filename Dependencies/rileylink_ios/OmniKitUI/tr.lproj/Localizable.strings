@@ -655,7 +655,7 @@
 "Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Pod'u şimdi değiştirin. İnsülin iletimi, Pod'un süresi dolduktan 8 saat sonra veya daha fazla insülin kalmadığında duracaktır.";
 
 /* Label text for step 2 of pair pod instructions */
-"Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing.";
+"Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Yeni bir pod'u 100 Ü İnsülinle doldurun (Pod iğne kapağını üüzerinde bırakın). Eşleştirme sırasında RileyLink'i pod'tan yaklaşık 6 inç ( ≈ 15cm) uzakta tutun.";
 
 /* Label text for step 2 of pair pod instructions */
 "Listen for 2 beeps." = "2 bip sesini dinleyin.";
@@ -682,7 +682,7 @@
 "Prepare site." = "İnfüzyon bölgesini hazırlayın.";
 
 /* Label text for step two of attach pod instructions */
-"Remove the pod's needle cap and check cannula. Then remove paper backing." = "Remove the pod's needle cap and check cannula. Then remove paper backing.";
+"Remove the pod's needle cap and check cannula. Then remove paper backing." = "Pod iğne kapağını çıkarın ve kanülü kontrol edin. Ardından kağıt koruma bandını çıkarın.";
 
 /* Label text for step three of attach pod instructions */
 "Check Pod, apply to site, then confirm pod attachment." = "Pod'u kontrol edin, infüzyon bölgesine uygulayın, ardından pod ekini onaylayın.";
@@ -967,7 +967,7 @@
 "Devices" = "Aygıtlar";
 
 /* Navigation title for RileyLinkSetupView" */
-"RileyLink Setup" = "RileyLink Setup";
+"RileyLink Setup" = "RileyLink Kurulumu";
 
 /* bodyText for RileyLinkSetupView" */
-"RileyLink allows for communication with the pump over Bluetooth" = "RileyLink allows for communication with the pump over Bluetooth";
+"RileyLink allows for communication with the pump over Bluetooth" = "RileyLink, Bluetooth üzerinden pompa ile iletişime izin verir";
