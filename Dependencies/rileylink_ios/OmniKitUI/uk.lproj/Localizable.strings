@@ -429,7 +429,7 @@
 "Please pair a new pod" = "Please pair a new pod";
 
 /* Generic title of the OmniBLE pump manager */
-"Omnipod" = "Omnipod";
+"Omnipod" = "Омніпод";
 
 /* Status highlight that delivery is uncertain. */
 "Comms Issue" = "Comms Issue";
@@ -655,7 +655,7 @@
 "Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Змінити Pod зараз. Інсулінова доставка зупиниться на 8 годин після того, як Pod закінчиться або більше не залишиться інсуліну.";
 
 /* Label text for step 2 of pair pod instructions */
-"Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing.";
+"Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Наповніть нову капсулу інсуліном U-100 (залиште ковпачок голки для капсули). Тримайте RileyLink приблизно на відстані 15 см від контейнера під час сполучення.";
 
 /* Label text for step 2 of pair pod instructions */
 "Listen for 2 beeps." = "Listen for 2 beeps.";
@@ -682,7 +682,7 @@
 "Prepare site." = "Prepare site.";
 
 /* Label text for step two of attach pod instructions */
-"Remove the pod's needle cap and check cannula. Then remove paper backing." = "Remove the pod's needle cap and check cannula. Then remove paper backing.";
+"Remove the pod's needle cap and check cannula. Then remove paper backing." = "Зніміть ковпачок голки з контейнера та перевірте канюлю. Потім зніміть паперову підкладку.";
 
 /* Label text for step three of attach pod instructions */
 "Check Pod, apply to site, then confirm pod attachment." = "Check Pod, apply to site, then confirm pod attachment.";
@@ -967,7 +967,7 @@
 "Devices" = "Пристрої";
 
 /* Navigation title for RileyLinkSetupView" */
-"RileyLink Setup" = "RileyLink Setup";
+"RileyLink Setup" = "Налаштування RileyLink";
 
 /* bodyText for RileyLinkSetupView" */
-"RileyLink allows for communication with the pump over Bluetooth" = "RileyLink allows for communication with the pump over Bluetooth";
+"RileyLink allows for communication with the pump over Bluetooth" = "RileyLink дозволяє спілкуватися з помпою через Bluetooth";
