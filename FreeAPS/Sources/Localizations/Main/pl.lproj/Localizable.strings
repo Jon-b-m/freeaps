@@ -973,6 +973,9 @@ Połączono z Nightscout!";
 /* Current Manual Temp basal */
 " -  Manual Basal ⚠️" = " -  Manual Basal ⚠️";
 
+/* Total AT / Scheduled basal insulin */
+" U/day" = " U/day";
+
 /* ---------------------------------------
   DASH strings
 */
