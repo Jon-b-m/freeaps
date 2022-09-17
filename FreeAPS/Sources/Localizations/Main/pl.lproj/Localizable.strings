@@ -976,6 +976,9 @@ Połączono z Nightscout!";
 /* Total AT / Scheduled basal insulin */
 " U/day" = " U/day";
 
+/* Total AT / Scheduled basal insulin */
+"Total" = "Total";
+
 /* ---------------------------------------
   DASH strings
 */
