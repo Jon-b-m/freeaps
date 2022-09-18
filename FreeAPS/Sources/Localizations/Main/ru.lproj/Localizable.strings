@@ -1037,7 +1037,7 @@ Enact a temp Basal or a temp target */
 "Expiration Reminder" = "Напоминание об истечении срока";
 
 /* */
-"Low Reservoir" = "Low Reservoir";
+"Low Reservoir" = "В резервуаре мало инсулина";
 
 /* Value text for no expiration reminder */
 "No Reminder" = "No Reminder";
