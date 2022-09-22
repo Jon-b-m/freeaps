@@ -904,6 +904,9 @@ Połączono z Nightscout!";
 /* Sensor day(s) */
 " day(s)" = " day(s)";
 
+/* Option to show HR in Watch app*/
+"Display HR on Watch" = "Display HR on Watch";
+
 
 /* Headers for settings ----------------------- */
 "OpenAPS main settings" = "OpenAPS main settings";
@@ -963,6 +966,21 @@ Połączono z Nightscout!";
 
 /* Error title */
 "Error" = "Error";
+
+/* Manual temp basal mode */
+"Manual" = "Manual";
+
+/* Status highlight when manual temp basal is running. */
+"Manual Basal" = "Manual Basal";
+
+/* Current Manual Temp basal */
+" -  Manual Basal ⚠️" = " -  Manual Basal ⚠️";
+
+/* Total AT / Scheduled basal insulin */
+" U/day" = " U/day";
+
+/* Total AT / Scheduled basal insulin */
+"Total" = "Total";
 
 /* ---------------------------------------
   DASH strings
