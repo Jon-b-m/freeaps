@@ -181,6 +181,7 @@ final class BaseAPSManager: APSManager, Injectable {
         }
 
         debug(.apsManager, "Starting loop")
+
         isLooping.send(true)
         determineBasal()
             .replaceEmpty(with: false)
@@ -201,6 +202,7 @@ final class BaseAPSManager: APSManager, Injectable {
             }
             .sink { [weak self] completion in
                 guard let self = self else { return }
+
                 if case let .failure(error) = completion {
                     self.loopCompleted(error: error)
                 } else {
@@ -215,9 +217,11 @@ final class BaseAPSManager: APSManager, Injectable {
         isLooping.send(false)
 
         if let error = error {
+            loopStats(error: error)
             warning(.apsManager, "Loop failed with error: \(error.localizedDescription)")
             processError(error)
         } else {
+            loopStats()
             debug(.apsManager, "Loop succeeded")
             lastLoopDate = Date()
             lastError.send(nil)
@@ -735,7 +739,7 @@ final class BaseAPSManager: APSManager, Injectable {
             }
         }
 
-        var algo_ = "oref0" //Default
+        var algo_ = "oref0" // Default
         if preferences.enableChris, preferences.useNewFormula {
             algo_ = "Dynamic ISF, Logarithmic Formula"
         } else if !preferences.useNewFormula, preferences.enableChris {
@@ -858,6 +862,30 @@ final class BaseAPSManager: APSManager, Injectable {
 
         file = OpenAPS.Monitor.dailyStats
         storage.save(dailystat, as: file)
+    }
+
+    func loopStats(error: Error? = nil) {
+        var file = OpenAPS.Monitor.loopStats
+        var errString = "Success"
+
+        if let error = error {
+            errString = error.localizedDescription
+        }
+
+        let loopstat = LoopStats(
+            createdAt: Date(),
+            loopStatus: errString
+        )
+        var uniqEvents: [LoopStats] = []
+
+        storage.transaction { storage in
+            storage.append(loopstat, to: file, uniqBy: \.createdAt)
+            uniqEvents = storage.retrieve(file, as: [LoopStats].self)?
+                .filter { $0.createdAt.addingTimeInterval(24.hours.timeInterval) > Date() }
+                .sorted { $0.createdAt > $1.createdAt } ?? []
+
+            storage.save(Array(uniqEvents), as: file)
+        }
     }
 
     // Time In Range (%) and Average Glucose (24 hours). This function looks dumb. I will refactor it later.
