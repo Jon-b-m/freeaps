@@ -742,12 +742,29 @@ final class BaseAPSManager: APSManager, Injectable {
 
     // Add to dailyStats.JSON
     private func dailyStats() {
+        var testFile: [DailyStats] = []
+        var testIfEmpty = 0
+        storage.transaction { storage in
+            testFile = storage.retrieve(OpenAPS.Monitor.dailyStats, as: [DailyStats].self) ?? []
+            testIfEmpty = testFile.count
+        }
+        // Only run every hour
+        if testIfEmpty != 0 {
+            guard testFile[0].createdAt.addingTimeInterval(1.hours.timeInterval) < Date() else {
+                return
+            }
+        }
+
         let preferences = settingsManager.preferences
         let carbs = storage.retrieve(OpenAPS.Monitor.carbHistory, as: [CarbsEntry].self)
         let tdds = storage.retrieve(OpenAPS.Monitor.tdd, as: [TDD].self)
-        let currentTDD = tdds?[0].TDD ?? 0
-        let carbs_length = carbs?.count ?? 0
+        var currentTDD: Decimal = 0
 
+        if tdds?.count ?? 0 > 0 {
+            currentTDD = tdds?[0].TDD ?? 0
+        }
+
+        let carbs_length = carbs?.count ?? 0
         var carbTotal: Decimal = 0
 
         if carbs_length != 0 {
@@ -1110,7 +1127,7 @@ final class BaseAPSManager: APSManager, Injectable {
         // round output values
         daysBG = roundDecimal(daysBG, 1)
 
-        if bg_7 != 0 {
+        if bg_1 != 0 {
             bgString1day =
                 " Average BG (mmol/l) 24 hours): \(roundDecimal(bg_1 * 0.0555, 1)). Average BG (mmg/dl) 24 hours: \(roundDecimal(bg_1, 0))."
             HbA1c_string_1 =
@@ -1186,8 +1203,8 @@ final class BaseAPSManager: APSManager, Injectable {
 
         let dailystat = DailyStats(
             createdAt: Date(),
-            iPhoneType: UIDevice.current.getDeviceId,
-            iOSVersion: UIDevice.current.getOSInfo,
+            iPhone: UIDevice.current.getDeviceId,
+            iOS: UIDevice.current.getOSInfo,
             Build_Version: version ?? "",
             Build_Number: build ?? "1",
             Branch: branch ?? "N/A",
