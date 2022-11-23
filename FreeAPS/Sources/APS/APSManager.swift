@@ -1188,17 +1188,17 @@ final class BaseAPSManager: APSManager, Injectable {
         }
 
         let loopstat = LoopCycles(
-            success_rate: round(successRate ?? 0),
+            success_rate: Int(round(successRate ?? 0)),
             no_of_loops: Int(successNR),
             no_of_errors: Int(errorNR),
-            median_time_interval: medianInterval,
-            average_time_interval: roundedMinutesBetweenLoops ?? 0,
-            longest_time_interval: maximumInt,
-            shortest_time_interval: minimumInt,
-            median_loop_duration: medianLoopTime,
-            average_loop_duration: averageLoopTime,
-            longest_loop: maximumLoopTime,
-            shortest_loop: round(minimumLoopTime * 10) / 10
+            median_time_interval: String(medianInterval),
+            average_time_interval: String(roundedMinutesBetweenLoops ?? 0),
+            longest_time_interval: String(maximumInt),
+            shortest_time_interval: String(minimumInt),
+            median_loop_duration: String(medianLoopTime),
+            average_loop_duration: String(averageLoopTime),
+            longest_loop: String(maximumLoopTime),
+            shortest_loop: String(minimumLoopTime)
         )
 
         let dailystat = DailyStats(
