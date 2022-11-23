@@ -1170,6 +1170,20 @@ final class BaseAPSManager: APSManager, Injectable {
             loopString += "Longest Loop: \(maximumLoopTime) min."
         }
 
+        let loopstat = LoopCycles(
+            success_rate: round(successRate ?? 0),
+            no_of_loops: Int(successNR),
+            no_of_errors: Int(errorNR),
+            median_time_interval: medianInterval,
+            average_time_interval: roundedMinutesBetweenLoops ?? 0,
+            longest_time_interval: maximumInt,
+            shortest_time_interval: minimumInt,
+            median_loop_duration: medianLoopTime,
+            average_loop_duration: averageLoopTime,
+            longest_loop: maximumLoopTime,
+            shortest_loop: round(minimumLoopTime * 10) / 10
+        )
+
         let dailystat = DailyStats(
             createdAt: Date(),
             iPhoneType: UIDevice.current.getDeviceId,
@@ -1191,7 +1205,8 @@ final class BaseAPSManager: APSManager, Injectable {
             HbA1c: HbA1c_string,
             Loop_Cycles: "Success Rate : \(round(successRate ?? 0)) %. Loops/Errors: \(Int(successNR))/\(Int(errorNR)). Median Time Between Loop Cycles: \(medianInterval) min. Average Time Between Loop Cycles: \(roundedMinutesBetweenLoops ?? 0) min.  " +
                 minString + maxString + loopString +
-                " Median Loop Duration: \(medianLoopTime) min. Average Loop Duration: \(averageLoopTime) min. "
+                " Median Loop Duration: \(medianLoopTime) min. Average Loop Duration: \(averageLoopTime) min. ",
+            LoopStats: [loopstat]
         )
 
         var uniqeEvents: [DailyStats] = []
