@@ -101,31 +101,31 @@ extension DailyStats {
 }
 
 struct LoopCycles: JSON, Equatable {
-    var success_rate: Int
-    var no_of_loops: Int
-    var no_of_errors: Int
-    var median_time_interval: String
-    var average_time_interval: String
-    var longest_time_interval: String
-    var shortest_time_interval: String
-    var median_loop_duration: String
-    var average_loop_duration: String
-    var longest_loop: String
-    var shortest_loop: String
+    var success_perc: Int
+    var loops: Int
+    var errors: Int
+    var median_interval: String
+    var avg_interval: String
+    var max_interval: String
+    var min_interval: String
+    var median_loop: String
+    var avg_loop: String
+    var max_loop: String
+    var min_loop: String
 }
 
 extension LoopCycles {
     private enum CodingKeys: String, CodingKey {
-        case success_rate
-        case no_of_loops
-        case no_of_errors
-        case median_time_interval
-        case average_time_interval
-        case longest_time_interval
-        case shortest_time_interval
-        case median_loop_duration
-        case average_loop_duration
-        case longest_loop
-        case shortest_loop
+        case success_perc
+        case loops
+        case errors
+        case median_interval
+        case avg_interval
+        case max_interval
+        case min_interval
+        case median_loop
+        case avg_loop
+        case max_loop
+        case min_loop
     }
 }
