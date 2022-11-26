@@ -816,7 +816,6 @@ final class BaseAPSManager: APSManager, Injectable {
             .sorted { $0.createdAt > $1.createdAt } ?? []
 
         var successRate: Double?
-        var roundedMinutesBetweenLoops: Double?
         var successNR = 0.0
         var errorNR = 0.0
         var minimumInt = 999.0
@@ -832,6 +831,7 @@ final class BaseAPSManager: APSManager, Injectable {
         var medianLoopTime = 0.0
         var timeIntervalLoopArray: [Double] = []
         var medianInterval = 0.0
+        var averageIntervalLoops = 0.0
         var successIs = false
 
         if !lsData.isEmpty {
@@ -887,19 +887,18 @@ final class BaseAPSManager: APSManager, Injectable {
 
             successRate = (successNR / Double(i)) * 100
 
-            let endI = lsData.count - 1
-            let loopDataTime = lsData[0].createdAt - lsData[endI].createdAt
-            let minutesBetweenLoops = (loopDataTime.timeInterval / successNR) / 60
+            averageIntervalLoops = timeIntervalLoopArray.reduce(0,+) / Double(timeIntervalLoopArray.count)
+
             averageLoopTime /= Double(i)
 
             // Median values
             medianLoopTime = medianCalculation(array: timeForOneLoopArray)
             medianInterval = medianCalculation(array: timeIntervalLoopArray)
 
+            averageIntervalLoops = roundDouble(averageIntervalLoops, 1)
             medianInterval = roundDouble(medianInterval, 1)
             medianLoopTime = roundDouble(medianLoopTime, 1)
             averageLoopTime = roundDouble(averageLoopTime, 1)
-            roundedMinutesBetweenLoops = roundDouble(minutesBetweenLoops, 1)
             minimumInt = roundDouble(minimumInt, 1)
             maximumInt = roundDouble(maximumInt, 1)
         }
@@ -1196,7 +1195,7 @@ final class BaseAPSManager: APSManager, Injectable {
             loops: Int(successNR),
             errors: Int(errorNR),
             median_interval: String(medianInterval),
-            avg_interval: String(roundedMinutesBetweenLoops ?? 0),
+            avg_interval: String(averageIntervalLoops),
             max_interval: String(maximumInt),
             min_interval: String(minimumInt),
             median_loop: String(medianLoopTime),
@@ -1224,7 +1223,7 @@ final class BaseAPSManager: APSManager, Injectable {
             TIR: tirString,
             BG_Average: bgAverageString,
             HbA1c: HbA1c_string,
-            Loop_Cycles: "Success Rate : \(round(successRate ?? 0)) %. Loops/Errors: \(Int(successNR))/\(Int(errorNR)). Median Time Between Loop Cycles: \(medianInterval) min. Average Time Between Loop Cycles: \(roundedMinutesBetweenLoops ?? 0) min.  " +
+            Loop_Cycles: "Success Rate : \(round(successRate ?? 0)) %. Loops/Errors: \(Int(successNR))/\(Int(errorNR)). Median Time Between Loop Cycles: \(medianInterval) min. Average Time Between Loop Cycles: \(averageIntervalLoops) min.  " +
                 minString + maxString + loopString +
                 " Median Loop Duration: \(medianLoopTime) min. Average Loop Duration: \(averageLoopTime) min. ",
             LoopStats: [loopstat]
