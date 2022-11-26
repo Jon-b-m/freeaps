@@ -2,7 +2,8 @@ import Foundation
 
 struct LoopStats: JSON, Equatable {
     var createdAt: Date
-    var loopStatus: String
+    var loopEnd: Date?
+    var loopStatus: String = ""
 
     init(
         createdAt: Date,
@@ -16,6 +17,7 @@ struct LoopStats: JSON, Equatable {
 extension LoopStats {
     private enum CodingKeys: String, CodingKey {
         case createdAt
+        case loopEnd
         case loopStatus
     }
 }

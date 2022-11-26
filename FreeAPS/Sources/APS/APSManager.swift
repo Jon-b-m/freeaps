@@ -180,8 +180,13 @@ final class BaseAPSManager: APSManager, Injectable {
             return
         }
 
-        loopStats(starting: true)
         debug(.apsManager, "Starting loop")
+
+        var loopStatRecord = LoopStats(
+            createdAt: Date(),
+            loopStatus: "Starting"
+        )
+
         isLooping.send(true)
         determineBasal()
             .replaceEmpty(with: false)
@@ -202,29 +207,32 @@ final class BaseAPSManager: APSManager, Injectable {
             }
             .sink { [weak self] completion in
                 guard let self = self else { return }
+                loopStatRecord.loopEnd = Date()
                 if case let .failure(error) = completion {
-                    self.loopCompleted(error: error)
+                    loopStatRecord.loopStatus = error.localizedDescription
+                    self.loopCompleted(error: error, loopStatRecord: loopStatRecord)
                 } else {
-                    self.loopCompleted()
+                    loopStatRecord.loopStatus = "Success"
+                    self.loopCompleted(loopStatRecord: loopStatRecord)
                 }
             } receiveValue: {}
             .store(in: &lifetime)
     }
 
     // Loop exit point
-    private func loopCompleted(error: Error? = nil) {
+    private func loopCompleted(error: Error? = nil, loopStatRecord: LoopStats) {
         isLooping.send(false)
 
         if let error = error {
-            loopStats(error: error, starting: false)
             warning(.apsManager, "Loop failed with error: \(error.localizedDescription)")
             processError(error)
         } else {
-            loopStats(starting: false)
             debug(.apsManager, "Loop succeeded")
             lastLoopDate = Date()
             lastError.send(nil)
         }
+
+        loopStats(loopStatRecord: loopStatRecord)
 
         if settings.closedLoop {
             reportEnacted(received: error == nil)
@@ -1238,26 +1246,13 @@ final class BaseAPSManager: APSManager, Injectable {
         }
     }
 
-    private func loopStats(error: Error? = nil, starting: Bool) {
+    private func loopStats(loopStatRecord: LoopStats) {
         let file = OpenAPS.Monitor.loopStats
-        var errString = "Success"
 
-        if let error = error {
-            errString = error.localizedDescription
-        }
-
-        if starting {
-            errString = "Starting"
-        }
-
-        let loopstat = LoopStats(
-            createdAt: Date(),
-            loopStatus: errString
-        )
         var uniqEvents: [LoopStats] = []
 
         storage.transaction { storage in
-            storage.append(loopstat, to: file, uniqBy: \.createdAt)
+            storage.append(loopStatRecord, to: file, uniqBy: \.createdAt)
             uniqEvents = storage.retrieve(file, as: [LoopStats].self)?
                 .filter { $0.createdAt.addingTimeInterval(24.hours.timeInterval) > Date() }
                 .sorted { $0.createdAt > $1.createdAt } ?? []
