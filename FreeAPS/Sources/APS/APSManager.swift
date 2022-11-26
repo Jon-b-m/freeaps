@@ -208,6 +208,10 @@ final class BaseAPSManager: APSManager, Injectable {
             .sink { [weak self] completion in
                 guard let self = self else { return }
                 loopStatRecord.loopEnd = Date()
+                loopStatRecord.loopDuration = self.roundDouble(
+                    (loopStatRecord.loopEnd! - loopStatRecord.createdAt).timeInterval / 60,
+                    1
+                )
                 if case let .failure(error) = completion {
                     loopStatRecord.loopStatus = error.localizedDescription
                     self.loopCompleted(error: error, loopStatRecord: loopStatRecord)
@@ -834,23 +838,28 @@ final class BaseAPSManager: APSManager, Injectable {
             var i = 0.0
             var j = 0.0
 
-            if lsData[0].loopStatus.contains("Success") {
-                previousTimeLoop = lsData[0].createdAt
+            if let loopEnd = lsData[0].loopEnd {
+                previousTimeLoop = loopEnd
             }
 
             for each in lsData {
-                if each.loopStatus.contains("Success") {
+                if let loopEnd = each.loopEnd, let loopDuration = each.loopDuration {
+                    if each.loopStatus.contains("Success") {
+                        successNR += 1
+                    } else {
+                        errorNR += 1
+                    }
                     i += 1
-                    successNR += 1
 
-                    timeIntervalLoops = (previousTimeLoop - each.createdAt).timeInterval / 60
+                    if previousTimeLoop != loopEnd {
+                        timeIntervalLoops = (previousTimeLoop - each.createdAt).timeInterval / 60
+                    } else {
+                        timeIntervalLoops = 0.0
+                    }
 
                     if timeIntervalLoops > 0.0 {
                         timeIntervalLoopArray.append(timeIntervalLoops)
                     }
-
-                    endTimeForOneLoop = each.createdAt
-                    successIs = true
 
                     if timeIntervalLoops > maximumInt {
                         maximumInt = timeIntervalLoops
@@ -859,33 +868,20 @@ final class BaseAPSManager: APSManager, Injectable {
                         minimumInt = timeIntervalLoops
                     }
 
-                    previousTimeLoop = each.createdAt
+                    timeForOneLoop = loopDuration
 
-                } else if each.loopStatus.contains("Starting") {
-                    j += 1
-                    if successIs {
-                        let test = (endTimeForOneLoop - each.createdAt).timeInterval / 60
+                    timeForOneLoopArray.append(timeForOneLoop)
+                    averageLoopTime += timeForOneLoop
+                    timeForOneLoop = roundDouble(timeForOneLoop, 1)
 
-                        if test > 0 {
-                            timeForOneLoop = test
-
-                            timeForOneLoopArray.append(timeForOneLoop)
-                            averageLoopTime += timeForOneLoop
-                            timeForOneLoop = roundDouble(timeForOneLoop, 1)
-                        }
-
-                        if timeForOneLoop >= maximumLoopTime, timeForOneLoop != 0.0 {
-                            maximumLoopTime = timeForOneLoop
-                        }
-                        if timeForOneLoop <= minimumLoopTime, timeForOneLoop != 0.0 {
-                            minimumLoopTime = timeForOneLoop
-                        }
-
-                        successIs = false
+                    if timeForOneLoop >= maximumLoopTime, timeForOneLoop != 0.0 {
+                        maximumLoopTime = timeForOneLoop
                     }
-                } else {
-                    errorNR += 1
-                    i += 1
+                    if timeForOneLoop <= minimumLoopTime, timeForOneLoop != 0.0 {
+                        minimumLoopTime = timeForOneLoop
+                    }
+
+                    previousTimeLoop = loopEnd
                 }
             }
 
@@ -894,7 +890,7 @@ final class BaseAPSManager: APSManager, Injectable {
             let endI = lsData.count - 1
             let loopDataTime = lsData[0].createdAt - lsData[endI].createdAt
             let minutesBetweenLoops = (loopDataTime.timeInterval / successNR) / 60
-            averageLoopTime /= Double(j)
+            averageLoopTime /= Double(i)
 
             // Median values
             medianLoopTime = medianCalculation(array: timeForOneLoopArray)
