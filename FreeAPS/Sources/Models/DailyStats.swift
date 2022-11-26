@@ -19,7 +19,6 @@ struct DailyStats: JSON, Equatable {
     var TIR: String
     var BG_Average: String
     var HbA1c: String
-    var Loop_Cycles: String
     var LoopStats: [LoopCycles]
 
     init(
@@ -41,7 +40,6 @@ struct DailyStats: JSON, Equatable {
         TIR: String,
         BG_Average: String,
         HbA1c: String,
-        Loop_Cycles: String,
         LoopStats: [LoopCycles]
     ) {
         self.createdAt = createdAt
@@ -62,7 +60,6 @@ struct DailyStats: JSON, Equatable {
         self.TIR = TIR
         self.BG_Average = BG_Average
         self.HbA1c = HbA1c
-        self.Loop_Cycles = Loop_Cycles
         self.LoopStats = LoopStats
     }
 
@@ -95,7 +92,6 @@ extension DailyStats {
         case TIR
         case BG_Average
         case HbA1c
-        case Loop_Cycles
         case LoopStats
     }
 }

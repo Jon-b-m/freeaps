@@ -1223,9 +1223,6 @@ final class BaseAPSManager: APSManager, Injectable {
             TIR: tirString,
             BG_Average: bgAverageString,
             HbA1c: HbA1c_string,
-            Loop_Cycles: "Success Rate : \(round(successRate ?? 0)) %. Loops/Errors: \(Int(successNR))/\(Int(errorNR)). Median Time Between Loop Cycles: \(medianInterval) min. Average Time Between Loop Cycles: \(averageIntervalLoops) min.  " +
-                minString + maxString + loopString +
-                " Median Loop Duration: \(medianLoopTime) min. Average Loop Duration: \(averageLoopTime) min. ",
             LoopStats: [loopstat]
         )
 
