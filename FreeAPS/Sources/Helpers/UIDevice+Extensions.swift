@@ -65,17 +65,3 @@ extension UIDevice {
         return String(os.majorVersion) + "." + String(os.minorVersion) + "." + String(os.patchVersion)
     }
 }
-
-            default:
-                return identifier
-            }
-        }
-
-        return mapToDevice(identifier: identifier)
-    }
-
-    var getOSInfo: String {
-        let os = ProcessInfo.processInfo.operatingSystemVersion
-        return String(os.majorVersion) + "." + String(os.minorVersion) + "." + String(os.patchVersion)
-    }
-}
