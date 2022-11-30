@@ -49,6 +49,22 @@ extension UIDevice {
 
             case "iPhone15,2":
                 return "iPhone 14 Pro"
+            case "iPhone15,3":
+                return "iPhone 14 Pro Max"
+
+            default:
+                return identifier
+            }
+        }
+
+        return mapToDevice(identifier: identifier)
+    }
+
+    var getOSInfo: String {
+        let os = ProcessInfo.processInfo.operatingSystemVersion
+        return String(os.majorVersion) + "." + String(os.minorVersion) + "." + String(os.patchVersion)
+    }
+}
 
             default:
                 return identifier
