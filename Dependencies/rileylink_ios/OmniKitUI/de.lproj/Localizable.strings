@@ -264,25 +264,25 @@
 "Change Pod now. Pod has been active for 72 hours." = "Ersetze den POD jetzt. POD ist seit 72 Stunden aktiv.";
 
 /* Alert content body for podExpireImminent pod alert */
-"Change Pod now. Insulin delivery will stop in 1 hour." = "Change Pod now. Insulin delivery will stop in 1 hour.";
+"Change Pod now. Insulin delivery will stop in 1 hour." = "Pod jetzt ersetzen. Insulinzufuhr endet in 1 Stunde.";
 
 /* Format string for alert content body for lowReservoir pod alert. (1: reminder value) */
-"%1$@ insulin or less remaining in Pod. Change Pod soon." = "%1$@ insulin or less remaining in Pod. Change Pod soon.";
+"%1$@ insulin or less remaining in Pod. Change Pod soon." = "%1$@ Insulin oder weniger verfügbar im Pod. Pod bald ersetzen.";
 
 /* Alert content body for suspendInProgress pod alert */
 "Suspend In Progress Reminder" = "Suspend In Progress Reminder";
 
 /* Alert content body for suspendEnded pod alert */
-"The insulin suspension period has ended.\n\nYou can resume delivery from the banner on the home screen or from your pump settings screen. You will be reminded again in 15 minutes." = "The insulin suspension period has ended.\n\nYou can resume delivery from the banner on the home screen or from your pump settings screen. You will be reminded again in 15 minutes.";
+"The insulin suspension period has ended.\n\nYou can resume delivery from the banner on the home screen or from your pump settings screen. You will be reminded again in 15 minutes." = "Die Insulinunterbrechung ist beendet.\n\nSie können die Zufuhr über das Banner auf dem Startbildschirm oder über die Pumpeneinstellungen fortsetzen. Sie werden in 15 Minuten noch einmal erinnert.";
 
 /* Alert content body for finishSetupReminder pod alert */
-"Please finish pairing your pod." = "Please finish pairing your pod.";
+"Please finish pairing your pod." = "Bitte beenden Sie die Kopplung Ihres Pods.";
 
 /* Alert content body for timeOffsetChangeDetected pod alert */
-"The time on your pump is different from the current time. You can review the pump time and and sync to current time in settings." = "The time on your pump is different from the current time. You can review the pump time and and sync to current time in settings.";
+"The time on your pump is different from the current time. You can review the pump time and and sync to current time in settings." = "Die Zeit auf Ihrer Pumpe unterscheidet sich von der aktuellen Zeit. Sie können die Pumpenzeit überprüfen und in den Einstellungen mit der aktuellen Zeit synchronisieren.";
 
 /* Alert notification body for suspendEnded pod alert user notification */
-"Suspension time is up. Open the app and resume." = "Suspension time is up. Open the app and resume.";
+"Suspension time is up. Open the app and resume." = "Unterbrechungszeit ist abgelaufen. Öffne die App zum Fortsetzen.";
 
 /* Action button default text for PodAlerts */
 "Ok" = "OK";
@@ -303,7 +303,7 @@
 "Notification Settings" = "Benachrichtigungseinstellungen";
 
 /* */
-"Confidence Reminders" = "Confidence Reminders";
+"Confidence Reminders" = "Pumpe Bestätigungstöne";
 
 /* Text for suspend resume button when insulin delivery active */
 "Suspend Insulin Delivery" = "Insulinabgabe unterbrechen";
@@ -450,7 +450,7 @@
 "Pod Expired" = "POD abgelaufen";
 
 /* Status highlight message for occlusion alarm. */
-"Pod Occlusion" = "Pod Occlusion";
+"Pod Occlusion" = "Pumpe verstopft";
 
 /* Status highlight message for other alarm. */
 "Pod Error" = "Pod Fehler";
@@ -480,40 +480,40 @@
 "Checking..." = "Wird geprüft...";
 
 /* */
-"Check cannula insertion finished" = "Check cannula insertion finished";
+"Check cannula insertion finished" = "Prüfe ob das Einfügen der Kanüle beendet ist";
 
 /* */
-"Get pod status" = "Get pod status";
+"Get pod status" = "Pod-Status abrufen";
 
 /* */
-"Save Basal Profile" = "Save Basal Profile";
+"Save Basal Profile" = "Basal-Profil speichern";
 
 /* */
-"Save basal profile failed: %{public}@" = "Save basal profile failed: %{public}@";
+"Save basal profile failed: %{public}@" = "Speichern des Basalprofils fehlgeschlagen: %{public}@";
 
 /* */
-"Skipping Play Test Beeps due to bolus still in progress." = "Skipping Play Test Beeps due to bolus still in progress.";
+"Skipping Play Test Beeps due to bolus still in progress." = "Überspringe abspiel Testton wegen noch laufendem Bolus.";
 
 /* */
 "Play Test Beeps" = "Testtöne abspielen";
 
 /* */
-"Skipping Read Pulse Log due to bolus still in progress." = "Skipping Read Pulse Log due to bolus still in progress.";
+"Skipping Read Pulse Log due to bolus still in progress." = "Überspringe Lese Pulse Protokoll wegen noch laufendem Bolus.";
 
 /* */
 "Read Pulse Log" = "Pulse-Log lesen";
 
 /* */
-"Set Confirmation Beeps to %s" = "Set Confirmation Beeps to %s";
+"Set Confirmation Beeps to %s" = "Bestätigungston auf %s setzen";
 
 /* */
-"Set Confirmation Beeps Preference" = "Set Confirmation Beeps Preference";
+"Set Confirmation Beeps Preference" = "Bestätigungstonleinstellungen festlegen";
 
 /* */
 "Suspend" = "Unterbrechen";
 
 /* */
-"Failed to suspend: %{public}@" = "Failed to suspend: %{public}@";
+"Failed to suspend: %{public}@" = "Fehler beim Anhalten: %{public}@";
 
 /* */
 "Resume" = "Fortsetzen";
@@ -522,28 +522,28 @@
 "Bolus" = "Bolus";
 
 /* */
-"Cancel Bolus" = "Cancel Bolus";
+"Cancel Bolus" = "Bolus abbrechen";
 
 /* Alert acknowledgment OK button */
 "OK" = "OK";
 
 /* The title for Empty Reservoir alarm notification */
-"Empty Reservoir" = "Empty Reservoir";
+"Empty Reservoir" = "Reservoir leer";
 
 /* The title for Occlusion alarm notification */
-"Occlusion Detected" = "Occlusion Detected";
+"Occlusion Detected" = "Verstopfung erkannt";
 
 /* The title for AlarmCode.other notification */
 "Critical Pod Error" = "Schwerwiegender POD Fehler";
 
 /* The default notification body for AlarmCodes */
-"Insulin delivery stopped. Change Pod now." = "Insulin delivery stopped. Change Pod now.";
+"Insulin delivery stopped. Change Pod now." = "Insulinabgabe gestoppt. Pod jetzt ersetzen.";
 
 /* Header for insulin remaining on pod settings screen */
 "Insulin Remaining" = "Verbleibendes Insulin";
 
 /* Button title to set temporary basal rate */
-"Set Temporary Basal Rate" = "Set Temporary Basal Rate";
+"Set Temporary Basal Rate" = "Temporäre Basalrate setzen";
 
 /* Section header for activity section */
 "Activity" = "Aktivität";
@@ -552,31 +552,31 @@
 "Configuration" = "Konfiguration";
 
 /* Title for previous pod page */
-"Previous Pod" = "Previous Pod";
+"Previous Pod" = "Vorheriger Pod";
 
 /* The title of the command to change pump time zone */
-"Pump Time" = "Pump Time";
+"Pump Time" = "Pumpenzeit";
 
 /* Text indicating ongoing pump time synchronization */
-"Adjusting Pump Time..." = "Adjusting Pump Time...";
+"Adjusting Pump Time..." = "Pumpenzeit anpassen...";
 
 /* The title of the command to change pump time zone */
-"Sync to Current Time" = "Sync to Current Time";
+"Sync to Current Time" = "Mit aktueller Zeit synchronisieren";
 
 /* Label for PumpManager deletion button */
-"Switch to other insulin delivery device" = "Switch to other insulin delivery device";
+"Switch to other insulin delivery device" = "Zu einer anderen Insulinpumpe wechseln";
 
 /* Title for pod sync time action sheet. */
-"The time on your pump is different from the current time. Do you want to update the time on your pump to the current time?" = "The time on your pump is different from the current time. Do you want to update the time on your pump to the current time?";
+"The time on your pump is different from the current time. Do you want to update the time on your pump to the current time?" = "Die Zeit Ihrer Pumpe unterscheidet sich von der aktuellen Zeit. Möchten Sie die Pumpenzeit auf die aktuelle Zeit aktualisieren?";
 
 /* Button text to confirm pump time sync */
-"Yes, Sync to Current Time" = "Yes, Sync to Current Time";
+"Yes, Sync to Current Time" = "Ja, mit aktueller Zeit synchronisieren";
 
 /* Button text to cancel pump time sync */
-"No, Keep Pump As Is" = "No, Keep Pump As Is";
+"No, Keep Pump As Is" = "Nein, Pumpe unverändert behalten";
 
 /* Title for Omnipod PumpManager deletion action sheet. */
-"Remove Pump" = "Remove Pump";
+"Remove Pump" = "Pumpe entfernen";
 
 /* Message for Omnipod PumpManager deletion action sheet */
 "Are you sure you want to stop using Omnipod?" = "Möchten Sie Omnipod wirklich nicht mehr verwenden?";
@@ -585,38 +585,38 @@
 "Insulin Type" = "Insulin Typ";
 
 /* The title of the command to change pump time zone */
-"Sync to Current Time" = "Sync to Current Time";
+"Sync to Current Time" = "Mit aktueller Zeit synchronisieren";
 
 /* Title for suspend duration selection action sheet */
 "Suspend Delivery" = "Abgabe unterbrechen";
 
 /* Message for suspend duration selection action sheet */
-"Insulin delivery will be stopped until you resume manually. When would you like Loop to remind you to resume delivery?" = "Insulin delivery will be stopped until you resume manually. When would you like Loop to remind you to resume delivery?";
+"Insulin delivery will be stopped until you resume manually. When would you like Loop to remind you to resume delivery?" = "Die Insulinabgabe wird angehalten, bis sie manuell fortgesetzt wird. Wann soll Loop daran erinnern, die Insulinabgabe fortzusetzen?";
 
 /* Button text for 30 minute suspend duration */
-"30 minutes" = "30 minutes";
+"30 minutes" = "30 Minuten";
 
 /* Button text for 1 hour suspend duration" */
-"1 hour" = "1 hour";
+"1 hour" = "1 Stunde";
 /* Button text for 1 hour 30 minute suspend duration */
-"1 hour 30 minutes" = "1 hour 30 minutes";
+"1 hour 30 minutes" = "1 Stunde 30 Minuten";
 /* Button text for 2 hour suspend duration */
-"2 hours" = "2 hours";
+"2 hours" = "2 Stunden";
 
 /* Alert title for suspend error */
-"Failed to Suspend Insulin Delivery" = "Failed to Suspend Insulin Delivery";
+"Failed to Suspend Insulin Delivery" = "Unterbrechung Insulinagabe fehlgeschlagen";
 
 /* Alert title for resume error */
-"Failed to Resume Insulin Delivery" = "Failed to Resume Insulin Delivery";
+"Failed to Resume Insulin Delivery" = "Forsetzen der Insulinabgabe fehlgeschlagen";
 
 /* Alert title for time sync error */
-"Failed to Set Pump Time" = "Failed to Set Pump Time";
+"Failed to Set Pump Time" = "Setzen der Pumpenzeit fehlgeschlagen";
 
 /* Alert title for failing to cancel manual basal error */
-"Failed to Cancel Manual Basal" = "Failed to Cancel Manual Basal";
+"Failed to Cancel Manual Basal" = "Fehler beim Abbrechen der manuellen Basalrate";
 
 /* */
-"Please deactivate the pod. When deactivation is complete, you may remove it and pair a new pod." = "Please deactivate the pod. When deactivation is complete, you may remove it and pair a new pod.";
+"Please deactivate the pod. When deactivation is complete, you may remove it and pair a new pod." = "Bitte deaktivieren Sie den Pod. Sobald der Pod vollständig deaktiviert ist, können Sie ihn vom Körper entfernen und einen neuen koppeln.";
 
 /* Instructions for deactivate pod when pod not on body */
 "Please deactivate the pod. When deactivation is complete, you may pair a new pod." = "Please deactivate the pod. When deactivation is complete, you may pair a new pod.";
