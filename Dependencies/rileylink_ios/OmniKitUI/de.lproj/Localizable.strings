@@ -231,7 +231,7 @@
 "Unknown" = "Unbekannt";
 
 /* Alert content title for multiCommand pod alert */
-"Multiple Command Alert" = "Multiple Command Alert";
+"Multiple Command Alert" = "Mehrfache Befehlsbenachrichtigung";
 
 /* Alert content title for userPodExpiration pod alert */
 "Pod Expiration Reminder" = "Erinnerung an POD Ablaufdatum";
@@ -243,7 +243,7 @@
 "Low Reservoir" = "Niedriger Reservoirstand";
 
 /* Alert content title for suspendInProgress pod alert */
-"Suspend In Progress Reminder" = "Suspend In Progress Reminder";
+"Suspend In Progress Reminder" = "Unterbrechung in Fortschrittserinnerung";
 
 /* Alert content title for suspendEnded pod alert */
 "Resume Insulin" = "Insulin fortsetzen";
@@ -255,7 +255,7 @@
 "Time Change Detected" = "Zeitänderung erkannt";
 
 /* Alert content body for multiCommand pod alert */
-"Multiple Command Alert" = "Multiple Command Alert";
+"Multiple Command Alert" = "Mehrfache Befehlsbenachrichtigung";
 
 /* Format string for alert content body for userPodExpiration pod alert. (1: time until expiration) */
 "Pod expires in %1$@." = "Pod läuft ab in %1$@.";
@@ -270,7 +270,7 @@
 "%1$@ insulin or less remaining in Pod. Change Pod soon." = "%1$@ Insulin oder weniger verfügbar im Pod. Pod bald ersetzen.";
 
 /* Alert content body for suspendInProgress pod alert */
-"Suspend In Progress Reminder" = "Suspend In Progress Reminder";
+"Suspend In Progress Reminder" = "Unterbrechung in Fortschrittserinnerung";
 
 /* Alert content body for suspendEnded pod alert */
 "The insulin suspension period has ended.\n\nYou can resume delivery from the banner on the home screen or from your pump settings screen. You will be reminded again in 15 minutes." = "Die Insulinunterbrechung ist beendet.\n\nSie können die Zufuhr über das Banner auf dem Startbildschirm oder über die Pumpeneinstellungen fortsetzen. Sie werden in 15 Minuten noch einmal erinnert.";
@@ -321,16 +321,16 @@
 "Pair Pod" = "POD verbinden";
 
 /* Pairing action button accessibility label while ready to pair */
-"Pair pod." = "Pair pod.";
+"Pair pod." = "Pod koppeln.";
 
 /* Pairing action button accessibility label while pairing */
-"Pairing." = "Pairing.";
+"Pairing." = "Kopplung läuft.";
 
 /* Pairing action button accessibility label while priming */
-"Priming. Please wait." = "Priming. Please wait.";
+"Priming. Please wait." = "Vorbereitung läuft. Bitte warten.";
 
 /* Pairing action button accessibility label when pairing succeeded */
-"Pod paired successfully. Continue." = "Pod paired successfully. Continue.";
+"Pod paired successfully. Continue." = "Pod erfolgreich gekoppelt. Fortfahren.";
 
 /* Settings page link description when next lifecycle action is to finish deactivation */
 "Finish deactivation" = "Deaktivierung abschließen";
@@ -474,7 +474,7 @@
 "Inserting..." = "Kanüle einsetzen...";
 
 /* Cannula insertion button text while showing error */
-"Retry" = "Retry";
+"Retry" = "Wiederholen";
 
 /* Cannula insertion button text while checking insertion */
 "Checking..." = "Wird geprüft...";
@@ -619,118 +619,118 @@
 "Please deactivate the pod. When deactivation is complete, you may remove it and pair a new pod." = "Bitte deaktivieren Sie den Pod. Sobald der Pod vollständig deaktiviert ist, können Sie ihn vom Körper entfernen und einen neuen koppeln.";
 
 /* Instructions for deactivate pod when pod not on body */
-"Please deactivate the pod. When deactivation is complete, you may pair a new pod." = "Please deactivate the pod. When deactivation is complete, you may pair a new pod.";
+"Please deactivate the pod. When deactivation is complete, you may pair a new pod." = "Bitte deaktivieren Sie den Pod. Sobald der Pod vollständig deaktiviert ist, können Sie ihn vom Körper entfernen und einen neuen koppeln.";
 
 /* Deactivate pod action button */
 "Deactivate Pod" = "Pod deaktivieren";
 
 /* Deactivate pod action button accessibility label while deactivating */
-"Deactivating." = "Deactivating.";
+"Deactivating." = "Deaktivierung.";
 
 /* Deactivate pod action button accessibility label when deactivation complete */
-"Pod deactivated successfully. Continue." = "Pod deactivated successfully. Continue.";
+"Pod deactivated successfully. Continue." = "Pod erfolgreich deaktiviert. Fortfahren.";
 
 /* Action button description for deactivate after failed attempt */
-"Retry" = "Retry";
+"Retry" = "Wiederholen";
 
 /* Action button description when deactivated */
 "Continue" = "Fortsetzen";
 
 /* Format string for recovery suggestion during deactivate pod. */
-"There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod." = "There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod.";
+"There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod." = "Es gab ein Problem bei der Kommunikation mit dem Pod. Wenn dieses Problem weiterhin besteht, tippe auf \"Pod verwerfen\". Du kannst dann einen neuen Pod aktivieren.";
 
 /* Text for discard pod button */
-"Discard Pod" = "Discard Pod";
+"Discard Pod" = "Pod verwerfen";
 
 /* Title for remove pod modal */
-"Remove Pod from Body" = "Remove Pod from Body";
+"Remove Pod from Body" = "Pod vom Körper entfernen";
 
 /* Alert message body for confirm pod attachment */
-"Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“" = "Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“";
+"Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“" = "Dein Pod kann noch Insulin abgeben.\nEntferne den Pod vom Körper und tippe dann auf \"Weiter\"";
 
 /* Insulin Unit */
 "U" = " IE";
 
 /* The action string on pod status page when pod expired */
-"Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains.";
+"Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Ersetze jetzt den Pod! Die Insulinabgabe wird in 8 Stunden unterbrochen, spätestens wenn die Gültigkeit abgelaufen ist oder kein Insulin mehr vorhanden ist.";
 
 /* Label text for step 2 of pair pod instructions */
-"Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing.";
+"Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Füllen Sie einen neuen Pod mit U-100 Insulin (lassen Sie Nadelkappe auf dem Pod).";
 
 /* Label text for step 2 of pair pod instructions */
-"Listen for 2 beeps." = "Listen for 2 beeps.";
+"Listen for 2 beeps." = "Auf 2 Signaltöne warten.";
 
 /* Label text indicating pairing finished.*/
-"Paired" = "Paired";
+"Paired" = "Gekoppelt";
 
 /* Cancel button text in navigation bar on pair pod UI */
 "Cancel" = "Abbrechen";
 
 /* Alert title for cancel pairing modal */
-"Are you sure you want to cancel Pod setup?" = "Are you sure you want to cancel Pod setup?";
+"Are you sure you want to cancel Pod setup?" = "Bist du sicher, dass du das Pod-Setup abbrechen möchtest?";
 
 /* Alert message body for confirm pod attachment */
-"If you cancel Pod setup, the current Pod will be deactivated and will be unusable." = "If you cancel Pod setup, the current Pod will be deactivated and will be unusable.";
+"If you cancel Pod setup, the current Pod will be deactivated and will be unusable." = "Wenn Sie das Pod-Setup abbrechen, wird der aktuelle Pod deaktiviert und wird unbrauchbar.";
 
 /* Button title for confirm deactivation option */
-"Yes, Deactivate Pod" = "Yes, Deactivate Pod";
+"Yes, Deactivate Pod" = "Ja, Pod deaktivieren";
 
 /* Continue pairing button title of in pairing cancel modal */
-"No, Continue With Pod" = "No, Continue With Pod";
+"No, Continue With Pod" = "Nein, mit Pod fortfahren";
 
 /* Label text for step one of attach pod instructions */
-"Prepare site." = "Prepare site.";
+"Prepare site." = "Setzstelle vorbereiten.";
 
 /* Label text for step two of attach pod instructions */
-"Remove the pod's needle cap and check cannula. Then remove paper backing." = "Remove the pod's needle cap and check cannula. Then remove paper backing.";
+"Remove the pod's needle cap and check cannula. Then remove paper backing." = "Entfernen Sie die Pod-Nadel Kappe und prüfen Sie die Kanüle. Danach die Klebefolien auf der Rückseite entfernen.";
 
 /* Label text for step three of attach pod instructions */
-"Check Pod, apply to site, then confirm pod attachment." = "Check Pod, apply to site, then confirm pod attachment.";
+"Check Pod, apply to site, then confirm pod attachment." = "Prüfen Sie den Pod, auf der Setzstelle anbringen, dann Prodanbringung bestätigen.";
 
 /* Action button title for attach pod view */
 "Continue" = "Fortsetzen";
 
 /* */
-"Attach Pod" = "Attach Pod";
+"Attach Pod" = "Pod anlegen";
 
 /* Alert title for confirm pod attachment */
-"Confirm Pod Attachment" = "Confirm Pod Attachment";
+"Confirm Pod Attachment" = "Pod-Anbringung bestätigen";
 
 /* Alert message body for confirm pod attachment */
-"Please confirm that the Pod is securely attached to your body.\n\nThe cannula can be inserted only once with each Pod. Tap “Confirm” when Pod is attached." = "Please confirm that the Pod is securely attached to your body.\n\nThe cannula can be inserted only once with each Pod. Tap “Confirm” when Pod is attached.";
+"Please confirm that the Pod is securely attached to your body.\n\nThe cannula can be inserted only once with each Pod. Tap “Confirm” when Pod is attached." = "Bitte bestätige, dass der Pod sicher an deinen Körper angebrachtist.\n\nDie Kanüle kann nur einmal mit jedem Pod eingeführt werden. Tippe auf \"Bestätigen\", wenn der Pod angebracht ist.";
 
 /* Button title for confirm attachment option */
-"Confirm" = "Confirm";
+"Confirm" = "Bestätigen";
 
 /* Label text for step one of insert cannula instructions */
-"Tap below to start cannula insertion." = "Tap below to start cannula insertion.";
+"Tap below to start cannula insertion." = "Tippe unten, um die Kanüleneinführung zu starten.";
 
 /* Label text for step two of insert cannula instructions */
-"Wait until insertion is completed." = "Wait until insertion is completed.";
+"Wait until insertion is completed." = "Warten Sie, bis die Einführung abgeschlossen ist.";
 
 /* Label text indicating insertion finished. */
-"Inserted" = "Inserted";
+"Inserted" = "Eingeführt";
 
 /* Check Cannula */
-"Check Cannula" = "Check Cannula";
+"Check Cannula" = "Kanüle prüfen";
 
 /* */
-"Is the cannula inserted properly?" = "Is the cannula inserted properly?";
+"Is the cannula inserted properly?" = "Ist die Kanüle korrekt eingeführt?";
 
 /* Description of proper cannula insertion */
-"The window on the top of the Pod should be colored pink when the cannula is properly inserted into the skin." = "The window on the top of the Pod should be colored pink when the cannula is properly inserted into the skin.";
+"The window on the top of the Pod should be colored pink when the cannula is properly inserted into the skin." = "Das Fenster oben am Pod sollte rosa gefärbt sein, wenn die Kanüle richtig in die Haut eingeführt wurde.";
 
 /* Button label for user to answer cannula was properly inserted  */
-"Yes" = "Yes";
+"Yes" = "Ja";
 
 /* Button label for user to answer cannula was not properly inserted */
-"No" = "No";
+"No" = "Nein";
 
 /* Pod pairing action button text while pairing */
-"Pairing..." = "Pairing...";
+"Pairing..." = "Kopplung läuft...";
 
 /* Pod pairing action button text while priming */
-"Priming..." = "Priming...";
+"Priming..." = "Vorbereitung...";
 
 /* */
 "Deactivating..." = "Deaktivierung...";
@@ -739,40 +739,40 @@
 "Deactivated" = "Deaktiviert";
 
 /* Format string for instructions for setup complete view. (1: app name) */
-"Your Pod is ready for use.\n\n%1$@ will remind you to change your pod before it expires. You can change this to a time convenient for you." = "Your Pod is ready for use.\n\n%1$@ will remind you to change your pod before it expires. You can change this to a time convenient for you.";
+"Your Pod is ready for use.\n\n%1$@ will remind you to change your pod before it expires. You can change this to a time convenient for you." = "Dein Pod ist einsatzbereit.\n\n%1$@ wird dich daran erinnern, deinen Pod zu ändern, bevor er abläuft. Sie können dies zu einer für Sie passenden Zeit ändern.";
 
 /* */
-"Scheduled Reminder" = "Scheduled Reminder";
+"Scheduled Reminder" = "Erinnerungen festlegen";
 
 /* Label for expiration reminder row */
 "Time" = "Uhrzeit";
 
 /* Action button title to continue at Setup Complete */
-"Finish Setup" = "Finish Setup";
+"Finish Setup" = "Einrichtung abschließen";
 
 /* */
-"Setup Complete" = "Setup Complete";
+"Setup Complete" = "Setup vollständig";
 
 /* Value text for no expiration reminder */
-"No Reminder" = "No Reminder";
+"No Reminder" = "Keine Erinnerung";
 
 /* Error message description for PeripheralManagerError.notReady */
-"Peripheral Not Ready" = "Peripheral Not Ready";
+"Peripheral Not Ready" = "Peripherie nicht bereit";
 
 /* Error message description for PeripheralManagerError.incorrectResponse */
-"Incorrect Response" = "Incorrect Response";
+"Incorrect Response" = "Fehlerhafte Antwort";
 
 /* Error message description for PeripheralManagerError.timeout */
-"Timeout" = "Timeout";
+"Timeout" = "Zeitüberschreitung";
 
 /* Error message description for PeripheralManagerError.emptyValue */
-"Empty Value" = "Empty Value";
+"Empty Value" = "Leerer Wert";
 
 /* Error message description for PeripheralManagerError.unknownCharacteristic */
-"Unknown Characteristic" = "Unknown Characteristic";
+"Unknown Characteristic" = "Unbekannte Eigenschaft";
 
 /* Error message description for PeripheralManagerError.nack */
-"Nack" = "Nack";
+"Nack" = "Fehler in Datenkommunikation";
 
 /* Title for omnipod reminders section */
 "Omnipod Reminders" = "Omnipod Erinnerungen";
@@ -784,7 +784,7 @@
 "This is a reminder that you scheduled when you paired your current Pod." = "Dies ist eine Erinnerung, die du beim Koppeln deines aktuellen Pods erstellt hast.";
 
 /* */
-"Scheduled Reminder" = "Scheduled Reminder";
+"Scheduled Reminder" = "Erinnerungen festlegen";
 
 /* Footer text for low reservoir value row */
 "The App notifies you when the amount of insulin in the Pod reaches this level." = "Die App benachrichtigt dich, wenn die Insulinmenge im Pod diesen Wert erreicht.";
@@ -801,7 +801,7 @@
 "Time" = "Uhrzeit";
 
 /* Value text for no expiration reminder */
-"No Reminder" = "No Reminder";
+"No Reminder" = "Keine Erinnerung";
 
 /* Label for low reservoir reminder row */
 "Low Reservoir Reminder" = "Erinnerung bei niedrigem Füllstand";
@@ -967,7 +967,7 @@
 "Devices" = "Geräte";
 
 /* Navigation title for RileyLinkSetupView" */
-"RileyLink Setup" = "RileyLink Setup";
+"RileyLink Setup" = "RileyLink-Setup";
 
 /* bodyText for RileyLinkSetupView" */
-"RileyLink allows for communication with the pump over Bluetooth" = "RileyLink allows for communication with the pump over Bluetooth";
+"RileyLink allows for communication with the pump over Bluetooth" = "RileyLink ermöglicht Kommunikation zur Pumpe über Bluetooth";
