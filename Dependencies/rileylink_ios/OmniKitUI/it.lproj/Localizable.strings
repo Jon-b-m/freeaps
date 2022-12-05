@@ -685,16 +685,16 @@
 "Remove the pod's needle cap and check cannula. Then remove paper backing." = "Remove the pod's needle cap and check cannula. Then remove paper backing.";
 
 /* Label text for step three of attach pod instructions */
-"Check Pod, apply to site, then confirm pod attachment." = "Check Pod, apply to site, then confirm pod attachment.";
+"Check Pod, apply to site, then confirm pod attachment." = "Controlla il Pod, applica al sito e conferma che il pod è attaccato.";
 
 /* Action button title for attach pod view */
 "Continue" = "Continua";
 
 /* */
-"Attach Pod" = "Attach Pod";
+"Attach Pod" = "Applica pod";
 
 /* Alert title for confirm pod attachment */
-"Confirm Pod Attachment" = "Confirm Pod Attachment";
+"Confirm Pod Attachment" = "Conferma che il pod è attaccato";
 
 /* Alert message body for confirm pod attachment */
 "Please confirm that the Pod is securely attached to your body.\n\nThe cannula can be inserted only once with each Pod. Tap “Confirm” when Pod is attached." = "Please confirm that the Pod is securely attached to your body.\n\nThe cannula can be inserted only once with each Pod. Tap “Confirm” when Pod is attached.";
