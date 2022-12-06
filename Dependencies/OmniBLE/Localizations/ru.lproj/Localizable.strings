@@ -475,7 +475,7 @@
 "Confirm Pod Attachment" = "Подтвердите прикрепление Пода";
 
 /* Alert message body for confirm pod attachment */
-"Please confirm that the Pod is securely attached to your body.\n\nThe cannula can be inserted only once with each Pod. Tap “Confirm” when Pod is attached." = "Пожалуйста, подтвердите, что Под надежно прикреплен к телу.\n\nКанюля может быть вставлена только один раз с каждым Подом. Нажмите \"Подтверждаю\" когда Под будет прикреплен.";
+"Please confirm that the Pod is securely attached to your body.\n\nThe cannula can be inserted only once with each Pod. Tap “Confirm” when Pod is attached." = "Пожалуйста, подтвердите, что Под надежно прикреплен к телу.\n\nКанюля может быть вставлена только один раз с каждым Подом. Нажмите \"Подтверждаю\", когда Под будет прикреплен.";
 
 /* Button title for confirm attachment option */
 "Confirm" = "Подтверждаю";
@@ -532,22 +532,22 @@
 "Setup Complete" = "Настройка завершена";
 
 /* Value text for no expiration reminder */
-"No Reminder" = "No Reminder";
+"No Reminder" = "Не напоминать";
 
 /* Error message description for PeripheralManagerError.notReady */
-"Peripheral Not Ready" = "Peripheral Not Ready";
+"Peripheral Not Ready" = "Периферия не готова";
 
 /* Error message description for PeripheralManagerError.incorrectResponse */
-"Incorrect Response" = "Incorrect Response";
+"Incorrect Response" = "Неверный отклик";
 
 /* Error message description for PeripheralManagerError.timeout */
-"Timeout" = "Timeout";
+"Timeout" = "Время ожидания истекло";
 
 /* Error message description for PeripheralManagerError.emptyValue */
-"Empty Value" = "Empty Value";
+"Empty Value" = "Отсутствует значение";
 
 /* Error message description for PeripheralManagerError.unknownCharacteristic */
-"Unknown Characteristic" = "Unknown Characteristic";
+"Unknown Characteristic" = "Неизвестная характеристика";
 
 /* Error message description for PeripheralManagerError.nack */
 "Nack" = "Nack";
@@ -579,7 +579,7 @@
 "Time" = "Время";
 
 /* Value text for no expiration reminder */
-"No Reminder" = "No Reminder";
+"No Reminder" = "Не напоминать";
 
 /* Label for low reservoir reminder row */
 "Low Reservoir Reminder" = "Low Reservoir Reminder";
