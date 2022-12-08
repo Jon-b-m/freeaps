@@ -1239,7 +1239,7 @@ Enact a temp Basal or a temp target */
 // Dynamic ISF + CR Settings:
 /* Adjust Dynamic ISF constant */
 
-"Adjust Dynamic ISF constant" = "Adjust Dynamic ISF constant";
+"Adjust Dynamic ISF constant" = "Dinamik İDF sabitini ayarla";
 
 /* Enable Dynamic ISF, Headline */
 "Enable Dynamif ISF" = "Enable Dynamif ISF";
