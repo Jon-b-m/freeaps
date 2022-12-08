@@ -435,16 +435,16 @@
 "Comms Issue" = "Comms Issue";
 
 /* */
-"Finish Pairing" = "Finish Pairing";
+"Finish Pairing" = "Завершить сопряжение";
 
 /* Status highlight that when pod is deactivating */
-"Finish Deactivation" = "Finish Deactivation";
+"Finish Deactivation" = "Завершить деактивацию";
 
 /* Status highlight that when no pod is paired. */
 "No Pod" = "Нет пода";
 
 /* Status highlight message for emptyReservoir alarm. */
-"No Insulin" = "No Insulin";
+"No Insulin" = "Нет инсулина";
 
 /* Status highlight message for podExpired alarm. */
 "Pod Expired" = "Истёк срок действия пода";
@@ -456,7 +456,7 @@
 "Pod Error" = "Pod Error";
 
 /* Status highlight that a pump is out of insulin. */
-"No Insulin" = "No Insulin";
+"No Insulin" = "Нет инсулина";
 
 /* Status highlight that insulin delivery was suspended. */
 "Insulin Suspended" = "Insulin Suspended";
