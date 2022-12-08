@@ -969,7 +969,7 @@ Enact a temp Basal or a temp target */
 "Manual" = "Manual";
 
 /* Status highlight when manual temp basal is running. */
-"Manual Basal" = "Manual Basal";
+"Manual Basal" = "Ручная ВБС";
 
 /* Current Manual Temp basal */
 " -  Manual Basal ⚠️" = " -  Manual Basal ⚠️";
@@ -1104,7 +1104,7 @@ Enact a temp Basal or a temp target */
 "Setup Complete" = "Настройка завершена";
 
 /* */
-"Insulin Suspended" = "Insulin Suspended";
+"Insulin Suspended" = "Подача приостановлена";
 
 /* Text for suspend resume button when insulin delivery is suspending */
 "Suspending insulin delivery..." = "Suspending insulin delivery...";
@@ -1116,7 +1116,7 @@ Enact a temp Basal or a temp target */
 "Resuming insulin delivery..." = "Resuming insulin delivery...";
 
 /* Alert title for suspend error */
-"Failed to Suspend Insulin Delivery" = "Failed to Suspend Insulin Delivery";
+"Failed to Suspend Insulin Delivery" = "Не удалось приостановить подачу инсулина";
 
 /* --------------------------------------
 
