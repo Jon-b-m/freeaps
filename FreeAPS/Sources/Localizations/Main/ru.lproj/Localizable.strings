@@ -426,7 +426,7 @@ Enact a temp Basal or a temp target */
 " min" = " мин";
 
 /* */
-"Unable to change anything" = "Unable to change anything";
+"Unable to change anything" = "Не удалось ничего изменить";
 
 
 /* Calendar and Libre transmitter settings ---------------
@@ -966,19 +966,19 @@ Enact a temp Basal or a temp target */
 "Error" = "Ошибка";
 
 /* Manual temp basal mode */
-"Manual" = "Manual";
+"Manual" = "Ручной режим";
 
 /* Status highlight when manual temp basal is running. */
 "Manual Basal" = "Ручная ВБС";
 
 /* Current Manual Temp basal */
-" -  Manual Basal ⚠️" = " -  Manual Basal ⚠️";
+" -  Manual Basal ⚠️" = " -  Ручная ВБС ⚠️";
 
 /* Total AT / Scheduled basal insulin */
-" U/day" = " U/day";
+" U/day" = " Ед./день";
 
 /* Total AT / Scheduled basal insulin */
-"Total" = "Total";
+"Total" = "Всего";
 
 /* ---------------------------------------
   DASH strings
@@ -1068,19 +1068,19 @@ Enact a temp Basal or a temp target */
 "Set Temporary Basal" = "Set Temporary Basal";
 
 /* Navigation Title for ManualTempBasalEntryView */
-"Temporary Basal" = "Temporary Basal";
+"Temporary Basal" = "Временный базал";
 
 /* Alert title for a failure to set temporary basal */
-"Temporary Basal Failed" = "Temporary Basal Failed";
+"Temporary Basal Failed" = "Не удалось установить базал";
 
 /* Alert format string for a failure to set temporary basal with recovery suggestion. (1: error description) (2: recovery text) */
-"Unable to set a temporary basal rate: %1$@\n\n%2$@" = "Unable to set a temporary basal rate: %1$@\n\n%2$@";
+"Unable to set a temporary basal rate: %1$@\n\n%2$@" = "Не удалось установить ВБС: %1$@\n\n%2$@";
 
 /* Alert format string for a failure to set temporary basal. (1: error description) */
-"Unable to set a temporary basal rate: %1$@" = "Unable to set a temporary basal rate: %1$@";
+"Unable to set a temporary basal rate: %1$@" = "Не удалось установить ВБС: %1$@";
 
 /* Alert title for missing temp basal configuration */
-"Missing Config" = "Missing Config";
+"Missing Config" = "Отсутствует конфигурация";
 
 /* Alert format string for missing temp basal configuration. */
 "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate." = "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate.";
@@ -1092,7 +1092,7 @@ Enact a temp Basal or a temp target */
 "Total Delivery" = "Всего доставлено";
 
 /* */
-"Add Omnipod Dash" = "Add Omnipod Dash";
+"Add Omnipod Dash" = "Добавить Omnipod Dash";
 
 /* */
 "Insert Cannula" = "Вставьте катетер";
@@ -1107,13 +1107,13 @@ Enact a temp Basal or a temp target */
 "Insulin Suspended" = "Подача приостановлена";
 
 /* Text for suspend resume button when insulin delivery is suspending */
-"Suspending insulin delivery..." = "Suspending insulin delivery...";
+"Suspending insulin delivery..." = "Приостановка подачи инсулина...";
 
 /* Text for suspend resume button when insulin delivery is suspended */
-"Resume Insulin Delivery" = "Resume Insulin Delivery";
+"Resume Insulin Delivery" = "Возобновить подачу инсулина";
 
 /* Text for suspend resume button when insulin delivery is resuming */
-"Resuming insulin delivery..." = "Resuming insulin delivery...";
+"Resuming insulin delivery..." = "Возобновление подачи инсулина...";
 
 /* Alert title for suspend error */
 "Failed to Suspend Insulin Delivery" = "Не удалось приостановить подачу инсулина";
