@@ -839,9 +839,9 @@
 "%1$@ for %2$@" = "%1$@ на %2$@";
 
 /* Description text on manual temp basal action sheet */
-"Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled.";
+"Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "Петля не будет автоматически изменять подачу инсулина, пока Временная Базальная Скорость не завершится, либо не будет отменена пользователем.";
 /* Button text for setting manual temporary basal rate*/
-"Set Temporary Basal" = "Set Temporary Basal";
+"Set Temporary Basal" = "Установить Временный Базал";
 
 /* Navigation Title for ManualTempBasalEntryView */
 "Temporary Basal" = "Временный базал";
@@ -859,7 +859,7 @@
 "Missing Config" = "Отсутствует конфигурация";
 
 /* Alert format string for missing temp basal configuration. */
-"This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate." = "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate.";
+"This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate." = "Помощник настройки помпы не был сконфигурирован относительно максимального уровня базала. Пожалуйста, перейдите в \"Настройки помпы\" -> \"Предел подачи\" и установите новый максимальный уровень базала.";
 
 /* Label text for expiration reminder default row */
 "Expiration Reminder Default" = "Напоминание об истечении срока";
