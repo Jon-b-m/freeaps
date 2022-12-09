@@ -655,7 +655,7 @@
 "Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Замените Под. Подача инсулина будет остановлена спустя 8 часов после истечения срока действия Пода, либо когда резервуар будет пуст.";
 
 /* Label text for step 2 of pair pod instructions */
-"Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing.";
+"Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Заполните новый под инсулином (оставьте защитную крышку Пода). Держите Райли примерно в 15 см от Пода в процессе сопряжения.";
 
 /* Label text for step 2 of pair pod instructions */
 "Listen for 2 beeps." = "Прослушайте 2 звуковых сигнала.";
@@ -682,7 +682,7 @@
 "Prepare site." = "Подготовьте место.";
 
 /* Label text for step two of attach pod instructions */
-"Remove the pod's needle cap and check cannula. Then remove paper backing." = "Remove the pod's needle cap and check cannula. Then remove paper backing.";
+"Remove the pod's needle cap and check cannula. Then remove paper backing." = "Удалите синюю крышку иглы Пода и проверьте канюлю. Затем удалите защитные пленки.";
 
 /* Label text for step three of attach pod instructions */
 "Check Pod, apply to site, then confirm pod attachment." = "Проверьте Под, установите его на теле, затем подтвердите установку Пода.";
@@ -778,7 +778,7 @@
 "Omnipod Reminders" = "Напоминания Omnipod";
 
 /* Footer text for omnipod reminders section */
-"The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod." = "Настройте напоминание, чтобы заранее получить уведомление об истечении срока действия Пода. Задайте количество часов до уведомления, которое Вы хотели бы указать при сопряжении с новым Подом.";
+"The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod." = "Настройте напоминание, чтобы заранее получить уведомление об истечении срока действия Пода. Укажите за сколько часов до истечения срока действия Пода получать уведомление, при сопряжении с новым Подом.";
 
 /* Footer text for scheduled reminder area */
 "This is a reminder that you scheduled when you paired your current Pod." = "Это напоминание, которое Вы запланировали, когда установили сопряжение с текущим Подом.";
@@ -844,19 +844,19 @@
 "Set Temporary Basal" = "Set Temporary Basal";
 
 /* Navigation Title for ManualTempBasalEntryView */
-"Temporary Basal" = "Temporary Basal";
+"Temporary Basal" = "Временный базал";
 
 /* Alert title for a failure to set temporary basal */
-"Temporary Basal Failed" = "Temporary Basal Failed";
+"Temporary Basal Failed" = "Не удалось установить базал";
 
 /* Alert format string for a failure to set temporary basal with recovery suggestion. (1: error description) (2: recovery text) */
-"Unable to set a temporary basal rate: %1$@\n\n%2$@" = "Unable to set a temporary basal rate: %1$@\n\n%2$@";
+"Unable to set a temporary basal rate: %1$@\n\n%2$@" = "Не удалось установить ВБС: %1$@\n\n%2$@";
 
 /* Alert format string for a failure to set temporary basal. (1: error description) */
-"Unable to set a temporary basal rate: %1$@" = "Unable to set a temporary basal rate: %1$@";
+"Unable to set a temporary basal rate: %1$@" = "Не удалось установить ВБС: %1$@";
 
 /* Alert title for missing temp basal configuration */
-"Missing Config" = "Missing Config";
+"Missing Config" = "Отсутствует конфигурация";
 
 /* Alert format string for missing temp basal configuration. */
 "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate." = "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate.";
@@ -922,13 +922,13 @@
 "The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have." = "Приложение заранее оповестит Вас об истечении срока действия Пода.\n\nПрокрутите, чтобы установить количество часов до такого оповещения.";
 
 /* Text of continue button on ExpirationReminderSetupView" */
-"Next" = "Next";
+"Next" = "Далее";
 
 /* */
 "Expiration Reminder" = "Напоминание об истечении срока";
 
 /* Description text on LowReservoirReminderSetupView */
-"The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded." = "The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded.";
+"The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded." = "Приложение оповестит Вас, когда количество инсулина в Поде достигнет этого уровеня (50-10 Ед.).\n\nПрокрутите, чтобы установить количество единиц для напоминания.";
 
 /* Label text for low reservoir value row */
 "Low Reservoir" = "В резервуаре мало инсулина";
@@ -937,37 +937,37 @@
 "Save" = "Сохранить";
 
 /* hr (short for hour) */
-"hr" = "hr";
+"hr" = "ч";
 
 /* Button title to cancel manual basal */
-"Cancel Manual Basal" = "Cancel Manual Basal";
+"Cancel Manual Basal" = "Отменить Ручной Базал";
 
 /* Text shown in insulin delivery space when insulin suspended */
-"Insulin\nSuspended" = "Insulin\nSuspended";
+"Insulin\nSuspended" = "Подача\nПриостановлена";
 
 /* Text for suspend resume button when insulin delivery is suspended */
-"Resume Insulin Delivery" = "Resume Insulin Delivery";
+"Resume Insulin Delivery" = "Возобновить подачу инсулина";
 
 /* Recovery suggestion when no pod is available */
-"Make sure your pod is nearby and try again." = "Make sure your pod is nearby and try again.";
+"Make sure your pod is nearby and try again." = "Убедитесь, что Ваш Под поблизости и попробуйте снова.";
 
 /* Error message shown when the pod is not connected */
-"Pod not connected" = "Pod not connected";
+"Pod not connected" = "Под не подключен";
 
 /* Label for suspended at time */
-"Suspended At" = "Suspended At";
+"Suspended At" = "Приостановлено в";
 
 /* Text for suspend resume button when insulin delivery is resuming */
-"Resuming insulin delivery..." = "Resuming insulin delivery...";
+"Resuming insulin delivery..." = "Возобновление подачи инсулина...";
 
 /* Text for suspend resume button when insulin delivery is suspending */
-"Suspending insulin delivery..." = "Suspending insulin delivery...";
+"Suspending insulin delivery..." = "Приостановка подачи инсулина...";
 
 /* Header for devices section of RileyLinkSetupView */
 "Devices" = "Устройства";
 
 /* Navigation title for RileyLinkSetupView" */
-"RileyLink Setup" = "RileyLink Setup";
+"RileyLink Setup" = "Настройка RileyLink";
 
 /* bodyText for RileyLinkSetupView" */
-"RileyLink allows for communication with the pump over Bluetooth" = "RileyLink allows for communication with the pump over Bluetooth";
+"RileyLink allows for communication with the pump over Bluetooth" = "RileyLink позволяет вести коммуникацию с помпой через Bluetooth Low Energy";
