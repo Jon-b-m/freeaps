@@ -582,30 +582,30 @@
 "No Reminder" = "Не напоминать";
 
 /* Label for low reservoir reminder row */
-"Low Reservoir Reminder" = "Low Reservoir Reminder";
+"Low Reservoir Reminder" = "Напоминание об уровне резервуара";
 
 /* The action string on pod status page when pod data is stale */
-"Make sure your phone and pod are close to each other. If communication issues persist, move to a new area." = "Make sure your phone and pod are close to each other. If communication issues persist, move to a new area.";
+"Make sure your phone and pod are close to each other. If communication issues persist, move to a new area." = "Убедитесь, что Ваш телефон и Под рядом друг с другом. Если проблемы сохранятся, переместитесь в другое помещение.";
 /* Format string for the action string on pod status page when pod expired. (1: service time remaining) */
-"Change Pod now. Insulin delivery will stop in %1$@ or when no more insulin remains." = "Change Pod now. Insulin delivery will stop in %1$@ or when no more insulin remains.";
+"Change Pod now. Insulin delivery will stop in %1$@ or when no more insulin remains." = "Замените Под сейчас. Подача инсулина будет остановлена спустя %1$@, либо когда резервуар будет пуст.";
 
 /* Title string for BeepPreference.silent */
-"Disabled" = "Disabled";
+"Disabled" = "Отключены";
 
 /* Title string for BeepPreference.manualCommands */
 "Enabled" = "Активировано";
 
 /* Title string for BeepPreference.extended */
-"Extended" = "Extended";
+"Extended" = "Расширенные";
 
 /* Description for BeepPreference.silent */
-"No confidence reminders are used." = "No confidence reminders are used.";
+"No confidence reminders are used." = "Доверенные звуковые сигналы не используются.";
 
 /* Description for BeepPreference.manualCommands */
-"Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When Loop automatically adjusts delivery, no confidence reminders are used." = "Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When Loop automatically adjusts delivery, no confidence reminders are used.";
+"Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When Loop automatically adjusts delivery, no confidence reminders are used." = "Доверенные звуковые сигналы сработают для операций, которые Вы инициируете - Болюс, Отмена Болюса, Приостановка подачи, Возобновление подачи, Сохранение напоминаний и т.д. Когда петля автоматически меняет подачу инсулина - звуковые сигналы не используются.";
 
 /* Description for BeepPreference.extended */
-"Confidence reminders will sound when Loop automatically adjusts delivery as well as for commands you initiate." = "Confidence reminders will sound when Loop automatically adjusts delivery as well as for commands you initiate.";
+"Confidence reminders will sound when Loop automatically adjusts delivery as well as for commands you initiate." = "Доверенные звуковые сигналы сработают даже тогда, когда петля автоматически изменит подачу инсулина, а также для команд, которые Вы инициируете.";
 
 /* Label text for temporary basal rate summary */
 "Rate" = "Скорость";
@@ -614,7 +614,7 @@
 "U/hr" = "Ед/ч";
 
 /* Summary string for temporary basal rate configuration page */
-"%1$@ for %2$@" = "%1$@ for %2$@";
+"%1$@ for %2$@" = "%1$@ на %2$@";
 
 /* Description text on manual temp basal action sheet */
 "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled.";
@@ -640,7 +640,7 @@
 "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate." = "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate.";
 
 /* Label text for expiration reminder default row */
-"Expiration Reminder Default" = "Expiration Reminder Default";
+"Expiration Reminder Default" = "Напоминание об истечении срока";
 
 /* Text for previous pod information row */
 "Previous Pod Information" = "Информация о предыдущем Поде";
