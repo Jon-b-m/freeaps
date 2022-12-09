@@ -903,7 +903,7 @@ Enact a temp Basal or a temp target */
 " day(s)" = "дн.";
 
 /* Option to show HR in Watch app*/
-"Display HR on Watch" = "Display HR on Watch";
+"Display HR on Watch" = "Отображать HR на часах";
 
 
 /* Headers for settings ----------------------- */
@@ -988,12 +988,12 @@ Enact a temp Basal or a temp target */
 "Deactivate Pod" = "Деактивировать Pod";
 
 /* */
-"Deactivating..." = "Deactivating...";
+"Deactivating..." = "Деактивация...";
 
 "Pair Pod" = "Сопряжение пода";
 
 /* Text for previous pod information row */
-"Previous Pod Information" = "Previous Pod Information";
+"Previous Pod Information" = "Информация о предыдущем Поде";
 
 /* Text for confidence reminders navigation link */
 "Confidence Reminders" = "Напоминания о верификации";
