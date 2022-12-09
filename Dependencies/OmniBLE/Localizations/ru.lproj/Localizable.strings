@@ -556,7 +556,7 @@
 "Omnipod Reminders" = "Напоминания Omnipod";
 
 /* Footer text for omnipod reminders section */
-"The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod." = "Настройте напоминание, чтобы заранее получить уведомление об истечении срока действия Пода. Задайте количество часов до уведомления, которое Вы хотели бы указать при сопряжении с новым Подом.";
+"The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod." = "Настройте напоминание, чтобы заранее получить уведомление об истечении срока действия Пода. Укажите за сколько часов до истечения срока действия Пода получать уведомление, при сопряжении с новым Подом.";
 
 /* Footer text for scheduled reminder area */
 "This is a reminder that you scheduled when you paired your current Pod." = "Это напоминание, которое Вы запланировали, когда установили сопряжение с текущим Подом.";
@@ -622,19 +622,19 @@
 "Set Temporary Basal" = "Set Temporary Basal";
 
 /* Navigation Title for ManualTempBasalEntryView */
-"Temporary Basal" = "Temporary Basal";
+"Temporary Basal" = "Временный базал";
 
 /* Alert title for a failure to set temporary basal */
-"Temporary Basal Failed" = "Temporary Basal Failed";
+"Temporary Basal Failed" = "Не удалось установить базал";
 
 /* Alert format string for a failure to set temporary basal with recovery suggestion. (1: error description) (2: recovery text) */
-"Unable to set a temporary basal rate: %1$@\n\n%2$@" = "Unable to set a temporary basal rate: %1$@\n\n%2$@";
+"Unable to set a temporary basal rate: %1$@\n\n%2$@" = "Не удалось установить ВБС: %1$@\n\n%2$@";
 
 /* Alert format string for a failure to set temporary basal. (1: error description) */
-"Unable to set a temporary basal rate: %1$@" = "Unable to set a temporary basal rate: %1$@";
+"Unable to set a temporary basal rate: %1$@" = "Не удалось установить ВБС: %1$@";
 
 /* Alert title for missing temp basal configuration */
-"Missing Config" = "Missing Config";
+"Missing Config" = "Отсутствует конфигурация";
 
 /* Alert format string for missing temp basal configuration. */
 "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate." = "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate.";
@@ -700,13 +700,13 @@
 "The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have." = "Приложение заранее оповестит Вас об истечении срока действия Пода.\n\nПрокрутите, чтобы установить количество часов до такого оповещения.";
 
 /* Text of continue button on ExpirationReminderSetupView" */
-"Next" = "Next";
+"Next" = "Далее";
 
 /* */
 "Expiration Reminder" = "Напоминание об истечении срока";
 
 /* Description text on LowReservoirReminderSetupView */
-"The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded." = "The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded.";
+"The App notifies you when the amount of insulin in the Pod reaches this level (50-10 U).\n\nScroll to set the number of units at which you would like to be reminded." = "Приложение оповестит Вас, когда количество инсулина в Поде достигнет этого уровеня (50-10 Ед.).\n\nПрокрутите, чтобы установить количество единиц для напоминания.";
 
 /* Label text for low reservoir value row */
 "Low Reservoir" = "В резервуаре мало инсулина";
@@ -715,70 +715,70 @@
 "Save" = "Сохранить";
 
 /* hr (short for hour) */
-"hr" = "hr";
+"hr" = "ч";
 
 /* Button title to cancel manual basal */
-"Cancel Manual Basal" = "Cancel Manual Basal";
+"Cancel Manual Basal" = "Отменить Ручной Базал";
 
 /* Text shown in insulin delivery space when insulin suspended */
-"Insulin\nSuspended" = "Insulin\nSuspended";
+"Insulin\nSuspended" = "Подача\nПриостановлена";
 
 /* Text for suspend resume button when insulin delivery is suspended */
-"Resume Insulin Delivery" = "Resume Insulin Delivery";
+"Resume Insulin Delivery" = "Возобновить подачу инсулина";
 
 /* Recovery suggestion when no pod is available */
-"Make sure your pod is nearby and try again." = "Make sure your pod is nearby and try again.";
+"Make sure your pod is nearby and try again." = "Убедитесь, что Ваш Под поблизости и попробуйте снова.";
 
 /* Error message shown when the pod is not connected */
-"Pod not connected" = "Pod not connected";
+"Pod not connected" = "Под не подключен";
 
 /* Label for suspended at time */
-"Suspended At" = "Suspended At";
+"Suspended At" = "Приостановлено в";
 
 /* Text for suspend resume button when insulin delivery is resuming */
-"Resuming insulin delivery..." = "Resuming insulin delivery...";
+"Resuming insulin delivery..." = "Возобновление подачи инсулина...";
 
 /* Text for suspend resume button when insulin delivery is suspending */
-"Suspending insulin delivery..." = "Suspending insulin delivery...";
+"Suspending insulin delivery..." = "Приостановка подачи инсулина...";
 
 /* Error message for PodCommsError.noPodsFound */
-"No pods found" = "No pods found";
+"No pods found" = "Поды не найдены";
 
 /* Error message for PodCommsError.tooManyPodsFound */
-"Too many pods found" = "Too many pods found";
+"Too many pods found" = "Найдено слишком много подов";
 
 /* Recovery suggestion when no response is received from pod */
-"Make sure iPhone is nearby the active pod" = "Make sure iPhone is nearby the active pod";
+"Make sure iPhone is nearby the active pod" = "Убедитесь, что iPhone находится рядом с активным Подом";
 
 /* Recovery suggestion when ack received instead of response */
-"Try again" = "Try again";
+"Try again" = "Попробуйте снова";
 
 /* Recovery suggestion for PodCommsError.tooManyPodsFound */
-"Move to a new area away from any other pods and try again." = "Move to a new area away from any other pods and try again.";
+"Move to a new area away from any other pods and try again." = "Переместитесь в другое помещение подальше любых других Подов и попробуйте снова.";
 
 /* Recovery suggestion for PodCommsError.noPodsFound */
-"Make sure your pod is filled and nearby." = "Make sure your pod is filled and nearby.";
+"Make sure your pod is filled and nearby." = "Убедитесь, что Под заполнен и поблизости.";
 
 /* Recovery suggestion when pairing signal strength is too high */
-"Please reposition iPhone further from the pod" = "Please reposition iPhone further from the pod";
+"Please reposition iPhone further from the pod" = "Пожалуйста, переместите iPhone подальше от Пода";
 
 /* Recovery suggestion when pairing signal strength is too low */
-"Please reposition iPhone relative to the pod" = "Please reposition iPhone relative to the pod";
+"Please reposition iPhone relative to the pod" = "Пожалуйста, переместите iPhone относительно Пода";
 
 /* Recovery suggestion on unexpected pod change */
-"Please bring only original pod in range or deactivate original pod" = "Please bring only original pod in range or deactivate original pod";
+"Please bring only original pod in range or deactivate original pod" = "Пожалуйста, держите только исходный Под в зоне действия или деактивируйте оригинальный Под";
 
 /* Recovery suggestion when unexpected address received */
-"Crosstalk possible. Please move to a new location" = "Crosstalk possible. Please move to a new location";
+"Crosstalk possible. Please move to a new location" = "Возможна коммуникация с чужой помпой. Пожалуйста, переместитесь в новое место";
 
 /* Recovery suggestion when no pod is available */
-"Make sure your pod is nearby and try again." = "Make sure your pod is nearby and try again.";
+"Make sure your pod is nearby and try again." = "Убедитесь, что Ваш Под поблизости и попробуйте снова.";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
-"Wait for existing bolus to finish, or cancel bolus" = "Wait for existing bolus to finish, or cancel bolus";
+"Wait for existing bolus to finish, or cancel bolus" = "Дождитесь окончания болюса или отмените его";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
-"Wait for existing bolus to finish, or cancel bolus" = "Wait for existing bolus to finish, or cancel bolus";
+"Wait for existing bolus to finish, or cancel bolus" = "Дождитесь окончания болюса или отмените его";
 
 /* Recovery suggestion when operation could not be completed due to existing temp basal in progress */
-"Wait for existing temp basal to finish, or suspend to cancel" = "Wait for existing temp basal to finish, or suspend to cancel";
+"Wait for existing temp basal to finish, or suspend to cancel" = "Дождитесь окончания текущего временного базала или отмените его";
