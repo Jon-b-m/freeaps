@@ -511,7 +511,7 @@
 "Priming..." = "Заправка...";
 
 /* */
-"Deactivating..." = "Deactivating...";
+"Deactivating..." = "Деактивация...";
 
 /* Pod state when pod has been deactivated */
 "Deactivated" = "Деактивирован";
@@ -643,7 +643,7 @@
 "Expiration Reminder Default" = "Expiration Reminder Default";
 
 /* Text for previous pod information row */
-"Previous Pod Information" = "Previous Pod Information";
+"Previous Pod Information" = "Информация о предыдущем Поде";
 
 /* Text shown in insulin remaining space when no pod is paired (Please keep the '\n' while translating!) */
 "No\nDelivery" = "Нет\nПодачи";
