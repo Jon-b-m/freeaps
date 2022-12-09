@@ -998,7 +998,7 @@ Enact a temp Basal or a temp target */
 /* Text for confidence reminders navigation link */
 "Confidence Reminders" = "Напоминания о верификации";
 
-"Confidence reminders are beeps from the pod which can be used to acknowledge selected commands." = "Confidence reminders are beeps from the pod which can be used to acknowledge selected commands.";
+"Confidence reminders are beeps from the pod which can be used to acknowledge selected commands." = "Доверенные звуковые сигналы от Пода, которые позволяют распознать выбранные команды.";
 
 /* button title for saving low reservoir reminder while saving */
 "Saving..." = "Сохранение...";
@@ -1007,34 +1007,34 @@ Enact a temp Basal or a temp target */
 "Save" = "Сохранить";
 
 /* Alert title for error when updating confidence reminder preference */
-"Failed to update confidence reminder preference." = "Failed to update confidence reminder preference.";
+"Failed to update confidence reminder preference." = "Не удалось обновить настройки доверенных звуковых сигналов.";
 
 /* */
-"No Error" = "No Error";
+"No Error" = "Нет ошибки";
 
 /* description label for active time pod details row */
 "Active Time" = "Активирован в";
 
 /* Title string for BeepPreference.silent */
-"Disabled" = "Disabled";
+"Disabled" = "Отключены";
 
 /* Title string for BeepPreference.manualCommands */
 "Enabled" = "Активировано";
 
 /* Title string for BeepPreference.extended */
-"Extended" = "Extended";
+"Extended" = "Расширенные";
 
 /* Description for BeepPreference.silent */
-"No confidence reminders are used." = "No confidence reminders are used.";
+"No confidence reminders are used." = "Доверенные звуковые сигналы не используются.";
 
 /* Description for BeepPreference.manualCommands */
-"Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When Loop automatically adjusts delivery, no confidence reminders are used." = "Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When Loop automatically adjusts delivery, no confidence reminders are used.";
+"Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When Loop automatically adjusts delivery, no confidence reminders are used." = "Доверенные звуковые сигналы сработают для операций, которые Вы инициируете - Болюс, Отмена Болюса, Приостановка подачи, Возобновление подачи, Сохранение напоминаний и т.д. Когда петля автоматически меняет подачу инсулина - звуковые сигналы не используются.";
 
 /* Description for BeepPreference.extended */
-"Confidence reminders will sound when Loop automatically adjusts delivery as well as for commands you initiate." = "Confidence reminders will sound when Loop automatically adjusts delivery as well as for commands you initiate.";
+"Confidence reminders will sound when Loop automatically adjusts delivery as well as for commands you initiate." = "Доверенные звуковые сигналы сработают даже тогда, когда петля автоматически изменит подачу инсулина, а также для команд, которые Вы инициируете.";
 
 /* Label text for expiration reminder default row */
-"Expiration Reminder Default" = "Expiration Reminder Default";
+"Expiration Reminder Default" = "Напоминание об истечении срока";
 
 /* */
 "Expiration Reminder" = "Напоминание об истечении срока";
@@ -1049,18 +1049,18 @@ Enact a temp Basal or a temp target */
 "Scheduled Reminder" = "Запланировать напоминание";
 
 /* */
-"Low Reservoir Reminder" = "Low Reservoir Reminder";
+"Low Reservoir Reminder" = "Напоминание об уровне резервуара";
 
 /* The action string on pod status page when pod data is stale */
-"Make sure your phone and pod are close to each other. If communication issues persist, move to a new area." = "Make sure your phone and pod are close to each other. If communication issues persist, move to a new area.";
+"Make sure your phone and pod are close to each other. If communication issues persist, move to a new area." = "Убедитесь, что Ваш телефон и Под рядом друг с другом. Если проблемы сохранятся, переместитесь в другое помещение.";
 /* Format string for the action string on pod status page when pod expired. (1: service time remaining) */
-"Change Pod now. Insulin delivery will stop in %1$@ or when no more insulin remains." = "Change Pod now. Insulin delivery will stop in %1$@ or when no more insulin remains.";
+"Change Pod now. Insulin delivery will stop in %1$@ or when no more insulin remains." = "Замените Под сейчас. Подача инсулина будет остановлена спустя %1$@, либо когда резервуар будет пуст.";
 
 /* Label text for temporary basal rate summary */
 "Rate" = "Скорость";
 
 /* Summary string for temporary basal rate configuration page */
-"%1$@ for %2$@" = "%1$@ for %2$@";
+"%1$@ for %2$@" = "%1$@ на %2$@";
 
 /* Description text on manual temp basal action sheet */
 "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled.";
