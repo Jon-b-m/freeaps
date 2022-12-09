@@ -432,7 +432,7 @@
 "Omnipod" = "Omnipod";
 
 /* Status highlight that delivery is uncertain. */
-"Comms Issue" = "Comms Issue";
+"Comms Issue" = "Проблемы с сообщением";
 
 /* */
 "Finish Pairing" = "Завершить сопряжение";
@@ -471,13 +471,13 @@
 "Insert Cannula" = "Вставьте катетер";
 
 /* Cannula insertion button text while inserting */
-"Inserting..." = "Inserting...";
+"Inserting..." = "Введение...";
 
 /* Cannula insertion button text while showing error */
 "Retry" = "Повторить";
 
 /* Cannula insertion button text while checking insertion */
-"Checking..." = "Checking...";
+"Checking..." = "Проверка...";
 
 /* */
 "Check cannula insertion finished" = "Проверьте - завершилось ли введение канюли";
@@ -492,28 +492,28 @@
 "Save basal profile failed: %{public}@" = "Базальный профиль не сохранен: %{public}@";
 
 /* */
-"Skipping Play Test Beeps due to bolus still in progress." = "Skipping Play Test Beeps due to bolus still in progress.";
+"Skipping Play Test Beeps due to bolus still in progress." = "Пропуск звуковых тестовых сигналов, пока идет болюс.";
 
 /* */
 "Play Test Beeps" = "Включить проверку сигналов";
 
 /* */
-"Skipping Read Pulse Log due to bolus still in progress." = "Skipping Read Pulse Log due to bolus still in progress.";
+"Skipping Read Pulse Log due to bolus still in progress." = "Пропуск чтения журнала пульса, пока идет болюс.";
 
 /* */
 "Read Pulse Log" = "Читать журнал сигналов";
 
 /* */
-"Set Confirmation Beeps to %s" = "Set Confirmation Beeps to %s";
+"Set Confirmation Beeps to %s" = "Задать подтверждающие сигналы на %s";
 
 /* */
-"Set Confirmation Beeps Preference" = "Set Confirmation Beeps Preference";
+"Set Confirmation Beeps Preference" = "Настройка подтверждающих звуковых сигналов";
 
 /* */
 "Suspend" = "Остановка";
 
 /* */
-"Failed to suspend: %{public}@" = "Failed to suspend: %{public}@";
+"Failed to suspend: %{public}@" = "Не удалось приостановить подачу: %{public}@";
 
 /* */
 "Resume" = "Возобновление";
@@ -637,7 +637,7 @@
 "Continue" = "Продолжить";
 
 /* Format string for recovery suggestion during deactivate pod. */
-"There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod." = "There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod.";
+"There was a problem communicating with the pod. If this problem persists, tap Discard Pod. You can then activate a new Pod." = "Возникла проблема связи с Подом. Если эта проблема сохраняется, нажмите Отменить Под. Затем, Вы можете активировать новый.";
 
 /* Text for discard pod button */
 "Discard Pod" = "Отклонить под";
@@ -646,19 +646,19 @@
 "Remove Pod from Body" = "Удалить под из тела";
 
 /* Alert message body for confirm pod attachment */
-"Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“" = "Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“";
+"Your Pod may still be delivering Insulin.\nRemove it from your body, then tap “Continue.“" = "Ваш Под все еще может доставлять инсулин.\nСнимите его с тела, затем нажмите - \"Продолжить.\"";
 
 /* Insulin Unit */
 "U" = "Ед";
 
 /* The action string on pod status page when pod expired */
-"Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains.";
+"Change Pod now. Insulin delivery will stop 8 hours after the Pod has expired or when no more insulin remains." = "Замените Под. Подача инсулина будет остановлена спустя 8 часов после истечения срока действия Пода, либо когда резервуар будет пуст.";
 
 /* Label text for step 2 of pair pod instructions */
 "Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing." = "Fill a new pod with U-100 Insulin (leave Pod needle cap on). Keep the RileyLink about 6 inches from the pod during pairing.";
 
 /* Label text for step 2 of pair pod instructions */
-"Listen for 2 beeps." = "Listen for 2 beeps.";
+"Listen for 2 beeps." = "Прослушайте 2 звуковых сигнала.";
 
 /* Label text indicating pairing finished.*/
 "Paired" = "Сопряжен";
@@ -667,16 +667,16 @@
 "Cancel" = "Отмена";
 
 /* Alert title for cancel pairing modal */
-"Are you sure you want to cancel Pod setup?" = "Are you sure you want to cancel Pod setup?";
+"Are you sure you want to cancel Pod setup?" = "Вы уверены, что хотите отменить установку Пода?";
 
 /* Alert message body for confirm pod attachment */
-"If you cancel Pod setup, the current Pod will be deactivated and will be unusable." = "If you cancel Pod setup, the current Pod will be deactivated and will be unusable.";
+"If you cancel Pod setup, the current Pod will be deactivated and will be unusable." = "Если отменить установку Пода, текущий Под будет деактивирован и его невозможно будет использовать.";
 
 /* Button title for confirm deactivation option */
-"Yes, Deactivate Pod" = "Yes, Deactivate Pod";
+"Yes, Deactivate Pod" = "Да, деактивировать Под";
 
 /* Continue pairing button title of in pairing cancel modal */
-"No, Continue With Pod" = "No, Continue With Pod";
+"No, Continue With Pod" = "Нет, продолжить с текущим Подом";
 
 /* Label text for step one of attach pod instructions */
 "Prepare site." = "Подготовьте место.";
@@ -736,7 +736,7 @@
 "Deactivating..." = "Deactivating...";
 
 /* Pod state when pod has been deactivated */
-"Deactivated" = "Deactivated";
+"Deactivated" = "Деактивирован";
 
 /* Format string for instructions for setup complete view. (1: app name) */
 "Your Pod is ready for use.\n\n%1$@ will remind you to change your pod before it expires. You can change this to a time convenient for you." = "Ваш Под готов к использованию.\n\n%1$@ напомнит Вам поменять Под до истечения срока его использования. Можно изменить это время на удобное для Вас.";
@@ -775,25 +775,25 @@
 "Nack" = "Nack";
 
 /* Title for omnipod reminders section */
-"Omnipod Reminders" = "Omnipod Reminders";
+"Omnipod Reminders" = "Напоминания Omnipod";
 
 /* Footer text for omnipod reminders section */
-"The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod." = "The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod.";
+"The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod." = "Настройте напоминание, чтобы заранее получить уведомление об истечении срока действия Пода. Задайте количество часов до уведомления, которое Вы хотели бы указать при сопряжении с новым Подом.";
 
 /* Footer text for scheduled reminder area */
-"This is a reminder that you scheduled when you paired your current Pod." = "This is a reminder that you scheduled when you paired your current Pod.";
+"This is a reminder that you scheduled when you paired your current Pod." = "Это напоминание, которое Вы запланировали, когда установили сопряжение с текущим Подом.";
 
 /* */
 "Scheduled Reminder" = "Запланировать напоминание";
 
 /* Footer text for low reservoir value row */
-"The App notifies you when the amount of insulin in the Pod reaches this level." = "The App notifies you when the amount of insulin in the Pod reaches this level.";
+"The App notifies you when the amount of insulin in the Pod reaches this level." = "Приложение оповестит Вас, когда количество инсулина в Поде достигнет этого уровня.";
 
 /* Description text for critical alerts */
-"Critical Alerts" = "Critical Alerts";
+"Critical Alerts" = "Критические предупреждения";
 
 /* Description text for critical alerts */
-"The reminders above will not sound if your device is in Silent or Do Not Disturb mode.\n\nThere are other critical Pod alerts and alarms that will sound even if you device is set to Silent or Do Not Disturb mode." = "The reminders above will not sound if your device is in Silent or Do Not Disturb mode.\n\nThere are other critical Pod alerts and alarms that will sound even if you device is set to Silent or Do Not Disturb mode.";
+"The reminders above will not sound if your device is in Silent or Do Not Disturb mode.\n\nThere are other critical Pod alerts and alarms that will sound even if you device is set to Silent or Do Not Disturb mode." = "Напоминания выше не будут издавать звуков, если Ваше устройстов в беззвучном режиме или в режиме не беспокоить.\n\nСуществуют другие критические предупреждения Пода и будильники, которые будут звучать, даже если Ваш телефон в беззвучном режиме или в режиме не беспокоить.";
 /* navigation title for notification settings */
 "Notification Settings" = "Настройки уведомлений";
 
@@ -868,28 +868,28 @@
 "Previous Pod Information" = "Previous Pod Information";
 
 /* Text shown in insulin remaining space when no pod is paired (Please keep the '\n' while translating!) */
-"No\nDelivery" = "No\nDelivery";
+"No\nDelivery" = "Нет\nПодачи";
 
 /* description label for active time pod details row */
 "Active Time" = "Активирован в";
 
 /* description label for total delivery pod details row */
-"Total Delivery" = "Total Delivery";
+"Total Delivery" = "Всего доставлено";
 
 /* description label for device name pod details row */
-"Device Name" = "Device Name";
+"Device Name" = "Имя устройства";
 
 /* description label for lot number pod details row */
-"Lot Number" = "Lot Number";
+"Lot Number" = "Номер партии";
 
 /* description label for sequence number pod details row */
-"Sequence Number" = "Sequence Number";
+"Sequence Number" = "Порядковый номер";
 
 /* description label for firmware version pod details row */
-"Firmware Version" = "Firmware Version";
+"Firmware Version" = "Версия прошивки";
 
 /* description label for ble firmware version pod details row */
-"BLE Firmware Version" = "BLE Firmware Version";
+"BLE Firmware Version" = "BLE версия прошивки";
 
 /* description label for activated at timne pod details row */
 "Pod Activated" = "Под активирован";
@@ -898,16 +898,16 @@
 "Active Time" = "Активирован в";
 
 /* description label for last status date pod details row */
-"Last Status" = "Last Status";
+"Last Status" = "Последний статус";
 
 /* description label for pod fault details */
-"Pod Fault Details" = "Pod Fault Details";
+"Pod Fault Details" = "Детали о сбое";
 
 /* Title for PodSetupView */
-"Pod Setup" = "Pod Setup";
+"Pod Setup" = "Настройка Пода";
 
 /* bodyText for PodSetupView */
-"You will now begin the process of configuring your reminders, filling your Pod with insulin, pairing to your device and placing it on your body." = "You will now begin the process of configuring your reminders, filling your Pod with insulin, pairing to your device and placing it on your body.";
+"You will now begin the process of configuring your reminders, filling your Pod with insulin, pairing to your device and placing it on your body." = "Сейчас Вы начнете процесс конфигурации напоминаний, заполнения Пода инсулином, сопряжения с телефоном и установку его на тело.";
 
 /* Cancel button title */
 "Cancel" = "Отмена";
@@ -916,10 +916,10 @@
 "Continue" = "Продолжить";
 
 /* Are you sure you want to skip Omnipod Onboarding? */
-"Skip Omnipod Onboarding?" = "Skip Omnipod Onboarding?";
+"Skip Omnipod Onboarding?" = "Пропустить Omnipod Onboarding?";
 
 /* Description text on ExpirationReminderSetupView */
-"The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have." = "The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have.";
+"The App notifies you in advance of Pod expiration.\n\nScroll to set the number of hours advance notice you would like to have." = "Приложение заранее оповестит Вас об истечении срока действия Пода.\n\nПрокрутите, чтобы установить количество часов до такого оповещения.";
 
 /* Text of continue button on ExpirationReminderSetupView" */
 "Next" = "Next";
