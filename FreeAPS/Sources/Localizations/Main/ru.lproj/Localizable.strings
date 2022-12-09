@@ -1089,7 +1089,7 @@ Enact a temp Basal or a temp target */
 "Active Time" = "Активирован в";
 
 /* description label for total delivery pod details row */
-"Total Delivery" = "Total Delivery";
+"Total Delivery" = "Всего доставлено";
 
 /* */
 "Add Omnipod Dash" = "Add Omnipod Dash";
