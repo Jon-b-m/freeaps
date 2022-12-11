@@ -189,12 +189,26 @@ final class BaseNightscoutManager: NightscoutManager, Injectable {
             suggested?.predictions = nil
         }
 
-        let openapsStatus = OpenAPSStatus(
-            iob: iob?.first,
-            suggested: suggested,
-            enacted: enacted,
-            version: "0.7.0"
-        )
+        let loopIsClosed = settingsManager.settings.closedLoop
+
+        var openapsStatus: OpenAPSStatus
+
+        // Only upload suggested in Open Loop Mode. Only upload enacted in Closed Loop Mode.
+        if loopIsClosed {
+            openapsStatus = OpenAPSStatus(
+                iob: iob?.first,
+                suggested: nil,
+                enacted: enacted,
+                version: "0.7.1"
+            )
+        } else {
+            openapsStatus = OpenAPSStatus(
+                iob: iob?.first,
+                suggested: suggested,
+                enacted: nil,
+                version: "0.7.1"
+            )
+        }
 
         let battery = storage.retrieve(OpenAPS.Monitor.battery, as: Battery.self)
 
@@ -212,11 +226,14 @@ final class BaseNightscoutManager: NightscoutManager, Injectable {
 
         let uploader = Uploader(batteryVoltage: nil, battery: Int(device.batteryLevel * 100))
 
-        let dailyStats = storage.retrieve(OpenAPS.Monitor.dailyStats, as: [DailyStats].self) ?? []
+        let dailyStats = storage.retrieve(OpenAPS.Monitor.statistics, as: [Statistics].self) ?? []
+        var testIfEmpty = 0
+        testIfEmpty = dailyStats.count
 
-        let status: NightscoutStatus
+        var status: NightscoutStatus
 
-        if !dailyStats.isEmpty {
+        // Upload statistics and preferences only every hour. Using statistics.json timestamp as a timer of sorts.
+        if testIfEmpty != 0, dailyStats[0].createdAt.addingTimeInterval(1.hours.timeInterval) < Date() {
             status = NightscoutStatus(
                 device: NigtscoutTreatment.local,
                 openaps: openapsStatus,
@@ -230,7 +247,7 @@ final class BaseNightscoutManager: NightscoutManager, Injectable {
                 device: NigtscoutTreatment.local,
                 openaps: openapsStatus,
                 pump: pump,
-                preferences: preferences,
+                preferences: nil,
                 uploader: uploader,
                 dailystats: nil
             )
