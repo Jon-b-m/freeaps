@@ -1190,6 +1190,7 @@ final class BaseAPSManager: APSManager, Injectable {
         }
 
         nightscout.uploadStatistics()
+        nightscout.uploadPreferences()
     }
 
     private func loopStats(loopStatRecord: LoopStats) {

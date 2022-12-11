@@ -1,6 +1,6 @@
 import Foundation
 
 struct NightscoutStatistics: JSON {
-    let report: String = "statistics"
+    let report = "statistics"
     let dailystats: Statistics?
 }

@@ -11,6 +11,7 @@ protocol NightscoutManager: GlucoseSource {
     func deleteCarbs(at date: Date)
     func uploadStatus()
     func uploadStatistics()
+    func uploadPreferences()
     func uploadGlucose()
     func uploadProfile()
     var cgmURL: URL? { get }
@@ -206,6 +207,29 @@ final class BaseNightscoutManager: NightscoutManager, Injectable {
         }
     }
 
+    func uploadPreferences() {
+        var prefs = NightscoutPreferences(
+            preferences: settingsManager.preferences
+        )
+
+        guard let nightscout = nightscoutAPI, isUploadEnabled else {
+            return
+        }
+
+        processQueue.async {
+            nightscout.uploadPrefs(prefs)
+                .sink { completion in
+                    switch completion {
+                    case .finished:
+                        debug(.nightscout, "Preferences uploaded")
+                    case let .failure(error):
+                        debug(.nightscout, error.localizedDescription)
+                    }
+                } receiveValue: {}
+                .store(in: &self.lifetime)
+        }
+    }
+
     func uploadStatus() {
         let iob = storage.retrieve(OpenAPS.Monitor.iob, as: [IOBEntry].self)
         var suggested = storage.retrieve(OpenAPS.Enact.suggested, as: Suggestion.self)
@@ -248,8 +272,6 @@ final class BaseNightscoutManager: NightscoutManager, Injectable {
 
         let pump = NSPumpStatus(clock: Date(), battery: battery, reservoir: reservoir, status: pumpStatus)
 
-        let preferences = settingsManager.preferences
-
         let device = UIDevice.current
 
         let uploader = Uploader(batteryVoltage: nil, battery: Int(device.batteryLevel * 100))
@@ -260,7 +282,6 @@ final class BaseNightscoutManager: NightscoutManager, Injectable {
             device: NigtscoutTreatment.local,
             openaps: openapsStatus,
             pump: pump,
-            preferences: preferences,
             uploader: uploader
         )
 
