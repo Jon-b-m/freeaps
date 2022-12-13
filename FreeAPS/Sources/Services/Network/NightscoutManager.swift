@@ -10,7 +10,7 @@ protocol NightscoutManager: GlucoseSource {
     func fetchAnnouncements() -> AnyPublisher<[Announcement], Never>
     func deleteCarbs(at date: Date)
     func uploadStatus()
-    func uploadStatistics()
+    func uploadStatistics(dailystat: Statistics)
     func uploadPreferences()
     func uploadGlucose()
     func uploadProfile()
@@ -180,13 +180,9 @@ final class BaseNightscoutManager: NightscoutManager, Injectable {
             .store(in: &lifetime)
     }
 
-    func uploadStatistics() {
-        let dailyStats = storage.retrieve(OpenAPS.Monitor.statistics, as: [Statistics].self) ?? []
-        var testIfEmpty = 0
-        testIfEmpty = dailyStats.count
-
-        var stats = NightscoutStatistics(
-            dailystats: dailyStats[0]
+    func uploadStatistics(dailystat: Statistics) {
+        let stats = NightscoutStatistics(
+            dailystats: dailystat
         )
 
         guard let nightscout = nightscoutAPI, isUploadEnabled else {
@@ -208,7 +204,7 @@ final class BaseNightscoutManager: NightscoutManager, Injectable {
     }
 
     func uploadPreferences() {
-        var prefs = NightscoutPreferences(
+        let prefs = NightscoutPreferences(
             preferences: settingsManager.preferences
         )
 
