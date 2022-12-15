@@ -1244,110 +1244,110 @@ Enact a temp Basal or a temp target */
 "Max IOB is the maximum amount of insulin on board from all sources – both basal (or SMB correction) and bolus insulin – that your loop is allowed to accumulate to treat higher-than-target BG. Unlike the other two OpenAPS safety settings (max_daily_safety_multiplier and current_basal_safety_multiplier), max_iob is set as a fixed number of units of insulin. As of now manual boluses are NOT limited by this setting. \n\n To test your basal rates during nighttime, you can modify the Max IOB setting to zero while in Closed Loop. This will enable low glucose suspend mode while testing your basal rates settings\n\n(Tip from https://www.loopandlearn.org/freeaps-x/#open-loop)." = "Max IOB är den maximalt tillåtna mängden aktivt insulin från alla källor – basal, SMB och bolusinsulin – som din loop tillåts att ackumulera för att behandla BS högre än målvärdet. Till skillnad från de andra två säkerhetsinställningarna i FreeAPS X ('Max Daily Safety Multiplier' och 'Current Basal Safety Multiplier'), är 'Max IOB' inställd som ett fast antal insulinenheter. Obs! I nuläget är manuella bolusar inte begränsade av denna inställning.\n\n Om du vill testa dina basaldoser säkert nattetid kan du ställa in Max IOB till 0 samtidigt som du kör Closed Loop. Detta gör att FreeAPS X kan sänka eller stänga av basalinsulin om det skulle behövas, för att undika lågt blodsocker.\n\n(Tips från https://www.loopandlearn.org/freeaps-x/#open-loop).";
 
 /* Headline "Max Daily Safety Multiplier" */
-"Max Daily Safety Multiplier" = "Max Daily Safety Multiplier";
+"Max Daily Safety Multiplier" = "Multiplikator för dygnets högsta basaldos";
 
 /* "Max Daily Safety Multiplier" */
 "This is an important OpenAPS safety limit. The default setting (which is unlikely to need adjusting) is 3. This means that OpenAPS will never be allowed to set a temporary basal rate that is more than 3x the highest hourly basal rate programmed in a user’s pump, or, if enabled, determined by autotune." = "Detta är en viktig säkerhetsgräns för FreeAPS X. Standardinställningen (som sannolikt inte behöver justeras) är 3. Detta innebär att FreeAPS X aldrig kommer att tillåtas att ställa in en temporär basaldos som är mer än 3x den högsta basaldosen inställd i pumpen, eller, om aktiverad, den som är inställd av 'Autotune'.";
 
 /* Headline "Current Basal Safety Multiplier" */
-"Current Basal Safety Multiplier" = "Current Basal Safety Multiplier";
+"Current Basal Safety Multiplier" = "Multiplikator för nuvarande ordinarie basal";
 
 /* "Current Basal Safety Multiplier" */
 "This is another important OpenAPS safety limit. The default setting (which is also unlikely to need adjusting) is 4. This means that OpenAPS will never be allowed to set a temporary basal rate that is more than 4x the current hourly basal rate programmed in a user’s pump, or, if enabled, determined by autotune." = "Detta är en viktig säkerhetsgräns i FreeAPS X. Standardinställningen (som sannolikt inte behöver justeras) är 4, vilket innebär att det aldrig kommer att tillåtas att ställa in en temporär basaldos som är mer än 4x den högsta ordinarie basaldosen, sparad i pumpen, eller, om aktiverad, den som är ställts in av 'Autotune'.";
 
 /* Headline "Autosens Max" */
-"Autosens Max" = "Autosens Max";
+"Autosens Max" = "Autosens maxinställning";
 
 /* "Autosens Max" */
 "This is a multiplier cap for autosens (and autotune) to set a 20% max limit on how high the autosens ratio can be, which in turn determines how high autosens can adjust basals, how low it can adjust ISF, and how low it can set the BG target." = "Standardvärde: 1.2. Denna multipel begränsar hur mycket autosens (och autotune) automatiskt kan justera upp basaler, sänka insulinkänslighet och/eller målvärde. Med standardvärde upp till 20%.";
 
 
 /* Headline "Autosens Min" */
-"Autosens Min" = "Autosens Min";
+"Autosens Min" = "Autosens minimuminställning";
 
 /* "Autosens Min" */
 "The other side of the autosens safety limits, putting a cap on how low autosens can adjust basals, and how high it can adjust ISF and BG targets." = "Standardvärde: 0.7. Denna multipel begränsar hur mycket autosens (och autotune) automatiskt kan justera ned basaler och öka insulinkänslighet och/eller målvärde.";
 
 /* Headline "Half Basal Exercise Target" */
-"Half Basal Exercise Target" = "Half Basal Exercise Target";
+"Half Basal Exercise Target" = "Halva basaldosen vid Motionsläge";
 
 /* "Half Basal Exercise Target" */
 "Set to a number, e.g. 160, which means when temp target is 160 mg/dL and exercise_mode=true, run 50% basal at this level (120 = 75%; 140 = 60%). This can be adjusted, to give you more control over your exercise modes." = "Inställd till ett blodsockervärde, t.ex. 160 (mg/dl = 8.9 mmol/l), vilket innebär att när det temporära målvärdet är 8.9 mmol/l och 'Exercise Mode' är på, används endast en 50%-ig basal vid detta blodsocker (120 = 75%; 140 = 60%). Detta kan justeras, för att ge dig mer kontroll över dina temporära målvärden vid träning.";
 
 /* Headline "Max COB" */
-"Max COB" = "Max COB";
+"Max COB" = "Max mängd aktiva kolhydrater (COB)";
 
 /* "Max COB" */
 "This defaults maxCOB to 120 because that’s the most a typical body can absorb over 4 hours. (If someone enters more carbs or stacks more; OpenAPS will just truncate dosing based on 120. Essentially, this just limits AMA as a safety cap against weird COB calculations due to fluky data.)" = "Standardvärde 120, eftersom det är vad kroppen typiskt här anses absorbera över 4 timmar. (I händelse att någon matar in mer/överlappar med mer kolhydrater, kommer FreeAPS X att minska dosering baserad på 120. I grund och botten begränsar detta endast AMA med ett tak, för skydd mot felaktiga aktiva kolhydrater-beräkningar på grund av opålitlig data.)";
 
 /* Headline "Bolus Snooze DIA Divisor" */
-"Bolus Snooze DIA Divisor" = "Bolus Snooze DIA Divisor";
+"Bolus Snooze DIA Divisor" = "Bolus \"snooze\" - nämnare";
 
 /* "Bolus Snooze DIA Divisor" */
 "Bolus snooze is enacted after you do a meal bolus, so the loop won’t counteract with low temps when you’ve just eaten. The example here and default is 2; so a 3 hour DIA means that bolus snooze will be gradually phased out over 1.5 hours (3DIA/2)." = "Denna är aktiv efter att du har gett en måltidsbolus, för att motverka en låg temporär basal när du just ätit. I detta exempel med standardvärdet 2 och med DIA-inställning på 3 h kommer 'Bolus Snooze' att fasas ut över 1,5 h (3 DIA / 2).";
 
 /* Headline "Min 5m Carbimpact" */
-"Min 5m Carbimpact" = "Min 5m Carbimpact";
+"Min 5m Carbimpact" = "Kolhydratsabsorption lägsta hastighet";
 
 /* "Min 5m Carbimpact" */
 "This is a setting for default carb absorption impact per 5 minutes. The default is an expected 8 mg/dL/5min. This affects how fast COB is decayed in situations when carb absorption is not visible in BG deviations. The default of 8 mg/dL/5min corresponds to a minimum carb absorption rate of 24g/hr at a CSF of 4 mg/dL/g." = "Standardvärde är 8 mg/dl/5min (0,4 mmol/l/5 min). Detta är en inställning för kolhydratsabsorptionseffekt per 5 minuter, som påverkar hur snabbt aktiva kolhydrater klingar av i situationer när kolhydratsabsorption inte syns i BS-avvikelser. Standarden på 0,4 mmol/l/5 min motsvarar en minsta absorptionshastighet på 24g/h vid en CSF ('Carb Sensitivity Factor', hur mycket ditt blodsocker stiger per gram kolhydrat) på 0,2 mmol/l/g.";
 
 /* Headline "Autotune ISF Adjustment Fraction" */
-"Autotune ISF Adjustment Fraction" = "Autotune ISF Adjustment Fraction";
+"Autotune ISF Adjustment Fraction" = "Autotune - standard ISF - skillnad";
 
 /* "Autotune ISF Adjustment Fraction" */
 "The default of 0.5 for this value keeps autotune ISF closer to pump ISF via a weighted average of fullNewISF and pumpISF. 1.0 allows full adjustment, 0 is no adjustment from pump ISF." = "Standardvärdet 0,5 håller 'Autotune ISF' närmare pumpens ISF (insulinkänslighet) via ett viktat genomsnitt av 'fullNewISF' och 'pumpISF'. Värdet 1.0 tillåter full justering, medan 0 innebär att ingen skillnad från pumpens ISF kommer att föreligga.";
 
 /* Headline "Remaining Carbs Fraction" */
-"Remaining Carbs Fraction" = "Remaining Carbs Fraction";
+"Remaining Carbs Fraction" = "Absorption av återstående kolhydrater";
 
 /* "Remaining Carbs Fraction" */
 "This is the fraction of carbs we’ll assume will absorb over 4h if we don’t yet see carb absorption." = "Del av kolhydrater som vi antar kommer att absorberas över 4h om vi ännu inte ser 'carb absorption'.";
 
 /* Headline "Remaining Carbs Cap" */
-"Remaining Carbs Cap" = "Remaining Carbs Cap";
+"Remaining Carbs Cap" = "Max mängd absorption av kolhydrater";
 
 /* "Remaining Carbs Cap" */
 "This is the amount of the maximum number of carbs we’ll assume will absorb over 4h if we don’t yet see carb absorption." = "Mängd av maximala antal kolhydrater som vi antar kommer att absorberas över 4h om vi ännu inte ser 'carb absorption'.";
 
 /* Headline ”Max SMB Basal Minutes" */
-"Max SMB Basal Minutes" = "Max SMB Basal Minutes";
+"Max SMB Basal Minutes" = "Basalminuter för automatiska bolusar (SMB)";
 
 /* ”Max SMB Basal Minutes" */
 "Defaults to start at 30. This is the maximum minutes of basal that can be delivered as a single SMB with uncovered COB. This gives the ability to make SMB more aggressive if you choose. It is recommended that the value is set to start at 30, in line with the default, and if you choose to increase this value, do so in no more than 15 minute increments, keeping a close eye on the effects of the changes. It is not recommended to set this value higher than 90 mins, as this may affect the ability for the algorithm to safely zero temp. It is also recommended that pushover is used when setting the value to be greater than default, so that alerts are generated for any predicted lows or highs." = "Standardvärde 30. Detta är det maximala antal minuter av din ordinarie basal som kommer att ges som en SMB. Denna inställning ger möjlighet att göra SMB större och behandlingen med SMB mer aggressiv. Det rekommenderas att börja med 30 minuter, och om du väljer att öka detta värde, göra det stegvis i högst 15 minuters steg, samtidigt som du noga följer effekterna av de nya inställningarna. Det rekommenderas inte att ställa in detta värde högre än 90 minuter, eftersom detta påverkar algoritmens förmåga att säkert kunna balansera med temporära basaler på 0 IE/h. Det rekommenderas också att pushover används när värdet sätts till att vara större än standard, så att varningar och notiser kan genereras för alla förväntade blodsockerdalar eller toppar.";
 
 /* Headline "Max UAM SMB Basal Minutes" */
-"Max UAM SMB Basal Minutes" = "Max UAM SMB Basal Minutes";
+"Max UAM SMB Basal Minutes" = "Basalminuter för autobolusar vid oannonserade måltider (UAM SMBs)";
 
 /* "Max UAM SMB Basal Minutes" */
 "Defaults to start at 30. This is the maximum minutes of basal that can be delivered by UAM as a single SMB when IOB exceeds COB. This gives the ability to make UAM more or less aggressive if you choose. It is recommended that the value is set to start at 30, in line with the default, and if you choose to increase this value, do so in no more than 15 minute increments, keeping a close eye on the effects of the changes. Reducing the value will cause UAM to dose less insulin for each SMB. It is not recommended to set this value higher than 60 mins, as this may affect the ability for the algorithm to safely zero temp. It is also recommended that pushover is used when setting the value to be greater than default, so that alerts are generated for any predicted lows or highs." = "Standardvärde 30. Detta är det maximala antal minuter av din ordinarie basal som kommer att användas för UAM för att ges som en SMB. Denna inställning ger möjlighet att göra behandlingen med UAM mer aggressiv, om du väljer att öka detta värde. Det rekommenderas att börja med 30 minuter, och om du väljer att öka detta värde, görs det stegvis i högst 15 minuters steg, samtidigt som du noga följer effekterna av nya inställningarna. En reducering av värdet leder till att UAM doserar mindre insulin med varje SMB. Det rekommenderas inte att ställa in detta värde högre än 60 minuter, eftersom detta påverkar algoritmens förmåga att säkert kunna balansera med temporära basaler på 0 IE/h. Det rekommenderas också att pushover används när värdet sätts till att vara större än standard, så att varningar och notiser kan genereras för alla förväntade blodsockerdalar eller toppar.";
 
 /* Headline "SMB Interval" */
-"SMB Interval" = "SMB Interval";
+"SMB Interval" = "SMB-intervall (minuter)";
 
 /* "SMB Interval" */
 "Minimum duration in minutes between two enacted SMBs" = "Minsta tidsintervall mellan två supermikrobolusar.";
 
 /* Headline "Bolus Increment" */
-"Bolus Increment" = "Bolus Increment";
+"Bolus Increment" = "Minsta bolusmångd";
 
 /* "Bolus Increment" */
 "Smallest SMB / SMB increment in oref0. Minimum amount for Medtronic pumps is 0.1 U, whereas for Omnipod it’s 0.05 U. The default value is 0.1." = "Minsta möjliga SMB (supermikrobolus) i oref0. För Medtronic är minsta möjliga dos 0,1 U, medan det för Omnipod är 0,05 U.";
 
 /* Headline "Insulin Peak Time" */
-"Insulin Peak Time" = "Insulin Peak Time";
+"Insulin Peak Time" = "Tid för insulinets maximala blodsockersänkande effekt, i minuter";
 
 /* "Insulin Peak Time" */
 "Time of maximum blood glucose lowering effect of insulin, in minutes. Beware: Oref assumes for ultra-rapid (Lyumjev) & rapid-acting (Fiasp) curves minimal (35 & 50 min) and maximal (100 & 120 min) applicable insulinPeakTimes. Using a custom insulinPeakTime outside these bounds will result in issues with FreeAPS-X, longer loop calculations and possible red loops." = "Tid i minuter för när insulinet har som störst blodsockersänkande effekt. Observera att inte ange ett lägre värde än 35 min för Lyumjev eller 50 min för Fiasp, eller högre än 100, respektive 120 min. Om du gör så kommer det att leda till problem med FreeAPS X, som röda loopar, långa Loop-beräkningar och överdrivet stora loggfiler.";
 
 /* Headline "Carbs Req Threshold" */
-"Carbs Req Threshold" = "Carbs Req Threshold";
+"Carbs Req Threshold" = "Tröskelvärde för notis om kolhydrater som krävs";
 
 /* "Carbs Req Threshold" */
 "Grams of carbsReq to trigger a pushover. Defaults to 1 (for 1 gram of carbohydrate). Can be increased if you only want to get Pushover for carbsReq at X threshold." = "Antal kolhydrater för att utlösa en pushover-notis, av det totala antal kolhydrater nödvändiga (carbsReq) för att undvika ett lågt blodsockervärde, som krävs. Standardvärde är 1 (gram kolhydrater). Kan ökas om du bara vill få en Pushover-notis vid en större mängd nödvändiga kolhydrater.";
 
 /* Headline "Noisy CGM Target Multiplier" */
-"Noisy CGM Target Multiplier" = "Noisy CGM Target Multiplier";
+"Noisy CGM Target Multiplier" = "Multipel vid CGM-brus";
 
 /* "Noisy CGM Target Multiplier" */
 "Defaults to 1.3. Increase target by this amount when looping off raw/noisy CGM data" = "Standardvärde 1,3. Öka målvärdet med denna multipel när du loopar med ofiltrerad CGM-data med mycket brus";
