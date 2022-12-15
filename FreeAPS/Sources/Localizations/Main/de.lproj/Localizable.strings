@@ -1131,51 +1131,51 @@ Enact a temp Basal or a temp target */
 "This feature, enabled by default, resets the autosens ratio to neutral when you rewind your pump, on the assumption that this corresponds to a probable site change. Autosens will begin learning sensitivity anew from the time of the rewind, which may take up to 6 hours. If you usually rewind your pump independently of site changes, you may want to consider disabling this feature." = "Diese standardmäßig aktivierte Funktion setzt Autosense auf neutral zurück, wenn Sie Ihre Pumpen Gewindestange zurücklaufen lassen, wobei davon ausgegangen wird, dass dies einen Katheter- und Reservoirwechsel bedeutet. Autosens startet ab dem Zeitpunkt des Rücklaufes neu und es kann bis zu 6 Stunden dauern, die Sensibilität neu zu beurteilen. Wenn Sie Ihre Pumpe normalerweise unabhängig vom Resevoir- und Kathetherwechsel zurück laufen lassen, sollten Sie diese Funktion deaktivieren.";
 
 /* Headline "High Temptarget Raises Sensitivity" */
-"High Temptarget Raises Sensitivity" = "High Temptarget Raises Sensitivity";
+"High Temptarget Raises Sensitivity" = "Hohe temporäre Ziele erhöhen die Sensitivität";
 
 /* ”High Temptarget Raises Sensitivity" */
 "Defaults to false. When set to true, raises sensitivity (lower sensitivity ratio) for temp targets set to >= 111. Synonym for exercise_mode. The higher your temp target above 110 will result in more sensitive (lower) ratios, e.g., temp target of 120 results in sensitivity ratio of 0.75, while 140 results in 0.6 (with default halfBasalTarget of 160)." = "Ist Standardmäßig auf aus. Wenn eingeschaltet erhöht dies die Empfindlichkeit (niedrigere Empfindlichkeitsverhältnis) für Temp-Ziele auf >= 111. Synonym für exercise_mode. Je höher dein Tempo-Ziel über 110 ist, desto empfindlicher (niedriger) Verhältnisse, z. temp Ziel von 120 resultiert im Empfindlichkeitsverhältnis von 0,75, während 140 in 0,6 (mit Standard-Halbbasalratenziel von 160).";
 
 /* Headline ”Low Temptarget Lowers Sensitivity" */
-"Low Temptarget Lowers Sensitivity" = "Low Temptarget Lowers Sensitivity";
+"Low Temptarget Lowers Sensitivity" = "Niedrige temporäre Ziele senken die Sensitivität";
 
 /* ”Low Temptarget Lowers Sensitivity" */
 "Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160)." = "Standard Einstellung ist \"Aus\". Wenn es aktiviert ist, kann die Empfindlichkeit (höheres Empfindlichkeitsverhältnis) für temporäre Ziele <= 99 gesenkt werden. Je niedriger Ihr temporäres Ziel unter 100 ist, desto höher wird die Empfindlichkeit. Zum Beispiel führt ein temporäres Ziel von 95 zu einem Empfindlichkeitsverhältnis von 1,09, während 85 einen Wert von 1,33 ergibt.";
 
 /* Headline ”Sensitivity Raises Target" */
-"Sensitivity Raises Target" = "Sensitivity Raises Target";
+"Sensitivity Raises Target" = "Empfindlichkeit erhöht den Zielwert";
 
 /* ”Sensitivity Raises Target" */
 "When true, raises BG target when autosens detects sensitivity" = "Wenn aktiviert, wird das BG-Ziel erhöht, sobald Autosens erhöhte Empfindlichkeit erkennt";
 
 /* Headline ”Resistance Lowers Target" */
-"Resistance Lowers Target" = "Resistance Lowers Target";
+"Resistance Lowers Target" = "Resistenz senkt den Zielwert";
 
 /* ”Resistance Lowers Target" */
 "Defaults to false. When true, will lower BG target when autosens detects resistance" = "Standard Einstellung ist \"Aus\". Wenn aktiviert, wird das BG-Ziel herabgesetzt, sobald Autosens eine niedrige Empfindlichkeit erkennt";
 
 /* Headline ”Advanced Target Adjustments" */
-"Advanced Target Adjustments" = "Advanced Target Adjustments";
+"Advanced Target Adjustments" = "Erweiterte Zielanpassung";
 
 /* ”Advanced Target Adjustments" */
 "This feature was previously enabled by default but will now default to false (will NOT be enabled automatically) in oref0 0.6.0 and beyond. (There is no need for this with 0.6.0). This feature lowers oref0’s target BG automatically when current BG and eventualBG are high. This helps prevent and mitigate high BG, but automatically switches to low-temping to ensure that BG comes down smoothly toward your actual target. If you find this behavior too aggressive, you can disable this feature. If you do so, please let us know so we can better understand what settings work best for everyone." = "Diese Funktion wurde früher immer aktiviert, steht aber nun standardmäßig auf \"Aus\". Dies ist mit oref 0.6.0 nicht mehr nötig. Diese Funktion senkt das Blutzucker Ziel von oref0 automatisch, wenn der aktuelle BG oder der zu erwartende BG hoch sind. Dies hilft hohe BG zu verhindern und zu mildern, aber schaltet automatisch auf Niedrigempfindlichkeit um, um sicherzustellen, dass die BG reibungslos auf Ihr eigentliches Ziel zugeht. Wenn Sie dieses Verhalten zu aggressiv finden, können Sie diese Funktion deaktivieren. Wenn Sie dies tun, teilen Sie uns dies bitte mit, damit wir besser verstehen können, welche Einstellungen für alle am besten funktionieren.";
 
 /* Headline "Exercise Mode" */
-"Exercise Mode" = "Exercise Mode";
+"Exercise Mode" = "Sportmodus";
 
 /* "Exercise Mode" */
 "Defaults to false. When true, > 105 mg/dL high temp target adjusts sensitivityRatio for exercise_mode. Synonym for high_temptarget_raises_sensitivity" = "Standard aus. Wenn an, > 105 mg/dL hohes temporäres Ziel passt Empfindlichkeit für den Exercise_Mode an. Synonym für hoch_tempziel_eröht_sensitivität";
 
 
 /* Headline "Wide BG Target Range" */
-"Wide BG Target Range" = "Wide BG Target Range";
+"Wide BG Target Range" = "Größere BG-Zielreichweite";
 
 /* "Wide BG Target Range" */
 "Defaults to false, which means by default only the low end of the pump’s BG target range is used as OpenAPS target. This is a safety feature to prevent too-wide targets and less-optimal outcomes. Therefore the higher end of the target range is used only for avoiding bolus wizard overcorrections. Use wide_bg_target_range: true to force neutral temps over a wider range of eventualBGs." = "Standardmäßig aus, bedeutet standardmäßig nur das niedrige Ende des BG-Zielbereichs der Pumpe wird als OpenAPS-Ziel verwendet. Dies ist ein Sicherheitsmerkmal, um zu weit gefasste Ziele und weniger optimale Ergebnisse zu verhindern. Daher wird das höhere Ende des Zielbereichs nur verwendet, um Überkorrekturen des bolus Wizards zu vermeiden. Benutzen Sie die wide_bg_target_range: true, um neutrale temps über einen größeren Bereich von eventualBG zu erzwingen.";
 
 
 /* Headline "Skip Neutral Temps" */
-"Skip Neutral Temps" = "Skip Neutral Temps";
+"Skip Neutral Temps" = "Neutrale Temps überspringen";
 
 /* "Skip Neutral Temps" */
 "Defaults to false, so that FreeAPS X will set temps whenever it can, so it will be easier to see if the system is working, even when you are offline. This means FreeAPS X will set a “neutral” temp (same as your default basal) if no adjustments are needed. This is an old setting for OpenAPS to have the options to minimise sounds and notifications from the 'rig', that may wake you up during the night." = "Standardmäßig aus, damit FreeAPS X, wann immer es möglich ist, Temps festlegt, sodass Sie leichter sehen können, ob das System funktioniert, selbst wenn Sie offline sind. Dies bedeutet, dass OpenAPS eine „neutrale“ Temp (wie Ihre Standard-Basalrate) einstellt, wenn keine Anpassungen erforderlich sind. Dies ist eine alte Einstellung für OpenAPS, um die Optionen zum Minimieren von Geräuschen und Benachrichtigungen aus dem 'Rig' zu haben, die Sie während der Nacht aufwecken können. ";
@@ -1187,7 +1187,7 @@ Enact a temp Basal or a temp target */
 "Many people occasionally forget to resume / unsuspend their pump after reconnecting it. If you’re one of them, and you are willing to reliably set a zero temp basal whenever suspending and disconnecting your pump, this feature has your back. If enabled, it will automatically resume / unsuspend the pump if you forget to do so before your zero temp expires. As long as the zero temp is still running, it will leave the pump suspended." = "Viele Menschen vergessen gelegentlich ihre Pumpe fortzusetzen / pausieren nach der Wiederanbindung der Pumpe. Wenn du einer von ihnen bist und bereit bist eine Null-Temp Basal zu setzen, wann immer du deine Pumpe pausierst und getrennt hast, kann diese Funktion hilfreich sein. Wenn diese Option aktiviert ist, wird die Pumpe automatisch fortgesetzt/pausiert, wenn Sie dies vergessen haben, bevor Ihre Null-Temp abläuft. Solange die Null-Temp noch läuft, wird die Pumpe ausgesetzt.";
 
 /* Headline "Enable UAM" */
-"Enable UAM" = "Enable UAM";
+"Enable UAM" = "Aktiviere UAM";
 
 /* "Enable UAM" */
 "With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful, if you forget to tell FreeAPS X about your carbs or estimate your carbs wrong and the amount of entered carbs is wrong or if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose increasments caused by carbs, adrenaline, etc, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose decreasement, it can stop SMBs earlier." = "Wenn diese Option aktiviert ist, kann der SMB-Algorithmus unangekündigte Mahlzeiten erkennen. Dies ist hilfreich, wenn Sie vergessen Ihre Kohlenhydrate einzugeben oder Ihre Kohlenhydrate falsch einschätzen und die Menge der eingegebenen Kohlenhydrate falsch ist. Außerdem wenn eine Mahlzeit mit viel Fett und Protein eine längere Dauer als erwartet hat. UAM erkennt ohne Kohlenhydrateingabe schnelle Glukosesteigerungen, die durch Kohlenhydrate, Adrenalin usw. verursacht werden, und versucht es mit SMBs zu regulieren. Dies funktioniert auch umgekehrt: Bei einer schnellen Glukoseabnahme kann es SMB früher stoppen.";
