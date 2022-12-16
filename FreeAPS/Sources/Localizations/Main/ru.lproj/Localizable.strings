@@ -1238,38 +1238,38 @@ Enact a temp Basal or a temp target */
 "Default is false. Any existing temp basals during times the pump was suspended will be deleted and 0 temp basals to negate the profile basal rates during times pump is suspended will be added." = "По умолчанию false. Любые существующие ВБС во время остановки помпы будут удалены и заменены на нулевую BБС чтобы убрать профильные базальные скорости.";
 
 /* Headline "Max IOB" */
-"Max IOB" = "Max IOB";
+"Max IOB" = "Максимальное уровень инсулина в крови IOB";
 
 /* "Max IOB" */
 "Max IOB is the maximum amount of insulin on board from all sources – both basal (or SMB correction) and bolus insulin – that your loop is allowed to accumulate to treat higher-than-target BG. Unlike the other two OpenAPS safety settings (max_daily_safety_multiplier and current_basal_safety_multiplier), max_iob is set as a fixed number of units of insulin. As of now manual boluses are NOT limited by this setting. \n\n To test your basal rates during nighttime, you can modify the Max IOB setting to zero while in Closed Loop. This will enable low glucose suspend mode while testing your basal rates settings\n\n(Tip from https://www.loopandlearn.org/freeaps-x/#open-loop)." = "Макс IOB - это максимальное количество инсулина на борту из всех источников – как базального (или болюсов коррекции), так и болюсного инсулина – который ваш цикл может накапливать для компенсации высокого СК. В отличие от двух других параметров безопасности (max_daily_safety_multiplier и current_basal_safety_multiplier), max_iob устанавливается, как фиксированное количество единиц инсулина. На данный момент ручные болюсы НЕ ограничены этой настройкой. Для тестирования базальных скоростей в ночное время, вы можете изменить значение этого параметра на нуль находясь в замкнутом цикле. Это включит режим приостановки на низком сахаре, при тестировании настроек базальных скоростей. (https://www.loopandlearn.org/freeaps-x/#open-loop).";
 
 /* Headline "Max Daily Safety Multiplier" */
-"Max Daily Safety Multiplier" = "Max Daily Safety Multiplier";
+"Max Daily Safety Multiplier" = "Множитель безопасности максимального суточного базала";
 
 /* "Max Daily Safety Multiplier" */
 "This is an important OpenAPS safety limit. The default setting (which is unlikely to need adjusting) is 3. This means that OpenAPS will never be allowed to set a temporary basal rate that is more than 3x the highest hourly basal rate programmed in a user’s pump, or, if enabled, determined by autotune." = "По умолчанию (которое вряд ли потребуется изменить) равно 3. Важный предел безопасности. Это означает, что временная базальная скорость никогда не превысит 3x наибольшей почасовой базальной скорости, запрограммированной в помпе, или, если включено, определяется autotune.";
 
 /* Headline "Current Basal Safety Multiplier" */
-"Current Basal Safety Multiplier" = "Current Basal Safety Multiplier";
+"Current Basal Safety Multiplier" = "Множитель безопасности для текущего базала";
 
 /* "Current Basal Safety Multiplier" */
 "This is another important OpenAPS safety limit. The default setting (which is also unlikely to need adjusting) is 4. This means that OpenAPS will never be allowed to set a temporary basal rate that is more than 4x the current hourly basal rate programmed in a user’s pump, or, if enabled, determined by autotune." = "Значение по умолчанию (которое вряд ли потребуется изменить) 4. Это еще один важный предел безопасности. Это означает, что временная базальная скорость устанавливаемая алгоритмом, никогда не превысит 4x текущую базальную скорость, запрограммированную в помпе, или, если включено, определяется autotune.";
 
 /* Headline "Autosens Max" */
-"Autosens Max" = "Autosens Max";
+"Autosens Max" = "Максимум для алгоритма Autosens";
 
 /* "Autosens Max" */
 "This is a multiplier cap for autosens (and autotune) to set a 20% max limit on how high the autosens ratio can be, which in turn determines how high autosens can adjust basals, how low it can adjust ISF, and how low it can set the BG target." = "Значение по умолчанию: 1,2. Это множитель для autosens (и autotune) с лимитом 20% который определяет насколько высоко autosens может поднять базал, насколько низко опустить ISF (чувствительность к инсулину), и насколько низко опустить целевой СК.";
 
 
 /* Headline "Autosens Min" */
-"Autosens Min" = "Autosens Min";
+"Autosens Min" = "Минимум для алгоритма Autosens";
 
 /* "Autosens Min" */
 "The other side of the autosens safety limits, putting a cap on how low autosens can adjust basals, and how high it can adjust ISF and BG targets." = "По умолчанию: 0.7 Еще один параметр безопасности autosens, определяющий, как низко он может опускать базал и как высоко поднимать ISF (чувств к инсулину) и целевые СК.";
 
 /* Headline "Half Basal Exercise Target" */
-"Half Basal Exercise Target" = "Half Basal Exercise Target";
+"Half Basal Exercise Target" = "Уровень цели для режима упражнений, при котором база будет уменьшена вдвое";
 
 /* "Half Basal Exercise Target" */
 "Set to a number, e.g. 160, which means when temp target is 160 mg/dL and exercise_mode=true, run 50% basal at this level (120 = 75%; 140 = 60%). This can be adjusted, to give you more control over your exercise modes." = "Установить число, - напр. 160, - означает, что при достижении временной цели 160 мг/дл и exercise_mode=true, запустить 50% базала на этом уровне (120 = 75%; 140 = 60%). Настройка может быть изменена, чтобы дать вам больше контроля над режим упражнения.";
@@ -1281,7 +1281,7 @@ Enact a temp Basal or a temp target */
 "This defaults maxCOB to 120 because that’s the most a typical body can absorb over 4 hours. (If someone enters more carbs or stacks more; OpenAPS will just truncate dosing based on 120. Essentially, this just limits AMA as a safety cap against weird COB calculations due to fluky data.)" = "Максимальное значение углеводов. По умолчанию maxCOB составляет 120, потому что это максимальное значение, которое типичный организм может поглотить за 4 часа. (Если кто-то вводит больше углеводов OpenAPS просто сокращает дозировку принимая в расчет 120. По сути, это просто предел безопасности защищающий от странных расчетов COB из-за непостоянных данных.)";
 
 /* Headline "Bolus Snooze DIA Divisor" */
-"Bolus Snooze DIA Divisor" = "Bolus Snooze DIA Divisor";
+"Bolus Snooze DIA Divisor" = "Делитель DIA откладывания болюсов";
 
 /* "Bolus Snooze DIA Divisor" */
 "Bolus snooze is enacted after you do a meal bolus, so the loop won’t counteract with low temps when you’ve just eaten. The example here and default is 2; so a 3 hour DIA means that bolus snooze will be gradually phased out over 1.5 hours (3DIA/2)." = "Откладывание болюсов (SMB) произойдет после того, как вы сделаете болюс на еду, и цикл не будет противостоять низкой временной цели, когда вы просто поели. Пример: здесь и по умолчанию 2; поэтому 5 часов DIA означает, что SMB будет отложены на 2,5 часа (5 DIA/2).";
