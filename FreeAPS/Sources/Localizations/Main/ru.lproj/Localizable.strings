@@ -1356,7 +1356,7 @@ Enact a temp Basal or a temp target */
 "SMB DeliveryRatio" = "SMB DeliveryRatio";
 
 /* SMB DeliveryRatio */
-"Default value: 0.5 This is another key OpenAPS safety cap, and specifies what share of the total insulin required can be delivered as SMB. Increase this experimental value slowly and with caution." = "Default value: 0.5 This is another key OpenAPS safety cap, and specifies what share of the total insulin required can be delivered as SMB. Increase this experimental value slowly and with caution.";
+"Default value: 0.5 This is another key OpenAPS safety cap, and specifies what share of the total insulin required can be delivered as SMB. Increase this experimental value slowly and with caution." = "По-умолчанию: 0.5(50%). Опция позволяет регулировать какая часть от необходимой дозы инсулина может быть доставлена как супер микро болюс. Увеличивайте это экспериментальное значение очень медленно и с осторожностью.";
 
 // Dynamic ISF + CR Settings:
 /* Headline "Adjust Dynamic ISF constant" */
@@ -1367,16 +1367,16 @@ Enact a temp Basal or a temp target */
 "Adjust Dynamic ISF constant" = "Adjust Dynamic ISF constant";
 
 /* Enable Dynamic ISF, Headline */
-"Enable Dynamic ISF" = "Enable Dynamic ISF";
+"Enable Dynamic ISF" = "Включить динамический ISF";
 
 /* Headline "Enable Dynamic ISF" */
-"Enable Dynamic ISF" = "Enable Dynamic ISF";
+"Enable Dynamic ISF" = "Включить динамический ISF";
 
 /* Enable Dynamic ISF */
 "Calculate a new ISF with every loop cycle. New ISF will be based on current BG, TDD of insulin (past 24 hours or a weighted average) and an Adjustment Factor (default is 1).\n\nDynamic ISF and CR ratios will be limited by your autosens.min/max limits.\n\nDynamic ratio replaces the autosens.ratio: New ISF = Static ISF / Dynamic ratio,\nDynamic ratio = profile.sens * adjustmentFactor * tdd * Math.log(BG/insulinFactor+1) / 1800,\ninsulinFactor = 120 - InsulinPeakTimeInMinutes" = "Считать новый ISF с каждым циклом петли. Новый ISF будет зависеть от текущего BG, TDD (за последние 24 часа или взвешенное среднее значение) и Adjustment Factor (по-умолчанию - 1).\n\nDynamic ratio ISF и CR будет ограничен настройками autosens.min/max.\n\nDynamic ratio заменяет autosens.ratio: Новый ISF = Постоянный ISF/ Dynamic ratio,\nDynamic ratio = profile.sens*adjustmentFactor * tdd * Math.log(BG/insulinFactor+1) / 1800,\ninsulinFactor = 120 - InsulinPeakTimeInMinutes";
 
 /* Headline "Enable Dynamic CR" */
-"Enable Dynamic CR" = "Enable Dynamic CR";
+"Enable Dynamic CR" = "Включить динамический CR";
 
 /* Enable Dynamic CR */
 "Use Dynamic CR. The dynamic ratio will be used for CR as follows:\n\n When ratio > 1:  dynCR = (newRatio - 1) / 2 + 1.\nWhen ratio < 1: dynCR = CR/dynCR.\n\nDon't use toghether with a high Insulin Fraction (> 2)" = "Использовать Dynamic CR. Dynamic ratio будет также влиять и на CR:\n\n Когда ratio > 1: dynCR = (newRatio - 1) / 2 + 1.\nКогда ratio <1: dynCR = CR/dynCR.\n\nНе используйте совместно с высоким Insulin Fraction (> 2)";
@@ -1389,26 +1389,26 @@ Enact a temp Basal or a temp target */
 
 
 /* Headline "Use Sigmoid Function" */
-"Use Sigmoid Function" = "Use Sigmoid Function";
+"Use Sigmoid Function" = "Использовать Сигмоидную функцию";
 
 /* Use Sigmoid Function */
 "Use a sigmoid function for ISF (and for CR, when enabled), instead of the Logarithmic formula. Is only used when the Dynamic ISF setting is enabled in settings\n\nThe autosens.min/max settings determines the power with which dynamic ratio is adjusted, the height of the graph (Y-interval, Y: Dynamic ratio) and where the sigmoid curve flattens out, thus also limiting how high and how low the the ISF can be adjusted.\n\nThe Adjustment settings adjusts the slope of the curve. A lower value ==> less steep == less aggressive.\n\nYour scheduled/autotuned ISF setting and your min BG target determines when Dynamic ratio = 1 (ISF unchanged), meaning when current BG = minimum target BG => new ISF will always be set to your current scheduled/autotuned ISF, unlike the default logarithmic formula.\n\nDynamic CR is used when the setting 'Enable Dynamic CR' is enabled in settings." = "Использовать Сигмоидную функцию для ISF (и для CR, если включено), вместо Логарифмической функции. Используется только если включена функция Dynamic ISF\n\nПараметры autosens.min/max определяют мощность, с которой dynamic ratio регулируется, высоту графика (Y-интервал, Y: Dynamic ratio) и где кривая Сигмоидной функции сглаживается, что также ограничивает диапазон корректировки ISF.\n\nAdjustment settings регулирует наклон кривой. Более низкое значение ==> меньше крутизна == меньше аггрессивность.\n\nВаши профильные/автотюн ISF коэффициенты и Ваша минимальная цель BG определяют когда Dynamic ratio = 1 (ISF неизменен), это значит, что когда текущий BG = минимальному целевому BG => новый ISF всегда будет соответствовать значению в профиле/автотюне, в отличие от логарифмической функции, по-умолчанию.\n\nDynamic CR используется, когда опция 'Enable Dynamic CR' включена в настройках.";
 
 
 /* Headline "Threshold Setting" */
-"Threshold Setting (mg/dl)" = "Threshold Setting (mg/dl)";
+"Threshold Setting (mg/dl)" = "Настройка порога (мг/дл)";
 
 /* Threshold Setting */
 "The default threshold in FAX depends on your current minimum BG target, as follows:\n\nIf your minimum BG target = 90 mg/dl -> threshold = 65 mg/dl,\n\nif minimum BG target = 100 mg/dl -> threshold = 70 mg/dl,\n\nminimum BG target = 110 mg/dl -> threshold = 75 mg/dl,\n\nand if minimum BG target = 130 mg/dl  -> threshold = 85 mg/dl.\n\nThis setting allows you to change the default to a higher threshold for looping with dynISF. Valid values are 65 mg/dl<= Threshold Setting <= 120 mg/dl." = "Порог, в мг/дл, в FAX по-умолчанию зависит от Вашей текущей минимальной цели BG, следующим образом:\n\nЕсли минимальная цель BG = 5 ммоль/л -> порог = 3,6 ммоль/л,\n\nесли минимальная цель BG = 5.6 ммоль/л -> порог = 3,9 ммоль/л,\n\nминимальная цель BG  = 6.1 ммоль/л -> порог = 4,2 ммоль/л,\n\nи если минимальная цель BG = 7.2 ммоль/л  -> порог = 4,7 ммоль/л.\n\nЭта настройка позволяет Вам увеличить уровень порога для более безопасной работы с dynISF. Валидным будет значение 65 мг/дл=3,6 ммоль/л <= Threshold Setting <= 120 мг/дл=6,7 ммоль/л.";
 
 /* Headline "Weighted Average of TDD. Weight of past 24 hours:" */
-"Weighted Average of TDD. Weight of past 24 hours:" = "Weighted Average of TDD. Weight of past 24 hours:";
+"Weighted Average of TDD. Weight of past 24 hours:" = "Взвешенное среднее значение TDD. Вес последних 24 часов:";
 
 /* Weight of past 24 hours of insulin */
 "Has to be > 0 and <= 1.\nDefault is 0.65 (65 %) * TDD. The rest will be from average of total data (up to 14 days) of all TDD calculations (35 %). To only use past 24 hours, set this to 1.\n\nTo avoid sudden fluctuations, for instance after a big meal, an average of the past 2 hours of TDD calculations is used instead of just the current TDD (past 24 hours at this moment)." = "Должно быть > 0 и <= 1.\n По-умолчанию 0.65 (65 %) * TDD. Остальное будет вычислено из среднего общего инсулина (вплоть до 14 дней) всех TDD расчетов (35 %). Для того чтобы использовать только последние 24 часа, установите значение = 1.\n\nЧтобы исключить внезапные колебания, например после объемного приема пищи - используется среднее значение TDD за последние 2 часа, вместо просто текущего TDD (за последние 24 часа на данный момент).";
 
 /* Headline "Adjust basal" */
-"Adjust basal" = "Adjust basal";
+"Adjust basal" = "Реглировать базал";
 
 /* Enable adjustment of basal profile */
 "Enable adjustment of basal based on the ratio of current TDD / 7 day average TDD" = "Включить регулировку базы, основанную на соотношении текущего TDD / 7 дней среднего TDD";
