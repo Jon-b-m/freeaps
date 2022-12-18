@@ -1438,4 +1438,4 @@ Enact a temp Basal or a temp target */
 "Insulin curve" = "Insulintyp";
 
 /* Headline "Adjustment Factor" */
-"Adjustment Factor" = "Justerande konstant";
+"Adjustment Factor" = "Justeringskonstant";
