@@ -1125,57 +1125,57 @@ Enact a temp Basal or a temp target */
 */
 /* Headline Rewind Resets Autosens */
 
-"Rewind Resets Autosens" = "Rewind Resets Autosens";
+"Rewind Resets Autosens" = "Скинути autosens при перезапуску помпи";
 
 /* ”Rewind Resets Autosens” */
 "This feature, enabled by default, resets the autosens ratio to neutral when you rewind your pump, on the assumption that this corresponds to a probable site change. Autosens will begin learning sensitivity anew from the time of the rewind, which may take up to 6 hours. If you usually rewind your pump independently of site changes, you may want to consider disabling this feature." = "Ця функція увімкнена за замовчуванням, скидає співвідношення авто до нейтрального, коли ви скидаєте помпу, за припущенням, що це відповідає за заміну конюлі. Авторани почнуть вивчати чутливість до навчання, з часу вітру, що може зайняти до 6 годин. Якщо ви зазвичай скидаєте помпу незалежно від заміни конюлі, можете подумати про вимкнення цієї функції.";
 
 /* Headline "High Temptarget Raises Sensitivity" */
-"High Temptarget Raises Sensitivity" = "High Temptarget Raises Sensitivity";
+"High Temptarget Raises Sensitivity" = "Підвищена тимчасова мета підвищує чутливість";
 
 /* ”High Temptarget Raises Sensitivity" */
 "Defaults to false. When set to true, raises sensitivity (lower sensitivity ratio) for temp targets set to >= 111. Synonym for exercise_mode. The higher your temp target above 110 will result in more sensitive (lower) ratios, e.g., temp target of 120 results in sensitivity ratio of 0.75, while 140 results in 0.6 (with default halfBasalTarget of 160)." = "За замовчуванням встановлено значення false. Якщо встановлено значення true, підвищує чутливість (зниження коефіцієнта чутливості) для встановлених цілей  >= 111. Синонім для вправ. Чим вище встановленою ціллю вашого шаблону вище 110, тим більш чутливими будуть (нижчі) співвідношення, наприклад  120 результатів у співвідношенні чутливості 0.75, тоді як 140 результатів в 0.6 (з стандартною половинною основною ціллю 160).";
 
 /* Headline ”Low Temptarget Lowers Sensitivity" */
-"Low Temptarget Lowers Sensitivity" = "Low Temptarget Lowers Sensitivity";
+"Low Temptarget Lowers Sensitivity" = "Знижена тимчасова мета знижує чутливість";
 
 /* ”Low Temptarget Lowers Sensitivity" */
 "Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160)." = "За замовчуванням встановлено значення false. Якщо встановлено значення true, підвищує чутливість (зниження коефіцієнта чутливості) для встановлених цілей  >= 99. Синонім для вправ. Чим вище встановленою ціллю вашого шаблону вище 100, тим більш чутливими будуть (нижчі) співвідношення, наприклад  95 результатів у співвідношенні чутливості 1.09, тоді як 85 результатів в 1.33 (з стандартною половинною основною ціллю 160).";
 
 /* Headline ”Sensitivity Raises Target" */
-"Sensitivity Raises Target" = "Sensitivity Raises Target";
+"Sensitivity Raises Target" = "Чутливість підвищує ціль";
 
 /* ”Sensitivity Raises Target" */
 "When true, raises BG target when autosens detects sensitivity" = "Коли TRUE, підвищує BG (цільовий діапазон) при підвищеній чутливості";
 
 /* Headline ”Resistance Lowers Target" */
-"Resistance Lowers Target" = "Resistance Lowers Target";
+"Resistance Lowers Target" = "Резистентність знижує мету";
 
 /* ”Resistance Lowers Target" */
 "Defaults to false. When true, will lower BG target when autosens detects resistance" = "За замовчуванням значення false. Коли значення true, знизить BG (цильовий діапазон) при обладнанні зниженої чутливості";
 
 /* Headline ”Advanced Target Adjustments" */
-"Advanced Target Adjustments" = "Advanced Target Adjustments";
+"Advanced Target Adjustments" = "Розширене коригування цілі";
 
 /* ”Advanced Target Adjustments" */
 "This feature was previously enabled by default but will now default to false (will NOT be enabled automatically) in oref0 0.6.0 and beyond. (There is no need for this with 0.6.0). This feature lowers oref0’s target BG automatically when current BG and eventualBG are high. This helps prevent and mitigate high BG, but automatically switches to low-temping to ensure that BG comes down smoothly toward your actual target. If you find this behavior too aggressive, you can disable this feature. If you do so, please let us know so we can better understand what settings work best for everyone." = "Ця функція раніше булу увімкнена за умовченням, але зараз за умовченням вона не буде включена (НЕ буде включена автоматично) в oref0 0.6.0 и выше. (Це не потрібно починає з 0.6.0), ця функція автоматично зменьшує цільовий діапазон (BG) oref0, коли поточний BG та можливий BG зависокі. Це допомогає запровадити  та полехшити зависокі значення BG, але  автоматично переключається на режим пониження цілі, щоб впевнитися, що  BG повільно спускается до вашої реальної цілі. Якщо ця поведінка доволі агрессивна, ви можете відключити цю функцію. Якщо ви це зробите, Будь Ласка, дайте нам знати, щоб ми могли кращє зрозуміти, які налоштування працюють кращє інших.";
 
 /* Headline "Exercise Mode" */
-"Exercise Mode" = "Exercise Mode";
+"Exercise Mode" = "Режим тренування";
 
 /* "Exercise Mode" */
 "Defaults to false. When true, > 105 mg/dL high temp target adjusts sensitivityRatio for exercise_mode. Synonym for high_temptarget_raises_sensitivity" = "За замовчуванням значення false. Коли true, > 105 mg/dL high temp target регулювання чутливості щодо exercise_mode. Синонім для high_temptarget_raises_sensities_sensitivity";
 
 
 /* Headline "Wide BG Target Range" */
-"Wide BG Target Range" = "Wide BG Target Range";
+"Wide BG Target Range" = "Розширений діапазон цілей ГК";
 
 /* "Wide BG Target Range" */
 "Defaults to false, which means by default only the low end of the pump’s BG target range is used as OpenAPS target. This is a safety feature to prevent too-wide targets and less-optimal outcomes. Therefore the higher end of the target range is used only for avoiding bolus wizard overcorrections. Use wide_bg_target_range: true to force neutral temps over a wider range of eventualBGs." = "За замовчуванням false, це означає лише низький кінець діапазону цілі BG по замовчуванню використовується як мета OpenAPS. Це функція безпеки для запобігання занадто широким цілям та менш оптимальним результатами. Тому найвищий кінець цільового діапазону використовується лише для уникнення виправлень майстра. Користуйтеся wide_bg_target_range: true для примушення нейтральних настроїв над ширшим діапазоном кінцевих BG.";
 
 
 /* Headline "Skip Neutral Temps" */
-"Skip Neutral Temps" = "Skip Neutral Temps";
+"Skip Neutral Temps" = "Повернутися на нейтральний базал";
 
 /* "Skip Neutral Temps" */
 "Defaults to false, so that FreeAPS X will set temps whenever it can, so it will be easier to see if the system is working, even when you are offline. This means FreeAPS X will set a “neutral” temp (same as your default basal) if no adjustments are needed. This is an old setting for OpenAPS to have the options to minimise sounds and notifications from the 'rig', that may wake you up during the night." = "Використовувати значення за замовчуванням false, так що FreeAPS X буде настроїти шматочки кожного разу, коли він може, так що буде легше перевірити, чи працює система, навіть в автономному режимі. Це означає, що OpenAPS встановить \"нейтральний\" шаблон (такий самий як і ваш базовий за замовчуванням) якщо ніяких змін не потрібен. Це стара настройка для OpenAPS мати опції, щоб мінімізувати звуки та сповіщення формували 'rig', це може розбудити вас вночі. ";
