@@ -1356,7 +1356,7 @@ Enact a temp Basal or a temp target */
 "SMB DeliveryRatio" = "SMB Abgabeverhältnis";
 
 /* SMB DeliveryRatio */
-"Default value: 0.5 This is another key OpenAPS safety cap, and specifies what share of the total insulin required can be delivered as SMB. Increase this experimental value slowly and with caution." = "Default value: 0.5 This is another key OpenAPS safety cap, and specifies what share of the total insulin required can be delivered as SMB. Increase this experimental value slowly and with caution.";
+"Default value: 0.5 This is another key OpenAPS safety cap, and specifies what share of the total insulin required can be delivered as SMB. Increase this experimental value slowly and with caution." = "Standardwert: 0.5 Dies ist ein weiteres wichtiges OpenAPS Sicherheitslimit und legt fest, welcher Anteil des Gesamtinsulins als SMB geliefert werden kann. Erhöhen Sie diesen experimentellen Wert langsam und mit Vorsicht.";
 
 // Dynamic ISF + CR Settings:
 /* Headline "Adjust Dynamic ISF constant" */
@@ -1417,13 +1417,13 @@ Enact a temp Basal or a temp target */
 "Max Delta-BG Threshold SMB" = "Max. Delta-BG-Grenzwert SMB";
 
 /* Max Delta-BG Threshold SMB */
-"Defaults to 0.2 (20%). Maximum positive percentual change of BG level to use SMB, above that will disable SMB. Hardcoded cap of 40%. For UAM fully-closed-loop 30% is advisable. Observe in log and popup (maxDelta 27 > 20% of BG 100 - disabling SMB!)." = "Defaults to 0.2 (20%). Maximum positive percentual change of BG level to use SMB, above that will disable SMB. Hardcoded cap of 40%. For UAM fully-closed-loop 30% is advisable. Observe in log and popup (maxDelta 27 > 20% of BG 100 - disabling SMB!).";
+"Defaults to 0.2 (20%). Maximum positive percentual change of BG level to use SMB, above that will disable SMB. Hardcoded cap of 40%. For UAM fully-closed-loop 30% is advisable. Observe in log and popup (maxDelta 27 > 20% of BG 100 - disabling SMB!)." = "Standard ist 0.2 (20%). Maximal positive prozentuale Änderung des BG-Levels, um SMB zu verwenden, darüber wird SMB deaktiviert. Hardcodierte Obergrenze von 40%. Für fully-closed-Loop UAM sind 30% ratsam. Beobachte in Log und Popup (maxDelta 27 > 20% BG 100 - Deaktivieren von SMB!).";
 
 /* Headline "... When Blood Glucose Is Over (mg/dl):" */
 "... When Blood Glucose Is Over (mg/dl):" = "... wenn Blutzucker über liegt (mg/dl):";
 
 /* ... When Blood Glucose Is Over (mg/dl): */
-"Set the value enableSMB_high_bg will compare against to enable SMB. If BG > than this value, SMBs should enable." = "Set the value enableSMB_high_bg will compare against to enable SMB. If BG > than this value, SMBs should enable.";
+"Set the value enableSMB_high_bg will compare against to enable SMB. If BG > than this value, SMBs should enable." = "Legen Sie den Wert fest, mit dem enableSMB_high_bg verglichen wird, um SMB zu aktivieren. Wenn BG > diesen Wert überschreitet, sollten SMBs aktiviert sein.";
 
 /* Headline "Enable SMB With High BG" */
 "Enable SMB With High BG" = "Aktiviere SMB mit hohem BG";
@@ -1438,4 +1438,4 @@ Enact a temp Basal or a temp target */
 "Insulin curve" = "Insulinkurve";
 
 /* Headline "Adjustment Factor" */
-"Adjustment Factor" = "Adjustment Factor";
+"Adjustment Factor" = "Korrekturfaktor";
