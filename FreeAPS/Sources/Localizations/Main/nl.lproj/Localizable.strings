@@ -1126,21 +1126,21 @@ Enact a temp Basal or a temp target */
 /* Option in preferences */
 
 
-"Display Statistics" = "Display Statistics";
+"Display Statistics" = "Statistieken weergeven";
 
 /* infoText: Description for Display Statistics */
-"Displays Statistics under the chart view" = "Displays Statistics under the chart view";
+"Displays Statistics under the chart view" = "Geef statistieken weer onder grafiekweergave";
 
 /* Low Glucose Limit option in preferences */
-"Low Glucose Limit" = "Low Glucose Limit";
+"Low Glucose Limit" = "Laag glucose limiet";
 
 /* High Glucose Limit option in preferences */
-"High Glucose Limit" = "High Glucose Limit";
+"High Glucose Limit" = "Hoog glucose limiet";
 
 /* infoText: Description for Low Glucose Limit */
-"BG Under This Value Will Be Displayed As Low Glucose Percentage" = "BG Under This Value Will Be Displayed As Low Glucose Percentage";
+"BG Under This Value Will Be Displayed As Low Glucose Percentage" = "BG onder deze waarde wordt weergegeven als laag percentage";
 /* infoText: Description for High Glucose Limit */
-"BG Under This Value Will Be Displayed As High Glucose Percentage" = "BG Under This Value Will Be Displayed As High Glucose Percentage";
+"BG Under This Value Will Be Displayed As High Glucose Percentage" = "BG onder deze waarde wordt weergegeven als hoog percentage";
 
 /* When statistics.json was last updated */
 "Updated" = "Updated";
