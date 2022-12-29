@@ -922,10 +922,10 @@ Enact a temp Basal or a temp target */
 "Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Bluetooth-status gjenopprettet (APS restartet?). Funnet %d ennheter, og koblet til %@ med identifikator %@";
 
 /* Shared app group xDrip4iOS */
-"Using shared app group with external CGM app xDrip4iOS" = "Using shared app group with external CGM app xDrip4iOS";
+"Using shared app group with external CGM app xDrip4iOS" = "Bruk delt appgruppe med ekstern CGM-app xDrip4iOS";
 
 /* Shared app group GlucoseDirect */
-"Using shared app group with external CGM app GlucoseDirect" = "Using shared app group with external CGM app GlucoseDirect";
+"Using shared app group with external CGM app GlucoseDirect" = "Bruk delt appgruppe med ekstern CGM app GlucoseDirect";
 
 /* Dexcom G6 app */
 "Dexcom G6 app" = "Opprinnelig G6-app";
@@ -1146,37 +1146,37 @@ Enact a temp Basal or a temp target */
 "Updated" = "Oppdatert";
 
 /* Average BG = */
-"Average" = "Average";
+"Average" = "Gjennomsnitt";
 
 /* Median BG */
 "Median" = "Median";
 
 /* Normal BG (within TIR) */
-"Normal (24h)" = "Normal (24h)";
+"Normal (24h)" = "Normal (24 timer)";
 
 /* Title High BG in statPanel */
-"High (>" = "High (>";
+"High (>" = "Høy (>";
 
 /* Title Low BG in statPanel */
-"Low (<" = "Low (<";
+"Low (<" = "Lavt (<";
 
 /* HbA1c estimation for one day of data */
-"HbA1c (24h)" = "HbA1c (24h)";
+"HbA1c (24h)" = "HbA1c (24t)";
 
 /* Total number of days of data for HbA1c estimation, part 1/2*/
-"All " = "All ";
+"All " = "Alle ";
 
 /* Total number of days of data for HbA1c estimation, part 2/2*/
-" days" = " days";
+" days" = " dager";
 
 /* Nr of loops last 24 hours */
 "Loops" = "Loops";
 
 /* Average loop interval */
-"Average Interval" = "Avgerage Interval";
+"Average Interval" = "Gj.snitt intervall";
 
 /* Median loop interval */
-"Median Duration" = "Median Duration";
+"Median Duration" = "Median varighet";
 
 /* --------------------------------------
 
