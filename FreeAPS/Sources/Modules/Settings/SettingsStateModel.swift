@@ -12,6 +12,10 @@ extension Settings {
 
         private(set) var buildNumber = ""
 
+        private(set) var versionNumber = ""
+
+        private(set) var branch = ""
+
         override func subscribe() {
             subscribeSetting(\.debugOptions, on: $debugOptions) { debugOptions = $0 }
             subscribeSetting(\.closedLoop, on: $closedLoop) { closedLoop = $0 }
@@ -19,6 +23,10 @@ extension Settings {
             broadcaster.register(SettingsObserver.self, observer: self)
 
             buildNumber = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "Unknown"
+
+            versionNumber = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "Unknown"
+
+            branch = Bundle.main.infoDictionary?["NSHumanReadableCopyright"] as? String ?? "Unknown"
 
             subscribeSetting(\.animatedBackground, on: $animatedBackground) { animatedBackground = $0 }
         }
