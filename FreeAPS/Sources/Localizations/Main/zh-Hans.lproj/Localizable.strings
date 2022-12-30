@@ -64,9 +64,6 @@
 /* Replace pod text in Header */
 "Replace pod" = "更换Pod";
 
-/* Suggested at a date */
-"Suggested at %@" = "建议于%@";
-
 /* Add carbs screen */
 "Add Carbs" = "添加碳水化合物";
 
