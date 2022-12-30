@@ -1185,10 +1185,10 @@ Enact a temp Basal or a temp target */
 "Display Standard Deviation (SD) instead of Coefficient of Variation (CV) in statPanel" = "Toon standaard afwijkingen (SD) in plaats van coëfficiënt van variatie (CV) in het hoofdscherm bij de statistieken";
 
 /* How often to update the statistics */
-"Update every number of minutes:" = "Update every number of minutes:";
+"Update every number of minutes:" = "Werk elk aantal minuten bij:";
 
 /* Description for update interval for statistics */
-"Default is 30 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout. A lower interval than for glucose updates (5 min) is pointless." = "Default is 30 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout. A lower interval than for glucose updates (5 min) is pointless.";
+"Default is 30 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout. A lower interval than for glucose updates (5 min) is pointless." = "Standaard is 30 minuten. Hoe vaak de statistics.json moet worden bijgewerkt en opgeslagen en hoe vaak de laatste reeks, indien ingeschakeld, moet worden geüpload naar Nightscout. Een lager interval dan voor glucose-updates (5 min) is zinloos.";
 
 /* --------------------------------------
 
