@@ -907,13 +907,13 @@ Enact a temp Basal or a temp target */
 
 
 /* Headers for settings ----------------------- */
-"OpenAPS main settings" = "FreeAPS X hoofdinstellingen";
+"OpenAPS main settings" = "Oref0 hoofdinstellingen";
 
-"OpenAPS SMB settings" = "FreeAPS X SMB instellingen";
+"OpenAPS SMB settings" = "Oref0 SMB instellingen";
 
-"OpenAPS targets settings" = "FreeAPS X doel instellingen";
+"OpenAPS targets settings" = "Oref0 doel instellingen";
 
-"OpenAPS other settings" = "FreeAPS X overige instellingen";
+"OpenAPS other settings" = "Oref0 overige instellingen";
 
 /* Glucose Simulator CGM */
 "Glucose Simulator" = "Glucose simulator";
