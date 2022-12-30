@@ -43,8 +43,11 @@
 /*  */
 "Agree and continue" = "Zaakceptuj i kontynuuj";
 
-/* Enacted at a date */
-"Enacted at %@" = "Enacted at %@";
+/* Headline in enacted pop up (at: at what time) */
+"Enacted at" = "Enacted at";
+
+/* Headline in suggested pop up (at: at what time) */
+"Suggested at" = "Suggested at";
 
 /* Home title */
 "Home" = "Home";
@@ -965,7 +968,7 @@ Połączono z Nightscout!";
 "Pump History" = "Pump History";
 
 /* Debug option view Target Ranges */
-"Target Ranges" = "Target Ranges";
+"Target ranges" = "Target ranges";
 
 /* Debug option view Temp targets */
 "Temp targets" = "Temp targets";
