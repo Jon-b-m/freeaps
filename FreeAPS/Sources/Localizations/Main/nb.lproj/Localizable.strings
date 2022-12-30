@@ -44,10 +44,10 @@
 "Agree and continue" = "Godta og fortsett";
 
 /* Headline in enacted pop up (at: at what time) */
-"Enacted at" = "Enacted at";
+"Enacted at" = "Utført kl.";
 
 /* Headline in suggested pop up (at: at what time) */
-"Suggested at" = "Suggested at";
+"Suggested at" = "Foreslått kl.";
 
 /* Home title */
 "Home" = "Hjem";
@@ -963,7 +963,7 @@ Enact a temp Basal or a temp target */
 "Pump History" = "Pumpehistorikk";
 
 /* Debug option view Target Ranges */
-"Target ranges" = "Target ranges";
+"Target ranges" = "Målområder";
 
 /* Debug option view Temp targets */
 "Temp targets" = "Midlertidige mål";
