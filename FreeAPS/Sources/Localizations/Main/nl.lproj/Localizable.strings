@@ -246,7 +246,7 @@ Enact a temp Basal or a temp target */
 "Local glucose source" = "Lokale glucose bron";
 
 /* Header */
-"Nightscout Config" = "Nightscout 🦉";
+"Nightscout Config" = "Nightscout instellingen";
 
 /*  */
 "Port" = "Poort";
@@ -363,7 +363,7 @@ Enact a temp Basal or a temp target */
 "Pump" = "Pomp";
 
 /*  */
-"Services" = "Diensten";
+"Services" = "Apps";
 
 /*  */
 "Settings" = "Instellingen";
@@ -552,10 +552,10 @@ Enact a temp Basal or a temp target */
 "Glucose" = "Glucosewaarde";
 
 /* LOWALERT! */
-"LOWALERT!" = "Waarschuwing laag!";
+"LOWALERT!" = "Waarschuwing LAAG!";
 
 /* HIGHALERT! */
-"HIGHALERT!" = "Waarschuwing hoog!";
+"HIGHALERT!" = "Waarschuwing HOOG!";
 
 /* (Snoozed)*/
 "(Snoozed)" = "(Gesluimerd)";
@@ -615,7 +615,7 @@ Enact a temp Basal or a temp target */
 "Sensor Ending Soon" = "Sensor verloopt binnenkort";
 
 /* Current Sensor is Ending soon! Sensor Life left in %@ */
-"Current Sensor is Ending soon! Sensor Life left in %@" = "Huidige sensor verloopt binnenkort! Sensor verloopt in %@";
+"Current Sensor is Ending soon! Sensor Life left in %@" = "Huidige sensor verloopt in %@";
 
 /* */
 "Libre Bluetooth" = "Libre Bluetooth";
@@ -711,7 +711,7 @@ Enact a temp Basal or a temp target */
 "Export not available" = "Exporteren niet beschikbaar";
 
 /* */
-"Log export requires ios 15" = "Log export vereist ten minste iOS 15 of hoger";
+"Log export requires ios 15" = "Log export vereist iOS 15 of hoger";
 
 /* */
 "Got it!" = "Begrepen!";
@@ -876,7 +876,7 @@ Enact a temp Basal or a temp target */
 "About this source" = "Over deze bron";
 
 /* */
-"Bolus failed" = "Bolus mislukt";
+"Bolus failed" = "Bolus is mislukt";
 
 /* */
 "Bolus failed or inaccurate. Check pump history before repeating." = "Bolus mislukt of onjuist. Controleer de pompgeschiedenis voordat je herhaalt.";
@@ -907,13 +907,13 @@ Enact a temp Basal or a temp target */
 
 
 /* Headers for settings ----------------------- */
-"OpenAPS main settings" = "OpenAPS hoofdinstellingen";
+"OpenAPS main settings" = "FreeAPS X hoofdinstellingen";
 
-"OpenAPS SMB settings" = "OpenAPS SMB instellingen";
+"OpenAPS SMB settings" = "FreeAPS X SMB instellingen";
 
-"OpenAPS targets settings" = "OpenAPS doel instellingen";
+"OpenAPS targets settings" = "FreeAPS X doel instellingen";
 
-"OpenAPS other settings" = "OpenAPS overige instellingen";
+"OpenAPS other settings" = "FreeAPS X overige instellingen";
 
 /* Glucose Simulator CGM */
 "Glucose Simulator" = "Glucose simulator";
@@ -1323,7 +1323,7 @@ Enact a temp Basal or a temp target */
 "Autosens Min" = "Autosens Min";
 
 /* "Autosens Min" */
-"The other side of the autosens safety limits, putting a cap on how low autosens can adjust basals, and how high it can adjust ISF and BG targets." = "De andere kant van de Autosens veiligheidslimiet, dit set een limiet op hoe laag Autosens de basaal kan zetten, hoe hoog Autosens de ISF kan zetten en hoe hoog de streefwaarde ingesteld kan worden.";
+"The other side of the autosens safety limits, putting a cap on how low autosens can adjust basals, and how high it can adjust ISF and BG targets." = "De andere kant van de Autosens veiligheidslimiet, dit zet een limiet op hoe laag Autosens de basaal kan zetten, hoe hoog Autosens de ISF kan zetten en hoe hoog de streefwaarde ingesteld kan worden.";
 
 /* Headline "Half Basal Exercise Target" */
 "Half Basal Exercise Target" = "Halve basaal bewegingsdoel";
@@ -1401,7 +1401,7 @@ Enact a temp Basal or a temp target */
 "Carbs Req Threshold" = "Koolhydraten vereist drempel";
 
 /* "Carbs Req Threshold" */
-"Grams of carbsReq to trigger a pushover. Defaults to 1 (for 1 gram of carbohydrate). Can be increased if you only want to get Pushover for carbsReq at X threshold." = "Aantal gram koolhydraten benodigd om een push bericht te versturen. Standaard ingesteld op 1 (voor 1 gram aan koolhydraten). Kan worden verhoogd als alleen voor push berichten wil krijgen boven de ingestelde drempelwaarde.";
+"Grams of carbsReq to trigger a pushover. Defaults to 1 (for 1 gram of carbohydrate). Can be increased if you only want to get Pushover for carbsReq at X threshold." = "Aantal gram koolhydraten benodigd om een push bericht te versturen. Standaard ingesteld op 1 (voor 1 gram aan koolhydraten). Kan worden verhoogd als u alleen push berichten wilt krijgen boven de ingestelde drempelwaarde.";
 
 /* Headline "Noisy CGM Target Multiplier" */
 "Noisy CGM Target Multiplier" = "CGM doelvermenigvuldiger met ruis";
@@ -1433,7 +1433,7 @@ Enact a temp Basal or a temp target */
 "Calculate a new ISF with every loop cycle. New ISF will be based on current BG, TDD of insulin (past 24 hours or a weighted average) and an Adjustment Factor (default is 1).\n\nDynamic ISF and CR ratios will be limited by your autosens.min/max limits.\n\nDynamic ratio replaces the autosens.ratio: New ISF = Static ISF / Dynamic ratio,\nDynamic ratio = profile.sens * adjustmentFactor * tdd * Math.log(BG/insulinFactor+1) / 1800,\ninsulinFactor = 120 - InsulinPeakTimeInMinutes" = "Bereken een nieuwe ISF bij elke loopcyclus. Nieuwe ISF wordt gebaseerd op de huidige BG, TDD van insuline (afgelopen 24 uur of een gewogen gemiddelde) en een aanpassingsfactor (standaard 1).\n\nDynamische ISF en CR ratio's worden beperkt door uw autosens.min/max grenzen.\n\nDynamische ratio vervangt de autosens.ratio: Nieuwe ISF = Static ISF / Dynamic ratio,\nDynamic ratio = profile.sens * adjustmentFactor * tdd * Math.log(BG/insulinFactor+1) / 1800,\ninsulinFactor = 120 - InsulinPeakTimeInMinutes";
 
 /* Headline "Enable Dynamic CR" */
-"Enable Dynamic CR" = "Dynamische ISF inschakelen";
+"Enable Dynamic CR" = "Dynamische CR inschakelen";
 
 /* Enable Dynamic CR */
 "Use Dynamic CR. The dynamic ratio will be used for CR as follows:\n\n When ratio > 1:  dynCR = (newRatio - 1) / 2 + 1.\nWhen ratio < 1: dynCR = CR/dynCR.\n\nDon't use toghether with a high Insulin Fraction (> 2)" = "Dynamische CR gebruiken. De dynamische verhouding wordt gebruikt voor CR op de volgende manier:\n\n Wanneer verhouding > 1: dynCR = (newRatio - 1) / 2 + 1.\nWanneer verhouding < 1: dynCR = CR/dynCR.\n\nGebruik niet samen met een hoge insuline fractie (> 2)";
