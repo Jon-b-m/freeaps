@@ -1179,10 +1179,10 @@ Enact a temp Basal or a temp target */
 "Median Duration" = "Median duur";
 
 /* "Display SD */
-"Display SD instead of CV" = "Display SD instead of CV";
+"Display SD instead of CV" = "Toon SD in plaats van CV";
 
 /* Description for display SD */
-"Display Standard Deviation (SD) instead of Coefficient of Variation (CV) in statPanel" = "Display Standard Deviation (SD) instead of Coefficient of Variation (CV) in statPanel";
+"Display Standard Deviation (SD) instead of Coefficient of Variation (CV) in statPanel" = "Toon standaard afwijkingen (SD) in plaats van coëfficiënt van variatie (CV) in het hoofdscherm bij de statistieken";
 
 /* How often to update the statistics */
 "Update every number of minutes:" = "Update every number of minutes:";
