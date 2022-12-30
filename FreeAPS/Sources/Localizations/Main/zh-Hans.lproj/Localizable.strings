@@ -43,8 +43,11 @@
 /*  */
 "Agree and continue" = "同意并继续";
 
-/* Enacted at a date */
-"Enacted at %@" = "运行于 %@";
+/* Headline in enacted pop up (at: at what time) */
+"Enacted at" = "Enacted at";
+
+/* Headline in suggested pop up (at: at what time) */
+"Suggested at" = "Suggested at";
 
 /* Home title */
 "Home" = "主页";
@@ -963,7 +966,7 @@ Enact a temp Basal or a temp target */
 "Pump History" = "Pump History";
 
 /* Debug option view Target Ranges */
-"Target Ranges" = "目标范围：";
+"Target ranges" = "Target ranges";
 
 /* Debug option view Temp targets */
 "Temp targets" = "Temp targets";
