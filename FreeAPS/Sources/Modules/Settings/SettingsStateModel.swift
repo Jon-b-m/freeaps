@@ -30,7 +30,7 @@ extension Settings {
 
             branch = Bundle.main.infoDictionary?["BuildBranch"] as? String ?? "Unknown"
 
-            copyrightNotice = Bundle.main.infoDictionary?["NSHumanReadableCopyright"] as? String ?? "Unknown"
+            copyrightNotice = Bundle.main.infoDictionary?["NSHumanReadableCopyright"] as? String ?? ""
 
             subscribeSetting(\.animatedBackground, on: $animatedBackground) { animatedBackground = $0 }
         }
