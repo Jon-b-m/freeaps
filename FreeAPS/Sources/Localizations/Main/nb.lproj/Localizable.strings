@@ -1179,16 +1179,16 @@ Enact a temp Basal or a temp target */
 "Median Duration" = "Median varighet";
 
 /* "Display SD */
-"Display SD instead of CV" = "Display SD instead of CV";
+"Display SD instead of CV" = "Vis SD i stedet for CV";
 
 /* Description for display SD */
-"Display Standard Deviation (SD) instead of Coefficient of Variation (CV) in statPanel" = "Display Standard Deviation (SD) instead of Coefficient of Variation (CV) in statPanel";
+"Display Standard Deviation (SD) instead of Coefficient of Variation (CV) in statPanel" = "Vis standardavvik (SD) i stedet for variasjonskoeffisient (CV) i statistikkpanel";
 
 /* How often to update the statistics */
-"Update every number of minutes:" = "Update every number of minutes:";
+"Update every number of minutes:" = "Oppdateringsintervall (i minutter):";
 
 /* Description for update interval for statistics */
-"Default is 30 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout. A lower interval than for glucose updates (5 min) is pointless." = "Default is 30 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout. A lower interval than for glucose updates (5 min) is pointless.";
+"Default is 30 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout. A lower interval than for glucose updates (5 min) is pointless." = "Standard er 30 minutter. Hvor ofte skal statistics.json oppdateres og lagres og, hvis aktivert, data lates opp til Nightscout. Et lavere intervall enn for BS (5 minutter) er meningsløst.";
 
 /* --------------------------------------
 
