@@ -43,8 +43,11 @@
 /*  */
 "Agree and continue" = "Прийняти і Продовжити";
 
-/* Enacted at a date */
-"Enacted at %@" = "Подано в %@";
+/* Headline in enacted pop up (at: at what time) */
+"Enacted at" = "Enacted at";
+
+/* Headline in suggested pop up (at: at what time) */
+"Suggested at" = "Suggested at";
 
 /* Home title */
 "Home" = "Головна";
@@ -963,7 +966,7 @@ Enact a temp Basal or a temp target */
 "Pump History" = "Pump History";
 
 /* Debug option view Target Ranges */
-"Target Ranges" = "Цільові Діапазони";
+"Target ranges" = "Target ranges";
 
 /* Debug option view Temp targets */
 "Temp targets" = "Temp targets";
