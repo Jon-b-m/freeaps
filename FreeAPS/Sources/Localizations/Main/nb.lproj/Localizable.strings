@@ -1226,7 +1226,7 @@ Enact a temp Basal or a temp target */
 "HbA1c" = "HbA1c";
 
 /* Total number of days of data for HbA1c estimation, part 1/2*/
-"All" = "All";
+"All" = "Alle";
 
 /* Total number of days of data for HbA1c estimation, part 2/2*/
 "days" = "dager";
