@@ -1232,7 +1232,7 @@ Enact a temp Basal or a temp target */
 "All" = "Ø";
 
 /* Total number of days of data for HbA1c estimation, part 2/2*/
-"days" = "Tage";
+"days" = " Tage";
 
 /* Nr of loops last 24 hours */
 "Loops" = "Loops";
