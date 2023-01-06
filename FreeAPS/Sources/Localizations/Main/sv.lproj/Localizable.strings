@@ -1208,7 +1208,7 @@ Enact a temp Basal or a temp target */
 "Median" = "Medianvärde";
 
 /* Normal BG (within TIR) */
-"Normal" = "Normal";
+"Normal" = "Normalvärde";
 
 /* Title High BG in statPanel */
 "High (>" = "Högt (>";
