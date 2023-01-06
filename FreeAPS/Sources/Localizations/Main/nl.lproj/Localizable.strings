@@ -49,6 +49,9 @@
 /* Headline in suggested pop up (at: at what time) */
 "Suggested at" = "Voorgesteld op";
 
+/* Headline in enacted pop up (at: at what time) */
+"Error at" = "Error at";
+
 /* Home title */
 "Home" = "Hoofdmenu";
 
@@ -1208,7 +1211,7 @@ Enact a temp Basal or a temp target */
 "Median" = "Mediaan";
 
 /* Normal BG (within TIR) */
-"Normal" = "Normal";
+"Normal" = "TIR (24h)";
 
 /* Title High BG in statPanel */
 "High (>" = "Hoog (>";
@@ -1226,7 +1229,7 @@ Enact a temp Basal or a temp target */
 "HbA1c" = "HbA1c";
 
 /* Total number of days of data for HbA1c estimation, part 1/2*/
-"All" = "All";
+"All" = "Alle ";
 
 /* Total number of days of data for HbA1c estimation, part 2/2*/
 "days" = "dagen";
