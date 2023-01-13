@@ -1238,10 +1238,10 @@ Enact a temp Basal or a temp target */
 "Loops" = "Loopar";
 
 /* Loop Errors in statPanel */
-"Errors" = "Errors";
+"Errors" = "Fel";
 
 /* Average loop interval */
-"Interval" = "Interval";
+"Interval" = "Intervall";
 
 /* Median loop interval */
 "Duration" = "Duration";
