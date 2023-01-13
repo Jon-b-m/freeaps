@@ -1238,10 +1238,10 @@ Enact a temp Basal or a temp target */
 "Loops" = "Петлі";
 
 /* Loop Errors in statPanel */
-"Errors" = "Errors";
+"Errors" = "Помилки";
 
 /* Average loop interval */
-"Interval" = "Interval";
+"Interval" = "Інтервал";
 
 /* Median loop interval */
 "Duration" = "Тривалість";
