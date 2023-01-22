@@ -423,7 +423,7 @@ Enact a temp Basal or a temp target */
 "Delete carbs?" = "Удалить углеводы?";
 
 /* Delete insulin from pump history and Nightscout */
-"Delete insulin?" = "Delete insulin?";
+"Delete insulin?" = "Удалить инсулин?";
 
 /* Treatments list */
 "Treatments" = "События";
