@@ -1214,7 +1214,7 @@ Enact a temp Basal or a temp target */
 "Median" = "Median";
 
 /* CGM readings in statPanel */
-"Readings" = "Readings";
+"Readings" = "Avlesninger";
 
 /* Normal BG (within TIR) */
 "Normal" = "Normalt";
