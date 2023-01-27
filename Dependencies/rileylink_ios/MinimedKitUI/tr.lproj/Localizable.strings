@@ -11,10 +11,10 @@
 "%1$@%2$@%3$@" = "%1$@%2$@%3$@";
 
 /* Instructions on selecting battery chemistry type */
-"Alkaline and Lithium batteries decay at differing rates. Alkaline tend to have a linear voltage drop over time whereas lithium cell batteries tend to maintain voltage until halfway through their lifespan. Under normal usage in a Non-MySentry compatible Minimed (x22/x15) insulin pump running Loop, Alkaline batteries last approximately 4 to 5 days. Lithium batteries last between 1-2 weeks. This selection will use different battery voltage decay rates for each of the battery chemistry types and alert the user when a battery is approximately 8 to 10 hours from failure." = "Alkaline and Lithium batteries decay at differing rates. Alkaline tend to have a linear voltage drop over time whereas lithium cell batteries tend to maintain voltage until halfway through their lifespan. Under normal usage in a Non-MySentry compatible Minimed (x22/x15) insulin pump running Loop, Alkaline batteries last approximately 4 to 5 days. Lithium batteries last between 1-2 weeks. This selection will use different battery voltage decay rates for each of the battery chemistry types and alert the user when a battery is approximately 8 to 10 hours from failure.";
+"Alkaline and Lithium batteries decay at differing rates. Alkaline tend to have a linear voltage drop over time whereas lithium cell batteries tend to maintain voltage until halfway through their lifespan. Under normal usage in a Non-MySentry compatible Minimed (x22/x15) insulin pump running Loop, Alkaline batteries last approximately 4 to 5 days. Lithium batteries last between 1-2 weeks. This selection will use different battery voltage decay rates for each of the battery chemistry types and alert the user when a battery is approximately 8 to 10 hours from failure." = "Alkalin ve lityum piller farklı hızlarda biter. Alkalin piller zamanla doğrusal bir voltaj düşüşüne sahip olma eğilimindeyken, lityum hücreli piller ömürlerinin yarısına kadar voltaj tutma eğilimindedir. Alkalin piller, Loop ile normal kullanımda MySentry uyumlu olmayan bir Minimed (x22/x15) insülin pompası ile yaklaşık 4 ila 5 gün dayanır. Lityum piller ise 1-2 hafta dayanır. Bu seçim, pil türlerinin her biri için farklı pil voltajı düşüş oranı kullanır ve pil bitmeden yaklaşık 8-10 saat önce kullanıcıyı uyarır.";
 
 /* Confirmation message for deleting a pump */
-"Are you sure you want to delete this pump?" = "Are you sure you want to delete this pump?";
+"Are you sure you want to delete this pump?" = "Bu pompa'yı silmek istediğinden emin misin?";
 
 /* The title of the cell describing an awake radio */
 "Awake Until" = "Awake Until";
@@ -23,7 +23,7 @@
 "Basal Rates" = "Bazal Oranları";
 
 /* The format string describing pump battery voltage: (1: battery voltage) */
-"Battery: %1$@ volts\n" = "Battery: %1$@ volts\n";
+"Battery: %1$@ volts\n" = "Pil: %1$@ volt\n";
 
 /* The label indicating the best radio frequency */
 "Best Frequency" = "En İyi Frekans";
@@ -111,7 +111,7 @@
 "Get Statistics…" = "İstatistikleri Al…";
 
 /* Instructions on selecting an insulin data source */
-"Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option.";
+"Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "İnsülin iletimi, olay geçmişi yorumlanarak veya zaman içinde rezervuar hacmi karşılaştırılarak pompadan belirlenebilir. Olay geçmişinin okunması, daha doğru bir durum grafiğine ve güncel tedavi verilerinin Nightscout'a yüklenmesine karşın, yalnızca rezervuar hacmini okumaya kıyasla daha hızlı pompa pili tüketimi ve daha yüksek pompa iletişim hatasına sebep olabilir. Seçilen kaynak herhangi bir nedenle kullanılamıyorsa sistem diğer seçeneğe geri dönmeye çalışacaktır.";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "Son uyanma";
