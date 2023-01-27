@@ -135,54 +135,54 @@
 "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device";
 
 /* The title text for the preferred insulin data source config */
-"Preferred Data Source" = "Preferred Data Source";
+"Preferred Data Source" = "Tercih Edilen Veri Kaynağı";
 
 /* The title of the section describing the pump */
 "Pump" = "Pompa";
 
 /* The title text for the battery type value */
-"Pump Battery Type" = "Pump Battery Type";
+"Pump Battery Type" = "Pompa Pil Tipi";
 
 /* The title of the cell showing pump ID
    The title text for the pump ID config value */
-"Pump ID" = "Pump ID";
+"Pump ID" = "Pompa ID";
 
 /* The title of the cell showing the pump model number */
-"Pump Model" = "Pump Model";
+"Pump Model" = "Pompa Modeli";
 
 /* Title of the pump settings view controller */
 "Pump Settings" = "Pompa Ayarları";
 
 /* The title of the command to read basal schedule */
-"Read Basal Schedule" = "Read Basal Schedule";
+"Read Basal Schedule" = "Bazal Planı Oku";
 
 /* The title of the command to read pump status */
-"Read Pump Status" = "Read Pump Status";
+"Read Pump Status" = "Pompa Durumunu Oku";
 
 /* Progress message for reading basal schedule */
-"Reading basal schedule…" = "Reading basal schedule…";
+"Reading basal schedule…" = "Bazal Planı Okunuyor…";
 
 /* Progress message for reading pump status */
-"Reading pump status…" = "Reading pump status…";
+"Reading pump status…" = "Pompa durumu okunuyor…";
 
 /* The title of the cell showing the pump region */
-"Region" = "Region";
+"Region" = "Bölge";
 
 /* Button title to retry sentry setup */
 "Retry" = "Tekrar Dene";
 
 /* The title of the command to fetch RileyLink statistics */
-"RileyLink Statistics" = "RileyLink Statistics";
+"RileyLink Statistics" = "RileyLink İstatistikleri";
 
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
-"Save to Pump…" = "Save to Pump…";
+"Save to Pump…" = "Pompaya Kaydet…";
 
 /* The title of the command to send a button press */
-"Send Button Press" = "Send Button Press";
+"Send Button Press" = "Gönder Düğmesine Bas";
 
 /* Progress message for sending button press to pump. */
-"Sending button press…" = "Sending button press…";
+"Sending button press…" = "Gönderme düğmesine basın…";
 
 /* The title of the cell showing BLE signal strength (RSSI) */
 "Signal Strength" = "Sinyal Gücü";
@@ -191,16 +191,16 @@
 "Succeeded" = "Başarılı oldu";
 
 /* The format string describing pump suspended state: (1: suspended) */
-"Suspended: %1$@\n" = "Suspended: %1$@\n";
+"Suspended: %1$@\n" = "Duraklatıldı: %1$@\n";
 
 /* The label indicating the results of each frequency trial */
-"Trials" = "Trials";
+"Trials" = "Denemeler";
 
 /* The title of the command to re-tune the radio */
-"Tune Radio Frequency" = "Tune Radio Frequency";
+"Tune Radio Frequency" = "Radyo Frekansını Ayarla";
 
 /* Progress message for tuning radio */
-"Tuning radio…" = "Tuning radio…";
+"Tuning radio…" = "Frekans ayarlanıyor…";
 
 /* The detail text for an unknown pump model */
 "Unknown" = "Bilinmiyor";
