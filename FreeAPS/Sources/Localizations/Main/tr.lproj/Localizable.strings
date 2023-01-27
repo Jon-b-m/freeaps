@@ -972,7 +972,7 @@ Enact a temp Basal or a temp target */
 "Target ranges" = "Hedef aralıkları";
 
 /* Debug option view Temp targets */
-"Temp targets" = "Temp targets";
+"Temp targets" = "Geçici hedefler";
 
 /* Debug option view Meal */
 "Meal" = "Ögün";
@@ -987,7 +987,7 @@ Enact a temp Basal or a temp target */
 "Enacted" = "Enacted";
 
 /* Debug option view Announcements (from NS) */
-"Announcements" = "Announcements";
+"Announcements" = "Duyurular";
 
 /* Debug option view Enacted announcements announcements (from NS) */
 "Enacted announcements" = "Enacted announcements";
@@ -1185,19 +1185,19 @@ Enact a temp Basal or a temp target */
 /* Headline Statistics */
 
 
-"Statistics" = "Statistics";
+"Statistics" = "İstatistikler";
 
 /* Option in preferences */
-"Display Statistics" = "Display Statistics";
+"Display Statistics" = "İstatistikleri Göster";
 
 /* infoText: Description for Display Statistics */
-"Displays Statistics under the chart view" = "Displays Statistics under the chart view";
+"Displays Statistics under the chart view" = "İstatistikleri Grafik görünümü altında görüntüler";
 
 /* Low Glucose Limit option in preferences */
-"Low Glucose Limit" = "Low Glucose Limit";
+"Low Glucose Limit" = "Düşük Glikoz Sınırı";
 
 /* High Glucose Limit option in preferences */
-"High Glucose Limit" = "High Glucose Limit";
+"High Glucose Limit" = "Yüksek Glikoz Sınırı";
 
 /* infoText: Description for Low Glucose Limit */
 "BG Under This Value Will Be Displayed As Low Glucose Percentage" = "BG Under This Value Will Be Displayed As Low Glucose Percentage";
@@ -1205,16 +1205,16 @@ Enact a temp Basal or a temp target */
 "BG Under This Value Will Be Displayed As High Glucose Percentage" = "BG Under This Value Will Be Displayed As High Glucose Percentage";
 
 /* When statistics.json was last updated */
-"Updated" = "Updated";
+"Updated" = "Güncellendi";
 
 /* Average BG = */
-"Average" = "Average";
+"Average" = "Ortalama";
 
 /* Median BG */
-"Median" = "Median";
+"Median" = "Orta Değer";
 
 /* CGM readings in statPanel */
-"Readings" = "Readings";
+"Readings" = "Okumalar";
 
 /* Normal BG (within TIR) */
 "Normal" = "Normal";
@@ -1244,10 +1244,10 @@ Enact a temp Basal or a temp target */
 "Loops" = "Döngüler";
 
 /* Loop Errors in statPanel */
-"Errors" = "Errors";
+"Errors" = "Hatalar";
 
 /* Average loop interval */
-"Interval" = "Interval";
+"Interval" = "Aralık";
 
 /* Median loop interval */
 "Duration" = "Süre";
@@ -1265,13 +1265,13 @@ Enact a temp Basal or a temp target */
 "Default is 30 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout. A lower interval than for glucose updates (5 min) is pointless." = "Default is 30 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout. A lower interval than for glucose updates (5 min) is pointless.";
 
 /* Duration displayed in statPanel */
-"Past 24 Hours " = "Past 24 Hours ";
+"Past 24 Hours " = "Son 24 Saat ";
 
 /* Duration displayed in statPanel */
-"Past Week " = "Past Week ";
+"Past Week " = "Geçen Hafta ";
 
 /* Duration displayed in statPanel */
-"Past Month " = "Past Month ";
+"Past Month " = "Geçen Ay ";
 
 /* Duration displayed in statPanel */
 "Past 90 Days " = "Son 90 Gün ";
