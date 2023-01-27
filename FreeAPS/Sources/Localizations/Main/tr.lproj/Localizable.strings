@@ -423,7 +423,7 @@ Enact a temp Basal or a temp target */
 "Delete carbs?" = "Karbonhidratları sil?";
 
 /* Delete insulin from pump history and Nightscout */
-"Delete insulin?" = "Delete insulin?";
+"Delete insulin?" = "İnsülin silinsin mi?";
 
 /* Treatments list */
 "Treatments" = "Tedaviler";
@@ -928,10 +928,10 @@ Enact a temp Basal or a temp target */
 "Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Bluetooth Durumu geri yüklendi (APS yeniden başlatıldı mı?). %d çevre birimi bulundu ve %@ tanımlayıcısı ile %@'a bağlandı";
 
 /* Shared app group xDrip4iOS */
-"Using shared app group with external CGM app xDrip4iOS" = "Using shared app group with external CGM app xDrip4iOS";
+"Using shared app group with external CGM app xDrip4iOS" = "Harici CGM uygulaması xDrip4iOS ile paylaşılan uygulama grubunu kullan";
 
 /* Shared app group GlucoseDirect */
-"Using shared app group with external CGM app GlucoseDirect" = "Using shared app group with external CGM app GlucoseDirect";
+"Using shared app group with external CGM app GlucoseDirect" = "Harici CGM uygulaması GlucoseDirect ile paylaşılan uygulama grubunu kullan";
 
 /* Dexcom G6 app */
 "Dexcom G6 app" = "Yerel G6 uygulaması";
@@ -954,10 +954,10 @@ Enact a temp Basal or a temp target */
 /* -------------- Developer settings ---------------------- */
 /* Debug options */
 
-"Developer" = "Developer";
+"Developer" = "Geliştirici";
 
 /* Debug option view NS Upload Profile */
-"NS Upload Profile" = "NS Upload Profile";
+"NS Upload Profile" = "NS Yükleme Profili";
 
 /* Debug option view NS Uploaded Profile */
 "NS Uploaded Profile" = "NS Uploaded Profile";
@@ -966,22 +966,22 @@ Enact a temp Basal or a temp target */
 "Autosense" = "Autosense";
 
 /* Debug option view Pump History */
-"Pump History" = "Pump History";
+"Pump History" = "Pompa geçmişi";
 
 /* Debug option view Target Ranges */
-"Target ranges" = "Target ranges";
+"Target ranges" = "Hedef aralıkları";
 
 /* Debug option view Temp targets */
 "Temp targets" = "Temp targets";
 
 /* Debug option view Meal */
-"Meal" = "Meal";
+"Meal" = "Ögün";
 
 /* Debug option view Pump profile */
-"Pump profile" = "Pump profile";
+"Pump profile" = "Pompa profili";
 
 /* Debug option view Profile */
-"Profile" = "Profile";
+"Profile" = "Profil";
 
 /* Debug option view Enacted */
 "Enacted" = "Enacted";
@@ -1220,10 +1220,10 @@ Enact a temp Basal or a temp target */
 "Normal" = "Normal";
 
 /* Title High BG in statPanel */
-"High (>" = "High (>";
+"High (>" = "Yüksek (>";
 
 /* Title Low BG in statPanel */
-"Low (<" = "Low (<";
+"Low (<" = "Düşük (<";
 
 /* SD */
 "SD" = "SD";
@@ -1235,13 +1235,13 @@ Enact a temp Basal or a temp target */
 "HbA1c" = "HbA1c";
 
 /* Total number of days of data for HbA1c estimation, part 1/2*/
-"All" = "All";
+"All" = "Tümü";
 
 /* Total number of days of data for HbA1c estimation, part 2/2*/
 "days" = "gün";
 
 /* Nr of Loops in statPanel */
-"Loops" = "Loops";
+"Loops" = "Döngüler";
 
 /* Loop Errors in statPanel */
 "Errors" = "Errors";
@@ -1274,10 +1274,10 @@ Enact a temp Basal or a temp target */
 "Past Month " = "Past Month ";
 
 /* Duration displayed in statPanel */
-"Past 90 Days " = "Past 90 Days ";
+"Past 90 Days " = "Son 90 Gün ";
 
 /* Duration displayed in statPanel */
-"All Past Days of Data " = "All Past Days of Data ";
+"All Past Days of Data " = "Tüm Geçmiş Gün Verileri ";
 
 /* "Display Loop statistics in statPanel */
 "Display Loop Cycle statistics" = "Display Loop Cycle statistics";
@@ -1608,4 +1608,4 @@ Enact a temp Basal or a temp target */
 "Insulin curve" = "İnsülin eğrisi";
 
 /* Headline "Adjustment Factor" */
-"Adjustment Factor" = "Adjustment Factor";
+"Adjustment Factor" = "Düzeltme Katsayısı";
