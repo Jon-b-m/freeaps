@@ -1,41 +1,53 @@
 import SwiftUI
 
-protocol DurationButton: CaseIterable {
-    var title: String { get }
-}
+enum durationState {
+    case day
+    case week
+    case month
+    case total
 
-extension DurationButton where Self: RawRepresentable, RawValue == String {
+    var nextStatus: durationState {
+        switch self {
+        case .day: return .week
+        case .week: return .month
+        case .month: return .total
+        case .total: return .day
+        }
+    }
+
     var title: String {
-        rawValue
+        switch self {
+        case .day: return "24hr "
+        case .week: return "7d  "
+        case .month: return "30d "
+        case .total: return "All data "
+        }
+    }
+
+    var color: Color {
+        switch self {
+        case .day: return .loopYellow
+        case .week: return .insulin
+        case .month: return .loopGreen
+        case .total: return .loopGray
+        }
     }
 }
 
-enum durationState: String, DurationButton {
-    case day = "Past 24 Hours "
-    case week = "Past Week "
-    case month = "Past Month "
-    case total = "All Past Days of Data "
-}
-
-struct durationButton<T: DurationButton>: View {
-    let states: [T]
-    @State var currentIndex = 0
-    @Binding var selectedState: T
+struct durationButton: View {
+    @Binding var selectedState: durationState
 
     var body: some View {
         Button {
-            currentIndex = currentIndex < states.count - 1 ? currentIndex + 1 : 0
-            selectedState = states[currentIndex]
-        } label: {
-            Text(NSLocalizedString(states[currentIndex].title, comment: "Duration displayed in statPanel"))
-                .font(.caption2)
-                .foregroundColor(.secondary)
+            selectedState = selectedState.nextStatus
         }
-
+        label: {
+            Text(selectedState.title)
+                .foregroundColor(selectedState.color)
+                .font(.caption)
+        }
         .buttonBorderShape(.automatic)
         .controlSize(.mini)
         .buttonStyle(.bordered)
-        // .padding([.trailing], 15)
-        // .frame(maxWidth: .infinity, alignment: .trailing)
     }
 }

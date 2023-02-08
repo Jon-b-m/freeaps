@@ -241,9 +241,7 @@ extension Home {
 
         @ViewBuilder private func statPanel() -> some View {
             if state.displayStatistics {
-                VStack(spacing: 8) {
-                    durationButton(states: durationState.allCases, selectedState: $selectedState)
-
+                VStack(spacing: 4) {
                     switch selectedState {
                     case .day:
 
@@ -422,8 +420,9 @@ extension Home {
                     }
                 }
             }
-            HStack {
+            HStack(alignment: .center) {
                 Group {
+                    Spacer()
                     HStack {
                         Text(
                             NSLocalizedString("Low", comment: " ")
@@ -448,6 +447,8 @@ extension Home {
                         Text(tir_high + " %").font(.footnote).foregroundColor(.loopYellow)
                     }
                 }
+                durationButton(selectedState: $selectedState).padding(.leading, 8)
+                Spacer()
             }
 
             if state.settingsManager.preferences.displayLoops {
