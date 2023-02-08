@@ -242,6 +242,12 @@ extension Home {
         @ViewBuilder private func statPanel() -> some View {
             if state.displayStatistics {
                 VStack(spacing: 4) {
+                    HStack {
+                        VStack {
+                            Divider().background(Color.gray)
+                        }
+                        durationButton(selectedState: $selectedState).padding(.leading, 2)
+                    }
                     switch selectedState {
                     case .day:
 
@@ -335,7 +341,7 @@ extension Home {
                     }
                 }
                 .frame(maxWidth: .infinity)
-                .padding([.bottom], 20)
+                .padding([.bottom], 16)
             }
         }
 
@@ -422,7 +428,6 @@ extension Home {
             }
             HStack(alignment: .center) {
                 Group {
-                    Spacer()
                     HStack {
                         Text(
                             NSLocalizedString("Low", comment: " ")
@@ -447,8 +452,6 @@ extension Home {
                         Text(tir_high + " %").font(.footnote).foregroundColor(.loopYellow)
                     }
                 }
-                durationButton(selectedState: $selectedState).padding(.leading, 8)
-                Spacer()
             }
 
             if state.settingsManager.preferences.displayLoops {
@@ -544,6 +547,8 @@ extension Home {
                 .frame(maxWidth: .infinity)
                 .padding([.bottom], 20)
             }
+            .frame(maxWidth: .infinity, maxHeight: 30)
+            .padding(.bottom, 4)
         }
 
         var mainChart: some View {
