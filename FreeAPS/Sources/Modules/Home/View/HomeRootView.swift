@@ -456,8 +456,8 @@ extension Home {
                         let loopTitle = NSLocalizedString("Loops", comment: "Nr of Loops in statPanel")
                         let errorTitle = NSLocalizedString("Errors", comment: "Loop Errors in statPanel")
 
-                        HStack {
-                            Text(loopStatTitle).font(.footnote).foregroundColor(.secondary)
+                        HStack(alignment: .lastTextBaseline, spacing: 2) {
+                            Text(loopStatTitle).font(.footnote).foregroundColor(.secondary).padding(.trailing, 4)
                             Text(
                                 loopStatTitle == loopTitle ? tirFormatter
                                     .string(from: (state.statistics?.Statistics.LoopCycles.loops ?? 0) as NSNumber) ?? "" :
@@ -472,25 +472,26 @@ extension Home {
                             }
                         }
 
-                        HStack {
+                        HStack(alignment: .lastTextBaseline, spacing: 2) {
                             Text("Interval").font(.footnote)
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.secondary).padding(.trailing, 4)
                             Text(
                                 targetFormatter
                                     .string(from: (state.statistics?.Statistics.LoopCycles.avg_interval ?? 0) as NSNumber) ??
                                     ""
                             ).font(.footnote)
+                            Text("m").font(.footnote)
                         }
 
-                        HStack {
-                            Text("Duration").font(.footnote)
-                                .foregroundColor(.secondary)
+                        HStack(alignment: .lastTextBaseline, spacing: 2) {
+                            Text("Duration").font(.footnote).foregroundColor(.secondary).padding(.trailing, 4)
                             Text(
                                 numberFormatter
                                     .string(
                                         from: (state.statistics?.Statistics.LoopCycles.median_duration ?? 0) as NSNumber
                                     ) ?? ""
                             ).font(.footnote)
+                            Text("s").font(.footnote)
                         }
                     }
                 }
@@ -644,6 +645,7 @@ extension Home {
             GeometryReader { geo in
                 VStack(spacing: 0) {
                     header(geo)
+                    Divider().background(Color.gray)
                     infoPanel
                     mainChart
                     legendPanel
