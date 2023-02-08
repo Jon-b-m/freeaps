@@ -246,7 +246,10 @@ extension Home {
                         VStack {
                             Divider().background(Color.gray)
                         }
-                        durationButton(selectedState: $selectedState).padding(.leading, 2)
+                        durationButton(selectedState: $selectedState).padding(2)
+                        VStack {
+                            Divider().background(Color.gray)
+                        }
                     }
                     switch selectedState {
                     case .day:
@@ -545,7 +548,7 @@ extension Home {
                     }
                 }
                 .frame(maxWidth: .infinity)
-                .padding([.bottom], 20)
+                // .padding([.bottom], 20)
             }
             .frame(maxWidth: .infinity, maxHeight: 30)
             .padding(.bottom, 4)

@@ -17,10 +17,10 @@ enum durationState {
 
     var title: String {
         switch self {
-        case .day: return "24hr "
-        case .week: return "7d  "
-        case .month: return "30d "
-        case .total: return "All data "
+        case .day: return NSLocalizedString("24 hours ", comment: "timeframe for statsitics in hours")
+        case .week: return NSLocalizedString("7 days ", comment: "timeframe for statsitics in days")
+        case .month: return NSLocalizedString("30 days ", comment: "timeframe for statsitics in days")
+        case .total: return NSLocalizedString("All data ", comment: "timeframe for statsitics in days")
         }
     }
 
