@@ -23,7 +23,10 @@ extension Home {
         @State var sd_ = ""
         @State var CVorSD = ""
         // Switch between Loops and Errors when tapping in statPanel
-        @State var loopStatTitle = NSLocalizedString("Loops", comment: "Nr of Loops in statPanel")
+        @State var loopStatTitle = NSLocalizedString(
+            "Loop Rate",
+            comment: "Percentage of achievable Loops during last 24 hrs in statPanel"
+        )
 
         private var numberFormatter: NumberFormatter {
             let formatter = NumberFormatter()
@@ -378,7 +381,10 @@ extension Home {
                     // Average as default. Changes to Median when clicking.
                     let textAverageTitle = NSLocalizedString("Average", comment: "")
                     let textMedianTitle = NSLocalizedString("Median", comment: "")
-                    let cgmReadingsTitle = NSLocalizedString("Readings", comment: "CGM readings in statPanel")
+                    let cgmReadingsTitle = NSLocalizedString(
+                        "Readings",
+                        comment: "CGM readings of last 24 hrs in statPanel"
+                    )
 
                     HStack {
                         Text(averageOrMedianTitle).font(.footnote).foregroundColor(.secondary)
@@ -460,25 +466,41 @@ extension Home {
             if state.settingsManager.preferences.displayLoops {
                 HStack {
                     Group {
-                        let loopTitle = NSLocalizedString("Loops", comment: "Nr of Loops in statPanel")
-                        let errorTitle = NSLocalizedString("Errors", comment: "Loop Errors in statPanel")
-
+                        let loopTitle = NSLocalizedString("Loops", comment: "Nr of Loops during last 24 hrs in statPanel")
+                        let errorTitle = NSLocalizedString("Errors", comment: "Loop Errors during last 24 hrs in statPanel")
+                        let rateTitle = NSLocalizedString(
+                            "Loop Rate",
+                            comment: "Percentage of achievable Loops during last 24 hrs in statPanel"
+                        )
                         HStack(alignment: .lastTextBaseline, spacing: 2) {
                             Text(loopStatTitle).font(.footnote).foregroundColor(.secondary).padding(.trailing, 4)
-                            Text(
-                                loopStatTitle == loopTitle ? tirFormatter
-                                    .string(from: (state.statistics?.Statistics.LoopCycles.loops ?? 0) as NSNumber) ?? "" :
-                                    tirFormatter
-                                    .string(from: (state.statistics?.Statistics.LoopCycles.errors ?? 0) as NSNumber) ?? ""
-                            ).font(.footnote)
-                        }.onTapGesture {
-                            if loopStatTitle == loopTitle {
-                                loopStatTitle = errorTitle
-                            } else if loopStatTitle == errorTitle {
-                                loopStatTitle = loopTitle
-                            }
-                        }
 
+                            if loopStatTitle == rateTitle {
+                                Text(
+                                    tirFormatter
+                                        .string(from: (
+                                            state.statistics?.Statistics.LoopCycles
+                                                .dailysuccess_rate ?? 0
+                                        ) as NSNumber) ??
+                                        ""
+                                ).font(.footnote)
+                                Text("%").font(.footnote) } else if loopStatTitle == loopTitle {
+                                Text(
+                                    tirFormatter
+                                        .string(from: (state.statistics?.Statistics.LoopCycles.loops ?? 0) as NSNumber) ?? ""
+                                )
+                                .font(.footnote).padding(.trailing, 4) } else if loopStatTitle == errorTitle {
+                                Text(
+                                    tirFormatter
+                                        .string(from: (state.statistics?.Statistics.LoopCycles.errors ?? 0) as NSNumber) ?? ""
+                                )
+                                .font(.footnote)
+                            }
+                        }.onTapGesture {
+                            if loopStatTitle == rateTitle { loopStatTitle = loopTitle } else
+                            if loopStatTitle == loopTitle { loopStatTitle = errorTitle } else
+                            if loopStatTitle == errorTitle { loopStatTitle = rateTitle }
+                        }
                         HStack(alignment: .lastTextBaseline, spacing: 2) {
                             Text("Interval").font(.footnote)
                                 .foregroundColor(.secondary).padding(.trailing, 4)

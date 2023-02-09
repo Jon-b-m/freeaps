@@ -824,6 +824,7 @@ final class BaseAPSManager: APSManager, Injectable {
         let lsData = storage.retrieve(OpenAPS.Monitor.loopStats, as: [LoopStats].self)?
             .sorted { $0.start > $1.start } ?? []
         var successRate: Double?
+        var dailyLoopSuccess: Double?
         var successNR = 0.0
         var errorNR = 0.0
         var minimumInt = 999.0
@@ -886,6 +887,7 @@ final class BaseAPSManager: APSManager, Injectable {
             }
 
             successRate = (successNR / Double(i)) * 100
+            dailyLoopSuccess = successNR / 288 * 100
             averageIntervalLoops = ((lsData[0].end ?? lsData[lsData.count - 1].start) - lsData[lsData.count - 1].start)
                 .timeInterval / 60 / Double(i)
             averageLoopTime /= Double(i)
@@ -1133,6 +1135,7 @@ final class BaseAPSManager: APSManager, Injectable {
             errors: Int(errorNR),
             readings: nrOfCGMReadings,
             success_rate: Decimal(round(successRate ?? 0)),
+            dailysuccess_rate: Decimal(round(dailyLoopSuccess ?? 0)),
             avg_interval: roundDecimal(Decimal(averageIntervalLoops), 1),
             median_interval: roundDecimal(Decimal(medianInterval), 1),
             min_interval: roundDecimal(Decimal(minimumInt), 1),
