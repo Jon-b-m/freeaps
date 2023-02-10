@@ -136,7 +136,9 @@ class BluetoothManager: NSObject {
         var device: OmniBLE! = devices.first(where: { $0.manager.peripheral.identifier == peripheral.identifier })
 
         if let device = device {
+#if LOG_DEFAULT
             log.default("Matched peripheral %{public}@ to existing device: %{public}@", peripheral, String(describing: device))
+#endif
             device.manager.peripheral = peripheral
             if let podAdvertisement = podAdvertisement {
                 device.advertisement = podAdvertisement
@@ -170,7 +172,9 @@ class BluetoothManager: NSObject {
                 if !autoConnectIDs.contains(peripheral.identifier.uuidString) &&
                    (peripheral.state == .connected || peripheral.state == .connecting)
                 {
+#if LOG_DEFAULT
                     log.default("Disconnecting from peripheral: %{public}@", peripheral)
+#endif
                     manager.cancelPeripheralConnection(peripheral)
                 }
             }
@@ -216,7 +220,9 @@ class BluetoothManager: NSObject {
     private func discoverPods(_ completion: @escaping (BluetoothManagerError?) -> Void) {
         dispatchPrecondition(condition: .onQueue(managerQueue))
 
+#if LOG_DEFAULT
         log.default("discoverPods()")
+#endif
         
 
         guard manager.state == .poweredOn else {
@@ -239,12 +245,16 @@ class BluetoothManager: NSObject {
     }
     
     private func startScanning() {
+#if LOG_DEFAULT
         log.default("Start scanning")
+#endif 
         manager.scanForPeripherals(withServices: [OmnipodServiceUUID.advertisement.cbUUID], options: nil)
     }
 
     private func stopScanning() {
+#if LOG_DEFAULT
         log.default("Stop scanning")
+#endif
         manager.stopScan()
     }
 
@@ -279,7 +289,9 @@ extension BluetoothManager: CBCentralManagerDelegate {
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         dispatchPrecondition(condition: .onQueue(managerQueue))
 
+#if LOG_DEFAULT
         log.default("%{public}@: %{public}@", #function, String(describing: central.state.rawValue))
+#endif
 
         if case .poweredOn = central.state {
             // bluetooth may have reset; update peripheral references
@@ -339,7 +351,9 @@ extension BluetoothManager: CBCentralManagerDelegate {
             
             if discoveryModeEnabled && peripheral.state == .disconnected && podAdvertisement.pairable {
                 // Connect to any pairable device, during discovery
+#if LOG_DEFAULT
                 log.default("Connecting to pairable device %{public} in discovery mode", peripheral)
+#endif
                 manager.connect(peripheral, options: nil)
             } else if autoConnectIDs.contains(peripheral.identifier.uuidString) && peripheral.state == .disconnected {
 #if LOG_DEBUG

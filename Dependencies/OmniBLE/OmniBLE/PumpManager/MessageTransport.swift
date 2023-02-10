@@ -208,7 +208,9 @@ class PodMessageTransport: MessageTransport {
         incrementMessageNumber() // bump to match expected Omnipod message # in response
 
         let dataToSend = message.encoded()
+#if LOG_DEFAULT
         log.default("Send(Hex): %{public}@", dataToSend.hexadecimalString)
+#endif
         messageLogger?.didSend(dataToSend)
 
         let sendMessage = try getCmdMessage(cmd: message)
@@ -309,7 +311,9 @@ class PodMessageTransport: MessageTransport {
         // so we ignore them as well and rely on higher level BLE & Dash message data checking to provide data corruption protection.
         let response = try Message(encodedData: data, checkCRC: false)
 
+#if LOG_DEFAULT
         log.default("Recv(Hex): %@", data.hexadecimalString)
+#endif
         messageLogger?.didReceive(data)
 
         return response

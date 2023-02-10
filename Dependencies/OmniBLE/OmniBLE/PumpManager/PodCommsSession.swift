@@ -852,7 +852,9 @@ public class PodCommsSession {
 
     public func recoverUnacknowledgedCommand(using status: StatusResponse) {
         if let pendingCommand = podState.unacknowledgedCommand {
+#if LOG_DEFAULT
             self.log.default("Recovering from unacknowledged command %{public}@, status = %{public}@", String(describing: pendingCommand), String(describing: status))
+#endif
 
             if status.lastProgrammingMessageSeqNum == pendingCommand.sequence {
 #if LOG_DEBUG

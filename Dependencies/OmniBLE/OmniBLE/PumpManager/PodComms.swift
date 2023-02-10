@@ -75,7 +75,9 @@ public class PodComms: CustomDebugStringConvertible {
     
     public func forgetPod() {
         if let manager = manager {
+#if LOG_DEFAULT
             self.log.default("Removing %{public}@ from auto-connect ids", manager.peripheral)
+#endif
             bluetoothManager.disconnectFromDevice(uuidString: manager.peripheral.identifier.uuidString)
         }
 
@@ -105,7 +107,9 @@ public class PodComms: CustomDebugStringConvertible {
                     let devices = self.bluetoothManager.getConnectedDevices()
 
                     if devices.count > 1 {
+#if LOG_DEFAULT
                         self.log.default("Multiple pods found while scanning")
+#endif
                         self.bluetoothManager.endPodDiscovery()
                         completion(.failure(PodCommsError.tooManyPodsFound))
                         timer.invalidate()
@@ -115,7 +119,9 @@ public class PodComms: CustomDebugStringConvertible {
 
                     // If we've found a pod by 2 seconds, let's go.
                     if elapsed > TimeInterval(seconds: 2) && devices.count > 0 {
+#if LOG_DEFAULT
                         self.log.default("Found pod!")
+#endif
                         let targetPod = devices.first!
                         self.bluetoothManager.connectToDevice(uuidString: targetPod.manager.peripheral.identifier.uuidString)
                         self.manager = targetPod.manager
@@ -126,7 +132,9 @@ public class PodComms: CustomDebugStringConvertible {
                     }
 
                     if elapsed > TimeInterval(seconds: 10) {
+#if LOG_DEFAULT
                         self.log.default("No pods found while scanning")
+#endif
                         self.bluetoothManager.endPodDiscovery()
                         completion(.failure(PodCommsError.noPodsFound))
                         timer.invalidate()
@@ -530,7 +538,9 @@ extension PodComms: OmniBLEConnectionDelegate {
 extension PodComms: PeripheralManagerDelegate {
     
     func completeConfiguration(for manager: PeripheralManager) throws {
+#if LOG_DEFAULT
         log.default("PodComms completeConfiguration: isPaired=%{public}@ needsSessionEstablishment=%{public}@", String(describing: self.isPaired), String(describing: needsSessionEstablishment))
+#endif
 
         if self.isPaired && needsSessionEstablishment {
             let myId = self.myId
@@ -551,7 +561,9 @@ extension PodComms: PeripheralManagerDelegate {
             }
 
         } else {
+#if LOG_DEFAULT
             log.default("Session already established.")
+#endif
         }
     }
 }
