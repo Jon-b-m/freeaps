@@ -175,6 +175,9 @@ final class BaseAPSManager: APSManager, Injectable {
 
     // Loop entry point
     private func loop() {
+        #if CHECKPOINT_LOGGING
+            debug(.checkpoint, "BEGIN")
+        #endif
         guard !isLooping.value else {
             warning(.apsManager, "Already looping, skip")
             return
@@ -222,6 +225,9 @@ final class BaseAPSManager: APSManager, Injectable {
                 }
             } receiveValue: {}
             .store(in: &lifetime)
+        #if CHECKPOINT_LOGGING
+            debug(.checkpoint, "END")
+        #endif
     }
 
     // Loop exit point
