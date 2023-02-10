@@ -157,7 +157,9 @@ extension PeripheralManager {
     func waitForCommand(_ command: PodCommand, timeout: TimeInterval = 5) throws {
         dispatchPrecondition(condition: .onQueue(queue))
 
+#if LOG_DEBUG
         log.debug("waitForCommand %{public}@", Data([command.rawValue]).hexadecimalString)
+#endif
         
         // Wait for data to be read.
         queueLock.lock()

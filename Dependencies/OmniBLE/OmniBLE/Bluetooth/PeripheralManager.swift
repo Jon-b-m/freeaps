@@ -476,11 +476,15 @@ extension PeripheralManager {
     }
 
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
+#if LOG_DEBUG
         self.log.debug("PeripheralManager - didConnect: %@", peripheral)
+#endif
         switch peripheral.state {
         case .connected:
             clearCommsQueues()
+#if LOG_DEBUG
             self.log.debug("PeripheralManager - didConnect - running assertConfiguration")
+#endif
             assertConfiguration()
 
             commandLock.lock()

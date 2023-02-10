@@ -246,7 +246,9 @@ class PodMessageTransport: MessageTransport {
             payloads: [cmd.encoded(), Data()]
         )
 
+#if LOG_DEBUG
         log.debug("Sending command: %@", wrapped.hexadecimalString)
+#endif
 
         let msg = MessagePacket(
             type: MessageType.ENCRYPTED,
@@ -272,14 +274,18 @@ class PodMessageTransport: MessageTransport {
         incrementNonceSeq()
         let decrypted = try enDecrypt.decrypt(readMessage, nonceSeq)
 
+#if LOG_DEBUG
         log.debug("Received response: %@", decrypted.payload.hexadecimalString)
+#endif
 
         let response = try parseResponse(decrypted: decrypted)
 
         incrementMsgSeq()
         incrementNonceSeq()
         let ack = try getAck(response: decrypted)
+#if LOG_DEBUG
         log.debug("Sending ACK: %@ in packet $ack", ack.payload.hexadecimalString)
+#endif
         let ackResult = manager.sendMessagePacket(ack)
         guard case .sentWithAcknowledgment = ackResult else {
             throw PodProtocolError.messageIOException("Could not write $msgType: \(ackResult)")

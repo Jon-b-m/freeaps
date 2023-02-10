@@ -145,12 +145,16 @@ public class PodComms: CustomDebugStringConvertible {
 
         defer {
             if self.podState != nil {
+#if LOG_DEBUG
                 log.debug("sendPairMessage saving current message transport state %@", String(reflecting: transport))
+#endif
                 self.podState!.messageTransportState = MessageTransportState(ck: transport.ck, noncePrefix: transport.noncePrefix, msgSeq: transport.msgSeq, nonceSeq: transport.nonceSeq, messageNumber: transport.messageNumber)
             }
         }
 
+#if LOG_DEBUG
         log.debug("sendPairMessage: attempting to use PodMessageTransport %@ to send message %@", String(reflecting: transport), String(reflecting: message))
+#endif
         let podMessageResponse = try transport.sendMessage(message)
 
         if let fault = podMessageResponse.fault {
@@ -167,7 +171,9 @@ public class PodComms: CustomDebugStringConvertible {
             throw PodCommsError.unexpectedResponse(response: responseType)
         }
 
+#if LOG_DEBUG
         log.debug("sendPairMessage: returning versionResponse %@", String(describing: versionResponse))
+#endif
         return versionResponse
     }
 
@@ -183,13 +189,17 @@ public class PodComms: CustomDebugStringConvertible {
         let ltk = response.ltk
 
         guard podId == response.address else {
+#if LOG_DEBUG
             log.debug("podId 0x%x doesn't match response value!: %{public}@", podId, String(describing: response))
+#endif
             throw PodCommsError.invalidAddress(address: response.address, expectedAddress: self.podId)
         }
 
         log.info("Establish an Eap Session")
         guard let messageTransportState = try establishSession(ltk: ltk, eapSeq: 1, msgSeq: Int(response.msgSeq)) else {
+#if LOG_DEBUG
             log.debug("pairPod: failed to create messageTransportState!")
+#endif
             throw PodCommsError.noPodPaired
         }
  
@@ -208,7 +218,9 @@ public class PodComms: CustomDebugStringConvertible {
         let versionResponse = try sendPairMessage(transport: transport, message: message)
 
         // Now create the real PodState using the current transport state and the versionResponse info
+#if LOG_DEBUG
         log.debug("pairPod: creating PodState for versionResponse %{public}@ and transport %{public}@", String(describing: versionResponse), String(describing: transport.state))
+#endif
         self.podState = PodState(
             address: self.podId,
             ltk: ltk,
@@ -230,7 +242,9 @@ public class PodComms: CustomDebugStringConvertible {
             throw PodCommsError.activationTimeExceeded
         }
 
+#if LOG_DEBUG
         log.debug("pairPod: self.PodState messageTransportState now: %@", String(reflecting: self.podState?.messageTransportState))
+#endif
     }
 
     private func establishSession(ltk: Data, eapSeq: Int, msgSeq: Int = 1)  throws -> MessageTransportState? {
@@ -244,15 +258,21 @@ public class PodComms: CustomDebugStringConvertible {
 
         switch result {
         case .SessionNegotiationResynchronization(let keys):
+#if LOG_DEBUG
             log.debug("Received EAP SQN resynchronization: %@", keys.synchronizedEapSqn.data.hexadecimalString)
+#endif
             if self.podState != nil {
                 let eapSeq = keys.synchronizedEapSqn.toInt()
+#if LOG_DEBUG
                 log.debug("Updating EAP SQN to: %d", eapSeq)
+#endif
                 self.podState!.messageTransportState.eapSeq = eapSeq
             }
             return nil
         case .SessionKeys(let keys):
+#if LOG_DEBUG
             log.debug("Session Established")
+#endif
             // log.debug("CK: %@", keys.ck.hexadecimalString)
             log.info("msgSequenceNumber: %@", String(keys.msgSequenceNumber))
             // log.info("NoncePrefix: %@", keys.nonce.prefix.hexadecimalString)
@@ -267,10 +287,14 @@ public class PodComms: CustomDebugStringConvertible {
             )
 
             if self.podState != nil {
+#if LOG_DEBUG
                 log.debug("Setting podState transport state to %{public}@", String(describing: messageTransportState))
+#endif
                 self.podState!.messageTransportState = messageTransportState
             } else {
+#if LOG_DEBUG
                 log.debug("Used keys %@ to create messageTransportState: %@", String(reflecting: keys), String(reflecting: messageTransportState))
+#endif
             }
             return messageTransportState
         }
@@ -308,7 +332,9 @@ public class PodComms: CustomDebugStringConvertible {
 
         let message = Message(address: 0xffffffff, messageBlocks: [setupPod], sequenceNum: transport.messageNumber)
 
+#if LOG_DEBUG
         log.debug("setupPod: calling sendPairMessage %@ for message %@", String(reflecting: transport), String(describing: message))
+#endif
         let versionResponse = try sendPairMessage(transport: transport, message: message)
 
         // Verify that the fundemental pod constants returned match the expected constant values in the Pod struct.
@@ -482,14 +508,18 @@ extension PodComms: OmniBLEConnectionDelegate {
     func omnipodPeripheralDidDisconnect(peripheral: CBPeripheral, error: Error?) {
         if let podState = podState, peripheral.identifier.uuidString == podState.bleIdentifier {
             self.delegate?.omnipodPeripheralDidDisconnect(peripheral: peripheral, error: error)
+#if LOG_DEBUG
             log.debug("omnipodPeripheralDidDisconnect... will auto-reconnect")
+#endif
         }
     }
 
     func omnipodPeripheralDidFailToConnect(peripheral: CBPeripheral, error: Error?) {
         if let podState = podState, peripheral.identifier.uuidString == podState.bleIdentifier {
             self.delegate?.omnipodPeripheralDidFailToConnect(peripheral: peripheral, error: error)
+#if LOG_DEBUG
             log.debug("omnipodPeripheralDidDisconnect... will auto-reconnect")
+#endif
         }
     }
 
