@@ -339,6 +339,7 @@
 		FE41E4D429463C660047FD55 /* NightscoutStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41E4D329463C660047FD55 /* NightscoutStatistics.swift */; };
 		FE41E4D629463EE20047FD55 /* NightscoutPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41E4D529463EE20047FD55 /* NightscoutPreferences.swift */; };
 		FE66D16B291F74F8005D6F77 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66D16A291F74F8005D6F77 /* Bundle+Extensions.swift */; };
+		FEED49ED2997939B0091B949 /* LogSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED49EC299793900091B949 /* LogSettings.swift */; };
 		FEFFA7A22929FE49007B8193 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFFA7A12929FE49007B8193 /* UIDevice+Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -771,6 +772,7 @@
 		FE41E4D329463C660047FD55 /* NightscoutStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutStatistics.swift; sourceTree = "<group>"; };
 		FE41E4D529463EE20047FD55 /* NightscoutPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutPreferences.swift; sourceTree = "<group>"; };
 		FE66D16A291F74F8005D6F77 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		FEED49EC299793900091B949 /* LogSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSettings.swift; sourceTree = "<group>"; };
 		FEFFA7A12929FE49007B8193 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1319,6 +1321,7 @@
 		388E5A5925B6F0250019842D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FEED49EC299793900091B949 /* LogSettings.swift */,
 				385CEAC025F2EA52002D6D5B /* Announcement.swift */,
 				388E5A5F25B6F2310019842D /* Autosens.swift */,
 				38A00B1E25FC00F7006BC0B0 /* Autotune.swift */,
@@ -2207,6 +2210,7 @@
 				38AEE75725F0F18E0013F05B /* CarbsStorage.swift in Sources */,
 				38B4F3CA25E502E200E76A18 /* SwiftNotificationCenter.swift in Sources */,
 				38AEE75225F022080013F05B /* SettingsManager.swift in Sources */,
+				FEED49ED2997939B0091B949 /* LogSettings.swift in Sources */,
 				38FEF408273B011A00574A46 /* LibreTransmitterSource.swift in Sources */,
 				3894873A2614928B004DF424 /* DispatchTimer.swift in Sources */,
 				3895E4C625B9E00D00214B37 /* Preferences.swift in Sources */,

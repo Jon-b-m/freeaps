@@ -58,6 +58,8 @@ final class OpenAPS {
                 // determine-basal
                 let reservoir = self.loadFileFromStorage(name: Monitor.reservoir)
 
+                let logsettings = self.loadFileFromStorage(name: Settings.logsettings)
+
                 let preferences = self.loadFileFromStorage(name: Settings.preferences)
 
                 let suggested = self.determineBasal(
