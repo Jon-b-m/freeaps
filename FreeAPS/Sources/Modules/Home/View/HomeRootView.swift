@@ -12,7 +12,7 @@ extension Home {
         @State var selectedState: durationState
 
         // Average/Median/Readings and CV/SD titles and values switches when you tap them
-        @State var averageOrMedianTitle = NSLocalizedString("Average", comment: "")
+        @State var averageOrMedianTitle = NSLocalizedString("∅ BG", comment: "Average BG")
         @State var median_ = ""
         @State var average_ = ""
         @State var readings = ""
@@ -22,11 +22,18 @@ extension Home {
         @State var cv_ = ""
         @State var sd_ = ""
         @State var CVorSD = ""
+
         // Switch between Loops and Errors when tapping in statPanel
         @State var loopStatTitle = NSLocalizedString(
             "Loop Rate",
             comment: "Percentage of achievable Loops during last 24 hrs in statPanel"
         )
+
+        // Avg & Median switch for Loop interval
+        @State var loopIntTitle = NSLocalizedString("∅ Interval", comment: "Interval average")
+
+        // Avg & Median switch for Loop duration
+        @State var loopDurTitle = NSLocalizedString("∅ Duration", comment: "Duration average")
 
         private var numberFormatter: NumberFormatter {
             let formatter = NumberFormatter()
@@ -379,8 +386,8 @@ extension Home {
                         }
                     }
                     // Average as default. Changes to Median when clicking.
-                    let textAverageTitle = NSLocalizedString("Average", comment: "")
-                    let textMedianTitle = NSLocalizedString("Median", comment: "")
+                    let textAverageTitle = NSLocalizedString("∅ BG", comment: "")
+                    let textMedianTitle = NSLocalizedString("~ BG", comment: "")
                     let cgmReadingsTitle = NSLocalizedString(
                         "Readings",
                         comment: "CGM readings of last 24 hrs in statPanel"
@@ -412,7 +419,7 @@ extension Home {
                             averageOrmedian = average_
                         }
                     }
-                    .frame(minWidth: 110)
+                    // .frame(minWidth: 110)
                     // CV as default. Changes to SD when clicking
                     let text_CV_Title = NSLocalizedString("CV", comment: "")
                     let text_SD_Title = NSLocalizedString("SD", comment: "")
@@ -501,26 +508,68 @@ extension Home {
                             if loopStatTitle == loopTitle { loopStatTitle = errorTitle } else
                             if loopStatTitle == errorTitle { loopStatTitle = rateTitle }
                         }
+
+                        let avgIntTitle = NSLocalizedString("∅ Interval", comment: "")
+                        let medIntTitle = NSLocalizedString("~ Interval", comment: "")
+                        let avgDurTitle = NSLocalizedString("∅ Duration", comment: "")
+                        let medDurTitle = NSLocalizedString("~ Duration", comment: "")
+
                         HStack(alignment: .lastTextBaseline, spacing: 2) {
-                            Text("Interval").font(.footnote)
-                                .foregroundColor(.secondary).padding(.trailing, 4)
-                            Text(
-                                targetFormatter
-                                    .string(from: (state.statistics?.Statistics.LoopCycles.avg_interval ?? 0) as NSNumber) ??
-                                    ""
-                            ).font(.footnote)
+                            Text(loopIntTitle).font(.footnote).foregroundColor(.secondary).padding(.trailing, 4)
+                            if loopIntTitle == avgIntTitle {
+                                Text(
+                                    numberFormatter
+                                        .string(
+                                            from: (state.statistics?.Statistics.LoopCycles.avg_interval ?? 0) as NSNumber
+                                        ) ?? ""
+                                )
+                                .font(.footnote)
+                            } else {
+                                Text(
+                                    numberFormatter
+                                        .string(
+                                            from: (state.statistics?.Statistics.LoopCycles.median_interval ?? 0) as NSNumber
+                                        ) ?? ""
+                                ).font(.footnote)
+                            }
                             Text("m").font(.footnote)
+                        }.onTapGesture {
+                            if loopIntTitle == avgIntTitle {
+                                loopIntTitle = medIntTitle
+                                loopDurTitle = medDurTitle
+                            } else {
+                                loopIntTitle = avgIntTitle
+                                loopDurTitle = avgDurTitle
+                            }
                         }
 
                         HStack(alignment: .lastTextBaseline, spacing: 2) {
-                            Text("Duration").font(.footnote).foregroundColor(.secondary).padding(.trailing, 4)
-                            Text(
-                                numberFormatter
-                                    .string(
-                                        from: (state.statistics?.Statistics.LoopCycles.median_duration ?? 0) as NSNumber
-                                    ) ?? ""
-                            ).font(.footnote)
+                            Text(loopDurTitle).font(.footnote).foregroundColor(.secondary).padding(.trailing, 4)
+                            if loopDurTitle == avgDurTitle {
+                                Text(
+                                    numberFormatter
+                                        .string(
+                                            from: (state.statistics?.Statistics.LoopCycles.avg_duration ?? 0) as NSNumber
+                                        ) ?? ""
+                                )
+                                .font(.footnote)
+                            } else {
+                                Text(
+                                    numberFormatter
+                                        .string(
+                                            from: (state.statistics?.Statistics.LoopCycles.median_duration ?? 0) as NSNumber
+                                        ) ?? ""
+                                ).font(.footnote)
+                            }
                             Text("s").font(.footnote)
+                        }.onTapGesture {
+                            if loopDurTitle == avgDurTitle {
+                                loopDurTitle = medDurTitle
+                                loopIntTitle = medIntTitle
+                            } else {
+                                loopDurTitle = avgDurTitle
+                                loopIntTitle = avgIntTitle
+                            }
                         }
                     }
                 }
