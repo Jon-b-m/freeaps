@@ -1,11 +1,11 @@
 import Foundation
 
 struct LogSettings: JSON {
-    var checkpointLogging: Bool = false
+    var omniBLEDebug: Bool = false
 }
 
 extension LogSettings {
     private enum CodingKeys: String, CodingKey {
-        case checkpointLogging = "checkpoint_logging"
+        case omniBLEDebug = "omnible_debug"
     }
 }

@@ -112,7 +112,8 @@ extension Settings {
                     Toggle("Animated Background", isOn: $state.animatedBackground)
                 }
 
-                Section {
+                Section(header: Text("Logs")) {
+                    Text("Log Settings").navigationLink(to: .logSettingsConfig, from: self)
                     Text("Share logs")
                         .onTapGesture {
                             showShareSheet = true
