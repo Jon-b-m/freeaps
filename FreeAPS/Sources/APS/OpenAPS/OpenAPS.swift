@@ -333,7 +333,7 @@ final class OpenAPS {
                     meal,
                     microBolusAllowed,
                     reservoir,
-                    false, // clock
+                    Date(),
                     pumpHistory,
                     preferences,
                     basalProfile,
