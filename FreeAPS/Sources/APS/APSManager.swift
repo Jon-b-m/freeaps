@@ -688,56 +688,62 @@ final class BaseAPSManager: APSManager, Injectable {
         // Add to tdd.json:
         let preferences = settingsManager.preferences
         let currentTDD = enacted_.tdd ?? 0
-        let file = OpenAPS.Monitor.tdd
-        let tdd = TDD(
-            TDD: currentTDD,
-            timestamp: Date(),
-            id: UUID().uuidString
-        )
+
+        debug(.apsManager, "Writing TDD to CoreData")
+
+        // Add new record to CoreData:TDD Entity
+        let nTDD = TDD(context: coredataContext)
+        nTDD.id = UUID().uuidString
+        nTDD.timestamp = Date()
+        nTDD.tdd = NSDecimalNumber(decimal: currentTDD)
+        try! coredataContext.save()
+
+        let twoWeeksAgo = Calendar.current.date(byAdding: .day, value: -14, to: Date())!
+
+        let requestTDD = TDD.fetchRequest() as NSFetchRequest<TDD>
+        requestTDD.predicate = NSPredicate(format: "timestamp > %@ AND tdd > 0", twoWeeksAgo as NSDate)
         var uniqEvents: [TDD] = []
-        storage.transaction { storage in
-            storage.append(tdd, to: file, uniqBy: \.id)
-            uniqEvents = storage.retrieve(file, as: [TDD].self)?
-                .filter { $0.timestamp.addingTimeInterval(14.days.timeInterval) > Date() }
-                .sorted { $0.timestamp > $1.timestamp } ?? []
-            var total: Decimal = 0
-            var indeces: Decimal = 0
-            for uniqEvent in uniqEvents {
-                if uniqEvent.TDD > 0 {
-                    total += uniqEvent.TDD
-                    indeces += 1
-                }
-            }
-            let entriesPast2hours = storage.retrieve(file, as: [TDD].self)?
-                .filter { $0.timestamp.addingTimeInterval(2.hours.timeInterval) > Date() }
-                .sorted { $0.timestamp > $1.timestamp } ?? []
-            var totalAmount: Decimal = 0
-            var nrOfIndeces: Decimal = 0
-            for entry in entriesPast2hours {
-                if entry.TDD > 0 {
-                    totalAmount += entry.TDD
-                    nrOfIndeces += 1
-                }
-            }
-            if indeces == 0 {
-                indeces = 1
-            }
-            if nrOfIndeces == 0 {
-                nrOfIndeces = 1
-            }
-            let average14 = total / indeces
-            let average2hours = totalAmount / nrOfIndeces
-            let weight = preferences.weightPercentage
-            let weighted_average = weight * average2hours + (1 - weight) * average14
-            let averages = TDD_averages(
-                average_total_data: roundDecimal(average14, 1),
-                weightedAverage: roundDecimal(weighted_average, 1),
-                past2hoursAverage: roundDecimal(average2hours, 1),
-                date: Date()
-            )
-            storage.save(averages, as: OpenAPS.Monitor.tdd_averages)
-            storage.save(Array(uniqEvents), as: file)
+
+        try! uniqEvents = coredataContext.fetch(requestTDD)
+
+        var total: Decimal = 0
+        var indeces: Decimal = 0
+        for uniqEvent in uniqEvents {
+            debug(.apsManager, "Read TDD from CoreData: \(uniqEvent.tdd!.decimalValue)")
+            total += uniqEvent.tdd!.decimalValue
+            indeces += 1
         }
+
+        let twoHoursAgo = Calendar.current.date(byAdding: .hour, value: -2, to: Date())!
+
+        requestTDD.predicate = NSPredicate(format: "timestamp > %@ AND tdd > 0", twoHoursAgo as NSDate)
+        var entriesPast2hours: [TDD] = []
+
+        try! entriesPast2hours = coredataContext.fetch(requestTDD)
+
+        var totalAmount: Decimal = 0
+        var nrOfIndeces: Decimal = 0
+        for entry in entriesPast2hours {
+            totalAmount += entry.tdd!.decimalValue
+            nrOfIndeces += 1
+        }
+        if indeces == 0 {
+            indeces = 1
+        }
+        if nrOfIndeces == 0 {
+            nrOfIndeces = 1
+        }
+        let average14 = total / indeces
+        let average2hours = totalAmount / nrOfIndeces
+        let weight = preferences.weightPercentage
+        let weighted_average = weight * average2hours + (1 - weight) * average14
+        let averages = TDD_averages(
+            average_total_data: roundDecimal(average14, 1),
+            weightedAverage: roundDecimal(weighted_average, 1),
+            past2hoursAverage: roundDecimal(average2hours, 1),
+            date: Date()
+        )
+        storage.save(averages, as: OpenAPS.Monitor.tdd_averages)
     }
 
     private func roundDecimal(_ decimal: Decimal, _ digits: Double) -> Decimal {
@@ -785,11 +791,21 @@ final class BaseAPSManager: APSManager, Injectable {
         let units = settingsManager.settings.units
         let preferences = settingsManager.preferences
         let carbs = storage.retrieve(OpenAPS.Monitor.carbHistory, as: [CarbsEntry].self)
-        let tdds = storage.retrieve(OpenAPS.Monitor.tdd, as: [TDD].self)
+
+        let requestTDD = TDD.fetchRequest() as NSFetchRequest<TDD>
+        requestTDD.predicate = NSPredicate(format: "tdd > 0")
+        requestTDD.fetchLimit = 1
+        let sort = NSSortDescriptor(key: "timestamp", ascending: false)
+        requestTDD.sortDescriptors = [sort]
+
+        var tdds: [TDD] = []
+        try! tdds = coredataContext.fetch(requestTDD)
+
         var currentTDD: Decimal = 0
-        if tdds?.count ?? 0 > 0 {
-            currentTDD = tdds?[0].TDD ?? 0
+        if tdds.count == 1 {
+            currentTDD = tdds[0].tdd!.decimalValue
         }
+
         let carbs_length = carbs?.count ?? 0
         var carbTotal: Decimal = 0
         if carbs_length != 0 {
