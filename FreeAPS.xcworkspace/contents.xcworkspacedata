@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:FreeAPS/Sources/Models/GlucoseDataForStats+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:FreeAPS/Sources/Models/GlucoseDataForStats+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:FreeAPS/Sources/Models/TDD+CoreDataClass.swift">
    </FileRef>
    <FileRef
