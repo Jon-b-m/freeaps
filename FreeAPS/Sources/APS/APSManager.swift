@@ -1,4 +1,5 @@
 import Combine
+import CoreData
 import Foundation
 import LoopKit
 import LoopKitUI
@@ -77,6 +78,8 @@ final class BaseAPSManager: APSManager, Injectable {
             lastLoopDateSubject.send(lastLoopDate)
         }
     }
+
+    let coredataContext = CoreDataStack.shared.persistentContainer.viewContext
 
     private var openAPS: OpenAPS!
 
