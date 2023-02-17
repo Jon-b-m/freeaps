@@ -34,7 +34,9 @@ class LTKExchanger {
     }
 
     func negotiateLTK() throws -> PairResult {
+#if LOG_DEBUG
         log.debug("Sending sp1sp2")
+#endif
         let sp1sp2 = PairMessage(
             sequenceNumber: seq,
             source: ids.myId,
@@ -45,7 +47,9 @@ class LTKExchanger {
         try throwOnSendError(sp1sp2.message, LTKExchanger.SP1 + LTKExchanger.SP2)
 
         seq += 1
+#if LOG_DEBUG
         log.debug("Sending sps1")
+#endif
         let sps1 = PairMessage(
             sequenceNumber: seq,
             source: ids.myId,
@@ -55,7 +59,9 @@ class LTKExchanger {
         )
         try throwOnSendError(sps1.message, LTKExchanger.SPS1)
 
+#if LOG_DEBUG
         log.debug("Reading sps1")
+#endif
         let podSps1 = try manager.readMessagePacket()
         guard let _ = podSps1 else {
             throw PodProtocolError.pairingException("Could not read SPS1")
@@ -63,7 +69,9 @@ class LTKExchanger {
         try processSps1FromPod(podSps1!)
         // now we have all the data to generate: confPod, confPdm, ltk and noncePrefix
 
+#if LOG_DEBUG
         log.debug("Sending sps2")
+#endif
         seq += 1
         let sps2 = PairMessage(
             sequenceNumber: seq,
@@ -120,18 +128,26 @@ class LTKExchanger {
     }
 
     private func processSps1FromPod(_ msg: MessagePacket) throws {
+#if LOG_DEBUG
         log.debug("Received SPS1 from pod: %@", msg.payload.hexadecimalString)
+#endif
 
         let payload = try StringLengthPrefixEncoding.parseKeys([LTKExchanger.SPS1], msg.payload)[0]
+#if LOG_DEBUG
         log.debug("SPS1 payload from pod: %@", payload.hexadecimalString)
+#endif
         try keyExchange.updatePodPublicData(payload)
     }
 
     private func validatePodSps2(_ msg: MessagePacket) throws {
+#if LOG_DEBUG
         log.debug("Received SPS2 from pod: %@", msg.payload.hexadecimalString)
+#endif
 
         let payload = try StringLengthPrefixEncoding.parseKeys([LTKExchanger.SPS2], msg.payload)[0]
+#if LOG_DEBUG
         log.debug("SPS2 payload from pod: %@", payload.hexadecimalString)
+#endif
 
         if (payload.count != KeyExchange.CMAC_SIZE) {
             throw PodProtocolError.messageIOException("Invalid payload size")
@@ -146,10 +162,14 @@ class LTKExchanger {
     }
 
     private func validateP0(_ msg: MessagePacket) throws {
+#if LOG_DEBUG
         log.debug("Received P0 from pod: %@", msg.payload.hexadecimalString)
+#endif
 
         let payload = try StringLengthPrefixEncoding.parseKeys([LTKExchanger.P0], msg.payload)[0]
+#if LOG_DEBUG
         log.debug("P0 payload from pod: %@", payload.hexadecimalString)
+#endif
         if (payload != LTKExchanger.UNKNOWN_P0_PAYLOAD) {
             throw PodProtocolError.pairingException("Reveived invalid P0 payload: \(payload)")
         }

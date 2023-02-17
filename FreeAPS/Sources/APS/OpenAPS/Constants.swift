@@ -28,6 +28,7 @@ extension OpenAPS {
 
     enum Settings {
         static let preferences = "preferences.json"
+        static let logsettings = "logsettings.json"
         static let autotune = "settings/autotune.json"
         static let autosense = "settings/autosense.json"
         static let profile = "settings/profile.json"

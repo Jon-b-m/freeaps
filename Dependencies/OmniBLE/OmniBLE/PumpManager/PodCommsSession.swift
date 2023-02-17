@@ -688,7 +688,9 @@ public class PodCommsSession {
             return CancelDeliveryResult.success(statusResponse: status, canceledDose: canceledDose)
         } catch PodCommsError.unacknowledgedMessage(let seq, let error) {
             podState.unacknowledgedCommand = podState.unacknowledgedCommand?.commsFinished
+#if LOG_DEBUG
             log.debug("Unacknowledged stop program: command seq = %d", seq)
+#endif
             return .unacknowledged(error: .commsError(error: error))
         } catch let error {
             podState.unacknowledgedCommand = nil
@@ -850,13 +852,19 @@ public class PodCommsSession {
 
     public func recoverUnacknowledgedCommand(using status: StatusResponse) {
         if let pendingCommand = podState.unacknowledgedCommand {
+#if LOG_DEFAULT
             self.log.default("Recovering from unacknowledged command %{public}@, status = %{public}@", String(describing: pendingCommand), String(describing: status))
+#endif
 
             if status.lastProgrammingMessageSeqNum == pendingCommand.sequence {
+#if LOG_DEBUG
                 self.log.debug("Unacknowledged command was received by pump")
+#endif
                 unacknowledgedCommandWasReceived(pendingCommand: pendingCommand, podStatus: status)
             } else {
+#if LOG_DEBUG
                 self.log.debug("Unacknowledged command was not received by pump")
+#endif
             }
             podState.unacknowledgedCommand = nil
         }

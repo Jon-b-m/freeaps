@@ -122,7 +122,9 @@ extension PeripheralManager {
     func configureAndRun(_ block: @escaping (_ manager: PeripheralManager) -> Void) -> (() -> Void) {
         return {
             if self.needsReconnection {
+#if LOG_DEFAULT
                 self.log.default("Triggering forceful reconnect")
+#endif
                 do {
                     try self.reconnect(timeout: 5)
                 } catch let error {
@@ -136,17 +138,23 @@ extension PeripheralManager {
 
             if self.needsConfiguration || self.peripheral.services == nil {
                 do {
+#if LOG_DEFAULT
                     self.log.default("Applying configuration")
+#endif
                     try self.applyConfiguration()
                     self.needsConfiguration = false
 
                     if let delegate = self.delegate {
                         try delegate.completeConfiguration(for: self)
-                        
+                       
+#if LOG_DEFAULT 
                         self.log.default("Delegate configuration notified")
+#endif
                     }
 
+#if LOG_DEFAULT
                     self.log.default("Peripheral configuration completed")
+#endif
                 } catch let error {
                     self.log.error("Error applying peripheral configuration: %{public}@", String(describing: error))
                     // Will retry
@@ -173,7 +181,9 @@ extension PeripheralManager {
         try discoverServices(configuration.serviceCharacteristics.keys.map { $0 }, timeout: discoveryTimeout)
 
         for service in peripheral.services ?? [] {
+#if LOG_DEFAULT
             log.default("Discovered service: %{public}@", service)
+#endif
             guard let characteristics = configuration.serviceCharacteristics[service.uuid] else {
                 // Not all services may have characteristics
                 continue
@@ -341,7 +351,9 @@ extension PeripheralManager {
 extension PeripheralManager: CBPeripheralDelegate {
 
     func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error: Error?) {
+#if LOG_DEFAULT
         log.default("didDiscoverServices")
+#endif
         commandLock.lock()
 
         if let index = commandConditions.firstIndex(where: { (condition) -> Bool in
@@ -459,11 +471,15 @@ extension PeripheralManager {
     func clearCommsQueues() {
         queueLock.lock()
         if cmdQueue.count > 0 {
+#if LOG_DEFAULT
             self.log.default("Removing %{public}d leftover elements from command queue", cmdQueue.count)
+#endif
             cmdQueue.removeAll()
         }
         if dataQueue.count > 0 {
+#if LOG_DEFAULT
             self.log.default("Removing %{public}d leftover elements from data queue", dataQueue.count)
+#endif
             dataQueue.removeAll()
         }
         queueLock.unlock()
@@ -476,11 +492,15 @@ extension PeripheralManager {
     }
 
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
+#if LOG_DEBUG
         self.log.debug("PeripheralManager - didConnect: %@", peripheral)
+#endif
         switch peripheral.state {
         case .connected:
             clearCommsQueues()
+#if LOG_DEBUG
             self.log.debug("PeripheralManager - didConnect - running assertConfiguration")
+#endif
             assertConfiguration()
 
             commandLock.lock()
@@ -526,15 +546,23 @@ extension CBPeripheral {
 // MARK: - Command session management
 extension PeripheralManager {
     public func runSession(withName name: String , _ block: @escaping () -> Void) {
+#if LOG_DEFAULT
         self.log.default("Scheduling session %{public}@", name)
+#endif
 
         sessionQueue.addOperation({ [weak self] in
             self?.perform { (manager) in
+#if LOG_DEFAULT
                 manager.log.default("======================== %{public}@ ===========================", name)
+#endif
                 block()
+#if LOG_DEFAULT
                 manager.log.default("------------------------ %{public}@ ---------------------------", name)
+#endif
                 self?.idleStart = Date()
+#if LOG_DEFAULT
                 self?.log.default("Start of idle at %{public}@", String(describing: self?.idleStart))
+#endif
             }
         })
     }

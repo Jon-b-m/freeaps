@@ -1,4 +1,5 @@
 import Combine
+import CoreData
 import Foundation
 import LoopKit
 import LoopKitUI
@@ -77,6 +78,8 @@ final class BaseAPSManager: APSManager, Injectable {
             lastLoopDateSubject.send(lastLoopDate)
         }
     }
+
+    let coredataContext = CoreDataStack.shared.persistentContainer.viewContext
 
     private var openAPS: OpenAPS!
 
@@ -175,6 +178,9 @@ final class BaseAPSManager: APSManager, Injectable {
 
     // Loop entry point
     private func loop() {
+        #if CHECKPOINT_LOGGING
+            debug(.checkpoint, "BEGIN")
+        #endif
         guard !isLooping.value else {
             warning(.apsManager, "Already looping, skip")
             return
@@ -222,6 +228,9 @@ final class BaseAPSManager: APSManager, Injectable {
                 }
             } receiveValue: {}
             .store(in: &lifetime)
+        #if CHECKPOINT_LOGGING
+            debug(.checkpoint, "END")
+        #endif
     }
 
     // Loop exit point
@@ -679,56 +688,62 @@ final class BaseAPSManager: APSManager, Injectable {
         // Add to tdd.json:
         let preferences = settingsManager.preferences
         let currentTDD = enacted_.tdd ?? 0
-        let file = OpenAPS.Monitor.tdd
-        let tdd = TDD(
-            TDD: currentTDD,
-            timestamp: Date(),
-            id: UUID().uuidString
-        )
+
+        debug(.apsManager, "Writing TDD to CoreData")
+
+        // Add new record to CoreData:TDD Entity
+        let nTDD = TDD(context: coredataContext)
+        nTDD.id = UUID().uuidString
+        nTDD.timestamp = Date()
+        nTDD.tdd = NSDecimalNumber(decimal: currentTDD)
+        try! coredataContext.save()
+
+        let twoWeeksAgo = Calendar.current.date(byAdding: .day, value: -14, to: Date())!
+
+        let requestTDD = TDD.fetchRequest() as NSFetchRequest<TDD>
+        requestTDD.predicate = NSPredicate(format: "timestamp > %@ AND tdd > 0", twoWeeksAgo as NSDate)
         var uniqEvents: [TDD] = []
-        storage.transaction { storage in
-            storage.append(tdd, to: file, uniqBy: \.id)
-            uniqEvents = storage.retrieve(file, as: [TDD].self)?
-                .filter { $0.timestamp.addingTimeInterval(14.days.timeInterval) > Date() }
-                .sorted { $0.timestamp > $1.timestamp } ?? []
-            var total: Decimal = 0
-            var indeces: Decimal = 0
-            for uniqEvent in uniqEvents {
-                if uniqEvent.TDD > 0 {
-                    total += uniqEvent.TDD
-                    indeces += 1
-                }
-            }
-            let entriesPast2hours = storage.retrieve(file, as: [TDD].self)?
-                .filter { $0.timestamp.addingTimeInterval(2.hours.timeInterval) > Date() }
-                .sorted { $0.timestamp > $1.timestamp } ?? []
-            var totalAmount: Decimal = 0
-            var nrOfIndeces: Decimal = 0
-            for entry in entriesPast2hours {
-                if entry.TDD > 0 {
-                    totalAmount += entry.TDD
-                    nrOfIndeces += 1
-                }
-            }
-            if indeces == 0 {
-                indeces = 1
-            }
-            if nrOfIndeces == 0 {
-                nrOfIndeces = 1
-            }
-            let average14 = total / indeces
-            let average2hours = totalAmount / nrOfIndeces
-            let weight = preferences.weightPercentage
-            let weighted_average = weight * average2hours + (1 - weight) * average14
-            let averages = TDD_averages(
-                average_total_data: roundDecimal(average14, 1),
-                weightedAverage: roundDecimal(weighted_average, 1),
-                past2hoursAverage: roundDecimal(average2hours, 1),
-                date: Date()
-            )
-            storage.save(averages, as: OpenAPS.Monitor.tdd_averages)
-            storage.save(Array(uniqEvents), as: file)
+
+        try! uniqEvents = coredataContext.fetch(requestTDD)
+
+        var total: Decimal = 0
+        var indeces: Decimal = 0
+        for uniqEvent in uniqEvents {
+            debug(.apsManager, "Read TDD from CoreData: \(uniqEvent.tdd!.decimalValue)")
+            total += uniqEvent.tdd!.decimalValue
+            indeces += 1
         }
+
+        let twoHoursAgo = Calendar.current.date(byAdding: .hour, value: -2, to: Date())!
+
+        requestTDD.predicate = NSPredicate(format: "timestamp > %@ AND tdd > 0", twoHoursAgo as NSDate)
+        var entriesPast2hours: [TDD] = []
+
+        try! entriesPast2hours = coredataContext.fetch(requestTDD)
+
+        var totalAmount: Decimal = 0
+        var nrOfIndeces: Decimal = 0
+        for entry in entriesPast2hours {
+            totalAmount += entry.tdd!.decimalValue
+            nrOfIndeces += 1
+        }
+        if indeces == 0 {
+            indeces = 1
+        }
+        if nrOfIndeces == 0 {
+            nrOfIndeces = 1
+        }
+        let average14 = total / indeces
+        let average2hours = totalAmount / nrOfIndeces
+        let weight = preferences.weightPercentage
+        let weighted_average = weight * average2hours + (1 - weight) * average14
+        let averages = TDD_averages(
+            average_total_data: roundDecimal(average14, 1),
+            weightedAverage: roundDecimal(weighted_average, 1),
+            past2hoursAverage: roundDecimal(average2hours, 1),
+            date: Date()
+        )
+        storage.save(averages, as: OpenAPS.Monitor.tdd_averages)
     }
 
     private func roundDecimal(_ decimal: Decimal, _ digits: Double) -> Decimal {
@@ -776,11 +791,21 @@ final class BaseAPSManager: APSManager, Injectable {
         let units = settingsManager.settings.units
         let preferences = settingsManager.preferences
         let carbs = storage.retrieve(OpenAPS.Monitor.carbHistory, as: [CarbsEntry].self)
-        let tdds = storage.retrieve(OpenAPS.Monitor.tdd, as: [TDD].self)
+
+        let requestTDD = TDD.fetchRequest() as NSFetchRequest<TDD>
+        requestTDD.predicate = NSPredicate(format: "tdd > 0")
+        requestTDD.fetchLimit = 1
+        let sort = NSSortDescriptor(key: "timestamp", ascending: false)
+        requestTDD.sortDescriptors = [sort]
+
+        var tdds: [TDD] = []
+        try! tdds = coredataContext.fetch(requestTDD)
+
         var currentTDD: Decimal = 0
-        if tdds?.count ?? 0 > 0 {
-            currentTDD = tdds?[0].TDD ?? 0
+        if tdds.count == 1 {
+            currentTDD = tdds[0].tdd!.decimalValue
         }
+
         let carbs_length = carbs?.count ?? 0
         var carbTotal: Decimal = 0
         if carbs_length != 0 {
@@ -900,8 +925,15 @@ final class BaseAPSManager: APSManager, Injectable {
             minimumLoopTime = 0.0
         }
         // Time In Range (%) and Average Glucose (24 hours). This will be refactored later after some testing.
-        let glucose = storage.retrieve(OpenAPS.Monitor.glucose_data, as: [GlucoseDataForStats].self)
-        let length_ = glucose?.count ?? 0
+        let requestGFS = GlucoseDataForStats.fetchRequest() as NSFetchRequest<GlucoseDataForStats>
+        let sortGlucose = NSSortDescriptor(key: "date", ascending: true)
+        requestGFS.sortDescriptors = [sortGlucose]
+
+        var glucose: [GlucoseDataForStats] = []
+
+        try! glucose = coredataContext.fetch(requestGFS)
+
+        let length_ = glucose.count
         let endIndex = length_ - 1
         var bg: Decimal = 0
         var bgArray: [Double] = []
@@ -920,7 +952,7 @@ final class BaseAPSManager: APSManager, Injectable {
 
         var startDate = Date("1978-02-22T11:43:54.659Z")
         if endIndex >= 0 {
-            startDate = glucose?[0].date
+            startDate = glucose[0].date
         }
         var end1 = false
         var end7 = false
@@ -933,15 +965,16 @@ final class BaseAPSManager: APSManager, Injectable {
 
         // Make arrays for median calculations and calculate averages
         if endIndex >= 0 {
-            for entry in glucose! {
+            for entry in glucose {
                 j += 1
                 if entry.glucose > 0 {
+                    debug(.apsManager, "Read GlucoseDataForStats from CoreData: \(entry.glucose)")
                     bg += Decimal(entry.glucose)
                     bgArray.append(Double(entry.glucose))
-                    bgArrayForTIR.append((Double(entry.glucose), entry.date))
+                    bgArrayForTIR.append((Double(entry.glucose), entry.date!))
                     nr_bgs += 1
 
-                    if (startDate! - entry.date).timeInterval >= 8.64E4, !end1 {
+                    if (startDate! - entry.date!).timeInterval >= 8.64E4, !end1 {
                         end1 = true
                         bg_1 = bg / nr_bgs
                         bgArray_1 = bgArrayForTIR
@@ -949,7 +982,7 @@ final class BaseAPSManager: APSManager, Injectable {
                         nr_bgs_1 = nr_bgs
                         // time_1 = ((startDate ?? Date()) - entry.date).timeInterval
                     }
-                    if (startDate! - entry.date).timeInterval >= 6.048E5, !end7 {
+                    if (startDate! - entry.date!).timeInterval >= 6.048E5, !end7 {
                         end7 = true
                         bg_7 = bg / nr_bgs
                         bgArray_7 = bgArrayForTIR
@@ -957,7 +990,7 @@ final class BaseAPSManager: APSManager, Injectable {
                         nr_bgs_7 = nr_bgs
                         // time_7 = ((startDate ?? Date()) - entry.date).timeInterval
                     }
-                    if (startDate! - entry.date).timeInterval >= 2.592E6, !end30 {
+                    if (startDate! - entry.date!).timeInterval >= 2.592E6, !end30 {
                         end30 = true
                         bg_30 = bg / nr_bgs
                         bgArray_30 = bgArrayForTIR
@@ -988,7 +1021,7 @@ final class BaseAPSManager: APSManager, Injectable {
         var fullTime = 0.0
 
         if length_ > 0 {
-            fullTime = (startDate! - glucose![endIndex].date).timeInterval
+            fullTime = (startDate! - glucose[endIndex].date!).timeInterval
             daysBG = fullTime / 8.64E4
         }
 

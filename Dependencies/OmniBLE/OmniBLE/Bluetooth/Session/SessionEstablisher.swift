@@ -104,7 +104,9 @@ class SessionEstablisher {
 
     private func assertIdentifier(msg: EapMessage) throws {
         if (msg.identifier != identifier) {
+#if LOG_DEBUG
             log.debug("EAP-AKA: got incorrect identifier ${msg.identifier} expected: $identifier")
+#endif
             throw SessionEstablishmentException.CommunicationError("Received incorrect EAP identifier: ${msg.identifier}")
         }
     }
@@ -142,7 +144,9 @@ class SessionEstablisher {
 
     private func assertValidAkaMessage(eapMsg: EapMessage) throws {
         if (eapMsg.attributes.count != 2) {
+#if LOG_DEBUG
             log.debug("EAP-AKA: got incorrect: $eapMsg")
+#endif
             if (eapMsg.attributes.count == 1 && eapMsg.attributes[0] is EapAkaAttributeClientErrorCode) {
                 throw SessionEstablishmentException.CommunicationError(
                     "Received CLIENT_ERROR_CODE for EAP-AKA challenge: ${eapMsg.attributes[0].toByteArray().toHex()}"

@@ -111,6 +111,9 @@ final class Logger {
     static let deviceManager = Logger(category: .deviceManager, reporter: baseReporter)
     static let apsManager = Logger(category: .apsManager, reporter: baseReporter)
     static let nightscout = Logger(category: .nightscout, reporter: baseReporter)
+    #if CHECKPOINT_LOGGING
+        static let checkpoint = Logger(category: .checkpoint, reporter: baseReporter)
+    #endif
 
     enum Category: String {
         case `default`
@@ -120,6 +123,9 @@ final class Logger {
         case deviceManager
         case apsManager
         case nightscout
+        #if CHECKPOINT_LOGGING
+            case checkpoint
+        #endif
 
         var name: String {
             rawValue.capitalizingFirstLetter()
@@ -134,6 +140,9 @@ final class Logger {
             case .deviceManager: return .deviceManager
             case .apsManager: return .apsManager
             case .nightscout: return .nightscout
+            #if CHECKPOINT_LOGGING
+                case .checkpoint: return .checkpoint
+            #endif
             }
         }
 
@@ -141,6 +150,10 @@ final class Logger {
             let subsystem = Bundle.main.bundleIdentifier!
             switch self {
             case .default: return OSLog.default
+            #if CHECKPOINT_LOGGING
+                case .checkpoint:
+                    return OSLog(subsystem: subsystem, category: name)
+            #endif
             case .apsManager,
                  .businessLogic,
                  .deviceManager,

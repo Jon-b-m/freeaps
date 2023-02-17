@@ -208,7 +208,9 @@ class PodMessageTransport: MessageTransport {
         incrementMessageNumber() // bump to match expected Omnipod message # in response
 
         let dataToSend = message.encoded()
+#if LOG_DEFAULT
         log.default("Send(Hex): %{public}@", dataToSend.hexadecimalString)
+#endif
         messageLogger?.didSend(dataToSend)
 
         let sendMessage = try getCmdMessage(cmd: message)
@@ -246,7 +248,9 @@ class PodMessageTransport: MessageTransport {
             payloads: [cmd.encoded(), Data()]
         )
 
+#if LOG_DEBUG
         log.debug("Sending command: %@", wrapped.hexadecimalString)
+#endif
 
         let msg = MessagePacket(
             type: MessageType.ENCRYPTED,
@@ -272,14 +276,18 @@ class PodMessageTransport: MessageTransport {
         incrementNonceSeq()
         let decrypted = try enDecrypt.decrypt(readMessage, nonceSeq)
 
+#if LOG_DEBUG
         log.debug("Received response: %@", decrypted.payload.hexadecimalString)
+#endif
 
         let response = try parseResponse(decrypted: decrypted)
 
         incrementMsgSeq()
         incrementNonceSeq()
         let ack = try getAck(response: decrypted)
+#if LOG_DEBUG
         log.debug("Sending ACK: %@ in packet $ack", ack.payload.hexadecimalString)
+#endif
         let ackResult = manager.sendMessagePacket(ack)
         guard case .sentWithAcknowledgment = ackResult else {
             throw PodProtocolError.messageIOException("Could not write $msgType: \(ackResult)")
@@ -303,7 +311,9 @@ class PodMessageTransport: MessageTransport {
         // so we ignore them as well and rely on higher level BLE & Dash message data checking to provide data corruption protection.
         let response = try Message(encodedData: data, checkCRC: false)
 
+#if LOG_DEFAULT
         log.default("Recv(Hex): %@", data.hexadecimalString)
+#endif
         messageLogger?.didReceive(data)
 
         return response

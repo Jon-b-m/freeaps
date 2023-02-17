@@ -807,7 +807,9 @@ extension OmniBLEPumpManager {
                 // We're on the session queue
                 session.assertOnSessionQueue()
 
+#if LOG_DEFAULT
                 self.log.default("Beginning pod prime")
+#endif
 
                 // Clean up any previously un-stored doses if needed
                 let unstoredDoses = self.state.unstoredDoses
@@ -839,7 +841,9 @@ extension OmniBLEPumpManager {
 
         if needsPairing {
 
+#if LOG_DEFAULT
             self.log.default("Pairing pod before priming")
+#endif
 
             guard let insulinType = insulinType else {
                 completion(.failure(.configuration(OmniBLEPumpManagerError.insulinTypeNotConfigured)))
@@ -862,7 +866,9 @@ extension OmniBLEPumpManager {
 
             })
         } else {
+#if LOG_DEFAULT
             self.log.default("Pod already paired. Continuing.")
+#endif
 
             self.podComms.runSession(withName: "Prime pod") { (result) in
                 // Calls completion
@@ -1225,7 +1231,9 @@ extension OmniBLEPumpManager {
     }
 
     public func setConfirmationBeeps(newPreference: BeepPreference, completion: @escaping (OmniBLEPumpManagerError?) -> Void) {
+#if LOG_DEFAULT
         self.log.default("Set Confirmation Beeps to %s", String(describing: newPreference))
+#endif
         guard self.hasActivePod else {
             self.setState { state in
                 state.confirmationBeeps = newPreference // set here to allow changes on a faulted Pod
@@ -1507,12 +1515,16 @@ extension OmniBLEPumpManager: PumpManager {
             completion?(lastSync)
             return // No active pod
         case true?:
+#if LOG_DEFAULT
             log.default("Fetching status because pumpData is too old")
+#endif
             getPodStatus() { (response) in
                 completion?(self.lastSync)
             }
         case false?:
+#if LOG_DEFAULT
             log.default("Skipping status update because pumpData is fresh")
+#endif
             completion?(self.lastSync)
             silenceAcknowledgedAlerts()
         }
@@ -1940,19 +1952,25 @@ extension OmniBLEPumpManager: PumpManager {
         let (added, removed) = oldAlerts.compare(to: newAlerts)
         for slot in added {
             if let podAlert = podState.configuredAlerts[slot] {
+#if LOG_DEFAULT
                 log.default("Alert slot triggered: %{public}@", String(describing: slot))
+#endif
                 if let pumpManagerAlert = getPumpManagerAlert(for: podAlert, slot: slot) {
                     issueAlert(alert: pumpManagerAlert)
                 } else {
+#if LOG_DEFAULT
                     log.default("Ignoring alert: %{public}@", String(describing: podAlert))
+#endif
                 }
             } else {
                 log.error("Unconfigured alert slot triggered: %{public}@", String(describing: slot))
             }
         }
+#if LOG_DEFAULT
         for alert in removed {
             log.default("Alert slot cleared: %{public}@", String(describing: alert))
         }
+#endif
     }
 
     private func getPumpManagerAlert(for podAlert: PodAlert, slot: AlertSlot) -> PumpManagerAlert? {
@@ -2073,12 +2091,16 @@ extension OmniBLEPumpManager: PumpManager {
 
 extension OmniBLEPumpManager: MessageLogger {
     func didSend(_ message: Data) {
+#if LOG_DEFAULT
         log.default("didSend: %{public}@", message.hexadecimalString)
+#endif
         self.logDeviceCommunication(message.hexadecimalString, type: .send)
     }
 
     func didReceive(_ message: Data) {
+#if LOG_DEFAULT
         log.default("didReceive: %{public}@", message.hexadecimalString)
+#endif
         self.logDeviceCommunication(message.hexadecimalString, type: .receive)
     }
 
