@@ -1304,7 +1304,7 @@ Enact a temp Basal or a temp target */
 
 "CGM is not used as heartbeat." = "CGM används inte som hjärtslag.";
 
-"Are you sure you want to delete this CGM?" = "År du säker på att du vill ta baort denna CGM";
+"Are you sure you want to delete this CGM?" = "År du säker på att du vill ta bort denna CGM?";
 
 /* -----------------------------------------------------------------------------------------------------------
 
