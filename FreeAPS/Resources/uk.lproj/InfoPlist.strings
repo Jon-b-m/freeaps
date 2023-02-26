@@ -14,7 +14,7 @@
 "NSCalendarsUsageDescription" = "Для створення нових подій глюкози використовується календар.";
 
 /* Privacy - Health Update Usage Description */
-"NSHealthUpdateUsageDescription" = "Програма Health App використовується для зберігання даних глюкози";
+"NSHealthUpdateUsageDescription" = "Health App is used to store blood glucose, insulin and carbohydrates";
 
 /* Privacy - Health Share Usage Description */
-"NSHealthShareUsageDescription" = "Програма Health App використовується для зберігання даних глюкози";
+"NSHealthShareUsageDescription" = "Health App is used to store blood glucose, insulin and carbohydrates";
