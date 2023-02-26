@@ -1045,34 +1045,34 @@ Enact a temp Basal or a temp target */
 /* -------------------------------------------- FPU Strings ------------------------------------------------------*/
 /* Header */
 
-"Convert Fat and Protein" = "Convert Fat and Protein";
+"Convert Fat and Protein" = "Regne om fett og proteiner";
 
 /* Header */
-"Conversion settings" = "Conversion settings";
+"Conversion settings" = "Innstillinger for omregning";
 
 /* Delay */
-"Delay In Minutes" = "Delay In Minutes";
+"Delay In Minutes" = "Forsinkelse i minutter";
 
 /* Duration */
-"Maximum Duration In Hours" = "Maximum Duration In Hours";
+"Maximum Duration In Hours" = "Maks varighet i timer";
 
 /* Interval */
-"Interval In Minutes" = "Interval In Minutes";
+"Interval In Minutes" = "Intervall (minutter)";
 
 /* Override */
-"Override With A Factor Of " = "Override With A Factor Of ";
+"Override With A Factor Of " = "Overstyre med en faktor på ";
 
 /* Description */
-"Allows fat and protein to be converted into future carb equivalents, using the Warsaw method (total kcal/10).\n\nDelay is time from now until first future carb entry. Maximum duration is the maximum time in hours, in total, which the carb equivalents will allocate. Interval means the number of minutes betewen these entries. Override setting is for safety and tuning. The higher, the larger the total amount of carb equivalents. Compensating for an increased total carb amount with an increased IC ratio is recommended.\n\nDefault settings: Delay: 60 min, Time Cap: 8 h, Interval: 60 min, Factor: 0.5." = "Allows fat and protein to be converted into future carb equivalents, using the Warsaw method (total kcal/10).\n\nDelay is time from now until first future carb entry. Maximum duration is the maximum time in hours, in total, which the carb equivalents will allocate. Interval means the number of minutes betewen these entries. Override setting is for safety and tuning. The higher, the larger the total amount of carb equivalents. Compensating for an increased total carb amount with an increased IC ratio is recommended.\n\nDefault settings: Delay: 60 min, Time Cap: 8 h, Interval: 60 min, Factor: 0.5.";
+"Allows fat and protein to be converted into future carb equivalents, using the Warsaw method (total kcal/10).\n\nDelay is time from now until first future carb entry. Maximum duration is the maximum time in hours, in total, which the carb equivalents will allocate. Interval means the number of minutes betewen these entries. Override setting is for safety and tuning. The higher, the larger the total amount of carb equivalents. Compensating for an increased total carb amount with an increased IC ratio is recommended.\n\nDefault settings: Delay: 60 min, Time Cap: 8 h, Interval: 60 min, Factor: 0.5." = "Tillater at fett og proteiner blir regnet om til karbo-ekvivalenter, ved å bruke Warsaw-metoden (total kcal/10).\n\nForsinkelsen er tiden fra nå, til første fremtidige karbohydrat-registrering. Maksimal varighet er maks. antall timer, totalt, som karbo-ekvivalentene vil fordeles over. Interval betyr antall minutter mellom hver fordeling av karbo-ekvivalenter. Overstyring er for sikkerhet og justering. Høyere innstilling medfører større total mengde karbo-ekvivalenter. Det anbefales å kompensere med økt IK når man øker total mengde karbohydrater.\n\nStandard innstilling: Forsinkelse: 60 min, Varighet: 8 t, Intervall: 60 min, Faktor: 0,5.";
 
 /* Title */
-"Fat and Protein" = "Fat and Protein";
+"Fat and Protein" = "Fett og Proteiner";
 
 /* Add Fat */
-"Fat" = "Fat";
+"Fat" = "Fett";
 
 /* Add Protein */
-"Protein" = "Protein";
+"Protein" = "Proteiner";
 
 /* -------------------------------------------------------------------------------------------
   DASH strings
