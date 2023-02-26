@@ -28,16 +28,19 @@ extension AddCarbs {
             let fpus = (fat * 9.0 + protein * 4.0) / 100.0
             // Default is 1 hour (60 minutes)
             let timeInterval = 60 * settings.settings.minuteInterval
-            // Deffault is 8 hours
+            let entriesPerHour = Decimal(60) / Decimal(settings.settings.minuteInterval)
+
+            // Default is 8 hours
+        
             let timeCap = settings.settings.timeCap
             let adjustment = settings.settings.individualAdjustmentFactor
             var counter: Decimal = (fpus * 2) - 1.0
-            counter = min(timeCap, counter)
+            counter = min(timeCap, counter) * entriesPerHour
             var roundedCounter: Decimal = 0
             NSDecimalRound(&roundedCounter, &counter, 0, .up)
             let carbequiv = (fpucarb / roundedCounter) * adjustment
 
-            while counter > 0, counter <= timeCap {
+            while counter > 0 {
                 let newdate = 1.0 + trunc(Double(truncating: counter as NSNumber))
                 carbsStorage.storeCarbs([
                     CarbsEntry(

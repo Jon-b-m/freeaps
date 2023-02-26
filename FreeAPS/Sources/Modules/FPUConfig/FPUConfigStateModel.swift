@@ -19,14 +19,14 @@ extension FPUConfig {
             })
 
             subscribeSetting(\.minuteInterval, on: $minuteInterval.map(Int.init), initial: {
-                let value = max(min($0, 90), 10)
+                let value = max(min($0, 60), 10)
                 minuteInterval = Decimal(value)
             }, map: {
                 $0
             })
 
             subscribeSetting(\.individualAdjustmentFactor, on: $individualAdjustmentFactor, initial: {
-                let value = max(min($0, 1.2), 0.3)
+                let value = max(min($0, 1.2), 0.1)
                 individualAdjustmentFactor = value
             }, map: {
                 $0
