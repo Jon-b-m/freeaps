@@ -925,7 +925,7 @@ Enact a temp Basal or a temp target */
 "Glucose Simulator" = "Glukossimulator";
 
 /* Restored state message */
-"Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Bluetooth-status återställd (FreeAPS X startades om?). Hittade %d perifera enheter anslutna till %@ med identifieraren %@";
+"Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "Bluetooth-status återställd (APS startades om?). Hittade %d perifera enheter anslutna till %@ med identifieraren %@";
 
 /* Shared app group xDrip4iOS */
 "Using shared app group with external CGM app xDrip4iOS" = "Använder delad appgrupp med CGM-app xDrip4iOS";
@@ -950,12 +950,6 @@ Enact a temp Basal or a temp target */
 
 /* Online or internal server */
 "Online or internal server" = "Online eller intern server";
-
-/* Add Fat */
-"Fat" = "Fett";
-
-/* Add Protein */
-"Protein" = "Protein";
 
 /* -------------- Developer settings ---------------------- */
 /* Debug options */
@@ -1048,7 +1042,39 @@ Enact a temp Basal or a temp target */
 /* Total AT / Scheduled basal insulin */
 "Total" = "Totalt";
 
-/* ---------------------------------------
+/* -------------------------------------------- FPU Strings ------------------------------------------------------*/
+/* Header */
+
+"Convert Fat and Protein" = "Convert Fat and Protein";
+
+/* Header */
+"Conversion settings" = "Conversion settings";
+
+/* Delay */
+"Delay In Minutes" = "Delay In Minutes";
+
+/* Duration */
+"Maximum Duration In Hours" = "Maximum Duration In Hours";
+
+/* Interval */
+"Interval In Minutes" = "Interval In Minutes";
+
+/* Override */
+"Override With A Factor Of " = "Override With A Factor Of ";
+
+/* Description */
+"Allows fat and protein to be converted into future carb equivalents, using the Warsaw method (total kcal/10).\n\nDelay is time from now until first future carb entry. Maximum duration is the maximum time in hours, in total, which the carb equivalents will allocate. Interval means the number of minutes betewen these entries. Override setting is for safety and tuning. The higher, the larger the total amount of carb equivalents. Compensating for an increased total carb amount with an increased IC ratio is recommended.\n\nDefault settings: Delay: 60 min, Time Cap: 8 h, Interval: 60 min, Factor: 0.5." = "Allows fat and protein to be converted into future carb equivalents, using the Warsaw method (total kcal/10).\n\nDelay is time from now until first future carb entry. Maximum duration is the maximum time in hours, in total, which the carb equivalents will allocate. Interval means the number of minutes betewen these entries. Override setting is for safety and tuning. The higher, the larger the total amount of carb equivalents. Compensating for an increased total carb amount with an increased IC ratio is recommended.\n\nDefault settings: Delay: 60 min, Time Cap: 8 h, Interval: 60 min, Factor: 0.5.";
+
+/* Title */
+"Fat and Protein" = "Fat and Protein";
+
+/* Add Fat */
+"Fat" = "Fett";
+
+/* Add Protein */
+"Protein" = "Protein";
+
+/* -------------------------------------------------------------------------------------------
   DASH strings
 */
 "Attach Pod" = "Fäst podden";
@@ -1310,7 +1336,7 @@ Enact a temp Basal or a temp target */
 
 "CGM is not used as heartbeat." = "CGM används inte som hjärtslag.";
 
-"Are you sure you want to delete this CGM?" = "År du säker på att du vill ta baort denna CGM";
+"Are you sure you want to delete this CGM?" = "År du säker på att du vill ta bort denna CGM?";
 
 /* -----------------------------------------------------------------------------------------------------------
 
