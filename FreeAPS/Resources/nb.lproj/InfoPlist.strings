@@ -14,7 +14,7 @@
 "NSCalendarsUsageDescription" = "Kalender brukes til å opprette nye blodsukker-oppføringer.";
 
 /* Privacy - Health Update Usage Description */
-"NSHealthUpdateUsageDescription" = "Health App is used to store blood glucose, insulin and carbohydrates";
+"NSHealthUpdateUsageDescription" = "Helse-appen brukes til å lagre blodsukker, insulin og karbohydrater";
 
 /* Privacy - Health Share Usage Description */
-"NSHealthShareUsageDescription" = "Health App is used to store blood glucose, insulin and carbohydrates";
+"NSHealthShareUsageDescription" = "Helse-appen brukes til å lagre blodsukker, insulin og karbohydrater";
