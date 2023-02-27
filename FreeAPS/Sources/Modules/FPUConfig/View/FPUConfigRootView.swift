@@ -28,11 +28,6 @@ extension FPUConfig {
 
                 Section(header: Text("Conversion settings")) {
                     HStack {
-                        Text("Delay In Minutes")
-                        Spacer()
-                        DecimalTextField("8", value: $state.delay, formatter: intFormater)
-                    }
-                    HStack {
                         Text("Maximum Duration In Hours")
                         Spacer()
                         DecimalTextField("8", value: $state.timeCap, formatter: intFormater)
@@ -41,6 +36,11 @@ extension FPUConfig {
                         Text("Interval In Minutes")
                         Spacer()
                         DecimalTextField("60", value: $state.minuteInterval, formatter: intFormater)
+                    }
+                     HStack {
+                        Text("Delay In Minutes")
+                        Spacer()
+                        DecimalTextField("8", value: $state.delay, formatter: intFormater)
                     }
                     HStack {
                         Text("Override With A Factor Of ")
@@ -51,7 +51,7 @@ extension FPUConfig {
 
                 Section(
                     footer: Text(
-                        "Allows fat and protein to be converted into future carb equivalents using the Warsaw formula of kilocalories divided by 10.\n\nThis spreads the carb equivilants over a maximum duration setting that can be configured from 5-12 hours.\n\nInterval in minutes is how many minutes are between entries. The shorter the interval, the smoother the results, but it becomes harder to manually delete entries if you later want to remove them. 10, 15, 20, 30, or 60 are reasonable choices.\n\nDelay is time from now until first future carb entry.\n\nAdjustment factor is how much effect the fat and protein has on the entries. 1.0 is full effect and 0.5 is half effect. Note that you may find that your normal carb ratio needs to increase to a larger number if you begin adding fat and protein entries. For this reason, it is best to start with a factor of about 0.5 to ease into it.\n\nDefault settings: Time Cap: 8 h, Interval: 30 min, Factor: 0.5, Delay 60 min"
+                        "Allows fat and protein to be converted into future carb equivalents using the Warsaw formula of kilocalories divided by 10.\n\nMaximum Duration in Hours - This spreads the carb equivilants over a maximum duration setting that can be configured from 5-12 hours.\n\nInterval in Minutes - This is how many minutes are between entries. The shorter the interval, the smoother the results, but it becomes harder to manually delete entries if you later want to remove them. 10, 15, 20, 30, or 60 are reasonable choices.\n\nDelay in Minutes -  This is the time from now until first future carb entry.\n\nOverride With A Factor Of - This is how much effect the fat and protein has on the entries. 1.0 is full effect and 0.5 is half effect. Note that you may find that your normal carb ratio needs to increase to a larger number if you begin adding fat and protein entries. For this reason, it is best to start with a factor of about 0.5 to ease into it.\n\nDefault settings: Time Cap: 8 h, Interval: 30 min, Factor: 0.5, Delay 60 min"
                     )
                 )
                     {}
