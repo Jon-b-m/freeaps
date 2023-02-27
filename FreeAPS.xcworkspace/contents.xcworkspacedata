@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "container:"
+      location = "container:FreeAPS/Sources/CoreDataModels"
       name = "CoreDataClassesAndProperties">
       <FileRef
          location = "group:InsulinDistribution+CoreDataClass.swift">

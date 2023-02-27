@@ -75,7 +75,7 @@ extension AddCarbs {
                     numberOfEquivalents -= 1
                 }
             } // ------------------------- END OF TPU ----------------------------------------
-            
+
             // Store the real carbs
             if carbs > 0 {
                 carbsStorage
