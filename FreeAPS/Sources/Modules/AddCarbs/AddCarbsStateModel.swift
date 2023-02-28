@@ -24,7 +24,7 @@ extension AddCarbs {
             }
 
             if useFPU {
-                // ----------- FPU ------------------------------------------------
+                // -------------------------- FPU--------------------------------------
                 let interval = settings.settings.minuteInterval // Interval betwwen carbs
                 let timeCap = settings.settings.timeCap // Max Duration
                 let adjustment = settings.settings.individualAdjustmentFactor
@@ -39,9 +39,9 @@ extension AddCarbs {
                 switch fpus {
                 case ..<2:
                     computedDuration = 3
-                case 2 ... 3:
+                case 2 ..< 3:
                     computedDuration = 4
-                case 3 ... 4:
+                case 3 ..< 4:
                     computedDuration = 5
                 default:
                     computedDuration = timeCap
@@ -57,6 +57,8 @@ extension AddCarbs {
                 var firstIndex = true
                 // New date for each carb equivalent
                 var useDate = date
+                // Group and Identify all FPUs together
+                let fpuID = UUID().uuidString
 
                 // Loop and save all carb entries
                 while carbEquivalents > 0, numberOfEquivalents > 0 {
@@ -67,18 +69,23 @@ extension AddCarbs {
                     carbsStorage.storeCarbs([
                         CarbsEntry(
                             id: UUID().uuidString, createdAt: useDate, carbs: equivalent,
-                            enteredBy: CarbsEntry.manual
+                            enteredBy: CarbsEntry.manual, isFPU: true, fpuID: fpuID
                         )
                     ])
                     numberOfEquivalents -= 1
                 }
-            }
-            // ------------------------- END OF TPU -----------------------------------------------
-
+            } // ------------------------- END OF TPU ----------------------------------------
+            
             // Store the real carbs
             if carbs > 0 {
                 carbsStorage
-                    .storeCarbs([CarbsEntry(id: UUID().uuidString, createdAt: date, carbs: carbs, enteredBy: CarbsEntry.manual)])
+                    .storeCarbs([CarbsEntry(
+                        id: UUID().uuidString,
+                        createdAt: date,
+                        carbs: carbs,
+                        enteredBy: CarbsEntry.manual,
+                        isFPU: false, fpuID: nil
+                    )])
             }
 
             if settingsManager.settings.skipBolusScreenAfterCarbs {
