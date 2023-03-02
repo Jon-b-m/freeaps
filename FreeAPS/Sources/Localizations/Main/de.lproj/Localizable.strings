@@ -1051,13 +1051,13 @@ Enact a temp Basal or a temp target */
 "Convert Fat and Protein" = "Fett und Eiweißberechnung";
 
 /* Header */
-"Conversion settings" = "Conversion settings";
+"Conversion settings" = "Einstellungen für die Umrechnung";
 
 /* Delay */
 "Delay In Minutes" = "Verzögerung in Minuten";
 
 /* Duration */
-"Maximum Duration In Hours" = "Maximum Duration In Hours";
+"Maximum Duration In Hours" = "Maximale Dauer in Stunden";
 
 /* Interval */
 "Interval In Minutes" = "Intervall in Minuten";
@@ -1078,7 +1078,7 @@ Enact a temp Basal or a temp target */
 "Protein" = "Eiweiß";
 
 /* Setting */
-"Fat And Protein Conversion" = "Fat And Protein Conversion";
+"Fat And Protein Conversion" = "Fett und Eiweiß Berechnung";
 
 /* Alert text */
 "Delete carb equivalents?" = "Delete carb equivalents?";
@@ -1340,15 +1340,15 @@ Enact a temp Basal or a temp target */
 
 /* --------------------------------------------------------  Dexcom G7 --------------------------------------*/
 
-"Configuration CGM" = "Configuration CGM";
+"Configuration CGM" = "CGM Einstellungen";
 
-"Heartbeat" = "Heartbeat";
+"Heartbeat" = "Herzschlag";
 
 "CGM address :" = "CGM address :";
 
 "CGM is not used as heartbeat." = "CGM is not used as heartbeat.";
 
-"Are you sure you want to delete this CGM?" = "Are you sure you want to delete this CGM?";
+"Are you sure you want to delete this CGM?" = "Möchten Sie das CGM wirklich löschen?";
 
 /* -----------------------------------------------------------------------------------------------------------
 
