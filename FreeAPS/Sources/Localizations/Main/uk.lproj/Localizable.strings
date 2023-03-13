@@ -1087,10 +1087,10 @@ Enact a temp Basal or a temp target */
 "Protein / Fat" = "Білок / Жир";
 
 /* */
-"Meal Presets" = "Meal Presets";
+"Meal Presets" = "Попередні налаштування їжі";
 
 /* */
-"Empty" = "Empty";
+"Empty" = "Порожній";
 
 /* */
 "Delete Selected Preset" = "Delete Selected Preset";
