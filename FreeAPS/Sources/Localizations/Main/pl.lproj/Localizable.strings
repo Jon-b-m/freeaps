@@ -1088,6 +1088,27 @@ Połączono z Nightscout!";
 /* Section in settings */
 "Protein / Fat" = "Protein / Fat";
 
+/* */
+"Meal Presets" = "Meal Presets";
+
+/* */
+"Empty" = "Empty";
+
+/* */
+"Delete Selected Preset" = "Delete Selected Preset";
+
+/* */
+"Enter Meal Preset Name" = "Enter Meal Preset Name";
+
+/* */
+"Name Of Dish" = "Name Of Dish";
+
+/* Save Carbs and continue to bolus recommendation */
+"Save and continue" = "Save and continue";
+
+/* */
+"Save as Preset" = "Save as Preset";
+
 /* -------------------------------------------------------------------------------------------
   DASH strings
 */
