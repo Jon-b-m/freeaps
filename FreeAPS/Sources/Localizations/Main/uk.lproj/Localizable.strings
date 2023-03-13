@@ -1093,19 +1093,19 @@ Enact a temp Basal or a temp target */
 "Empty" = "Порожній";
 
 /* */
-"Delete Selected Preset" = "Delete Selected Preset";
+"Delete Selected Preset" = "Вилучити позначений шаблон";
 
 /* */
-"Enter Meal Preset Name" = "Enter Meal Preset Name";
+"Enter Meal Preset Name" = "Введіть назву попереднього налаштування їжі";
 
 /* */
-"Name Of Dish" = "Name Of Dish";
+"Name Of Dish" = "Назва страви";
 
 /* Save Carbs and continue to bolus recommendation */
-"Save and continue" = "Save and continue";
+"Save and continue" = "Зберегти та продовжити";
 
 /* */
-"Save as Preset" = "Save as Preset";
+"Save as Preset" = "Зберегти як шаблон";
 
 /* -------------------------------------------------------------------------------------------
   DASH strings
