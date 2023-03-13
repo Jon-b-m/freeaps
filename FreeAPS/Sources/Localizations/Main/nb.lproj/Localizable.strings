@@ -1087,25 +1087,25 @@ Enact a temp Basal or a temp target */
 "Protein / Fat" = "Proteiner/fett";
 
 /* */
-"Meal Presets" = "Meal Presets";
+"Meal Presets" = "Forvalg av måltid";
 
 /* */
-"Empty" = "Empty";
+"Empty" = "Tom";
 
 /* */
-"Delete Selected Preset" = "Delete Selected Preset";
+"Delete Selected Preset" = "Slett valgt forvalg";
 
 /* */
-"Enter Meal Preset Name" = "Enter Meal Preset Name";
+"Enter Meal Preset Name" = "Gi et navn til forvalget";
 
 /* */
-"Name Of Dish" = "Name Of Dish";
+"Name Of Dish" = "Navn på måltid";
 
 /* Save Carbs and continue to bolus recommendation */
-"Save and continue" = "Save and continue";
+"Save and continue" = "Lagre og fortsett";
 
 /* */
-"Save as Preset" = "Save as Preset";
+"Save as Preset" = "Lagre som forvalg";
 
 /* -------------------------------------------------------------------------------------------
   DASH strings
