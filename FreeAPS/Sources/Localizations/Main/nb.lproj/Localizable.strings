@@ -1086,6 +1086,27 @@ Enact a temp Basal or a temp target */
 /* Section in settings */
 "Protein / Fat" = "Proteiner/fett";
 
+/* */
+"Meal Presets" = "Meal Presets";
+
+/* */
+"Empty" = "Empty";
+
+/* */
+"Delete Selected Preset" = "Delete Selected Preset";
+
+/* */
+"Enter Meal Preset Name" = "Enter Meal Preset Name";
+
+/* */
+"Name Of Dish" = "Name Of Dish";
+
+/* Save Carbs and continue to bolus recommendation */
+"Save and continue" = "Save and continue";
+
+/* */
+"Save as Preset" = "Save as Preset";
+
 /* -------------------------------------------------------------------------------------------
   DASH strings
 */
