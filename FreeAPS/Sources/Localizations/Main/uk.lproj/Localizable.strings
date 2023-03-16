@@ -130,6 +130,24 @@
 /*  */
 "Save as preset" = "Зберегти як шаблон";
 
+/* Delete Meal Preset */
+"Delete Preset" = "Delete Preset";
+
+/* Confirm Deletion */
+"Delete preset '%@'?" = "Delete preset '%@'?";
+
+/* Button */
+"No" = "Ні";
+
+/* Button */
+"Yes" = "Так";
+
+/* + Button */
+"[ +1 ]" = "[ +1 ]";
+
+/* - Button */
+"[ -1 ]" = "[ -1 ]";
+
 /* Upper temp target limit */
 "Top target" = "Верхня ціль";
 
