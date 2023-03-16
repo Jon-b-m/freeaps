@@ -130,6 +130,24 @@
 /*  */
 "Save as preset" = "Opslaan als tijdelijk programma";
 
+/* Delete Meal Preset */
+"Delete Preset" = "Delete Preset";
+
+/* Confirm Deletion */
+"Delete preset '%@'?" = "Delete preset '%@'?";
+
+/* Button */
+"No" = "Nee";
+
+/* Button */
+"Yes" = "Ja";
+
+/* + Button */
+"[ +1 ]" = "[ +1 ]";
+
+/* - Button */
+"[ -1 ]" = "[ -1 ]";
+
 /* Upper temp target limit */
 "Top target" = "Bovengrens doel";
 
