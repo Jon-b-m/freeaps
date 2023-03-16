@@ -130,6 +130,24 @@
 /*  */
 "Save as preset" = "Sauvegarder comme pré-réglage";
 
+/* Delete Meal Preset */
+"Delete Preset" = "Delete Preset";
+
+/* Confirm Deletion */
+"Delete preset '%@'?" = "Delete preset '%@'?";
+
+/* Button */
+"No" = "Non";
+
+/* Button */
+"Yes" = "Oui";
+
+/* + Button */
+"[ +1 ]" = "[ +1 ]";
+
+/* - Button */
+"[ -1 ]" = "[ -1 ]";
+
 /* Upper temp target limit */
 "Top target" = "Cible haute";
 
