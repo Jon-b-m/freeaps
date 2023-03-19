@@ -131,10 +131,10 @@
 "Save as preset" = "Lagre som forhåndsinnstilling";
 
 /* Delete Meal Preset */
-"Delete Preset" = "Delete Preset";
+"Delete Preset" = "Slette forvalg";
 
 /* Confirm Deletion */
-"Delete preset '%@'?" = "Delete preset '%@'?";
+"Delete preset '%@'?" = "Slette forvalg '%@'?";
 
 /* Button */
 "No" = "Nei";
@@ -1096,7 +1096,7 @@ Enact a temp Basal or a temp target */
 "Protein" = "Proteiner";
 
 /* Setting */
-"Fat And Protein Conversion" = "Fat And Protein Conversion";
+"Fat And Protein Conversion" = "Omregning av fett og proteiner";
 
 /* Alert text */
 "Delete carb equivalents?" = "Slette karboekvivalenter?";
@@ -1309,7 +1309,7 @@ Enact a temp Basal or a temp target */
 "Low (<" = "Lavt (<";
 
 /* SD */
-"SD" = "SD";
+"SD" = "SA";
 
 /* CV */
 "CV" = "CV";
@@ -1375,19 +1375,19 @@ Enact a temp Basal or a temp target */
 "Change default HbA1c unit in statPanlel. The unit in statPanel will be updateded with next statistics.json update" = "Endre enhet for HbA1c i statPanel. Enheten i statPanel vil bli oppdatert neste gang statistikken oppdateres";
 
 /* HbA1c for all glucose storage days */
-"all" = "all";
+"all" = "alle";
 
 /* --------------------------------------------------------  Dexcom G7 --------------------------------------*/
 
-"Configuration CGM" = "Configuration CGM";
+"Configuration CGM" = "Oppsett for CGM";
 
-"Heartbeat" = "Heartbeat";
+"Heartbeat" = "Hjerteslag";
 
-"CGM address :" = "CGM address :";
+"CGM address :" = "CGM-adresse :";
 
-"CGM is not used as heartbeat." = "CGM is not used as heartbeat.";
+"CGM is not used as heartbeat." = "CGM brukes ikke som hjerteslag.";
 
-"Are you sure you want to delete this CGM?" = "Are you sure you want to delete this CGM?";
+"Are you sure you want to delete this CGM?" = "Er du sikker på at vil slette denne CGM'en?";
 
 /* New Experimental feature */
 "Experimental" = "Eksperimentell";
