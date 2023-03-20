@@ -1092,6 +1092,12 @@ Enact a temp Basal or a temp target */
 /* Section in settings */
 "Protein / Fat" = "Protein / Fat";
 
+/* Alert text */
+"Delete carb equivalents?" = "Delete carb equivalents?";
+
+/* Section in settings */
+"Protein / Fat" = "Protein / Fat";
+
 /* -------------------------------------------------------------------------------------------
   DASH strings
 */
@@ -1674,3 +1680,7 @@ Enact a temp Basal or a temp target */
 
 /* Headline "Adjustment Factor" */
 "Adjustment Factor" = "Aanpassingsfactor";
+
+/* AppIcon Change View */
+"AppIcon Change" = "AppIcon Wechseln";
+

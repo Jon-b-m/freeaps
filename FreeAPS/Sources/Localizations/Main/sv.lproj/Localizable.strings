@@ -1668,3 +1668,6 @@ Enact a temp Basal or a temp target */
 
 /* Headline "Adjustment Factor" */
 "Adjustment Factor" = "Justeringskonstant";
+
+/* AppIcon Change View */
+"AppIcon Change" = "AppIcon Wechseln";

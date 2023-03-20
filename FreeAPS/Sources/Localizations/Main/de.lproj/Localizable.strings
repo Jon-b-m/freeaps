@@ -1008,6 +1008,7 @@ Enact a temp Basal or a temp target */
 /* */
 "Apple Health" = "Apple Health";
 
+
 /* */
 "Connect to Apple Health" = "Apple Health verbinden";
 
@@ -1085,6 +1086,12 @@ Enact a temp Basal or a temp target */
 
 /* Section in settings */
 "Protein / Fat" = "Eiweiß / Fett";
+
+/* Alert text */
+"Delete carb equivalents?" = "Delete carb equivalents?";
+
+/* Section in settings */
+"Protein / Fat" = "Protein / Fat";
 
 /* -------------------------------------------------------------------------------------------
   DASH strings
@@ -1668,3 +1675,6 @@ Enact a temp Basal or a temp target */
 
 /* Headline "Adjustment Factor" */
 "Adjustment Factor" = "Korrekturfaktor";
+
+/* AppIcon Change View */
+"AppIcon Change" = "AppIcon Wechseln";

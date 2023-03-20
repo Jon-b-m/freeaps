@@ -27,6 +27,7 @@ enum Screen: Identifiable, Hashable {
     case notificationsConfig
     case fpuConfig
     case snooze
+    case appIconConfig // becksen
 
     var id: Int { String(reflecting: self).hashValue }
 }
@@ -87,6 +88,8 @@ extension Screen {
             FPUConfig.RootView(resolver: resolver)
         case .snooze:
             Snooze.RootView(resolver: resolver)
+        case .appIconConfig:
+            AppIconConfig.AppIconView3()
         }
     }
 
