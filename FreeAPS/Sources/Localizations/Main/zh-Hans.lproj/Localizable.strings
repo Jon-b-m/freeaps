@@ -134,13 +134,13 @@
 "Delete Preset" = "Delete Preset";
 
 /* Confirm Deletion */
-"Delete preset '%@'?" = "Delete preset '%@'?";
+"Delete preset '%@'?" = "删除预设\"\"%@'?";
 
 /* Button */
-"No" = "No";
+"No" = "否";
 
 /* Button */
-"Yes" = "Yes";
+"Yes" = "是";
 
 /* + Button */
 "[ +1 ]" = "[ +1 ]";
@@ -441,7 +441,7 @@ Enact a temp Basal or a temp target */
 "Delete carbs?" = "删除碳水？";
 
 /* Delete insulin from pump history and Nightscout */
-"Delete insulin?" = "Delete insulin?";
+"Delete insulin?" = "删除胰岛素数据？";
 
 /* Treatments list */
 "Treatments" = "治疗";
@@ -450,7 +450,7 @@ Enact a temp Basal or a temp target */
 " min" = " 分钟";
 
 /* */
-"Unable to change anything" = "Unable to change anything";
+"Unable to change anything" = "无法更改任何内容";
 
 
 /* Calendar and Libre transmitter settings ---------------
@@ -1049,7 +1049,7 @@ Enact a temp Basal or a temp target */
 "Manual" = "Manual";
 
 /* Status highlight when manual temp basal is running. */
-"Manual Basal" = "Manual Basal";
+"Manual Basal" = "手动临时基础";
 
 /* Current Manual Temp basal */
 " -  Manual Basal ⚠️" = " -  Manual Basal ⚠️";
@@ -1128,20 +1128,20 @@ Enact a temp Basal or a temp target */
 /* -------------------------------------------------------------------------------------------
   DASH strings
 */
-"Attach Pod" = "Attach Pod";
+"Attach Pod" = "粘贴Pod";
 
 "Deactivate Pod" = "解除Pod";
 
 /* */
 "Deactivating..." = "Deactivating...";
 
-"Pair Pod" = "Pair Pod";
+"Pair Pod" = "配对Pod";
 
 /* Text for previous pod information row */
 "Previous Pod Information" = "Previous Pod Information";
 
 /* Text for confidence reminders navigation link */
-"Confidence Reminders" = "Confidence Reminders";
+"Confidence Reminders" = "二次确认提醒";
 
 "Confidence reminders are beeps from the pod which can be used to acknowledge selected commands." = "Confidence reminders are beeps from the pod which can be used to acknowledge selected commands.";
 
@@ -1185,13 +1185,13 @@ Enact a temp Basal or a temp target */
 "Expiration Reminder" = "Pod到期提醒";
 
 /* */
-"Low Reservoir" = "Low Reservoir";
+"Low Reservoir" = "低药量";
 
 /* Value text for no expiration reminder */
-"No Reminder" = "No Reminder";
+"No Reminder" = "无提醒";
 
 /* */
-"Scheduled Reminder" = "Scheduled Reminder";
+"Scheduled Reminder" = "预约的提醒";
 
 /* */
 "Low Reservoir Reminder" = "Low Reservoir Reminder";
@@ -1234,7 +1234,7 @@ Enact a temp Basal or a temp target */
 "Active Time" = "Pod启动时间";
 
 /* description label for total delivery pod details row */
-"Total Delivery" = "Total Delivery";
+"Total Delivery" = "总输注量";
 
 /* */
 "Add Omnipod Dash" = "Add Omnipod Dash";
@@ -1243,13 +1243,13 @@ Enact a temp Basal or a temp target */
 "Insert Cannula" = "植入Pod";
 
 /* */
-"Check Cannula" = "Check Cannula";
+"Check Cannula" = "检查软管";
 
 /* */
-"Setup Complete" = "Setup Complete";
+"Setup Complete" = "设置已完成";
 
 /* */
-"Insulin Suspended" = "Insulin Suspended";
+"Insulin Suspended" = "胰岛素输注暂停";
 
 /* Text for suspend resume button when insulin delivery is suspending */
 "Suspending insulin delivery..." = "Suspending insulin delivery...";
@@ -1261,7 +1261,7 @@ Enact a temp Basal or a temp target */
 "Resuming insulin delivery..." = "Resuming insulin delivery...";
 
 /* Alert title for suspend error */
-"Failed to Suspend Insulin Delivery" = "Failed to Suspend Insulin Delivery";
+"Failed to Suspend Insulin Delivery" = "暂停胰岛素输注失败";
 
 //* -----------------------------------------------------------------------*/
 /* ----------------------Statistics strings -------------------------------*/
@@ -1321,7 +1321,7 @@ Enact a temp Basal or a temp target */
 "All" = "All";
 
 /* Total number of days of data for HbA1c estimation, part 2/2*/
-"days" = "days";
+"days" = "天";
 
 /* Nr of Loops in statPanel */
 "Loops" = "Loops";
