@@ -44,13 +44,13 @@
 "Agree and continue" = "同意并继续";
 
 /* Headline in enacted pop up (at: at what time) */
-"Enacted at" = "Enacted at";
+"Enacted at" = "上次运行于";
 
 /* Headline in suggested pop up (at: at what time) */
-"Suggested at" = "Suggested at";
+"Suggested at" = "上次建议于";
 
 /* Headline in enacted pop up (at: at what time) */
-"Error at" = "Error at";
+"Error at" = "上次错误于";
 
 /* Home title */
 "Home" = "主页";
@@ -131,7 +131,7 @@
 "Save as preset" = "保存为预设";
 
 /* Delete Meal Preset */
-"Delete Preset" = "Delete Preset";
+"Delete Preset" = "删除预设";
 
 /* Confirm Deletion */
 "Delete preset '%@'?" = "删除预设\"\"%@'?";
@@ -927,7 +927,7 @@ Enact a temp Basal or a temp target */
 " day(s)" = "天";
 
 /* Option to show HR in Watch app*/
-"Display HR on Watch" = "Display HR on Watch";
+"Display HR on Watch" = "在手表中显示心率";
 
 
 /* Headers for settings ----------------------- */
