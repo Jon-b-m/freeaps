@@ -96,16 +96,16 @@
 "Pair Pod" = "Pair Pod";
 
 /* Pairing action button accessibility label while ready to pair */
-"Pair pod." = "Pair pod.";
+"Pair pod." = "配对Pod";
 
 /* Pairing action button accessibility label while pairing */
-"Pairing." = "Pairing.";
+"Pairing." = "配对中";
 
 /* Pairing action button accessibility label while priming */
-"Priming. Please wait." = "Priming. Please wait.";
+"Priming. Please wait." = "准备中，请稍候";
 
 /* Pairing action button accessibility label when pairing succeeded */
-"Pod paired successfully. Continue." = "Pod paired successfully. Continue.";
+"Pod paired successfully. Continue." = "Pod配对成功，继续";
 
 /* Settings page link description when next lifecycle action is to finish deactivation */
 "Finish deactivation" = "Finish deactivation";
@@ -457,7 +457,7 @@
 "No, Continue With Pod" = "No, Continue With Pod";
 
 /* Label text for step one of attach pod instructions */
-"Prepare site." = "Prepare site.";
+"Prepare site." = "将注射部位做好准备";
 
 /* Label text for step two of attach pod instructions */
 "Remove blue Pod needle cap and check cannula. Then remove paper backing." = "Remove blue Pod needle cap and check cannula. Then remove paper backing.";
