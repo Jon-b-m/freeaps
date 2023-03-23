@@ -4,17 +4,17 @@
 */
 /* -------------------------------- */
 /* Bolus screen when adding insulin */
-"Add insulin without actually bolusing" = "仅添加胰岛素 没有实际注射";
+"Add insulin without actually bolusing" = "不实际注射，仅记录";
 
 /* Add insulin from source outside of pump */
-"Add %@ without bolusing" = "添加 %@ 不是通过胰岛素泵注射的剂量";
+"Add %@ without bolusing" = "不实际注射，添加 %@ 记录";
 
 "Bolus" = "大剂量";
 
 "Close" = "关闭";
 
 /* Continue after added carbs without bolus */
-"Continue without bolus" = "不输注胰岛素并继续";
+"Continue without bolus" = "不输注大剂量并继续";
 
 /* Header */
 "Enact Bolus" = "执行大剂量";
@@ -23,13 +23,13 @@
 "Enact bolus" = "执行大剂量";
 
 /*  */
-"Insulin recommended" = "推荐剂量";
+"Insulin recommended" = "推荐注射量";
 
 /*  */
 "Insulin required" = "所需剂量";
 
 /* Bolus screen */
-"Recommendation" = "推荐";
+"Recommendation" = "建议";
 
 /* Button */
 "Clear" = "清除";
@@ -65,7 +65,7 @@
 "No suggestion" = "暂无建议";
 
 /* Replace pod text in Header */
-"Replace pod" = "更换Pod";
+"Replace pod" = "请更换Pod";
 
 /* Add carbs screen */
 "Add Carbs" = "添加碳水化合物";
@@ -74,7 +74,7 @@
 "Add Carbs " = "添加碳水化合物 ";
 
 /*  */
-"Amount Carbs" = "碳水化合物含量";
+"Amount Carbs" = "碳水化合物总量";
 
 /* Grams unit */
 "grams" = "克";
@@ -86,7 +86,7 @@
 "Are you sure?" = "确定？";
 
 /* Bottom target temp */
-"Bottom target" = "血糖下限";
+"Bottom target" = "血糖目标下限";
 
 /* Cancel preset name */
 "Cancel" = "取消";
@@ -116,7 +116,7 @@
 "Enter preset name" = "输入预设名称";
 
 /* Preset name */
-"Name" = "设备名称";
+"Name" = "预设名称";
 
 /* minutes of target temp */
 "minutes" = "分钟";
@@ -149,7 +149,7 @@
 "[ -1 ]" = "[ -1 ]";
 
 /* Upper temp target limit */
-"Top target" = "血糖上限";
+"Top target" = "目标血糖上限";
 
 /*  Temp target set for ... minutes */
 "for" = "持续";
@@ -158,28 +158,28 @@
 "min" = "分钟";
 
 /*  */
-"Autotune" = "自动调谐";
+"Autotune" = "自动参数优化";
 
 /*  */
 "Basal profile" = "基础率配置文件";
 
 /*  */
-"Carb ratio" = "碳水化合物系数";
+"Carb ratio" = "碳水化合物系数（CR）";
 
 /*  */
-"Delete autotune data" = "删除自动调谐数据";
+"Delete autotune data" = "删除 自动参数优化 数据";
 
 /*  */
-"Run now" = "马上执行";
+"Run now" = "立即执行优化";
 
 /*  */
-"Last run" = "上次运行";
+"Last run" = "上次执行优化";
 
 /*  */
-"Sensitivity" = "胰岛素敏感系数";
+"Sensitivity" = "胰岛素敏感系数（ISF）";
 
 /*  */
-"Use Autotune" = "使用自动调谐";
+"Use Autotune" = "使用 自动参数优化";
 
 /* Add profile basal */
 "Add" = "添加";
@@ -191,7 +191,7 @@
 "Rate" = "输注率";
 
 /*  */
-"Save on Pump" = "在泵上保存";
+"Save on Pump" = "同步设置到泵";
 
 /*  */
 "Saving..." = "正在保存...";
@@ -206,25 +206,25 @@
 "Time" = "时间";
 
 /* */
-"Calculated Ratio" = "计算的比率";
+"Calculated Ratio" = "优化后碳水系数";
 
 /* Carb Ratios header */
 "Carb Ratios" = "碳水化合物系数";
 
 /*  */
-"Ratio" = "比率";
+"Ratio" = "系数";
 
 /*  */
-"Autosens" = "自动传输";
+"Autosens" = "自动敏感系数优化";
 
 /*  */
-"Calculated Sensitivity" = "计算的敏感系数";
+"Calculated Sensitivity" = "优化后敏感系数";
 
 /*  */
 "Insulin Sensitivities" = "胰岛素敏感系数";
 
 /* */
-"Sensitivity Ratio" = "敏感率";
+"Sensitivity Ratio" = "敏感系数调整率";
 
 /*  */
 "Dismiss" = "忽略";
@@ -233,7 +233,7 @@
 "Important message" = "重要信息";
 
 /*  */
-"Amount" = "数量";
+"Amount" = "量";
 
 /* */
 "Cancel Temp Basal" = "取消临时基础率";
@@ -273,10 +273,10 @@ Enact a temp Basal or a temp target */
 "Port" = "端口";
 
 /*  */
-"URL" = "网址：";
+"URL" = "网址";
 
 /**/
-"Use local glucose server" = "使用本地端口获取血糖";
+"Use local glucose server" = "使用本地服务获取血糖";
 
 /*  */
 "Edit settings json" = "编辑设置文件";
@@ -288,7 +288,7 @@ Enact a temp Basal or a temp target */
 "Preferences" = "选项";
 
 /* Recommended Insulin Fraction in preferences */
-"Recommended Insulin Fraction" = "建议胰岛素比率";
+"Recommended Insulin Fraction" = "碳水系数调整率";
 
 /* Do you want to show bolus screen after added carbs? */
 "Skip Bolus screen after carbs" = "添加碳水后跳过大剂量操作";
@@ -306,10 +306,10 @@ Enact a temp Basal or a temp target */
 "Add Simulator" = "添加模拟器";
 
 /* Insulin model */
-"Model" = "模型";
+"Model" = "型号";
 
 /*  */
-"Pump config" = "泵配置";
+"Pump config" = "泵设置";
 
 /*  */
 "Delivery limits" = "输注限制";
@@ -330,7 +330,7 @@ Enact a temp Basal or a temp target */
 "Pump Settings" = "泵设置";
 
 /* Insulin unit per hour */
-"U/hr" = "U/小时";
+"U/hr" = "单位/小时";
 
 /* Unit in number of units delivered (keep the space character!) */
 " U" = "U";
@@ -342,10 +342,10 @@ Enact a temp Basal or a temp target */
 "U" = "U";
 
 /* Unit per hour with space */
-" U/hr" = " U/小时";
+" U/hr" = " 单位/小时";
 
 /* Number of units per hour*/
-"%@ U/hr" = "%@ U/小时";
+"%@ U/hr" = "%@ 单位/小时";
 
 /* Number of units insulin delivered */
 "%@ U" = "%@ U";
@@ -360,7 +360,7 @@ Enact a temp Basal or a temp target */
 "g" = "克";
 
 /* when 0 U/hr */
-"0 U/hr" = "0 U/小时";
+"0 U/hr" = "0 单位/小时";
 
 /* abbreviation for days */
 "d" = "天";
@@ -946,10 +946,10 @@ Enact a temp Basal or a temp target */
 "Bluetooth State restored (APS restarted?). Found %d peripherals, and connected to %@ with identifier %@" = "蓝牙状态已恢复(APS 重启?) 找到 %d 个蓝牙，并连接到 %@ 标识符为 %@ 的设备";
 
 /* Shared app group xDrip4iOS */
-"Using shared app group with external CGM app xDrip4iOS" = "Using shared app group with external CGM app xDrip4iOS";
+"Using shared app group with external CGM app xDrip4iOS" = "使用与外部CGM程序 xDrip4iOS 相同的应用程序组";
 
 /* Shared app group GlucoseDirect */
-"Using shared app group with external CGM app GlucoseDirect" = "Using shared app group with external CGM app GlucoseDirect";
+"Using shared app group with external CGM app GlucoseDirect" = "使用与外部CGM程序 GlucoseDirect 相同的应用程序组";
 
 /* Dexcom G6 app */
 "Dexcom G6 app" = "官方G6 App";
@@ -1011,7 +1011,7 @@ Enact a temp Basal or a temp target */
 "Enacted announcements" = "Enacted announcements";
 
 /* Debug option view Autotune */
-"Autotune" = "自动调谐";
+"Autotune" = "自动参数优化";
 
 /* Debug option view Target presets */
 "Target presets" = "Target presets";
