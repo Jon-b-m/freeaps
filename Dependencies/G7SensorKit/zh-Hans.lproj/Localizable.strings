@@ -1,8 +1,8 @@
 /* Title on WelcomeView */
-"Dexcom G7" = "Dexcom G7";
+"Dexcom G7" = "德康 G7";
 
 /* Descriptive text on G7StartupView */
-"FreeAPS X can read G7 CGM data, but you must still use the Dexcom G7 App for pairing, calibration, and other sensor management." = "FreeAPS X can read G7 CGM data, but you must still use the Dexcom G7 App for pairing, calibration, and other sensor management.";
+"FreeAPS X can read G7 CGM data, but you must still use the Dexcom G7 App for pairing, calibration, and other sensor management." = "FreeAPS X 可以读取 G7 的数据，但您仍然必须使用德康 G7 应用程序进行配对、校准和其他相关的传感器管理。";
 
 /* Button title for starting setup */
 "Continue" = "继续";
@@ -11,51 +11,51 @@
 "Cancel" = "取消";
 
 /* Error description for unreliable state */
-"Glucose data is unavailable" = "Glucose data is unavailable";
+"Glucose data is unavailable" = "血糖数据不可用";
 
 /* The description of sensor algorithm state when sensor is ok. */
-"Sensor is OK" = "Sensor is OK";
+"Sensor is OK" = "传感器正常";
 
 /* The description of sensor algorithm state when sensor is stopped." */
-"Sensor is stopped" = "Sensor is stopped";
+"Sensor is stopped" = "感应器已停止";
 
 /* The description of sensor algorithm state when sensor is warming up. */
-"Sensor is warming up" = "Sensor is warming up";
+"Sensor is warming up" = "传感器在启动中";
 
 /* The description of sensor algorithm state when sensor is expired. */
-"Sensor expired" = "Sensor expired";
+"Sensor expired" = "传感器已过期";
 
 /* The description of sensor algorithm state when sensor failed. */
-"Sensor failed" = "Sensor failed";
+"Sensor failed" = "传感器已过期";
 
 /* The description of sensor algorithm state when raw value is unknown. (1: missing data details) */
-"Sensor is in unknown state %1$d" = "Sensor is in unknown state %1$d";
+"Sensor is in unknown state %1$d" = "传感器处于未知状态 %1$d";
 
 /* title for g7 settings row showing sensor start time */
-"Sensor Start" = "Sensor Start";
+"Sensor Start" = "传感器启动";
 
 /* title for g7 settings row showing sensor expiration time */
-"Sensor Expiration" = "Sensor Expiration";
+"Sensor Expiration" = "传感器已过期";
 
 /* title for g7 settings row showing sensor grace period end time */
-"Grace Period End" = "Grace Period End";
+"Grace Period End" = "宽限期已结束";
 
 /* Field label */
 "Glucose" = "葡萄糖";
 
-"Last Reading" = "Last Reading";
+"Last Reading" = "最后读数";
 
 "Time" = "时间";
 
-"Trend" = "Trend";
+"Trend" = "趋势";
 
-"Bluetooth" = "Bluetooth";
+"Bluetooth" = "蓝牙";
 
 /* title for g7 settings row showing BLE Name */
 "Name" = "设备名称";
 
 /* title for g7 settings connection status when scanning */
-"Scanning" = "Scanning";
+"Scanning" = "正在扫描";
 
 /* title for g7 settings connection status when connected */
 "Connected" = "已连接";
@@ -64,16 +64,16 @@
 "Connecting" = "正在连接";
 
 /* title for g7 settings row showing sensor last connect time */
-"Last Connect" = "Last Connect";
+"Last Connect" = "上一次连接";
 
 /* Configuration */
 "Configuration" = "配置";
 
 /* title for g7 config settings to upload readings */
-"Upload Readings" = "Upload Readings";
+"Upload Readings" = "上传读数";
 
 /* Button */
-"Scan for new sensor" = "Scan for new sensor";
+"Scan for new sensor" = "扫描新的传感器";
 
 /* Button label for removing CGM */
 "Delete CGM" = "删除CGM数据源";
@@ -81,49 +81,49 @@
 /* No glucose value representation (3 dashes for mg/dL) */
 "– – –" = "– – –";
 /* String displayed instead of a glucose value below the CGM range */
-"LOW" = "LOW";
+"LOW" = "低值";
 
 /* String displayed instead of a glucose value above the CGM range */
-"HIGH" = "HIGH";
+"HIGH" = "高值";
 
 /* Format string for glucose trend per minute. (1: glucose value and unit) */
-"%@/min" = "%@/min";
+"%@/min" = "%@/分钟";
 
 /* G7 Progress bar label when searching for sensor */
-"Searching for sensor" = "Searching for sensor";
+"Searching for sensor" = "正在搜索传感器";
 
 /* G7 Progress bar label when sensor expired */
-"Sensor expired" = "Sensor expired";
+"Sensor expired" = "传感器已过期";
 
 /* G7 Progress bar label when sensor in warmup */
-"Warmup completes" = "Warmup completes";
+"Warmup completes" = "热身完成";
 
 /* G7 Progress bar label when sensor in warmup */
-"Warmup completes" = "Warmup completes";
+"Warmup completes" = "热身完成";
 
 /* G7 Progress bar label when sensor failed */
-"Sensor failed" = "Sensor failed";
+"Sensor failed" = "传感器已过期";
 
 /* G7 Progress bar label when sensor lifetime progress showing */
-"Sensor expires" = "Sensor expires";
+"Sensor expires" = "传感器已过期";
 
 /* G7 Progress bar label when sensor grace period progress showing */
-"Grace period remaining" = "Grace period remaining";
+"Grace period remaining" = "剩余宽限时间";
 
 /* G7 Status highlight text for searching for sensor */
-"Searching for\nSensor" = "Searching for\nSensor";
+"Searching for\nSensor" = "正在搜索\n传感器";
 
 /* G7 Status highlight text for sensor expired */
-"Sensor\nExpired" = "Sensor\nExpired";
+"Sensor\nExpired" = "传感器\n已过期";
 
 /* G7 Status highlight text for signal loss */
-"Sensor\nFailed" = "Sensor\nFailed";
+"Sensor\nFailed" = "传感器\n失效";
 
 /* G7 Status highlight text for signal loss */
-"Signal\nLoss" = "Signal\nLoss";
+"Signal\nLoss" = "信号\n丢失";
 
 /*G7 Status highlight text for sensor error */
-"Sensor\nIssue" = "Sensor\nIssue";
+"Sensor\nIssue" = "传感器\n有问题";
 
 /* G7 Status highlight text for sensor warmup */
-"Sensor\nWarmup" = "Sensor\nWarmup";
+"Sensor\nWarmup" = "传感器\n热身";
