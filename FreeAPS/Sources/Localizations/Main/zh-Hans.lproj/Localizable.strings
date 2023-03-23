@@ -972,13 +972,13 @@ Enact a temp Basal or a temp target */
 /* -------------- Developer settings ---------------------- */
 /* Debug options */
 
-"Developer" = "Developer";
+"Developer" = "开发者选项";
 
 /* Debug option view NS Upload Profile */
-"NS Upload Profile" = "NS Upload Profile";
+"NS Upload Profile" = "上传配置至NS";
 
 /* Debug option view NS Uploaded Profile */
-"NS Uploaded Profile" = "NS Uploaded Profile";
+"NS Uploaded Profile" = "已上传至NS的配置";
 
 /* Debug option view Autosense */
 "Autosense" = "Autosense";
@@ -1055,7 +1055,7 @@ Enact a temp Basal or a temp target */
 " -  Manual Basal ⚠️" = " -  Manual Basal ⚠️";
 
 /* Total AT / Scheduled basal insulin */
-" U/day" = " U/day";
+" U/day" = " 单位/天";
 
 /* Total AT / Scheduled basal insulin */
 "Total" = "Total";
@@ -1143,7 +1143,7 @@ Enact a temp Basal or a temp target */
 /* Text for confidence reminders navigation link */
 "Confidence Reminders" = "二次确认提醒";
 
-"Confidence reminders are beeps from the pod which can be used to acknowledge selected commands." = "Confidence reminders are beeps from the pod which can be used to acknowledge selected commands.";
+"Confidence reminders are beeps from the pod which can be used to acknowledge selected commands." = "二次确认提醒会发出哔声，可以被用来确认命令已被送达";
 
 /* button title for saving low reservoir reminder while saving */
 "Saving..." = "正在保存...";
@@ -1152,16 +1152,16 @@ Enact a temp Basal or a temp target */
 "Save" = "保存​​";
 
 /* Alert title for error when updating confidence reminder preference */
-"Failed to update confidence reminder preference." = "Failed to update confidence reminder preference.";
+"Failed to update confidence reminder preference." = "设置二次确认提醒失败";
 
 /* */
-"No Error" = "No Error";
+"No Error" = "无错误";
 
 /* description label for active time pod details row */
 "Active Time" = "Pod启动时间";
 
 /* Title string for BeepPreference.silent */
-"Disabled" = "Disabled";
+"Disabled" = "已停用";
 
 /* Title string for BeepPreference.manualCommands */
 "Enabled" = "已启用";
@@ -1170,7 +1170,7 @@ Enact a temp Basal or a temp target */
 "Extended" = "Extended";
 
 /* Description for BeepPreference.silent */
-"No confidence reminders are used." = "No confidence reminders are used.";
+"No confidence reminders are used." = "没有二次确认提醒正在被使用";
 
 /* Description for BeepPreference.manualCommands */
 "Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When Loop automatically adjusts delivery, no confidence reminders are used." = "Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When Loop automatically adjusts delivery, no confidence reminders are used.";
@@ -1205,7 +1205,7 @@ Enact a temp Basal or a temp target */
 "Rate" = "输注率";
 
 /* Summary string for temporary basal rate configuration page */
-"%1$@ for %2$@" = "%1$@ for %2$@";
+"%1$@ for %2$@" = "%1$@ 持续 %2$@";
 
 /* Description text on manual temp basal action sheet */
 "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled.";
@@ -1268,10 +1268,10 @@ Enact a temp Basal or a temp target */
 /* Headline Statistics */
 
 
-"Statistics" = "Statistics";
+"Statistics" = "统计数据";
 
 /* Option in preferences */
-"Display Statistics" = "Display Statistics";
+"Display Statistics" = "显示统计数据。";
 
 /* infoText: Description for Display Statistics */
 "Displays Statistics under the chart view" = "Displays Statistics under the chart view";
@@ -1348,19 +1348,19 @@ Enact a temp Basal or a temp target */
 "Default is 20 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout." = "Default is 20 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout.";
 
 /* Duration displayed in statPanel */
-"Past 24 Hours " = "Past 24 Hours ";
+"Past 24 Hours " = "过去24小时 ";
 
 /* Duration displayed in statPanel */
-"Past Week " = "Past Week ";
+"Past Week " = "过去一周 ";
 
 /* Duration displayed in statPanel */
-"Past Month " = "Past Month ";
+"Past Month " = "过去一个月 ";
 
 /* Duration displayed in statPanel */
-"Past 90 Days " = "Past 90 Days ";
+"Past 90 Days " = "过去90天 ";
 
 /* Duration displayed in statPanel */
-"All Past Days of Data " = "All Past Days of Data ";
+"All Past Days of Data " = "所有过去的数据 ";
 
 /* "Display Loop statistics in statPanel */
 "Display Loop Cycle statistics" = "Display Loop Cycle statistics";
