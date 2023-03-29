@@ -131,10 +131,10 @@
 "Save as preset" = "Opslaan als tijdelijk programma";
 
 /* Delete Meal Preset */
-"Delete Preset" = "Delete Preset";
+"Delete Preset" = "Voorinstelling verwijderen";
 
 /* Confirm Deletion */
-"Delete preset '%@'?" = "Delete preset '%@'?";
+"Delete preset '%@'?" = "Voorinstelling '%s' wissen?";
 
 /* Button */
 "No" = "Nee";
@@ -1105,25 +1105,25 @@ Enact a temp Basal or a temp target */
 "Protein / Fat" = "Eiwit / Vet";
 
 /* */
-"Meal Presets" = "Meal Presets";
+"Meal Presets" = "Voorinstellingen maaltijd";
 
 /* */
-"Empty" = "Empty";
+"Empty" = "Leeg";
 
 /* */
-"Delete Selected Preset" = "Delete Selected Preset";
+"Delete Selected Preset" = "Geselecteerde voorinstelling verwijderen";
 
 /* */
-"Enter Meal Preset Name" = "Enter Meal Preset Name";
+"Enter Meal Preset Name" = "Voer naam voorinstelling in";
 
 /* */
-"Name Of Dish" = "Name Of Dish";
+"Name Of Dish" = "Naam van maaltijd";
 
 /* Save Carbs and continue to bolus recommendation */
-"Save and continue" = "Save and continue";
+"Save and continue" = "Opslaan en doorgaan";
 
 /* */
-"Save as Preset" = "Save as Preset";
+"Save as Preset" = "Opslaan als voorinstelling";
 
 /* -------------------------------------------------------------------------------------------
   DASH strings
@@ -1291,7 +1291,7 @@ Enact a temp Basal or a temp target */
 "Updated" = "Bijgewerkt";
 
 /* Average BG = */
-"Average" = "Gem.";
+"Average" = "Gemiddeld";
 
 /* Median BG */
 "Median" = "Mediaan";
@@ -1390,9 +1390,9 @@ Enact a temp Basal or a temp target */
 "Are you sure you want to delete this CGM?" = "Weet je zeker dat je deze CGM wilt vewijderen?";
 
 /* New Experimental feature */
-"Experimental" = "Experimental";
+"Experimental" = "Experimenteel";
 /* Smoothing of CGM readings */
-"Smooth Glucose Value" = "Smooth Glucose Value";
+"Smooth Glucose Value" = "Vloeiende glucose waarde";
 
 /* -----------------------------------------------------------------------------------------------------------
 
