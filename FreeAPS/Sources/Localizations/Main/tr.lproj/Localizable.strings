@@ -131,10 +131,10 @@
 "Save as preset" = "Ön ayar olarak kaydet";
 
 /* Delete Meal Preset */
-"Delete Preset" = "Delete Preset";
+"Delete Preset" = "Ön ayarları sil";
 
 /* Confirm Deletion */
-"Delete preset '%@'?" = "Delete preset '%@'?";
+"Delete preset '%@'?" = "Ön ayarı sil \"%@'?";
 
 /* Button */
 "No" = "Hayır";
