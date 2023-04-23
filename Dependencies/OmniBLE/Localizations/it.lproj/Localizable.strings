@@ -96,13 +96,13 @@
 "Pair Pod" = "Connetti Pod";
 
 /* Pairing action button accessibility label while ready to pair */
-"Pair pod." = "Connetti Pod.";
+"Pair pod." = "Abbina Pod.";
 
 /* Pairing action button accessibility label while pairing */
 "Pairing." = "Abbinamento in corso.";
 
 /* Pairing action button accessibility label while priming */
-"Priming. Please wait." = "Priming. Attendere prego.";
+"Priming. Please wait." = "Caricamento in corso. Attendere prego.";
 
 /* Pairing action button accessibility label when pairing succeeded */
 "Pod paired successfully. Continue." = "Pod associato con successo. Continuare.";
@@ -457,7 +457,7 @@
 "No, Continue With Pod" = "No, continua con il Pod";
 
 /* Label text for step one of attach pod instructions */
-"Prepare site." = "Presaprà il sito.";
+"Prepare site." = "Prepara il sito.";
 
 /* Label text for step two of attach pod instructions */
 "Remove blue Pod needle cap and check cannula. Then remove paper backing." = "Rimuovere il cappuccio blu dell’ago e controlla la cannula. Quindi rimuovi il supporto cartaceo.";
@@ -511,7 +511,7 @@
 "Priming..." = "Caricamento in corso...";
 
 /* */
-"Deactivating..." = "Deactivating...";
+"Deactivating..." = "Sto disattivando...";
 
 /* Pod state when pod has been deactivated */
 "Deactivated" = "Disattivato";
@@ -590,7 +590,7 @@
 "Change Pod now. Insulin delivery will stop in %1$@ or when no more insulin remains." = "Change Pod now. Insulin delivery will stop in %1$@ or when no more insulin remains.";
 
 /* Title string for BeepPreference.silent */
-"Disabled" = "Disabled";
+"Disabled" = "Disattivato";
 
 /* Title string for BeepPreference.manualCommands */
 "Enabled" = "Abilitato";
