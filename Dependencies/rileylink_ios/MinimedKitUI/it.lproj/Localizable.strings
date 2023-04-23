@@ -117,7 +117,7 @@
 "Last Awake" = "Ultimo risveglio";
 
 /* The title of the cell describing no radio awake data */
-"Listening Off" = "Ricevendo";
+"Listening Off" = "Ascolto Disattivato";
 
 /* The title of the command to pair with mysentry */
 "MySentry Pair" = "Accoppia MySentry";
@@ -166,7 +166,7 @@
 "Reading pump status…" = "Lettura stato microinfusore…";
 
 /* The title of the cell showing the pump region */
-"Region" = "Region";
+"Region" = "Paese";
 
 /* Button title to retry sentry setup */
 "Retry" = "Riprova";
