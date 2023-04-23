@@ -1046,13 +1046,13 @@ Enact a temp Basal or a temp target */
 "Error" = "Errore";
 
 /* Manual temp basal mode */
-"Manual" = "Manual";
+"Manual" = "Manuale";
 
 /* Status highlight when manual temp basal is running. */
 "Manual Basal" = "Basale manuale temporanea";
 
 /* Current Manual Temp basal */
-" -  Manual Basal ⚠️" = " -  Manual Basal ⚠️";
+" -  Manual Basal ⚠️" = " - Basale Manuale ⚠️";
 
 /* Total AT / Scheduled basal insulin */
 " U/day" = " U/giorno";
@@ -1069,10 +1069,10 @@ Enact a temp Basal or a temp target */
 "Convert Fat and Protein" = "Convertire Grassi e Proteine";
 
 /* Header */
-"Conversion settings" = "Conversion settings";
+"Conversion settings" = "Impostazioni Conversione";
 
 /* Delay */
-"Delay In Minutes" = "Delay In Minutes";
+"Delay In Minutes" = "Ritardo In Minuti";
 
 /* Duration */
 "Maximum Duration In Hours" = "Maximum Duration In Hours";
@@ -1090,19 +1090,19 @@ Enact a temp Basal or a temp target */
 "Fat and Protein" = "Fat and Protein";
 
 /* Add Fat */
-"Fat" = "Fat";
+"Fat" = "Grassi";
 
 /* Add Protein */
-"Protein" = "Protein";
+"Protein" = "Proteine";
 
 /* Setting */
-"Fat And Protein Conversion" = "Fat And Protein Conversion";
+"Fat And Protein Conversion" = "Conversione di Grassi e Proteine";
 
 /* Alert text */
-"Delete carb equivalents?" = "Delete carb equivalents?";
+"Delete carb equivalents?" = "Eliminare i carb equivalenti?";
 
 /* Section in settings */
-"Protein / Fat" = "Protein / Fat";
+"Protein / Fat" = "Proteine / Grassi";
 
 /* */
 "Meal Presets" = "Meal Presets";
@@ -1133,7 +1133,7 @@ Enact a temp Basal or a temp target */
 "Deactivate Pod" = "Disattiva Pod";
 
 /* */
-"Deactivating..." = "Deactivating...";
+"Deactivating..." = "Sto disattivando...";
 
 "Pair Pod" = "Connetti Pod";
 
@@ -1155,13 +1155,13 @@ Enact a temp Basal or a temp target */
 "Failed to update confidence reminder preference." = "Failed to update confidence reminder preference.";
 
 /* */
-"No Error" = "No Error";
+"No Error" = "No Errore";
 
 /* description label for active time pod details row */
 "Active Time" = "Tempo di attività";
 
 /* Title string for BeepPreference.silent */
-"Disabled" = "Disabled";
+"Disabled" = "Disattivato";
 
 /* Title string for BeepPreference.manualCommands */
 "Enabled" = "Abilitato";
