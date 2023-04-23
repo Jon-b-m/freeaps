@@ -140,7 +140,7 @@
 "No" = "No";
 
 /* Button */
-"Yes" = "Yes";
+"Yes" = "Si";
 
 /* + Button */
 "[ +1 ]" = "[ +1 ]";
@@ -1188,10 +1188,10 @@ Enact a temp Basal or a temp target */
 "Low Reservoir" = "Livello serbatoio basso";
 
 /* Value text for no expiration reminder */
-"No Reminder" = "No Reminder";
+"No Reminder" = "Nessun Promemoria";
 
 /* */
-"Scheduled Reminder" = "Scheduled Reminder";
+"Scheduled Reminder" = "Imposta promemoria";
 
 /* */
 "Low Reservoir Reminder" = "Low Reservoir Reminder";
@@ -1234,7 +1234,7 @@ Enact a temp Basal or a temp target */
 "Active Time" = "Tempo di attività";
 
 /* description label for total delivery pod details row */
-"Total Delivery" = "Total Delivery";
+"Total Delivery" = "Insulina Consegnata";
 
 /* */
 "Add Omnipod Dash" = "Add Omnipod Dash";
@@ -1246,7 +1246,7 @@ Enact a temp Basal or a temp target */
 "Check Cannula" = "Controlla cannula";
 
 /* */
-"Setup Complete" = "Setup Complete";
+"Setup Complete" = "Configurazione terminata";
 
 /* */
 "Insulin Suspended" = "Insulina Sospesa";
