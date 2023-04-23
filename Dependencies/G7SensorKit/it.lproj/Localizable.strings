@@ -17,37 +17,37 @@
 "Sensor is OK" = "Sensore è OK";
 
 /* The description of sensor algorithm state when sensor is stopped." */
-"Sensor is stopped" = "Sensor is stopped";
+"Sensor is stopped" = "Sensore è arrestato";
 
 /* The description of sensor algorithm state when sensor is warming up. */
-"Sensor is warming up" = "Sensor is warming up";
+"Sensor is warming up" = "Sensore è in riscaldamento";
 
 /* The description of sensor algorithm state when sensor is expired. */
-"Sensor expired" = "Sensor expired";
+"Sensor expired" = "Sensore scaduto";
 
 /* The description of sensor algorithm state when sensor failed. */
-"Sensor failed" = "Sensor failed";
+"Sensor failed" = "Sensore fallito";
 
 /* The description of sensor algorithm state when raw value is unknown. (1: missing data details) */
-"Sensor is in unknown state %1$d" = "Sensor is in unknown state %1$d";
+"Sensor is in unknown state %1$d" = "Sensore in stato sconosciuto %1$d";
 
 /* title for g7 settings row showing sensor start time */
-"Sensor Start" = "Sensor Start";
+"Sensor Start" = "Avvio Sensore";
 
 /* title for g7 settings row showing sensor expiration time */
-"Sensor Expiration" = "Sensor Expiration";
+"Sensor Expiration" = "Scadenza Sensore";
 
 /* title for g7 settings row showing sensor grace period end time */
-"Grace Period End" = "Grace Period End";
+"Grace Period End" = "Fine Periodo di tolleranza";
 
 /* Field label */
 "Glucose" = "Glucosio";
 
-"Last Reading" = "Last Reading";
+"Last Reading" = "Ultima lettura";
 
 "Time" = "Tempo";
 
-"Trend" = "Trend";
+"Trend" = "Andamento";
 
 "Bluetooth" = "Bluetooth";
 
@@ -55,7 +55,7 @@
 "Name" = "Nome";
 
 /* title for g7 settings connection status when scanning */
-"Scanning" = "Scanning";
+"Scanning" = "Scansiona";
 
 /* title for g7 settings connection status when connected */
 "Connected" = "Collegato";
@@ -64,16 +64,16 @@
 "Connecting" = "In collegamento";
 
 /* title for g7 settings row showing sensor last connect time */
-"Last Connect" = "Last Connect";
+"Last Connect" = "Ultima Connessione";
 
 /* Configuration */
 "Configuration" = "Impostazioni";
 
 /* title for g7 config settings to upload readings */
-"Upload Readings" = "Upload Readings";
+"Upload Readings" = "Carica Letture";
 
 /* Button */
-"Scan for new sensor" = "Scan for new sensor";
+"Scan for new sensor" = "Scansiona nuovo sensore";
 
 /* Button label for removing CGM */
 "Delete CGM" = "Elimina CGM";
@@ -81,49 +81,49 @@
 /* No glucose value representation (3 dashes for mg/dL) */
 "– – –" = "– – –";
 /* String displayed instead of a glucose value below the CGM range */
-"LOW" = "LOW";
+"LOW" = "BASSO";
 
 /* String displayed instead of a glucose value above the CGM range */
-"HIGH" = "HIGH";
+"HIGH" = "ALTO";
 
 /* Format string for glucose trend per minute. (1: glucose value and unit) */
 "%@/min" = "%@/min";
 
 /* G7 Progress bar label when searching for sensor */
-"Searching for sensor" = "Searching for sensor";
+"Searching for sensor" = "Alla Ricerca di sensori";
 
 /* G7 Progress bar label when sensor expired */
-"Sensor expired" = "Sensor expired";
+"Sensor expired" = "Sensore scaduto";
 
 /* G7 Progress bar label when sensor in warmup */
-"Warmup completes" = "Warmup completes";
+"Warmup completes" = "Riscaldamento completato";
 
 /* G7 Progress bar label when sensor in warmup */
-"Warmup completes" = "Warmup completes";
+"Warmup completes" = "Riscaldamento completato";
 
 /* G7 Progress bar label when sensor failed */
-"Sensor failed" = "Sensor failed";
+"Sensor failed" = "Sensore fallito";
 
 /* G7 Progress bar label when sensor lifetime progress showing */
-"Sensor expires" = "Sensor expires";
+"Sensor expires" = "Sensore scade";
 
 /* G7 Progress bar label when sensor grace period progress showing */
-"Grace period remaining" = "Grace period remaining";
+"Grace period remaining" = "Periodo di tolleranza residuo";
 
 /* G7 Status highlight text for searching for sensor */
-"Searching for\nSensor" = "Searching for\nSensor";
+"Searching for\nSensor" = "Ricerca del\nSensore";
 
 /* G7 Status highlight text for sensor expired */
-"Sensor\nExpired" = "Sensor\nExpired";
+"Sensor\nExpired" = "Sensore\nscaduto";
 
 /* G7 Status highlight text for signal loss */
-"Sensor\nFailed" = "Sensor\nFailed";
+"Sensor\nFailed" = "Sensore\nFallito";
 
 /* G7 Status highlight text for signal loss */
-"Signal\nLoss" = "Signal\nLoss";
+"Signal\nLoss" = "Perdita\nSegnale";
 
 /*G7 Status highlight text for sensor error */
-"Sensor\nIssue" = "Sensor\nIssue";
+"Sensor\nIssue" = "Problema\nSensore";
 
 /* G7 Status highlight text for sensor warmup */
 "Sensor\nWarmup" = "Sensor\nWarmup";
