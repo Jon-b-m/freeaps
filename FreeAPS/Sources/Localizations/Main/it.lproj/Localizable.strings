@@ -1055,18 +1055,18 @@ Enact a temp Basal or a temp target */
 " -  Manual Basal ⚠️" = " -  Manual Basal ⚠️";
 
 /* Total AT / Scheduled basal insulin */
-" U/day" = " U/day";
+" U/day" = " U/giorno";
 
 /* Total AT / Scheduled basal insulin */
-"Total" = "Total";
+"Total" = "Totale";
 
 /* -------------------------------------------- FPU Strings ------------------------------------------------------*/
 /* Enable FPU */
 
-"Enable" = "Enable";
+"Enable" = "Attiva";
 
 /* Header */
-"Convert Fat and Protein" = "Convert Fat and Protein";
+"Convert Fat and Protein" = "Convertire Grassi e Proteine";
 
 /* Header */
 "Conversion settings" = "Conversion settings";
@@ -1205,10 +1205,10 @@ Enact a temp Basal or a temp target */
 "Rate" = "Valore";
 
 /* Summary string for temporary basal rate configuration page */
-"%1$@ for %2$@" = "%1$@ for %2$@";
+"%1$@ for %2$@" = "%1$@ per %2$@";
 
 /* Description text on manual temp basal action sheet */
-"Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled.";
+"Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "Loop non aggiusterà automaticamente la somministrazione d'insulina fino a quando la velocità basale temporanea non terminerà o sarà annullata.";
 /* Button text for setting manual temporary basal rate*/
 "Set Temporary Basal" = "Set Temporary Basal";
 
@@ -1390,7 +1390,7 @@ Enact a temp Basal or a temp target */
 "Are you sure you want to delete this CGM?" = "Are you sure you want to delete this CGM?";
 
 /* New Experimental feature */
-"Experimental" = "Experimental";
+"Experimental" = "Sperimentale";
 /* Smoothing of CGM readings */
 "Smooth Glucose Value" = "Smooth Glucose Value";
 
@@ -1401,31 +1401,31 @@ Enact a temp Basal or a temp target */
 */
 /* Headline Rewind Resets Autosens */
 
-"Rewind Resets Autosens" = "Rewind Resets Autosens";
+"Rewind Resets Autosens" = "Riavvolgi Resetta Autosens";
 
 /* ”Rewind Resets Autosens” */
 "This feature, enabled by default, resets the autosens ratio to neutral when you rewind your pump, on the assumption that this corresponds to a probable site change. Autosens will begin learning sensitivity anew from the time of the rewind, which may take up to 6 hours. If you usually rewind your pump independently of site changes, you may want to consider disabling this feature." = "Questa funzione, abilitata di default, resetta il rapporto di autosens alla neutralità quando si riavvolge il microinfusore, assumendo che questo corrisponda ad un cambio di set. Autosens ricomincia ad imparare la sensibilità da capo dal momento del riavvolgimento, cosa che impiega circa 6 ore. Se riavvolgi il microinfusore senza cambiare sito è meglio disattivare questa opzione.";
 
 /* Headline "High Temptarget Raises Sensitivity" */
-"High Temptarget Raises Sensitivity" = "High Temptarget Raises Sensitivity";
+"High Temptarget Raises Sensitivity" = "High Temptarget Aumenta Sensibilità";
 
 /* ”High Temptarget Raises Sensitivity" */
 "Defaults to false. When set to true, raises sensitivity (lower sensitivity ratio) for temp targets set to >= 111. Synonym for exercise_mode. The higher your temp target above 110 will result in more sensitive (lower) ratios, e.g., temp target of 120 results in sensitivity ratio of 0.75, while 140 results in 0.6 (with default halfBasalTarget of 160)." = "Valore predefinito è falso. Quando impostato su Vero, aumenta la sensibilità (minor rapporto di sensibilità) per i target temporanei impostati a >= 111. Sinonimo di modalità_esercizio. Più alto sarà il target temporaneo rispetto a 110 più il rapporto della sensibililità sarà basso; ad es. target temporaneo di 120 risulta in rapporto di sensibilità di 0,75, mentre con 140 risultata in 0,6 (con halfBasalTarget predefinito di 160).";
 
 /* Headline ”Low Temptarget Lowers Sensitivity" */
-"Low Temptarget Lowers Sensitivity" = "Low Temptarget Lowers Sensitivity";
+"Low Temptarget Lowers Sensitivity" = "Low Temptarget Abbassa Sensibilità";
 
 /* ”Low Temptarget Lowers Sensitivity" */
 "Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160)." = "Valore predefinito è falso. Quando impostato su Vero, diminuisce la sensibilità (maggior rapporto di sensibilità) per i target temporanei impostati a <= 99. Più basso sarà il target temporaneo rispetto a 100 più il rapporto della sensibililità sarà incrementato; ad es. target temporaneo di 95 risulta in rapporto di sensibilità di 1.09, mentre con 85 risultata di 1.33 (con halfBasalTarget predefinito di 160).";
 
 /* Headline ”Sensitivity Raises Target" */
-"Sensitivity Raises Target" = "Sensitivity Raises Target";
+"Sensitivity Raises Target" = "La Sensibilità Aumenta Target";
 
 /* ”Sensitivity Raises Target" */
 "When true, raises BG target when autosens detects sensitivity" = "Quando VERO, aumenta il target glicemia quando l'autosens rileva la maggiore sensibilità insulinica";
 
 /* Headline ”Resistance Lowers Target" */
-"Resistance Lowers Target" = "Resistance Lowers Target";
+"Resistance Lowers Target" = "La Resistenza Abbassa Target";
 
 /* ”Resistance Lowers Target" */
 "Defaults to false. When true, will lower BG target when autosens detects resistance" = "I valori predefiniti sono falsi. Quando VERO, abbasserà il target glicemia quando autosens rilevano resistenza insulinica incrementata";
