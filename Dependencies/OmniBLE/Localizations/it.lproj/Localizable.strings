@@ -246,13 +246,13 @@
 "Insert Cannula" = "Inserisci cannula";
 
 /* Cannula insertion button text while inserting */
-"Inserting..." = "Inserting...";
+"Inserting..." = "Inserimento...";
 
 /* Cannula insertion button text while showing error */
 "Retry" = "Riprova";
 
 /* Cannula insertion button text while checking insertion */
-"Checking..." = "Checking...";
+"Checking..." = "Verifica in corso...";
 
 /* */
 "Check cannula insertion finished" = "Controlla che l'inserimento della cannula é finito";
@@ -496,82 +496,82 @@
 "Is the cannula inserted properly?" = "La cannula è inserita correttamente?";
 
 /* Description of proper cannula insertion */
-"The window on the top of the Pod should be colored pink when the cannula is properly inserted into the skin." = "The window on the top of the Pod should be colored pink when the cannula is properly inserted into the skin.";
+"The window on the top of the Pod should be colored pink when the cannula is properly inserted into the skin." = "La finestra sulla parte superiore del Pod dovrebbe essere colorata rosa quando la cannula è correttamente inserita nella pelle.";
 
 /* Button label for user to answer cannula was properly inserted  */
-"Yes" = "Yes";
+"Yes" = "Si";
 
 /* Button label for user to answer cannula was not properly inserted */
 "No" = "No";
 
 /* Pod pairing action button text while pairing */
-"Pairing..." = "Pairing...";
+"Pairing..." = "Abbinamento in corso...";
 
 /* Pod pairing action button text while priming */
-"Priming..." = "Priming...";
+"Priming..." = "Caricamento in corso...";
 
 /* */
 "Deactivating..." = "Deactivating...";
 
 /* Pod state when pod has been deactivated */
-"Deactivated" = "Deactivated";
+"Deactivated" = "Disattivato";
 
 /* Format string for instructions for setup complete view. (1: app name) */
-"Your Pod is ready for use.\n\n%1$@ will remind you to change your pod before it expires. You can change this to a time convenient for you." = "Your Pod is ready for use.\n\n%1$@ will remind you to change your pod before it expires. You can change this to a time convenient for you.";
+"Your Pod is ready for use.\n\n%1$@ will remind you to change your pod before it expires. You can change this to a time convenient for you." = "Il tuo Pod è pronto per l'uso.\n\n%1$@ ti ricorderà di cambiare il tuo Pod prima che scada. Puoi modificare questa data a tuo piacimento.";
 
 /* */
-"Scheduled Reminder" = "Scheduled Reminder";
+"Scheduled Reminder" = "Imposta promemoria";
 
 /* Label for expiration reminder row */
 "Time" = "Tempo";
 
 /* Action button title to continue at Setup Complete */
-"Finish Setup" = "Finish Setup";
+"Finish Setup" = "Termina configurazione";
 
 /* */
-"Setup Complete" = "Setup Complete";
+"Setup Complete" = "Configurazione terminata";
 
 /* Value text for no expiration reminder */
-"No Reminder" = "No Reminder";
+"No Reminder" = "Nessun Promemoria";
 
 /* Error message description for PeripheralManagerError.notReady */
-"Peripheral Not Ready" = "Peripheral Not Ready";
+"Peripheral Not Ready" = "Periferica Non Pronta";
 
 /* Error message description for PeripheralManagerError.incorrectResponse */
-"Incorrect Response" = "Incorrect Response";
+"Incorrect Response" = "Risposta Errata";
 
 /* Error message description for PeripheralManagerError.timeout */
-"Timeout" = "Timeout";
+"Timeout" = "Tempo Scaduto";
 
 /* Error message description for PeripheralManagerError.emptyValue */
-"Empty Value" = "Empty Value";
+"Empty Value" = "Valore Vuoto";
 
 /* Error message description for PeripheralManagerError.unknownCharacteristic */
-"Unknown Characteristic" = "Unknown Characteristic";
+"Unknown Characteristic" = "Caratteristica Sconosciuta";
 
 /* Error message description for PeripheralManagerError.nack */
 "Nack" = "Nack";
 
 /* Title for omnipod reminders section */
-"Omnipod Reminders" = "Omnipod Reminders";
+"Omnipod Reminders" = "Promemoria Omnipod";
 
 /* Footer text for omnipod reminders section */
-"The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod." = "The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod.";
+"The app configures a reminder on the pod to notify you in advance of Pod expiration. Set the number of hours advance notice you would like to configure when pairing a new Pod." = "L'app configura un promemoria sul Pod per notificarti in anticipo la scadenza del Pod. Impostare il numero di ore di preavviso che si desidera configurare quando si abbina un nuovo Pod.";
 
 /* Footer text for scheduled reminder area */
-"This is a reminder that you scheduled when you paired your current Pod." = "This is a reminder that you scheduled when you paired your current Pod.";
+"This is a reminder that you scheduled when you paired your current Pod." = "Questo è un promemoria che hai programmato quando hai abbinato il tuo attuale Pod.";
 
 /* */
-"Scheduled Reminder" = "Scheduled Reminder";
+"Scheduled Reminder" = "Imposta promemoria";
 
 /* Footer text for low reservoir value row */
-"The App notifies you when the amount of insulin in the Pod reaches this level." = "The App notifies you when the amount of insulin in the Pod reaches this level.";
+"The App notifies you when the amount of insulin in the Pod reaches this level." = "L'App ti avvisa quando la quantità d'insulina nel Pod raggiunge questo livello.";
 
 /* Description text for critical alerts */
-"Critical Alerts" = "Critical Alerts";
+"Critical Alerts" = "Avviso Critico";
 
 /* Description text for critical alerts */
-"The reminders above will not sound if your device is in Silent or Do Not Disturb mode.\n\nThere are other critical Pod alerts and alarms that will sound even if you device is set to Silent or Do Not Disturb mode." = "The reminders above will not sound if your device is in Silent or Do Not Disturb mode.\n\nThere are other critical Pod alerts and alarms that will sound even if you device is set to Silent or Do Not Disturb mode.";
+"The reminders above will not sound if your device is in Silent or Do Not Disturb mode.\n\nThere are other critical Pod alerts and alarms that will sound even if you device is set to Silent or Do Not Disturb mode." = "I promemoria di cui sopra non suoneranno se il dispositivo è in modalità Silenzioso o Non Disturbare.\n\nCi sono altri avvisi e avvisi di Pod critici che suoneranno anche se il dispositivo è impostato in modalità Silenzioso o Non Disturbare.";
 /* navigation title for notification settings */
 "Notification Settings" = "Impostazioni di Notifica";
 
@@ -579,7 +579,7 @@
 "Time" = "Tempo";
 
 /* Value text for no expiration reminder */
-"No Reminder" = "No Reminder";
+"No Reminder" = "Nessun Promemoria";
 
 /* Label for low reservoir reminder row */
 "Low Reservoir Reminder" = "Low Reservoir Reminder";
@@ -646,13 +646,13 @@
 "Previous Pod Information" = "Previous Pod Information";
 
 /* Text shown in insulin remaining space when no pod is paired (Please keep the '\n' while translating!) */
-"No\nDelivery" = "No\nDelivery";
+"No\nDelivery" = "No\nInsulina";
 
 /* description label for active time pod details row */
 "Active Time" = "Tempo di attività";
 
 /* description label for total delivery pod details row */
-"Total Delivery" = "Total Delivery";
+"Total Delivery" = "Insulina Consegnata";
 
 /* description label for device name pod details row */
 "Device Name" = "Device Name";
