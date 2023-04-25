@@ -11,7 +11,7 @@
 
 "Bolus" = "Bolo";
 
-"Close" = "Chiuso";
+"Close" = "Fine";
 
 /* Continue after added carbs without bolus */
 "Continue without bolus" = "Continua senza eseguire un bolo";
@@ -56,10 +56,10 @@
 "Home" = "Home";
 
 /* Looping in progress */
-"looping" = "in loop";
+"looping" = "loop...";
 
 /* min ago since last loop */
-"min ago" = "minuti fa";
+"min ago" = "min fa";
 
 /* Status Title */
 "No suggestion" = "Nessun suggerimento";
@@ -68,19 +68,19 @@
 "Replace pod" = "Sostituisci pod";
 
 /* Add carbs screen */
-"Add Carbs" = "Aggiungi carboidrati";
+"Add Carbs" = "Carboidrati";
 
 /* Add carbs header and button in Watch app. You can skip the last " " space. It's just for differentiation */
-"Add Carbs " = "Aggiungi Carboidrati ";
+"Add Carbs " = "Agg Carb";
 
 /*  */
-"Amount Carbs" = "Quantità di carboidrati";
+"Amount Carbs" = "Quantità carboidrati";
 
 /* Grams unit */
-"grams" = "grammi";
+"grams" = "g";
 
 /*  */
-"Carbs required" = "Carboidrati necessari";
+"Carbs required" = "Carb richiesti";
 
 /* */
 "Are you sure?" = "Sei sicuro?";
@@ -104,7 +104,7 @@
 "Delete" = "Cancella";
 
 /* Delete preset temp target */
-"Delete preset \"%@\"" = "Cancella preset \"%@\"";
+"Delete preset \"%@\"" = "Cancella predefinito \"%@\"";
 
 /* Duration of target temp or temp basal */
 "Duration" = "Durata";
@@ -113,7 +113,7 @@
 "Enact Temp Target" = "Attiva target temporaneo";
 
 /*  */
-"Enter preset name" = "Inserisci nome del preset";
+"Enter preset name" = "Inserisci nome predefinito";
 
 /* Preset name */
 "Name" = "Nome";
@@ -122,13 +122,13 @@
 "minutes" = "minuti";
 
 /*  */
-"Presets" = "Preset";
+"Presets" = "Predefiniti";
 
 /* Save preset name */
 "Save" = "Salva";
 
 /*  */
-"Save as preset" = "Salva come preset";
+"Save as preset" = "Salva come predefinito";
 
 /* Delete Meal Preset */
 "Delete Preset" = "Eliminare Preimpostazioni";
@@ -164,16 +164,16 @@
 "Basal profile" = "Profilo basale";
 
 /*  */
-"Carb ratio" = "Rapporto insulina/carboidrati";
+"Carb ratio" = "Rapporto Ins./Carb";
 
 /*  */
 "Delete autotune data" = "Cancella dati autotune";
 
 /*  */
-"Run now" = "Fai partire ora";
+"Run now" = "Avvia ora";
 
 /*  */
-"Last run" = "Ultimo ciclo";
+"Last run" = "Ultimo avvio";
 
 /*  */
 "Sensitivity" = "Sensibilità";
@@ -1002,13 +1002,13 @@ Enact a temp Basal or a temp target */
 "Profile" = "Profilo";
 
 /* Debug option view Enacted */
-"Enacted" = "Enacted";
+"Enacted" = "Debug Attivato";
 
 /* Debug option view Announcements (from NS) */
-"Announcements" = "Announcements";
+"Announcements" = "Annunci (da NS)";
 
 /* Debug option view Enacted announcements announcements (from NS) */
-"Enacted announcements" = "Enacted announcements";
+"Enacted announcements" = "Annunci attivati";
 
 /* Debug option view Autotune */
 "Autotune" = "Autotune";
@@ -1078,7 +1078,7 @@ Enact a temp Basal or a temp target */
 "Maximum Duration In Hours" = "Maximum Duration In Hours";
 
 /* Interval */
-"Interval In Minutes" = "Interval In Minutes";
+"Interval In Minutes" = "Intervallo In Minuti";
 
 /* Override */
 "Override With A Factor Of " = "Override With A Factor Of ";
@@ -1158,7 +1158,7 @@ Enact a temp Basal or a temp target */
 "No Error" = "No Errore";
 
 /* description label for active time pod details row */
-"Active Time" = "Tempo di attività";
+"Active Time" = "Tempo Attivo";
 
 /* Title string for BeepPreference.silent */
 "Disabled" = "Disattivato";
@@ -1210,13 +1210,13 @@ Enact a temp Basal or a temp target */
 /* Description text on manual temp basal action sheet */
 "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "Loop non aggiusterà automaticamente la somministrazione d'insulina fino a quando la velocità basale temporanea non terminerà o sarà annullata.";
 /* Button text for setting manual temporary basal rate*/
-"Set Temporary Basal" = "Set Temporary Basal";
+"Set Temporary Basal" = "Imposta Basale Temporanea";
 
 /* Navigation Title for ManualTempBasalEntryView */
-"Temporary Basal" = "Temporary Basal";
+"Temporary Basal" = "Basale Temporanea";
 
 /* Alert title for a failure to set temporary basal */
-"Temporary Basal Failed" = "Temporary Basal Failed";
+"Temporary Basal Failed" = "Base Temporanea Fallita";
 
 /* Alert format string for a failure to set temporary basal with recovery suggestion. (1: error description) (2: recovery text) */
 "Unable to set a temporary basal rate: %1$@\n\n%2$@" = "Unable to set a temporary basal rate: %1$@\n\n%2$@";
@@ -1231,13 +1231,13 @@ Enact a temp Basal or a temp target */
 "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate." = "This PumpManager has not been configured with a maximum basal rate because it was added before manual temp basal was a feature. Please go to therapy settings -> delivery limits and set a new maximum basal rate.";
 
 /* description label for active time pod details row */
-"Active Time" = "Tempo di attività";
+"Active Time" = "Tempo Attivo";
 
 /* description label for total delivery pod details row */
 "Total Delivery" = "Insulina Consegnata";
 
 /* */
-"Add Omnipod Dash" = "Add Omnipod Dash";
+"Add Omnipod Dash" = "Agg Omnipod Dash";
 
 /* */
 "Insert Cannula" = "Inserisci cannula";
@@ -1252,7 +1252,7 @@ Enact a temp Basal or a temp target */
 "Insulin Suspended" = "Insulina Sospesa";
 
 /* Text for suspend resume button when insulin delivery is suspending */
-"Suspending insulin delivery..." = "Suspending insulin delivery...";
+"Suspending insulin delivery..." = "Sospendi la somministrazione d'insulina...";
 
 /* Text for suspend resume button when insulin delivery is suspended */
 "Resume Insulin Delivery" = "Resume Insulin Delivery";
@@ -1303,10 +1303,10 @@ Enact a temp Basal or a temp target */
 "Normal" = "Normale";
 
 /* Title High BG in statPanel */
-"High (>" = "High (>";
+"High (>" = "Alto (>";
 
 /* Title Low BG in statPanel */
-"Low (<" = "Low (<";
+"Low (<" = "Basso (<";
 
 /* SD */
 "SD" = "SD";
