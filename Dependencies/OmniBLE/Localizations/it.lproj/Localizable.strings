@@ -180,7 +180,7 @@
 "Pod Age" = "Età Pod";
 
 /* Label describing time remaining view */
-"Remaining" = "Rimanente";
+"Remaining" = "Residuo";
 
 /* Label indicating pod replacement necessary */
 "Replace Pod" = "Sostituisci Pod";
@@ -593,7 +593,7 @@
 "Disabled" = "Disattivato";
 
 /* Title string for BeepPreference.manualCommands */
-"Enabled" = "Abilitato";
+"Enabled" = "Attivato";
 
 /* Title string for BeepPreference.extended */
 "Extended" = "Extended";
@@ -643,7 +643,7 @@
 "Expiration Reminder Default" = "Expiration Reminder Default";
 
 /* Text for previous pod information row */
-"Previous Pod Information" = "Previous Pod Information";
+"Previous Pod Information" = "Informazioni Precedente Pod";
 
 /* Text shown in insulin remaining space when no pod is paired (Please keep the '\n' while translating!) */
 "No\nDelivery" = "No\nInsulina";
