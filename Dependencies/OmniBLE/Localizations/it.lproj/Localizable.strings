@@ -213,7 +213,7 @@
 "Finish Pairing" = "Finisci l'abbinamento";
 
 /* Status highlight that when pod is deactivating */
-"Finish Deactivation" = "Termina Deattivazione";
+"Finish Deactivation" = "Termina Disattivazione";
 
 /* Status highlight that when no pod is paired. */
 "No Pod" = "No Pod";
@@ -619,13 +619,13 @@
 /* Description text on manual temp basal action sheet */
 "Loop will not automatically adjust your insulin delivery until the temporary basal rate finishes or is canceled." = "Loop non aggiusterà automaticamente la somministrazione d'insulina fino a quando la velocità basale temporanea non terminerà o sarà annullata.";
 /* Button text for setting manual temporary basal rate*/
-"Set Temporary Basal" = "Set Temporary Basal";
+"Set Temporary Basal" = "Imposta Basale Temporanea";
 
 /* Navigation Title for ManualTempBasalEntryView */
-"Temporary Basal" = "Temporary Basal";
+"Temporary Basal" = "Basale Temporanea";
 
 /* Alert title for a failure to set temporary basal */
-"Temporary Basal Failed" = "Temporary Basal Failed";
+"Temporary Basal Failed" = "Base Temporanea Fallita";
 
 /* Alert format string for a failure to set temporary basal with recovery suggestion. (1: error description) (2: recovery text) */
 "Unable to set a temporary basal rate: %1$@\n\n%2$@" = "Unable to set a temporary basal rate: %1$@\n\n%2$@";
@@ -649,7 +649,7 @@
 "No\nDelivery" = "No\nInsulina";
 
 /* description label for active time pod details row */
-"Active Time" = "Tempo di attività";
+"Active Time" = "Tempo Attivo";
 
 /* description label for total delivery pod details row */
 "Total Delivery" = "Insulina Consegnata";
@@ -673,7 +673,7 @@
 "Pod Activated" = "Pod attivato";
 
 /* description label for active time pod details row */
-"Active Time" = "Tempo di attività";
+"Active Time" = "Tempo Attivo";
 
 /* description label for last status date pod details row */
 "Last Status" = "Ultimo Stato";
@@ -739,7 +739,7 @@
 "Resuming insulin delivery..." = "Resuming insulin delivery...";
 
 /* Text for suspend resume button when insulin delivery is suspending */
-"Suspending insulin delivery..." = "Suspending insulin delivery...";
+"Suspending insulin delivery..." = "Sospendi la somministrazione d'insulina...";
 
 /* Error message for PodCommsError.noPodsFound */
 "No pods found" = "Pod non trovato";
