@@ -987,7 +987,7 @@ Enact a temp Basal or a temp target */
 "Pump History" = "Cronologia Micro";
 
 /* Debug option view Target Ranges */
-"Target ranges" = "Target ranges";
+"Target ranges" = "Range dei target";
 
 /* Debug option view Temp targets */
 "Temp targets" = "Temp targets";
